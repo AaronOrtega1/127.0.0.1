@@ -1,0 +1,26 @@
+div.workspace-tab-header.is-active.mod-active {
+  padding: 4px 3px 0px 6px;
+  border-radius: 12px;
+}
+
+div.workspace-tab-header.is-active {
+  padding: 4px 3px 0px 6px;
+  border-radius: 12px;
+  box-shadow: none;
+  /* box-shadow: none; */
+}
+
+.workspace .mod-root .workspace-tab-header {
+  padding: 4px 3px 0px 6px;
+  border-radius: 12px;
+}
+
+.mod-root .workspace-tab-header-inner {
+  padding: 0px 3px 0 6px;
+  border-radius: 12px;
+}
+
+h3.title.svelte-1vwr9dd::before {
+  content: " ";
+  margin-right: 1.4rem;
+}

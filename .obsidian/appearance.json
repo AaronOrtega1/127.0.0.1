@@ -1,0 +1,32 @@
+{
+  "theme": "obsidian",
+  "baseFontSize": 18,
+  "interfaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "textFontFamily": "JetBrainsMono Nerd Font Mono",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "showViewHeader": true,
+  "showRibbon": true,
+  "cssTheme": "Catppuccin",
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "width",
+    "block quotes",
+    "bullet points",
+    "callouts - behaviour",
+    "callouts - style",
+    "callouts-colors",
+    "canvas style",
+    "glowing nodes soft",
+    "headers - before",
+    "hr",
+    "images max opacity",
+    "img-banner",
+    "MCL Multi Column",
+    "outline",
+    "print",
+    "Properties",
+    "search",
+    "supercharged-links-gen",
+    "table - academia"
+  ]
+}
