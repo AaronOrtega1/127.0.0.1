@@ -7,6 +7,7 @@ tags:
   - book
   - read
 created_date: 2025/04/10
+rating: "9"
 ---
 # Atomic Habits
 ## Top Concepts:

@@ -1,14 +1,13 @@
 ---
-id: 1744040981-leetcode-problems
+link: "[[1743802452-programming|Programming]]"
 aliases:
   - leetcode-problems
   - Leetcode Problems
 tags:
   - active
   - projects
-end_date: 2025-04-07
-link: "[[1743802452-programming|Programming]]"
 start_date: 2025-04-07
+end_date: 2025-05-19
 ---
 # Leetcode Problems
 ## Objective

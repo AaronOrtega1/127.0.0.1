@@ -5,14 +5,14 @@ aliases:
 tags:
   - projects
   - active
-  - dataScience
   - udemy
+  - data-science
 start_date: 2025/04/11
 end_date: 2025-08-11
 ---
 # Learning Data Science Udemy Course
 ## Objective
-Learn Data Science with the guidance of a teaching in a Udemy course.
+Learn Data Science with the guidance of a teacher in a Udemy course.
 ## Tasks
 - [ ] Complete course.
 - [ ] Use what I learned to make something.

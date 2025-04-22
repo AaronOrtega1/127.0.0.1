@@ -1,9 +1,11 @@
 ---
-link: "[[]]"
+link: "[[1744040981-leetcode-problems|Leetcode Problems]]"
 aliases:
   - Binary Search In Python
 tags:
   - resource
+  - python
+  - binary-search
 created_date: 2025/04/21
 ---
 # Binary Search In Python
@@ -38,8 +40,8 @@ class Solution:
 ```
 ## [[1744043004-big-o-timer-and-space-complexity|Timer And Space Complexity]]
 - **Time:**
-	- O()
+	- O(logn) Because we divide the problem and only check the part that matters making the problem faster.
 - **Space:**
-	- O()
+	- O(1) We only declare some variables so the space is constant.
 ## Link
-[9. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)
+[Binary Search NeetCode](https://neetcode.io/problems/binary-search)

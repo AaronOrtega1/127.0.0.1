@@ -5,8 +5,8 @@ aliases:
 tags:
   - projects
   - active
-start_date: 2025-05-19
-end_date: 2025-04-04
+start_date: 2025-04-19
+end_date: 2025-05-19
 ---
 # Procesamiento De Datos Masivos
 
