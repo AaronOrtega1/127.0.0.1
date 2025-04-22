@@ -4,8 +4,8 @@ aliases:
   - Fico Video Script
 tags:
   - projects
-  - active
   - Fico
+  - archived
 start_date: 2025/04/14
 end_date: 2025/04/14
 ---

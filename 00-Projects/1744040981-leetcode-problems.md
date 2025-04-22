@@ -44,6 +44,13 @@ list
 from [[]] and !"5 - Templates"
 where contains(tags, "stack")
 ```
+### Binary Search
+
+```dataview
+list
+from [[]] and !"5 - Templates"
+where contains(tags, "binary-search")
+```
 ### Unknown
 - [[1744046453-missing-number-in-python|Missing Number In Python]]
 - [[1744047020-find-all-numbers-disappeared-in-an-array-in-python|Find All Numbers Disappeared In An Array In Python]]
