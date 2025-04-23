@@ -5,7 +5,7 @@
   "textFontFamily": "JetBrainsMono Nerd Font Mono",
   "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
   "showViewHeader": true,
-  "showRibbon": true,
+  "showRibbon": false,
   "cssTheme": "Catppuccin",
   "accentColor": "",
   "enabledCssSnippets": [
