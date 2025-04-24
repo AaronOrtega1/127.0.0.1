@@ -11,11 +11,9 @@ created_date: 2025-04-07
 ---
 # Valid Anagram In Python
 - Given two strings `s` and `t`, return `true` if `t` is an **anagram** of `s`, and `false` otherwise.
-
 ## Desired Outcome
 - **Input:** s = "anagram", t = "nagaram"
 - **Output:** true
-
 ## My Solution
 1. First we check if the string are the same length, if they aren't they cannot be anagrams so we return false.
 2. Then we declare two empty dictionaries, to keep count of the occurrences of each char in the strings.
@@ -37,12 +35,10 @@ class Solution:
             t_dic[t[i]] = 1 + t_dic.get(t[i], 0)
         return s_dic == t_dic
 ```
-
-## [[1742934546-big-(o)-time-and-space-complexity|Time and Space Complexity]]
+## [[1744043004-big-o-timer-and-space-complexity|Time and Space Complexity]]
 - **Time:**
 	- O(n) - because we have to go through the whole string length.
 - **Space:**
 	- O(1) - since the number of possible character is limited to the lowercase English letters (26).
-
-# Link
+## Link
 [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)

@@ -11,13 +11,11 @@ created_date: 2025-04-07
 ---
 # Two Sum In Python
 - Given an array of integers `nums` and an integer `target`, return the indices `i` and `j` such that `nums[i] + nums[j] == target` and `i != j`.
-- You may assume that _every_ input has exactly one pair of indices `i` and `j` that satisfy the condition.
+- You may assume that *every* input has exactly one pair of indices `i` and `j` that satisfy the condition.
 - Return the answer with the smaller index first.
-
 ## Desired Outcome
 - Input: nums = [3,4,5,6], target = 7
 - Output:[0,1]
-
 ## My Solution
 1. Define a dictionary where we will have {value: index}.
 2. Make and enumerate of the list of nums so we get the index and the num.
@@ -34,12 +32,10 @@ class Solution:
 				return [prevMap[diff], i]
 			prevMap[num] = i
 ```
-
 ## [[1744043004-big-o-timer-and-space-complexity|Timer And Space Complexity]]
 - **Time:**
 	- O(N)
 - **Space:**
 	- O(N)
-
-# Link
+## Link
 [1. Two Sum](https://leetcode.com/problems/two-sum/)
