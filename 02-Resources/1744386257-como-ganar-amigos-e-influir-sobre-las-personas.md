@@ -5,6 +5,7 @@ aliases:
 tags:
   - resource
   - book
+  - 2ndQ
 created_date: 2025/04/11
 ---
 # Como Ganar Amigos E Influir Sobre Las Personas

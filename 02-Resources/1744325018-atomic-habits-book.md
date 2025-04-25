@@ -6,8 +6,10 @@ tags:
   - resource
   - book
   - read
+  - 1stQ
 created_date: 2025/04/10
 rating: "9"
+status: read
 ---
 # Atomic Habits
 ## Top Concepts:

@@ -13,6 +13,6 @@ created_date:
 ## Key Ideas
 - 
 ## Related Links
-- [[ ]]
+- [[]]
 ## Source
 [text](url) 
