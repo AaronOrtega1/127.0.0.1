@@ -9,7 +9,7 @@ created_date:
 ---
 # {{cap_title}}
 ## Summary
-
+- 
 ## Key Ideas
 - 
 ## Related Links
