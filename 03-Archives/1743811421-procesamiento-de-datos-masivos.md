@@ -4,7 +4,7 @@ aliases:
   - Procesamiento De Datos Masivos
 tags:
   - projects
-  - active
+  - archived
 start_date: 2025-04-19
 end_date: 2025-05-19
 ---
