@@ -1,11 +1,10 @@
 ---
-link: "[[]]"
-aliases: 
+link: "[[1744386076-learning-data-science-udemy-course|Learning Data Science Udemy Course]]"
+aliases:
   - Permutations
 tags:
   - resource
-created_date:
-  "2025/05/21"
+created_date: 2025/05/21
 ---
 # Permutations
 ## Summary

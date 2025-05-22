@@ -55,6 +55,7 @@ status: read
 
 📖 
 > "Los hábitos no consisten en obtener algo. Los hábitos consisten en convertirte en alguien."
+^Pos694
 
 > 📖
 > "Construir hábitos en el presente te permite hacer más en el futuro"
