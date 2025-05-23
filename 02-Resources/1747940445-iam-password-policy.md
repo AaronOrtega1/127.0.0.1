@@ -25,12 +25,20 @@ created_date: 2025/05/22
 - Allow IAM users to change their own passwords.
 - Require users to change their password after some time (password expiration).
 - Prevent password re-use.
+![[1747940445-iam-password-policy.webp]]
 ### Multi Factor Authentication - MFA
 - It's a good practice to protect the Root Accounts and IAM users.
+#### Where to configure it?
+- In the drop down menu of the user account select **security credentials**.
+![[1747940445-iam-password-policy-1.webp]]
+- There you can assign one MFA:
+![[1747940445-iam-password-policy-2.webp]]
 #### MFA devices options in AWS
 - Virtual MFA devices:
 	- Google Authenticator.
-- Universal 2nd Factor (U2F) 
+- Universal 2nd Factor (U2F).
+- Hardware Key Fob MFA Device.
+- Hardware Key Fob MFA Device for AWS GovCloud (US).
 ## Related Links
 - [[1747860485-create-iam-users-and-groups|Create Iam Users And Groups]]
 ## Source

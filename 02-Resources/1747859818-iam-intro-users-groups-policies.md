@@ -22,6 +22,6 @@ created_date: 2025/05/21
 ![[1747859818-iam-intro-users-groups-policies-1.webp]]
 ### IAM: Permissions
 - **Users or Groups** can be assigned JSON documents called policies.
-- The policies define the **permissions** of the users, by applying the least privilege principle: don't give more permissions than a user needs.
+- The policies define the **permissions** of the users, by applying the [[1748016888-least-privilege|Least Privilege]] principle: don't give more permissions than a user needs.
 ## Related Links
 - [[1747869134-iam-policies|IAM Policies]]

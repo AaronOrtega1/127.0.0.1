@@ -12,9 +12,14 @@ end_date: 2025-12-01
 ## Objective
 - Prepare for the AWS Solution Architect certification to take the exam by the end of the year.
 ## Tasks
-- [ ] 
-
+- [ ] finish course (23/August/25).
+- [ ] ask Jose where he did his practice exams.
+- [ ] Do practice exams till we get 80+ all the time.
+- [ ] Take the certification exam (1/December/25).
 ## Notes
+- **AWS Courses** is the root user of the teacher.
+- **stephane** is the other user with admin policies of the teacher.
+
 ```dataview
 list
 from "04-Zettelkasten" and [[]]
