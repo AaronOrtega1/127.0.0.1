@@ -21,7 +21,7 @@ created_date: 2025/05/22
 - Access keys are generated through the AWS Console.
 - Users manage their own access keys.
 - Access keys are secrets.
-#### Create an Access Key
+#### Create an Access Key ^AwsAccessKey
 - In the IAM console, select the user you want to create a key for.
 - Go to the **Security credentials**.
 - Search for the access key section and create one
