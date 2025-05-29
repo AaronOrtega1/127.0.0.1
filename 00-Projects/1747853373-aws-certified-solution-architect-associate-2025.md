@@ -10,6 +10,7 @@ end_date: 2025-12-01
 ---
 # AWS Certified Solution Architect Associate 2025
 ## Objective
+- Be able to design solution with optimized cost and performance.
 - Prepare for the AWS Solution Architect certification to take the exam by the end of the year.
 ## Tasks
 - [ ] finish course (23/August/25).
