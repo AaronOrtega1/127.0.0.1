@@ -18,6 +18,7 @@ end_date: 2025-12-01
 - [ ] Do practice exams till we get 80+ all the time.
 - [ ] Take the certification exam (1/December/25).
 ## Notes
+- https://aws-aaron-root.signin.aws.amazon.com/console
 - **AWS Courses** is the root user of the teacher.
 - **stephane** is the other user with admin policies of the teacher.
 
