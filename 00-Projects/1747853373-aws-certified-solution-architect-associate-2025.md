@@ -13,8 +13,8 @@ end_date: 2025-12-01
 - Be able to design solution with optimized cost and performance.
 - Prepare for the AWS Solution Architect certification to take the exam by the end of the year.
 ## Tasks
-- [ ] finish course (23/August/25).
-- [ ] ask Jose where he did his practice exams.
+- [ ] Finish course (23/August/25).
+- [ ] Ask Jose where he did his practice exams.
 - [ ] Do practice exams till we get 80+ all the time.
 - [ ] Take the certification exam (1/December/25).
 ## Notes
