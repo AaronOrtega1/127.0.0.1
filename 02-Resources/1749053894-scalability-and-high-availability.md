@@ -14,6 +14,9 @@ created_date: 2025/06/04
 - 
 ## Key Ideas
 ### Scalability
+
+^a99ea5
+
 - Means that an application/system can **handle greater loads by adapting**.
 - It has 2 types:
 	- **Vertical Scalability**:

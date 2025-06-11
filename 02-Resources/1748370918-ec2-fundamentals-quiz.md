@@ -12,26 +12,26 @@ created_date: 2025/05/27
 ---
 # EC2 Fundamentals Quiz
 - Which EC2 Purchasing Option can provide you the biggest discount, but it is not suitable for critical jobs or databases?;;Spot Instances.
-<!--SR:!2025-06-04,1,230-->
+<!--SR:!2025-06-12,1,210-->
 - What should you use to control traffic in and out of EC2 instances?;; Security Groups.
-<!--SR:!2025-06-04,1,230-->
+<!--SR:!2025-06-12,1,210-->
 - How long can you reserve an EC2 Reserved instance?;;1 or 3 years.
-<!--SR:!2025-06-07,4,270-->
+<!--SR:!2025-06-26,15,290-->
 - You would like to deploy a High-Performance Computing (HPC) application on EC2 instances. Which EC2 instance type should you choose?;; Compute Optimized.
-<!--SR:!2025-06-04,1,230-->
+<!--SR:!2025-06-12,1,210-->
 - Which EC2 Purchasing Option should you use for an application you plan to run on a server continuously for 1 year?;;Reserved Instances.
-<!--SR:!2025-06-07,4,270-->
+<!--SR:!2025-06-25,14,290-->
 - You are preparing to launch an application that will be hosted on a set of EC2 instances. This application needs some software installation and some OS packages need to be updated during the first launch. What is the best way to achieve this when you launch the EC2 instances?;;Write a bash script that installs the required software and updates to your OS, then use this script in EC2 User Data when you launch your EC2 instances.
-<!--SR:!2025-06-06,3,250-->
+<!--SR:!2025-06-22,11,270-->
 - Which EC2 Instance Type should you choose for a critical application that uses an in-memory database?;;Memory Optimized.
-<!--SR:!2025-06-04,1,230-->
+<!--SR:!2025-06-14,3,250-->
 - You have an e-commerce application with an OLTP database hosted on-premises. This application has popularity which results in its database has thousands of requests per second. You want to migrate the database to an EC2 instance. Which EC2 Instance Type should you choose to handle this high-frequency OLTP database?;;Storage Optimized.
-<!--SR:!2025-06-04,1,230-->
+<!--SR:!2025-06-12,1,210-->
 - Security Groups can be attached to only one EC2 instance.;;False.
-<!--SR:!2025-06-07,4,270-->
+<!--SR:!2025-06-26,15,290-->
 - You're planning to migrate on-premises applications to AWS. Your company has strict compliance requirements that require your applications to run on dedicated servers. You also need to use your own server-bound software license to reduce costs. Which EC2 Purchasing Option is suitable for you?;;Dedicated Hosts.
-<!--SR:!2025-06-04,1,230-->
+<!--SR:!2025-06-12,1,210-->
 - You would like to deploy a database technology on an EC2 instance and the vendor license bills you based on the physical cores and underlying network socket visibility. Which EC2 Purchasing Option allows you to get visibility into them?;;Dedicated Hosts.
-<!--SR:!2025-06-04,1,230-->
+<!--SR:!2025-06-12,1,210-->
 - Spot Fleet is a set of Spot Instances and optionally ...............;;On-Demand Instances.
-<!--SR:!2025-06-04,1,230-->
+<!--SR:!2025-06-14,3,250-->

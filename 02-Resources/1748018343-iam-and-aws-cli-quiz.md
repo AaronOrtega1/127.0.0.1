@@ -11,10 +11,10 @@ created_date: 2025/05/23
 ---
 # IAM And AWS CLI Quiz
 - What is a proper definition of an IAM Role?;;An IAM entity that defines a set of permissions for making requests to AWS services, and will be used by AWS service.
-<!--SR:!2025-06-05,2,250-->
+<!--SR:!2025-06-12,1,230-->
 
 - Which are IAM security tool?;;IAM Credentials Report, IAM Last Accessed.
-<!--SR:!2025-06-05,2,250-->
+<!--SR:!2025-06-12,1,230-->
 
 - Should IAM Users access AWS services using root account credentials?;;False.
 <!--SR:!2025-06-18,15,290-->
@@ -32,4 +32,4 @@ created_date: 2025/05/23
 <!--SR:!2025-06-17,14,290-->
 
 - An IAM Policy consists of one or more  statement, a statement in an IAM Policy doesn't contain the following?;;Version.
-<!--SR:!2025-06-05,2,250-->
+<!--SR:!2025-06-18,7,270-->
