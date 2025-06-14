@@ -9,7 +9,7 @@ tags:
 start_date: 2025/05/21
 end_date: 2025-12-01
 ---
-# AWS Certified Solution Architect Associate 2025. 
+# AWS Certified Solution Architect Associate 2025.
 ![[1747853373-aws-certified-solution-architect-associate-2025.webp]]
 [link](https://aws.amazon.com/es/certification/certified-solutions-architect-associate/)
 ## Objective

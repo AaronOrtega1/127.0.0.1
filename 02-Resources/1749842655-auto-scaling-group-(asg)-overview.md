@@ -38,9 +38,3 @@ created_date: 2025/06/13
 - An alarm monitors a metric (such as **AVG CPU**, or a **custom metric**)
 ![[1749842655-auto-scaling-group-_asg_-overview-4.webp]]
 
-
-
-
-
-
-

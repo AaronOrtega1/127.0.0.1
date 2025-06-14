@@ -2,6 +2,7 @@
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|Aws Certified Solution Architect Associate 2025]]"
 aliases:
   - Ami Overview
+  - AMI
 tags:
   - resource
   - aws
