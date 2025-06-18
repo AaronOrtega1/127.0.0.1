@@ -2,6 +2,7 @@
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|AWS Certified Solution Architect Associate 2025]]"
 aliases:
   - Ssl Certificates
+  - SSL
 tags:
   - resource
   - aws
@@ -18,7 +19,7 @@ created_date: 2025/06/11
 - Allows traffic between your clients and your load balancer to be encrypted in transit (in-flight encryption).
 ### What does SSL and TLS stand for?
 - SSL refers to **Secure Sockets Layer**, used to encrypt connections.
-- TLS refers to **Transport Layer Security**, which is a newer version.
+- TLS refers to **Transport Layer Security**, which is a newer version. ^c5a5bf
 - **TLS certificates are mainly used**, but people still refer as SSL.
 ### How It Works?
 ![[1749662716-ssl-certificates.webp]]
