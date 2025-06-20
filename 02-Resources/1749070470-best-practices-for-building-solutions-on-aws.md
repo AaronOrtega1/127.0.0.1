@@ -1,5 +1,5 @@
 ---
-link: "[[1743802452-programming|Programming]]"
+link: "[[1750441691-aws|AWS]]"
 aliases:
   - Best Practices For Building Solutions On AWS
 tags:
@@ -11,7 +11,18 @@ created_date: 2025/06/04
 ---
 # Best Practices For Building Solutions On AWS
 ## Summary
-- 
+- As you design solutions, evaluate **trade-offs** and base your decisions on empirical data.
+### Best Practices when building solutions on AWS:
+- Implement scalability.
+- Automate your environment.
+- Treat resources as disposable.
+- Use loosely-coupled components.
+- Design services, not servers.
+- Choose the right DB solution.
+- Avoid single points of failure.
+- Optimize for cost.
+- Use caching.
+- Secure your entire infrastructure.
 ## Key Ideas
 ### Trade-Offs
 - Think carefully about trade-offs so you can select an optimal approach.
@@ -30,15 +41,22 @@ created_date: 2025/06/04
 ### Using Loosely Coupled Components
 - Design architectures with independent components.
 ![[1749070470-best-practices-for-building-solutions-on-aws-3.webp]]
-### Designing services, not servers.
+### Designing services, not servers
 - Use the breadth of AWS services. Don't limit your infrastructure to servers.
 - Often managed solutions can be better and cheaper than server-based solutions.
-### 
-
-
-
-
+### Choosing the right DB solution
+- Match technology to the workload, not the other way around.
+### Avoiding single points of failure
+- Assume everything fails. Then, design backward.
+![[1749070470-best-practices-for-building-solutions-on-aws-4.webp]]
+### Optimizing for cost
+- Take advantage of the flexibility of AWS to increase your cost efficiency.
+### Using caching
+- Minimize redundant data retrieval operations, improving performance and cost.
+![[1749070470-best-practices-for-building-solutions-on-aws-5.webp]]
+### Securing your entire infrastructure
+- Build security into every layer of your infrastructure.
 ## Related Links
-- [[1747853373-aws-certified-solution-architect-associate-2025|AWS Certified Solution Architect Associate 2025]]
+- 
 ## Source
 [text](url) 

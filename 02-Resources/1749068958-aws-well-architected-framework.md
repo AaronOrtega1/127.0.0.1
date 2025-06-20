@@ -1,5 +1,5 @@
 ---
-link: "[[1743802452-programming|Programming]]"
+link: "[[1750441691-aws|AWS]]"
 aliases:
   - Aws Well Architected Framework
 tags:
