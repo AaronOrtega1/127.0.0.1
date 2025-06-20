@@ -20,6 +20,13 @@
         "a": 1,
         "rgb": 5984992
       }
+    },
+    {
+      "query": "tag:#area  ",
+      "color": {
+        "a": 1,
+        "rgb": 9252301
+      }
     }
   ],
   "collapse-display": true,
@@ -32,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.26381839138476604,
+  "scale": 0.06960014766981039,
   "close": true
 }
