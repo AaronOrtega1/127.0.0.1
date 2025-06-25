@@ -11,10 +11,10 @@ created_date: 2025/05/23
 ---
 # IAM And AWS CLI Quiz
 - What is a proper definition of an IAM Role?;;An IAM entity that defines a set of permissions for making requests to AWS services, and will be used by AWS service.
-<!--SR:!2025-06-23,3,230-->
+<!--SR:!2025-07-05,10,250-->
 
 - Which are IAM security tool?;;IAM Credentials Report, IAM Last Accessed.
-<!--SR:!2025-06-21,1,210-->
+<!--SR:!2025-06-28,3,230-->
 
 - Should IAM Users access AWS services using root account credentials?;;False.
 <!--SR:!2025-08-18,59,310-->

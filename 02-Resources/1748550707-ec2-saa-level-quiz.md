@@ -16,8 +16,8 @@ created_date: 2025/05/29
 - You have an application performing big data analysis hosted on a fleet of EC2 instances. You want to ensure your EC2 instances have the highest networking performance while communicating with each other. Which EC2 Placement Group should you choose?;;Cluster Placement Group.
 <!--SR:!2025-06-27,16,290-->
 - You have a critical application hosted on a fleet of EC2 instances in which you want to achieve maximum availability when there's an AZ failure. Which EC2 Placement Group should you choose?;;Spread Placement Group.
-<!--SR:!2025-06-21,1,170-->
+<!--SR:!2025-06-26,1,150-->
 - Elastic Network Interface (ENI) can be attached to EC2 instances in another AZ.;;False.
-<!--SR:!2025-06-25,14,290-->
+<!--SR:!2025-08-20,56,310-->
 - EC2 Instance Root Volume must be and Instance Store volume;;False.
-<!--SR:!2025-06-23,3,210-->
+<!--SR:!2025-07-04,9,230-->
