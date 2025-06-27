@@ -83,3 +83,7 @@ created_date:
 - Archive Access tier (optional): configurable from 90 to 700+ days.
 - Deep Archive Access tier (optional): configurable from 180 to 700+ days.
 
+![[1751056038-s3-storage-classes.webp]]
+### Price comparison us-east-1
+![[1751056038-s3-storage-classes-1.webp]]
+
