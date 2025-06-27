@@ -30,4 +30,4 @@ created_date: 2025/06/24
 - [[1750785569-routing-policies-(simple)|Routing Policies (simple)]]
 - [[1750787796-routing-policies-(latency-based)|Routing Policies (latency-based)]]
 ## Source
-[text](url) 
+[text]()

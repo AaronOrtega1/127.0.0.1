@@ -17,28 +17,24 @@ Learn data structures and different algorithms, using them to solve question fre
 - [ ] Finish the list [150 neetcode problems](https://neetcode.io/practice)
 ## Problems
 ### Arrays & Hashing
-
 ```dataview
 list
 from [[]] and !"5 - Templates"
 where contains(tags, "arrays-hashing")
 ```
 ### Two Pointers
-
 ```dataview
 list
 from [[]] and !"5 - Templates"
 where contains(tags, "two-pointer")
 ```
 ### Sliding Window
-
 ```dataview
 list
 from [[]] and !"5 - Templates"
 where contains(tags, "sliding-window")
 ```
 ### Stack
-
 ```dataview
 list
 from [[]] and !"5 - Templates"
@@ -59,7 +55,5 @@ where contains(tags, "binary-search")
 - [[1744047309-squares-of-a-sorted-array|Squares Of A Sorted Array]]
 - [[1744047426-minimum-absolute-difference|minimum Absolute Difference]]
 - [[ ]]
-
 ## Resources
 - [[1744043004-big-o-timer-and-space-complexity|big-o-timer-and-space-complexity]]
-

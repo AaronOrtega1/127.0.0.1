@@ -1,6 +1,6 @@
 ---
 link: "[[]]"
-aliases: 
+aliases: {{cap_title}}
 tags:
   - resource
   - pending

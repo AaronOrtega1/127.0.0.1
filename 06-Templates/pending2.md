@@ -1,13 +1,12 @@
 ---
 link: "[[]]"
-aliases: 
-  - {{cap_title}}
+aliases: {{title}}
 tags:
   - resource
-created_date:
-  "{{date}}"
+  - pending
+created_date: {{date}}
 ---
-# {{cap_title}}
+# {{title}}
 ## Summary
 - 
 ## Key Ideas
@@ -16,4 +15,4 @@ created_date:
 ## Related Links
 - [[]]
 ## Source
-[text]()
+[text](url) 
