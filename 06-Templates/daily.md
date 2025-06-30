@@ -7,11 +7,15 @@ link: "[[Journal]]"
 **On this day:** [[<% tp.date.now("YYYY-MM-DD","P-1Y")%>]]
 ## Planned Highlights of the Day:
 
+
 ## To-Dos
 - [ ] 
+
 ## Morning Brain Dump:
 
+
 ## Reflection:
+
 
 ---
 ## Created Today
