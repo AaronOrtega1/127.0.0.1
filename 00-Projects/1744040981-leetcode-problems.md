@@ -54,6 +54,11 @@ where contains(tags, "binary-search")
 - [[1744047191-minimum-time-visiting-all-points|Minimum Time Visiting All Points]]
 - [[1744047309-squares-of-a-sorted-array|Squares Of A Sorted Array]]
 - [[1744047426-minimum-absolute-difference|minimum Absolute Difference]]
-- [[ ]]
+- [[1751429839-binary-tree-level-order-traversal|Binary Tree Level Order Traversal]]
+- [[1751432380-number-of-islands|Number of Islands]]
+
+
+
+
 ## Resources
 - [[1744043004-big-o-timer-and-space-complexity|big-o-timer-and-space-complexity]]

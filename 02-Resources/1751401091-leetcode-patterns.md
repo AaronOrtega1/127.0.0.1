@@ -16,8 +16,8 @@ created_date:
 - [[1751402206-binary-search|Binary Search]]
 
 ### Non-Linear Structure
-- [[]]
-- [[]]
+- [[1751408048-breadth-first-search|Breadth-First Search]]
+- [[1751431852-depth-first-search|Depth-First Search]]
 - [[]]
 - [[]]
 - [[]]
