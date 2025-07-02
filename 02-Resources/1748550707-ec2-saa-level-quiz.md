@@ -14,9 +14,9 @@ created_date: 2025/05/29
 - You have launched an EC2 instance that will host a NodeJS application. After installing all the required software and configured your application, you noted down the EC2 instance public IPv4 so you can access it. Then, you stopped and then started your EC2 instance to complete the application configuration. After restart, you can't access the EC2 instance, and you found that the EC2 instance public IPv4 has been changed. What should you do to assign a fixed public IPv4 to your EC2 instance?;;Allocate an Elastic IP and assign it to your EC2 instance.
 <!--SR:!2025-07-06,16,250-->
 - You have an application performing big data analysis hosted on a fleet of EC2 instances. You want to ensure your EC2 instances have the highest networking performance while communicating with each other. Which EC2 Placement Group should you choose?;;Cluster Placement Group.
-<!--SR:!2025-06-27,16,290-->
+<!--SR:!2025-07-08,7,270-->
 - You have a critical application hosted on a fleet of EC2 instances in which you want to achieve maximum availability when there's an AZ failure. Which EC2 Placement Group should you choose?;;Spread Placement Group.
-<!--SR:!2025-06-26,1,150-->
+<!--SR:!2025-07-02,1,130-->
 - Elastic Network Interface (ENI) can be attached to EC2 instances in another AZ.;;False.
 <!--SR:!2025-08-20,56,310-->
 - EC2 Instance Root Volume must be and Instance Store volume;;False.

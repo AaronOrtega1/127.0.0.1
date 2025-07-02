@@ -19,14 +19,14 @@ created_date: 2025/06/04
 - You can use an AMI in N.Virginia Region `us-east-1` to launch an EC2 instance in any AWS Region.;;False, AMIs are built for specific AWS Regions.
 <!--SR:!2025-07-02,12,270-->
 - Which of the following EBS volume types can be used as boot volumes when you create EC2 instances?;;gp2, gp3, io1, io2.
-<!--SR:!2025-06-27,7,250-->
+<!--SR:!2025-07-25,24,270-->
 - What is EBS Multi-Attach?;;Attach the same EBS volume to multiple EC2 instances in the same AZ.
 <!--SR:!2025-07-12,17,250-->
 - You would like to encrypt an unencrypted EBS volume attached to your EC2 instance. What should you do?;;Create an EBS snapshot of you EBS volume. Copy the snapshot and tick the option to encrypt the copied snapshot. Then, use the encrypted snapshot to create a new EBS volume.
-<!--SR:!2025-07-01,6,230-->
+<!--SR:!2025-07-21,20,250-->
 - You have a fleet of EC2 instances distributes across AZs that process a large data set. What do you recommend to make the same data to be accessible as an NFS drive to all of your EC2 instances?;;Use EFS, that allows you to mount the same file system on EC2 instances in different AZs.
-<!--SR:!2025-06-28,3,210-->
+<!--SR:!2025-07-09,8,230-->
 - You would like to have a high-performance local cache for your application hosted on an EC2 instance. You don't mind losing the cache upon the termination of your EC2 instance. Which storage mechanism do you recommend as a Solutions Architect?;;Instance Store, because it provides the best disk I/O performance.
-<!--SR:!2025-06-30,10,270-->
+<!--SR:!2025-08-08,38,290-->
 - You are running a high-performance database that requires an IOPS of 310,000 for its underlying storage. What do you recommend?;;Use an EC2 Instance Store, but the data will be lost if the EC2 instance is stopped, you can have a replica of the instance with another instance store as solution or have a backup mechanism.
-<!--SR:!2025-06-27,7,250-->
+<!--SR:!2025-07-26,25,270-->
