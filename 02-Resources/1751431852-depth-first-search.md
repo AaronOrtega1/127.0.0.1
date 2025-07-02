@@ -1,7 +1,8 @@
 ---
-link: "[[]]"
+link: "[[1751401091-leetcode-patterns|LeetCode Patterns]]"
 aliases: 
   - Depth-First Search
+  - DFS
 tags:
   - resource
 created_date:
@@ -17,10 +18,5 @@ created_date:
   - Searching for a specific condition deep in the structure.
   - Detecting cycles.
 - In some cases its more memory efficient but less suited for problems where the shortest path or shallow exploration is required.
-- 
-
-
-
-
-
+- Use case: [[1751432380-number-of-islands|Number of Islands]]
 

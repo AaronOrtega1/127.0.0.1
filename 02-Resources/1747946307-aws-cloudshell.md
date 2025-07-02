@@ -16,7 +16,4 @@ created_date: 2025/05/22
 ### What is Cloud Shell?
 - An alternative to the AWS CLI integrated in the AWS management console.
 - Has a repo so you can create files, also download them.
-## Related Links
-- [[]]
-## Source
-[text](url) 
+

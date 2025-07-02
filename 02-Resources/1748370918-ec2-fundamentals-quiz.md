@@ -26,7 +26,7 @@ created_date: 2025/05/27
 - Which EC2 Instance Type should you choose for a critical application that uses an in-memory database?;;Memory Optimized.
 <!--SR:!2025-08-11,41,290-->
 - You have an e-commerce application with an OLTP database hosted on-premises. This application has popularity which results in its database has thousands of requests per second. You want to migrate the database to an EC2 instance. Which EC2 Instance Type should you choose to handle this high-frequency OLTP database?;;Storage Optimized.
-<!--SR:!2025-07-02,1,150-->
+<!--SR:!2025-07-03,1,130-->
 - Security Groups can be attached to only one EC2 instance.;;False.
 <!--SR:!2025-08-29,59,310-->
 - You're planning to migrate on-premises applications to AWS. Your company has strict compliance requirements that require your applications to run on dedicated servers. You also need to use your own server-bound software license to reduce costs. Which EC2 Purchasing Option is suitable for you?;;Dedicated Hosts.

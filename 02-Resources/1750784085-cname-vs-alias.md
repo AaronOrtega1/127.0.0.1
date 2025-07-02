@@ -27,7 +27,7 @@ created_date: 2025/06/24
 - Can't set the TTL.
 #### Targets
 - [[1749055294-elastic-load-balancer-(elb)|Elastic Load Balancer (ELB)]]
-- [[CloudFront]]
+- [[1751474216-cloudfront-overview|CloudFront]]
 - API Gateway
 - Elastic Beanstalk environments
 - S3 Websites
