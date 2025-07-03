@@ -18,7 +18,7 @@ created_date: 2025/05/27
 - How long can you reserve an EC2 Reserved instance?;;1 or 3 years.
 <!--SR:!2025-08-30,60,310-->
 - You would like to deploy a High-Performance Computing (HPC) application on EC2 instances. Which EC2 instance type should you choose?;; Compute Optimized.
-<!--SR:!2025-07-03,2,170-->
+<!--SR:!2025-07-08,5,190-->
 - Which EC2 Purchasing Option should you use for an application you plan to run on a server continuously for 1 year?;;Reserved Instances.
 <!--SR:!2025-08-21,57,310-->
 - You are preparing to launch an application that will be hosted on a set of EC2 instances. This application needs some software installation and some OS packages need to be updated during the first launch. What is the best way to achieve this when you launch the EC2 instances?;;Write a bash script that installs the required software and updates to your OS, then use this script in EC2 User Data when you launch your EC2 instances.

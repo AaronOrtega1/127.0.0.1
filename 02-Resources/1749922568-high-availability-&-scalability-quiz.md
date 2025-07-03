@@ -36,7 +36,7 @@ created_date: 2025/06/14
 - You want to create a custom application-based cookie in your Application Load Balancer. Which of the following you can use as a cookie name?;;APPUSERC
 <!--SR:!2025-07-05,3,210-->
 - You have a Network Load Balancer that distributes traffic across a set of EC2 instances in `us-east-1`. You have 2 EC2 instances in `us-east-1b` AZ and 5 EC2 instances in `us-east-1e` AZ. You have noticed that the CPU utilization is higher in the EC2 instances in `us-east-1b` AZ. After more investigation, you noticed that the traffic is equally distributed across the two AZs. How would you solve this problem?;;Enable Cross-Zone Load Balancing, to distribute the traffic evenly.
-<!--SR:!2025-07-03,8,250-->
+<!--SR:!2025-07-07,4,230-->
 - Which feature in both Application Load Balancers and Network Load Balancers allows you to load multiple SSL certificates on one listener?;;Sever Name Indication.
 <!--SR:!2025-07-11,16,290-->
 - Which feature in both Application Load Balancers and Network Load Balancers allows you to load multiple SSL certificates on one listener?;;Server Name Indication. -Continue.
@@ -46,9 +46,9 @@ created_date: 2025/06/14
 - You have an Auto Scaling Group fronted by an Application Load Balancer. You have configured the ASG to use ALB Health Checks, then one EC2 instance has just been reported unhealthy. What will happen to the EC2 instance?;;The ASG will terminate the EC2 instance, and then launch a new EC2 instance.
 <!--SR:!2025-07-09,14,290-->
 - Your boss asked you to scale your Auto Scaling Group based on the **number of requests per minute** your application makes to your database. What should you do?;;Create a CloudWatch custom metric then create a Cloud Watch Alarm on this Metric to scale your ASG.
-<!--SR:!2025-07-03,8,250-->
+<!--SR:!2025-07-23,20,250-->
 - An application is deployed with an Application Load Balancer and an Auto Scaling Group. Currently, you manually scale the ASG and you would like to define a Scaling Policy that will ensure the average number of connections to your EC2 instances is around 1000. Which Scaling Policy should you use?;;Target Tracking Policy.
-<!--SR:!2025-07-03,2,210-->
+<!--SR:!2025-07-09,6,230-->
 - You have an ASG and a Network Load Balancer. The application on your ASG supports the HTTP protocol and is integrated with the Load Balancer health checks. You are currently using the TCP health checks. You would like to migrate to using HTTP health checks, what do you do?;;Migrate the health check to HTTP, because the NLB supports it as well as TCP and HTTPS.
 <!--SR:!2025-07-09,14,290-->
 - You have a website hosted in EC2 instances in an Auto Scaling Group fronted by an Application Load Balancer. Currently, the website is served over HTTP, and you have been tasked to configure it to use HTTPS. You have created a certificate in ACM and attached it to the Application Load Balancer. What you can do to force users to access the website using HTTPS instead of HTTP?;;Configure the ALB to redirect HTTP to HTTPS.
