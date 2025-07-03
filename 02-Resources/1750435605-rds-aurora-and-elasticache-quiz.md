@@ -45,7 +45,7 @@ created_date: 2025/06/20
 - An application running in production is using an Aurora Cluster as its database. Your development team would like to run a version of the application in a scaled-down application with the ability to perform some heavy workload on a need-basis. Most of the time, the application will be unused. Your CIO has tasked you with helping the team to achieve this while minimizing costs. What do you suggest?;;Use Aurora Serverless.
 <!--SR:!2025-07-04,3,250-->
 - How many Aurora Read Replicas can you have in a single Aurora DB Cluster?;;15.
-<!--SR:!2025-07-03,2,250-->
+<!--SR:!2025-07-10,7,270-->
 - Amazon Aurora supports both .......................... databases.;;MySQL and PostgreSQL.
 <!--SR:!2025-07-16,15,290-->
 - You work as a Solutions Architect for a gaming company. One of the games mandates that players are ranked in real-time based on their score. Your boss asked you to design then implement an effective and highly available solution to create a gaming leaderboard. What should you use?;;Use ElastiCache for Redis - Sorted Sets.
