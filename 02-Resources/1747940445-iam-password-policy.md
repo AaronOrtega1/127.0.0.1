@@ -11,7 +11,8 @@ created_date: 2025/05/22
 ---
 # IAM Password Policy
 ## Summary
-- 
+- Used to protect your IAM groups and users/
+- MFA it's a good practice to protect the Root Account and IAM users.
 ## Key Ideas
 ### What Are Password Policies Used For?
 - They are used to protect your IAM groups and users

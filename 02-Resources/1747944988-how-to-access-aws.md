@@ -11,8 +11,6 @@ created_date: 2025/05/22
 ---
 # How To Access Aws
 ## Summary
-- 
-## Key Ideas
 ### Three options to access AWS
 - AWS management console (protected by password + MFA)
 - AWS command line interface (protected by access keys)
@@ -31,7 +29,3 @@ created_date: 2025/05/22
 - Search how to install it depending on your OS.
 - In linux use `aws configure` and fill what you are asked.
 
-## Related Links
-- [[]]
-## Source
-[text](url) 

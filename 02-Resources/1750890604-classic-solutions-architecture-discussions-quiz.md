@@ -1,11 +1,12 @@
 ---
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|AWS Certified Solution Architect Associate 2025]]"
-aliases: 
+aliases:
   - Classic Solutions Architecture Discussions Quiz
 tags:
   - resource
-created_date:
-  "2025/06/25"
+  - Cards/AWS
+  - aws
+created_date: 2025/06/25
 ---
 # Classic Solutions Architecture Discussions Quiz
 - Your website **TriangleSunglasses.com** is hosted on a fleet of EC2 instances managed by an Auto Scaling Group and fronted by an Application Load Balancer. Your ASG has been configured to scale on-demand based on the traffic going to your website. To reduce costs, you have configured the ASG to scale based on the traffic going through the ALB. To make the solution highly available, you have updated your ASG and set the minimum capacity to 2. How can you further reduce the costs while respecting the requirements?;;Reserve two EC2 instances.

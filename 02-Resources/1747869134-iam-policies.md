@@ -13,8 +13,6 @@ created_date: 2025/05/21
 ---
 # IAM Policies
 ## Summary
-- 
-## Key Ideas
 ### Policies inheritance
 - ![[1747869134-iam-policies.webp]]
 - Each group has its policies, a user can be in many groups therefore inherit policies from different groups, also a user can have inline policies, that apply only to them.
@@ -29,5 +27,3 @@ created_date: 2025/05/21
 		- **Action**: list of actions this policy allows or denies.
 		- **Resource**: list of resources to which the actions applied to.
 		- **Condition**: when this policy is in effect (optional).
-## Related Links
-- [[]]

@@ -12,8 +12,6 @@ created_date: 2025/05/21
 ---
 # IAM Intro Users Groups Policies
 ## Summary
-- 
-## Key Ideas
 ### What does IAM stands for?
 - Identity and Access Management, and its a **global** service.
 ### Users and Groups

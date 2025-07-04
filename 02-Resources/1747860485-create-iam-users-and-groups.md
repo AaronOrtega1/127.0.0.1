@@ -11,15 +11,8 @@ tags:
 created_date: 2025/05/21
 ---
 # Create IAM Users And Groups
-## Summary
-- 
-## Key Ideas
-### How to access IAM?
+## How to access IAM?
 - Search for IAM in the AWS console search bar.
 - ![[1747860485-create-iam-users-and-groups.webp]]
 - Here you can create users, groups or policies, when you create a new user and you make it belong to a group, this user will inherit the permissions policies of this group.
 - ![[1747860485-create-iam-users-and-groups-1.webp]]
-## Related Links
-- [[]]
-## Source
-[text](url) 
