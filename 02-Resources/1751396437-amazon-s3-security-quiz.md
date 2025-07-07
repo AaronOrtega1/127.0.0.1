@@ -13,29 +13,29 @@ created_date:
 ---
 # Amazon S3 Security Quiz
 - Your client wants to make sure that file encryption is happening in S3, but he wants to fully manage the encryption keys and never store them in AWS. You recommend him to use...;;SSE-C, the encryption happens in AWS and you have full control over the encryption keys.
-<!--SR:!2025-07-04,1,210-->
+<!--SR:!2025-07-08,1,190-->
 - A company you're working for wants their data stored in S3 to be encrypted. They don't mind the encryption keys stored and managed by AWS, but they want to maintain control over the rotation policy of the encryption keys. You recommend them to use ...;;SSE-KMS, the encryption happens in AWS, and the encryption keys are managed by AWS but you have full control over the rotation policy of the encryption key. Encryption keys stored in AWS.
-<!--SR:!2025-07-06,4,270-->
+<!--SR:!2025-07-09,2,250-->
 - Your company does not trust AWS for the encryption process and wants it to happen on the application. You recommend them to use ...;;Client-Side Encryption, you have to do the encryption yourself and you have full control over the encryption keys. You perform the encryption yourself and send the encrypted data to AWS.
-<!--SR:!2025-07-06,4,270-->
+<!--SR:!2025-07-09,2,250-->
 - You have a website that loads files from an S3 bucket. When you try the URL of the files directly in your Chrome browser it works, but when a website with a different domain tries to load these files it doesn't. What's the problem?;;CORS is wrong.
-<!--SR:!2025-07-06,4,270-->
+<!--SR:!2025-07-23,16,290-->
 - An e-commerce company has its customers and orders data stored in an S3 bucket. The company’s CEO wants to generate a report to show the list of customers and the revenue for each customer. Customer data stored in files on the S3 bucket has sensitive information that we don’t want to expose in the report. How do you recommend the report can be created without exposing sensitive information?;;Use S3 Object Lambda to chnge the objects before they are retrieved by the report generator application.
-<!--SR:!2025-07-06,4,270-->
+<!--SR:!2025-07-09,2,250-->
 - You suspect that some of your employees try to access files in an S3 bucket that they don't have access to. How can you verify this is indeed the case without them noticing?;;Enable S3 Access Logs and analyze them using Athena.
-<!--SR:!2025-07-06,4,270-->
+<!--SR:!2025-07-21,14,290-->
 - You are looking to provide temporary URLs to a growing list of federated users to allow them to perform a file upload on your S3 bucket to a specific location. What should you use?;;S3 Pre-Signed URL.
-<!--SR:!2025-07-05,3,250-->
+<!--SR:!2025-07-19,12,270-->
 - For compliance reasons, your company has a policy mandate that database backups must be retained for 4 years. It shouldn't be possible to erase them. What do you recommend?;;Glacier Vaults with Vault Lock Policies.
-<!--SR:!2025-07-04,1,210-->
+<!--SR:!2025-07-08,1,190-->
 - You would like all your files in an S3 bucket to be encrypted by default. What is the optimal way of achieving this?;;Do nothing, Amazon S3 automatically encrypt new objects using Server-Side Encryption with S3-Managed Keys (SSE-S3).
-<!--SR:!2025-07-04,1,210-->
+<!--SR:!2025-07-10,3,230-->
 - You have enabled versioning and want to be extra careful when it comes to deleting files on an S3 bucket. What should you enable to prevent accidental permanent deletions?;;Enable MFA Delete.
-<!--SR:!2025-07-06,4,270-->
+<!--SR:!2025-07-22,15,290-->
 - A company has its data and files stored on some S3 buckets. Some of these files need to be kept for a predefined period of time and protected from being overwritten and deletion according to company compliance policy. Which S3 feature helps you in doing this?;;S3 Object Lock - Retention Compliance Mode.
-<!--SR:!2025-07-04,1,210-->
+<!--SR:!2025-07-09,2,210-->
 - Which of the following S3 Object Lock configuration allows you to prevent an object or its versions from being overwritten or deleted indefinitely and gives you the ability to remove it manually?;;Legal Hold.
-<!--SR:!2025-07-06,4,270-->
+<!--SR:!2025-07-22,15,290-->
 
 
 
