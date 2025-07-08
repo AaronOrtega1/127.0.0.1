@@ -9,6 +9,7 @@ tags:
   - cloud
   - certificate
   - KMS
+  - pending
 created_date: 2025/06/03
 ---
 # Key Management System
