@@ -28,7 +28,7 @@ created_date: 2025/06/14
 - Application Load Balancers which protocols?;;HTTP, HTTPS, WebSocket.
 <!--SR:!2025-07-20,13,230-->
 - Application Load Balancer can route traffic to different Target Groups Based on what?;;URL Path, Hostname, HTTP Headers, and Query Strings.
-<!--SR:!2025-07-08,1,170-->
+<!--SR:!2025-07-10,2,170-->
 - What can be registered as a targets in a Target Groups for an Application Load Balancer can be?;;EC2 Instances, Private IP Addresses, Lambda Functions.
 <!--SR:!2025-07-09,2,210-->
 - For compliance purposes, you would like to expose a fixed static IP address to your end-users so that they can write firewall rules that will be stable and approved by regulators. What type of Elastic Load Balancer would you choose?;;Network Load Balancer, because it has one static IP address per AZ and you can attach an Elastic IP address to it.

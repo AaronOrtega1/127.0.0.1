@@ -13,7 +13,7 @@ created_date:
 ---
 # Amazon S3 Security Quiz
 - Your client wants to make sure that file encryption is happening in S3, but he wants to fully manage the encryption keys and never store them in AWS. You recommend him to use...;;SSE-C, the encryption happens in AWS and you have full control over the encryption keys.
-<!--SR:!2025-07-08,1,190-->
+<!--SR:!2025-07-11,3,210-->
 - A company you're working for wants their data stored in S3 to be encrypted. They don't mind the encryption keys stored and managed by AWS, but they want to maintain control over the rotation policy of the encryption keys. You recommend them to use ...;;SSE-KMS, the encryption happens in AWS, and the encryption keys are managed by AWS but you have full control over the rotation policy of the encryption key. Encryption keys stored in AWS.
 <!--SR:!2025-07-09,2,250-->
 - Your company does not trust AWS for the encryption process and wants it to happen on the application. You recommend them to use ...;;Client-Side Encryption, you have to do the encryption yourself and you have full control over the encryption keys. You perform the encryption yourself and send the encrypted data to AWS.
@@ -27,7 +27,7 @@ created_date:
 - You are looking to provide temporary URLs to a growing list of federated users to allow them to perform a file upload on your S3 bucket to a specific location. What should you use?;;S3 Pre-Signed URL.
 <!--SR:!2025-07-19,12,270-->
 - For compliance reasons, your company has a policy mandate that database backups must be retained for 4 years. It shouldn't be possible to erase them. What do you recommend?;;Glacier Vaults with Vault Lock Policies.
-<!--SR:!2025-07-08,1,190-->
+<!--SR:!2025-07-09,1,170-->
 - You would like all your files in an S3 bucket to be encrypted by default. What is the optimal way of achieving this?;;Do nothing, Amazon S3 automatically encrypt new objects using Server-Side Encryption with S3-Managed Keys (SSE-S3).
 <!--SR:!2025-07-10,3,230-->
 - You have enabled versioning and want to be extra careful when it comes to deleting files on an S3 bucket. What should you enable to prevent accidental permanent deletions?;;Enable MFA Delete.

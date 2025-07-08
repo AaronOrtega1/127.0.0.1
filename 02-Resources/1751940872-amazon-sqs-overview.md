@@ -60,7 +60,7 @@ created_date:
 ![[1751940872-amazon-sqs-overview-5.webp]]
 
 ### Security
-- Encryption:
+- **Encryption**:
   - In-flight encryption using HTTPS API.
   - At-rest encryption using [[1748995884-key-management-system|KMS]] keys.
   - Client-side encryption if the client wants to perform encryption/decryption itself.
