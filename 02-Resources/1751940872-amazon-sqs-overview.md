@@ -69,15 +69,3 @@ created_date:
   - Useful for cross-account access to SQS queues.
   - Useful for allowing other services (SNS, S3...) to write to an SQS queue.
 
-
-
-
-
-
-
-
-
-
-
-
-
