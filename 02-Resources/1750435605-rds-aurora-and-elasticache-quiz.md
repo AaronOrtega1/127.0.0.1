@@ -32,20 +32,20 @@ created_date: 2025/06/20
 - You would like to create a disaster recovery strategy for your RDS PostgreSQL database so that in case of a regional outage the database can be quickly made available for both read and write workloads in another AWS Region. The DR database must be highly available. What do you recommend?;;Create a Read Replica in a different region and enable Multi-AZ on the Read Replica.
 <!--SR:!2025-07-14,5,230-->
 - You have migrated the MySQL database from on-premises to RDS. You have a lot of applications and developers interacting with your database. Each developer has an IAM user in the company's AWS account. What is a suitable approach to give access to developers to the MySQL RDS DB instance instead of creating a DB user for each one?;;Enable IAM Database Authentication.
-<!--SR:!2025-07-10,7,250-->
+<!--SR:!2025-08-04,25,270-->
 - Read Replica uses Asynchronous Replication and Multi-AZ uses Synchronous Replication.
 - How do you encrypt an unencrypted RDS DB instance?;;Create a snapshot of the unencrypted RDS DB instance, copy the snapshot and tick "Enable encryption", then restore the RDS DB instance from the encrypted snapshot.
 <!--SR:!2025-07-17,16,290-->
 - For your RDS database, you can have up to ............ Read Replicas.;;15.
 <!--SR:!2025-07-16,7,250-->
 - Which RDS database technology does **NOT** support IAM Database Authentication?;;Oracle.
-<!--SR:!2025-07-10,7,270-->
+<!--SR:!2025-08-06,27,290-->
 - You have an un-encrypted RDS DB instance and you want to create Read Replicas. Can you configure the RDS Read Replicas to be encrypted?;;No, you can not create encrypted Read Replicas from an unencrypted RDS DB instance.
 <!--SR:!2025-07-17,16,290-->
 - An application running in production is using an Aurora Cluster as its database. Your development team would like to run a version of the application in a scaled-down application with the ability to perform some heavy workload on a need-basis. Most of the time, the application will be unused. Your CIO has tasked you with helping the team to achieve this while minimizing costs. What do you suggest?;;Use Aurora Serverless.
 <!--SR:!2025-07-18,11,270-->
 - How many Aurora Read Replicas can you have in a single Aurora DB Cluster?;;15.
-<!--SR:!2025-07-10,7,270-->
+<!--SR:!2025-08-05,26,290-->
 - Amazon Aurora supports both .......................... databases.;;MySQL and PostgreSQL.
 <!--SR:!2025-07-16,15,290-->
 - You work as a Solutions Architect for a gaming company. One of the games mandates that players are ranked in real-time based on their score. Your boss asked you to design then implement an effective and highly available solution to create a gaming leaderboard. What should you use?;;Use ElastiCache for Redis - Sorted Sets.

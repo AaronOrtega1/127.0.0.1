@@ -20,4 +20,4 @@ created_date: 2025/06/25
 - You're developing an application and would like to deploy it to Elastic Beanstalk with minimal cost. You should run it in ..................;;Single instance.
 <!--SR:!2025-07-12,3,230-->
 - You're deploying your application to an Elastic Beanstalk environment but you notice that the deployment process is painfully slow. After reviewing the logs, you found that your dependencies are resolved on each EC2 instance each time you deploy. How can you speed up the deployment process with minimal impact?;;Create a Golden AMI that contains the dependencies and use that image to launch the EC2 instances.
-<!--SR:!2025-07-10,3,250-->
+<!--SR:!2025-07-21,11,270-->

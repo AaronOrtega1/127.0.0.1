@@ -21,7 +21,7 @@ created_date:
 - You have a website that loads files from an S3 bucket. When you try the URL of the files directly in your Chrome browser it works, but when a website with a different domain tries to load these files it doesn't. What's the problem?;;CORS is wrong.
 <!--SR:!2025-07-23,16,290-->
 - An e-commerce company has its customers and orders data stored in an S3 bucket. The company’s CEO wants to generate a report to show the list of customers and the revenue for each customer. Customer data stored in files on the S3 bucket has sensitive information that we don’t want to expose in the report. How do you recommend the report can be created without exposing sensitive information?;;Use S3 Object Lambda to chnge the objects before they are retrieved by the report generator application.
-<!--SR:!2025-07-10,1,230-->
+<!--SR:!2025-07-13,3,250-->
 - You suspect that some of your employees try to access files in an S3 bucket that they don't have access to. How can you verify this is indeed the case without them noticing?;;Enable S3 Access Logs and analyze them using Athena.
 <!--SR:!2025-07-21,14,290-->
 - You are looking to provide temporary URLs to a growing list of federated users to allow them to perform a file upload on your S3 bucket to a specific location. What should you use?;;S3 Pre-Signed URL.
@@ -29,7 +29,7 @@ created_date:
 - For compliance reasons, your company has a policy mandate that database backups must be retained for 4 years. It shouldn't be possible to erase them. What do you recommend?;;Glacier Vaults with Vault Lock Policies.
 <!--SR:!2025-07-11,2,190-->
 - You would like all your files in an S3 bucket to be encrypted by default. What is the optimal way of achieving this?;;Do nothing, Amazon S3 automatically encrypt new objects using Server-Side Encryption with S3-Managed Keys (SSE-S3).
-<!--SR:!2025-07-10,3,230-->
+<!--SR:!2025-07-20,10,250-->
 - You have enabled versioning and want to be extra careful when it comes to deleting files on an S3 bucket. What should you enable to prevent accidental permanent deletions?;;Enable MFA Delete.
 <!--SR:!2025-07-22,15,290-->
 - A company has its data and files stored on some S3 buckets. Some of these files need to be kept for a predefined period of time and protected from being overwritten and deletion according to company compliance policy. Which S3 feature helps you in doing this?;;S3 Object Lock - Retention Compliance Mode.
