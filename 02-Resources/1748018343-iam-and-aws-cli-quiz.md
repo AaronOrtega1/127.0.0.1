@@ -14,13 +14,13 @@ created_date: 2025/05/23
 <!--SR:!2025-08-01,25,250-->
 
 - Which are IAM security tool?;;IAM Credentials Report, IAM Last Accessed.
-<!--SR:!2025-07-12,4,210-->
+<!--SR:!2025-07-18,2,190-->
 
 - Should IAM Users access AWS services using root account credentials?;;False.
 <!--SR:!2025-08-18,59,310-->
 
 - What are IAM Policies?;;JSON documents that define a set of permissions form making requests to AWS services, and can be used by IAM Users, User Groups, and IAM Roles.
-<!--SR:!2025-07-16,15,250-->
+<!--SR:!2025-08-22,37,250-->
 
 - Which principle should you apply regarding IAM Permissions?;;Grant least privilege.
 <!--SR:!2025-08-23,64,310-->
@@ -32,4 +32,4 @@ created_date: 2025/05/23
 <!--SR:!2025-07-27,26,290-->
 
 - An IAM Policy consists of one or more  statement, a statement in an IAM Policy doesn't contain the following?;;Version.
-<!--SR:!2025-07-16,26,290-->
+<!--SR:!2025-10-29,105,310-->

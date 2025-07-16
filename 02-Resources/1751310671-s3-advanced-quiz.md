@@ -13,15 +13,15 @@ created_date:
 ---
 # S3 Advanced Quiz
 - How can you be notified when there's an object uploaded to your S3 bucket?;;S3 Event Notifications.
-<!--SR:!2025-07-14,7,250-->
+<!--SR:!2025-08-09,24,270-->
 - You have an S3 bucket that has S3 Versioning enabled. This S3 bucket has a lot of objects, and you would like to remove old object versions to reduce costs. What's the best approach to automate the deletion of these old object versions?;;S3 Lifecycle Rules - Expiration Actions.
 <!--SR:!2025-08-09,25,270-->
 - How can you automate the transition of S3 objects between their different tiers?;;S3 Lifecycle Rules.
-<!--SR:!2025-07-13,6,230-->
+<!--SR:!2025-08-04,19,250-->
 - While you're uploading large files to an S3 bucket using Multi-part Upload, there are a lot of unfinished parts stored in the S3 bucket due to network issues. You are not using these unfinished parts and they cost you money. What is the best approach to remove these unfinished parts?;;Use an S3 Lifecycle Policy to automate old/unfinished parts deletion.
-<!--SR:!2025-07-14,7,250-->
+<!--SR:!2025-08-11,26,270-->
 - You are looking to get recommendations for S3 Lifecycle Rules. How can you analyze the optimal number of days to move objects between different storage tiers?;;S3 Anlaytics.
-<!--SR:!2025-07-16,7,250-->
+<!--SR:!2025-08-10,25,270-->
 - You are looking to build an index of your files in S3, using Amazon RDS PostgreSQL. To build this index, it is necessary to read the first 250 bytes of each object in S3, which contains some metadata about the content of the file itself. There are over 100,000 files in your S3 bucket, amounting to 50 TB of data. How can you build this index efficiently?;;Create an application that will traverse the S3 bucket, issue a Byte Range Fetch for the first 250 bytes, and store that information in RDS.
 <!--SR:!2025-07-19,12,270-->
 - You have a large dataset stored on-premises that you want to upload to the S3 bucket. The dataset is divided into 10 GB files. You have good bandwidth but your Internet connection isn't stable. What is the best way to upload this dataset to S3 and ensure that the process is fast and avoid any problems with the Internet connection?;;Use S3 Multi-part Upload and S3 Transfer Acceleration.

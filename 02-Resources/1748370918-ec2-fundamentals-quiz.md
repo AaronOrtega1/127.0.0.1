@@ -30,8 +30,8 @@ created_date: 2025/05/27
 - Security Groups can be attached to only one EC2 instance.;;False.
 <!--SR:!2025-08-29,59,310-->
 - You're planning to migrate on-premises applications to AWS. Your company has strict compliance requirements that require your applications to run on dedicated servers. You also need to use your own server-bound software license to reduce costs. Which EC2 Purchasing Option is suitable for you?;;Dedicated Hosts.
-<!--SR:!2025-07-13,12,210-->
+<!--SR:!2025-07-22,6,190-->
 - You would like to deploy a database technology on an EC2 instance and the vendor license bills you based on the physical cores and underlying network socket visibility. Which EC2 Purchasing Option allows you to get visibility into them?;;Dedicated Hosts.
-<!--SR:!2025-07-11,3,170-->
+<!--SR:!2025-07-18,2,150-->
 - Spot Fleet is a set of Spot Instances and optionally ...............;;On-Demand Instances.
 <!--SR:!2025-07-28,21,270-->

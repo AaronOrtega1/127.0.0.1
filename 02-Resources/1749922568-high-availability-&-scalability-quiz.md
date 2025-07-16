@@ -22,19 +22,19 @@ created_date: 2025/06/14
 - You are using an Application Load Balancer to distribute traffic to your website hosted on EC2 instances. It turns out that your website only sees traffic coming from private IPv4 addresses which are in fact your Application Load Balancer's IP addresses. What should you do to get the IP address of clients connected to your website?;;Modify your website's backend to get the client IP address from the X-Forwarded-For header.
 <!--SR:!2025-08-07,31,270-->
 - You hosted an application on a set of EC2 instances fronted by an Elastic Load Balancer. A week later, users begin complaining that sometimes the application just doesn't work. You investigate the issue and found that some EC2 instances crash from time to time. What should you do to protect users from connecting to the EC2 instances that are crashing?;;Enable ELB Health Checks.
-<!--SR:!2025-07-11,16,290-->
+<!--SR:!2025-09-18,64,310-->
 - You are working as a Solutions Architect for a company and you are required to design an architecture for a high-performance, low-latency application that will receive millions of requests per second. Which type of Elastic Load Balancer should you choose?;;Network Load Balancer.
 <!--SR:!2025-09-07,59,310-->
 - Application Load Balancers which protocols?;;HTTP, HTTPS, WebSocket.
 <!--SR:!2025-07-20,13,230-->
 - Application Load Balancer can route traffic to different Target Groups Based on what?;;URL Path, Hostname, HTTP Headers, and Query Strings.
-<!--SR:!2025-07-15,5,190-->
+<!--SR:!2025-07-30,14,210-->
 - What can be registered as a targets in a Target Groups for an Application Load Balancer can be?;;EC2 Instances, Private IP Addresses, Lambda Functions.
 <!--SR:!2025-07-17,2,190-->
 - For compliance purposes, you would like to expose a fixed static IP address to your end-users so that they can write firewall rules that will be stable and approved by regulators. What type of Elastic Load Balancer would you choose?;;Network Load Balancer, because it has one static IP address per AZ and you can attach an Elastic IP address to it.
 <!--SR:!2025-08-25,41,290-->
 - You want to create a custom application-based cookie in your Application Load Balancer. Which of the following you can use as a cookie name?;;APPUSERC
-<!--SR:!2025-07-16,9,230-->
+<!--SR:!2025-08-14,29,250-->
 - You have a Network Load Balancer that distributes traffic across a set of EC2 instances in `us-east-1`. You have 2 EC2 instances in `us-east-1b` AZ and 5 EC2 instances in `us-east-1e` AZ. You have noticed that the CPU utilization is higher in the EC2 instances in `us-east-1b` AZ. After more investigation, you noticed that the traffic is equally distributed across the two AZs. How would you solve this problem?;;Enable Cross-Zone Load Balancing, to distribute the traffic evenly.
 <!--SR:!2025-07-17,10,230-->
 - Which feature in both Application Load Balancers and Network Load Balancers allows you to load multiple SSL certificates on one listener?;;Sever Name Indication.
