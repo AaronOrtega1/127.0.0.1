@@ -1,5 +1,5 @@
 ---
-link: "[[1747853373-aws-certified-solution-architect-associate-2025|aws Certified Solution Architect Associate 2025]]"
+link: "[[1747853373-aws-certified-solution-architect-associate-2025|Aws Certified Solution Architect Associate 2025]]"
 aliases: 
   - Lambda
 tags:
@@ -46,3 +46,5 @@ created_date:
 ### Pricing
 [AWS Lambda Pricing](https://aws.amazon.com/es/lambda/pricing/)
 
+## Related Links
+- [[1752691137-lambda-limits|Lambda Limits]]

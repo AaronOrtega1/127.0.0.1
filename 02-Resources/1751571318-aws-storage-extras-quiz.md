@@ -23,7 +23,7 @@ created_date:
 - You have a large dataset stored in S3 that you want to access from on-premises servers using the NFS or SMB protocol. Also, you want to authenticate access to these files through on-premises Microsoft AD. What would you use?;;AWS Storage Gateway - S3 File Gateway.
 <!--SR:!2025-07-19,4,210-->
 - You are planning to migrate your company's infrastructure from on-premises to AWS Cloud. You have an on-premises Microsoft Windows File Server that you want to migrate. What is the most suitable AWS service you can use?;;Amazon FSx for Windows (File Server).
-<!--SR:!2025-07-17,2,250-->
+<!--SR:!2025-07-24,7,270-->
 - You would like to have a distributed POSIX compliant file system that will allow you to maximize the IOPS in order to perform some High-Performance Computing (HPC) and genomics computational research. This file system has to easily scale to millions of IOPS. What do you recommend?;;Amazon FSx for Lustre.
 <!--SR:!2025-07-27,11,270-->
 - Which deployment option in the FSx file system provides you with long-term storage that's replicated within AZ?;;Persistent File System.
@@ -31,13 +31,13 @@ created_date:
 - Which of the following protocols is NOT supported by AWS Transfer Family? (FTP, FTPS, TLS, SFTP);;Transport Layer Security (TLS).
 <!--SR:!2025-07-29,14,290-->
 - A company uses a lot of files and data which is stored in an FSx for Windows File Server storage on AWS. Those files are currently used by the resources hosted on AWS. There’s a requirement for those files to be accessed on-premises with low latency. Which AWS service can help you achieve this?;;FSx File Gateway.
-<!--SR:!2025-07-17,1,170-->
+<!--SR:!2025-07-18,1,150-->
 - A Solutions Architect is working on planning the migration of a startup company from on-premises to AWS. Currently, their infrastructure consists of many servers and 30 TB of data hosted on a shared NFS storage. He has decided to use Amazon S3 to host the data. Which AWS service can efficiently migrate the data from on-premises to S3?;;AWS DataSync.
-<!--SR:!2025-07-17,2,210-->
+<!--SR:!2025-07-23,6,230-->
 - Which AWS service is best suited to migrate a large amount of data from an S3 bucket to an EFS file system?;;AWS DataSync.
 <!--SR:!2025-07-18,2,250-->
 - A Machine Learning company is working on a set of datasets that are hosted on S3 buckets. The company decided to release those datasets to the public to be useful for others in their research, but they don’t want to configure the S3 bucket to be public. And those datasets should be exposed over the FTP protocol. What can they do to do the requirement efficiently and with the least effort?;;Use AWS Transfer Family, since it allows you to securely transfer files stored in S3 over the FTP protocol without exposing the S3 bucket to the public.
-<!--SR:!2025-07-17,2,190-->
+<!--SR:!2025-07-21,4,190-->
 - Amazon FSx for NetApp ONTAP isn't compatible with the following protocol;;FTP.
 <!--SR:!2025-07-26,10,270-->
 - Which AWS service is best suited when migrating from an on-premises ZFS file system to AWS?;;Amazon FSx for OpenZFS.
