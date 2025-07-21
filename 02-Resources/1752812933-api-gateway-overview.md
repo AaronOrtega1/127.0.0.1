@@ -60,18 +60,6 @@ created_date:
   - If using Edge-Optimized endpoints, then the certificate must be in **us-east-1**.
   - If using Regional endpoint, the certificate must be in the API Gateway region.
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## Related Links
 - [[]]
 
