@@ -16,7 +16,7 @@ created_date: 2025/06/14
 - Running an application on an Auto Scaling Group that scales the number of EC2 instances in and out is called...;;Horizontal Scalability.
 <!--SR:!2025-09-04,57,310-->
 - Elastic Load Balancers provide a...;;static DNS name we can use in our application.
-<!--SR:!2025-07-18,3,190-->
+<!--SR:!2025-07-29,8,210-->
 - You are running a website on 10 EC2 instances fronted by an Elastic Load Balancer. Your users are complaining about the fact that the website always asks them to re-authenticate when they are moving between website pages. You are puzzled because it's working just fine on your machine and in the Dev environment with 1 EC2 instance. What could be the reason?;;The Elastic Load Balancer does not have Sticky Sessions enabled.
 <!--SR:!2025-09-06,58,310-->
 - You are using an Application Load Balancer to distribute traffic to your website hosted on EC2 instances. It turns out that your website only sees traffic coming from private IPv4 addresses which are in fact your Application Load Balancer's IP addresses. What should you do to get the IP address of clients connected to your website?;;Modify your website's backend to get the client IP address from the X-Forwarded-For header.
@@ -26,11 +26,11 @@ created_date: 2025/06/14
 - You are working as a Solutions Architect for a company and you are required to design an architecture for a high-performance, low-latency application that will receive millions of requests per second. Which type of Elastic Load Balancer should you choose?;;Network Load Balancer.
 <!--SR:!2025-09-07,59,310-->
 - Application Load Balancers which protocols?;;HTTP, HTTPS, WebSocket.
-<!--SR:!2025-07-20,13,230-->
+<!--SR:!2025-07-28,7,210-->
 - Application Load Balancer can route traffic to different Target Groups Based on what?;;URL Path, Hostname, HTTP Headers, and Query Strings.
 <!--SR:!2025-07-30,14,210-->
 - What can be registered as a targets in a Target Groups for an Application Load Balancer can be?;;EC2 Instances, Private IP Addresses, Lambda Functions.
-<!--SR:!2025-07-21,4,190-->
+<!--SR:!2025-08-02,12,210-->
 - For compliance purposes, you would like to expose a fixed static IP address to your end-users so that they can write firewall rules that will be stable and approved by regulators. What type of Elastic Load Balancer would you choose?;;Network Load Balancer, because it has one static IP address per AZ and you can attach an Elastic IP address to it.
 <!--SR:!2025-08-25,41,290-->
 - You want to create a custom application-based cookie in your Application Load Balancer. Which of the following you can use as a cookie name?;;APPUSERC
