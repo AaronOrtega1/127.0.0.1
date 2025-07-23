@@ -17,7 +17,7 @@ created_date:
 - You have a static website hosted on an S3 bucket. You have created a CloudFront Distribution that points to your S3 bucket to better serve your requests and improve performance. After a while, you noticed that users can still access your website directly from the S3 bucket. You want to enforce users to access the website only through CloudFront. How would you achieve that?;; Configure your CloudFront Distribution and create an Origin Access Control (OAC), then update your S3 bucket Policy to only accept request from your CloudFront Distribution.
 <!--SR:!2025-08-02,12,230-->
 - ![[1751484664-cloudfront-and-aws-global-accelerator-quiz.webp]];;Only allows the S3 bucket content to be accessed from your CloudFront Distribution.
-<!--SR:!2025-07-23,16,290-->
+<!--SR:!2025-09-26,65,310-->
 - A WordPress website is hosted in a set of EC2 instances in an EC2 Auto Scaling Group and fronted by a CloudFront Distribution which is configured to cache the content for 3 days. You have released a new version of the website and want to release it immediately to production without waiting for 3 days for the cached content to be expired. What is the easiest and most efficient way to solve this?;;CloudFront Cache Invalidation.
 <!--SR:!2025-08-17,27,270-->
 - A company is deploying a media-sharing website to AWS. They are going to use CloudFront to deliver the content with low latency to their customers where they are located in both US and Europe only. After a while there a huge costs for CloudFront. Which CloudFront feature allows you to decrease costs by targeting only US and Europe?;;CloudFront Price Classes.
