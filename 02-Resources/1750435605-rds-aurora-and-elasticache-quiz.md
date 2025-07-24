@@ -16,7 +16,7 @@ created_date: 2025/06/20
 - You're planning for a new solution that requires a MySQL database that must be available even in case of a disaster in one of the Availability Zones. What should you use?;; Enable Multi-AZ, since it helps when you plan a disaster recovery for an entire AZ going down.
 <!--SR:!2025-07-27,6,250-->
 - You have set up read replicas on your RDS database, but users are complaining that upon updating their social media posts, they do not see their updated posts right away. What is a possible cause for this?;;Read Replicas have Asynchronous Replication, therefore it's likely your users will only read Eventual Consistency.
-<!--SR:!2025-07-24,16,250-->
+<!--SR:!2025-09-18,56,270-->
 - Which RDS **(NOT Aurora)** feature when used does not require you to change the SQL connection string?;;Multi-AZ, keeps the same connection string regardless of which database is up.
 <!--SR:!2025-08-05,20,250-->
 - Your application running on a fleet of EC2 instances managed by an Auto Scaling Group behind an Application Load Balancer. Users have to constantly log back in and you don't want to enable Sticky Sessions on your ALB as you fear it will overload some EC2 instances. What should you do?;;Store session data in ElastiCache.
