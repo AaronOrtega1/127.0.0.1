@@ -26,9 +26,19 @@ created_date:
 - **Use Cases:** Business intelligence/analytics/reporting, analyze & query [[1753149747-vpc-cheat-sheet|VPC]] Flow Logs, [[1749055294-elastic-load-balancer-(elb)|ELB]] Logs, CloudTrail trails, etc...
 - **Exam Tip:** analyze data in [[1751042472-s3-overview|S3]] using serverless SQL, use Athena.
 
+### Performance Improvement
+- Use **columnar data** for cost-savings (less scan).
+  - Apache Parquet or ORC is recommended.
+  - Huge performance improvement.
+  - Use Glue to convert your data to Parquet or ORC.
+- **Compress data** for smaller retrievals (bzip2, gzip, lz4,...).
+- **Partition** datasets in [[1751042472-s3-overview|S3]] for easy querying on virtual columns.
+  - Example: s3://athena-examples/flight/parquet/year=1991/month=1/day=1/
+- **Use larger files** (> 128 MB) to minimize overhead.
 
-## Related Links
-- [[]]
+### Federated Query
+- Allows you to run SQL queries across data stored in relational, non-relational, object, and custom data sources (AWS or on-premises).
+- Uses Data Source Connectors that run on AWS Lambda to run Federated Queries (e.g., [[1752812834-cloudwatch|CloudWatch]] Logs, [[1752777935-amazon-dynamodb|DynamoDB]], [[1750180189-rds-overview|RDS]])
+- Store the results back in Amazon S3.
 
-## Source
-[text]()
+
