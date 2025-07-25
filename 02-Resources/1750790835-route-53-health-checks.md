@@ -18,8 +18,8 @@ created_date: 2025/06/24
 - Health Check => Automated DNS Failover:
 	- Health Checks that **monitor an endpoint** (application, server, other AWS resource).
 	- Health Checks that **monitor other health checks** (Calculated Health Checks).
-	- Health Checks that **monitor [[CloudWatch]] Alarms** (full control and helpful for private resources). 
-- Are integrated with [[CloudWatch]] metrics.
+	- Health Checks that **monitor [[1752812834-cloudwatch|CloudWatch]] Alarms** (full control and helpful for private resources). 
+- Are integrated with [[1752812834-cloudwatch|CloudWatch]] metrics.
 ### Monitor an Endpoint
 - **15 global health checkers will check the endpoint health**
 	- Healthy/Unhealthy Threshold - 3 (default).

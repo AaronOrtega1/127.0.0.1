@@ -26,4 +26,4 @@ created_date: 2025/06/18
 - **[[1748283223-security-groups-&-classic-ports-overview|Security Groups]]**
 	- Control network access to your RDS/Aurora DB.
 - **No SSH available** except on RDS Custom.
-- **Audit Logs can be enabled** and sent to [[CloudWatch]] Logs for longer retention.
+- **Audit Logs can be enabled** and sent to [[1752812834-cloudwatch|CloudWatch]] Logs for longer retention.

@@ -2,6 +2,7 @@
 link: "[[1750441691-aws|AWS]]"
 aliases: 
   - VPC Cheat Sheet
+  - VPC
 tags:
   - resource
   - aws

@@ -13,7 +13,7 @@ created_date:
 ---
 # Amazon S3 Security Quiz
 - Your client wants to make sure that file encryption is happening in S3, but he wants to fully manage the encryption keys and never store them in AWS. You recommend him to use...;;SSE-C, the encryption happens in AWS and you have full control over the encryption keys.
-<!--SR:!2025-07-25,9,230-->
+<!--SR:!2025-08-23,29,250-->
 - A company you're working for wants their data stored in S3 to be encrypted. They don't mind the encryption keys stored and managed by AWS, but they want to maintain control over the rotation policy of the encryption keys. You recommend them to use ...;;SSE-KMS, the encryption happens in AWS, and the encryption keys are managed by AWS but you have full control over the rotation policy of the encryption key. Encryption keys stored in AWS.
 <!--SR:!2025-08-12,27,290-->
 - Your company does not trust AWS for the encryption process and wants it to happen on the application. You recommend them to use ...;;Client-Side Encryption, you have to do the encryption yourself and you have full control over the encryption keys. You perform the encryption yourself and send the encrypted data to AWS.
