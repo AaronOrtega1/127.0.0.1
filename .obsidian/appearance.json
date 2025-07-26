@@ -6,8 +6,8 @@
   "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
   "showViewHeader": true,
   "showRibbon": false,
-  "cssTheme": "Catppuccin",
-  "accentColor": "",
+  "cssTheme": "Obsidianite",
+  "accentColor": "#0f7088",
   "enabledCssSnippets": [
     "width",
     "block quotes",
