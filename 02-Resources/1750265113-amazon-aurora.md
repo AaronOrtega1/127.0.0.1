@@ -8,7 +8,8 @@ tags:
   - aws
   - cloud
   - certificate
-  - DB
+  - Aurora
+  - AmazonDB
 created_date: 2025/06/18
 ---
 # Amazon Aurora

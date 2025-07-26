@@ -2,6 +2,7 @@
 link: "[[1750441691-aws|AWS]]"
 aliases: 
   - CloudWatch Cheat Sheet
+  - CloudWatch
 tags:
   - resource
   - aws

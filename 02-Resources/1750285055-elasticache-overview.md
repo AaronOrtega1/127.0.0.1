@@ -7,6 +7,8 @@ tags:
   - aws
   - cloud
   - certificate
+  - ElastiCache
+  - AmazonDB
 created_date: 2025/06/18
 ---
 # ElastiCache Overview

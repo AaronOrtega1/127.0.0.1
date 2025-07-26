@@ -13,7 +13,7 @@ created_date:
 ---
 # Messaging and Integration Quiz
 - You have an e-commerce website and you are preparing for Black Friday which is the biggest sale of the year. You expect that your traffic will increase by 100x. Your website already using an SQS Standard Queue, and you're running a fleet of EC2 instances in an Auto Scaling Group to consume SQS messages. What should you do to prepare your SQS Queue?;;Do nothing, SQS scales automatically.
-<!--SR:!2025-07-25,10,270-->
+<!--SR:!2025-09-01,38,290-->
 - You have an SQS Queue where each consumer polls 10 messages at a time and finishes processing them in 1 minute. After a while, you noticed that the same SQS messages are received by different consumers resulting in your messages being processed more than once. What should you do to resolve this issue?;;Increase the Visibility Timeout.
 <!--SR:!2025-08-01,16,290-->
 - Which SQS Queue type allows your messages to be processed exactly once and in order?;;SQS FIFO Queue.
@@ -33,7 +33,7 @@ created_date:
 - You're running many micro-services applications on-premises and they communicate using a message broker that supports MQTT protocol. You're planning to migrate these applications to AWS without re-engineering the applications and modifying the code. Which AWS service allows you to get a managed message broker that supports the MQTT protocol?;;Amazon MQ.
 <!--SR:!2025-07-31,15,290-->
 - An e-commerce company is preparing for a big marketing promotion that will bring millions of transactions. Their website is hosted on EC2 instances in an Auto Scaling Group and they are using Amazon Aurora as their database. The Aurora database has a bottleneck and a lot of transactions have been failed in the last promotion they have made as they had a lot of transaction and the Aurora database wasn’t prepared to handle these too many transactions. What do you recommend to handle those transactions and prevent any failed transactions?;;Use SQS as a buffer to write to Aurora.
-<!--SR:!2025-07-22,5,230-->
+<!--SR:!2025-08-07,15,250-->
 - A company is using Amazon Kinesis Data Streams to ingest clickstream data and then do some analytical processes on it. There is a campaign in the next few days and the traffic is unpredictable which might grow up to 100x. What Kinesis Data Stream capacity mode do you recommend?;;On-demand Mode.
 <!--SR:!2025-07-31,16,290-->
 

@@ -9,6 +9,7 @@ tags:
   - cloud
   - certificate
   - DynamoDB
+  - AmazonDB
   - NoSQL
 created_date:
   2025-07-17
