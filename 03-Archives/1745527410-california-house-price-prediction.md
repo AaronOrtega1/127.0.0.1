@@ -4,9 +4,9 @@ aliases:
   - California House Price Prediction
 tags:
   - projects
-  - active
   - python
   - data-analysis
+  - archived
 start_date: 2025/04/24
 end_date: 2025-04-29
 ---
