@@ -15,7 +15,7 @@ created_date:
 - You need to move hundreds of Terabytes into Amazon S3, then process the data using a fleet of EC2 instances. You have a 1 Gbit/s broadband. You would like to move the data faster and possibly processing it while in transit. What do you recommend?;;Use Snowball Edge since it comes with computing capabilities and allows you to pre-process the data while it's being moved into Snowball.
 <!--SR:!2025-08-27,37,290-->
 - You want to expose virtually infinite storage for your tape backups. You want to keep the same software you're using and want an iSCSI compatible interface. What do you use?;;AWS Storage Gateway - Tape Gateway.
-<!--SR:!2025-07-31,5,210-->
+<!--SR:!2025-08-16,16,230-->
 - Your EC2 Windows Servers need to share some data by having a Network File System mounted on them which respects the Windows security mechanisms and has integration with Microsoft Active Directory. What do you recommend?;;Amazon FSx for Windows (File Server).
 <!--SR:!2025-08-01,16,290-->
 - You have hundreds of Terabytes that you want to migrate to AWS S3 as soon as possible. You tried to use your network bandwidth and it will take around 3 weeks to complete the upload process. What is the recommended approach to using in this situation?;;AWS Snowball Edge.
@@ -39,7 +39,7 @@ created_date:
 - A Machine Learning company is working on a set of datasets that are hosted on S3 buckets. The company decided to release those datasets to the public to be useful for others in their research, but they don’t want to configure the S3 bucket to be public. And those datasets should be exposed over the FTP protocol. What can they do to do the requirement efficiently and with the least effort?;;Use AWS Transfer Family, since it allows you to securely transfer files stored in S3 over the FTP protocol without exposing the S3 bucket to the public.
 <!--SR:!2025-08-02,12,210-->
 - Amazon FSx for NetApp ONTAP isn't compatible with the following protocol;;FTP.
-<!--SR:!2025-07-31,5,250-->
+<!--SR:!2025-08-18,18,270-->
 - Which AWS service is best suited when migrating from an on-premises ZFS file system to AWS?;;Amazon FSx for OpenZFS.
 <!--SR:!2025-08-07,13,250-->
 - A company is running Amazon S3 File Gateway to host their data on S3 buckets and is able to mount them on-premises using SMB. The data currently is hosted on S3 Standard storage class and there is a requirement to reduce the costs for S3. So, they have decided to migrate some of those data to S3 Glacier. What is the most efficient way they can use to move the data to S3 Glacier automatically?;;Use S3 Lifecycle Policy.

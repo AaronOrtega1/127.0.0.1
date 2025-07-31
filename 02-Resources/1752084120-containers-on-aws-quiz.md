@@ -23,7 +23,7 @@ created_date:
 - You are deploying an application on an ECS Cluster made of EC2 instances. Currently, the cluster is hosting one application that is issuing API calls to DynamoDB successfully. Upon adding a second application, which issues API calls to S3, you are getting authorization issues. What should you do to resolve the problem and ensure proper security?;;Create an IAM task role for the new application.
 <!--SR:!2025-09-22,54,310-->
 - You are migrating your on-premises Docker-based applications to Amazon ECS. You were using Docker Hub Container Image Library as your container image repository. Which is an alternative AWS service which is fully integrated with Amazon ECS?;;Elastic Container Registry (ECR).
-<!--SR:!2025-07-31,15,290-->
+<!--SR:!2025-09-28,59,310-->
 - Amazon EKS doesn't supports which node types?;;AWS Lambda.
 <!--SR:!2025-08-01,11,270-->
 - A developer has a running website and APIs on his local machine using containers and he wants to deploy both of them on AWS. The developer is new to AWS and doesn’t know much about different AWS services. Which of the following AWS services allows the developer to build and deploy the website and the APIs in the easiest way according to AWS best practices?;;AWS App Runner.

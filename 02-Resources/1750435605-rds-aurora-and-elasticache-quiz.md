@@ -14,7 +14,7 @@ created_date: 2025/06/20
 - Amazon RDS supports the following databases:;;MySQL, PostgreSQL, MariaDB,Oracle, MS SQL, and Amazon Aurora.
 <!--SR:!2025-09-01,46,290-->
 - You're planning for a new solution that requires a MySQL database that must be available even in case of a disaster in one of the Availability Zones. What should you use?;; Enable Multi-AZ, since it helps when you plan a disaster recovery for an entire AZ going down.
-<!--SR:!2025-07-31,3,230-->
+<!--SR:!2025-08-07,7,230-->
 - You have set up read replicas on your RDS database, but users are complaining that upon updating their social media posts, they do not see their updated posts right away. What is a possible cause for this?;;Read Replicas have Asynchronous Replication, therefore it's likely your users will only read Eventual Consistency.
 <!--SR:!2025-09-18,56,270-->
 - Which RDS **(NOT Aurora)** feature when used does not require you to change the SQL connection string?;;Multi-AZ, keeps the same connection string regardless of which database is up.

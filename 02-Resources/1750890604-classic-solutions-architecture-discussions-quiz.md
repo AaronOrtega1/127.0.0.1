@@ -14,7 +14,7 @@ created_date: 2025/06/25
 - Which of the following will **NOT** help us while designing a **STATELESS** application tier?;;Store session data on EBS volumes, since they are created in specific AZ and can only be attached to one EC2 instance.
 <!--SR:!2025-08-29,34,270-->
 - You want to install software updates on 100s of Linux EC2 instances that you manage. You want to store these updates on shared storage which should be dynamically loaded on the EC2 instances and shouldn't require heavy operations. What do you suggest?;;Store the software updates on EFS and mount EFS as a network drive at startup.
-<!--SR:!2025-07-31,15,290-->
+<!--SR:!2025-10-02,63,310-->
 - As a Solutions Architect, you're planning to migrate a complex ERP software suite to AWS Cloud. You're planning to host the software on a set of Linux EC2 instances managed by an Auto Scaling Group. The software traditionally takes over an hour to set up on a Linux machine. How do you recommend you speed up the installation process when there's a scale-out event?;;Use a Golden AMI.
 <!--SR:!2025-09-08,42,290-->
 - You're developing an application and would like to deploy it to Elastic Beanstalk with minimal cost. You should run it in ..................;;Single instance.

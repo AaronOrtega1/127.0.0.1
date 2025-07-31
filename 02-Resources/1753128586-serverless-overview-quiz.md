@@ -43,7 +43,7 @@ created_date:
 - You have a mobile application and would like to give your users access to their own personal space in the S3 bucket. How do you achieve that?;;Use Amazon Cognito Identity Federation.
 <!--SR:!2025-08-02,7,250-->
 - You are developing a new web and mobile application that will be hosted on AWS and currently, you are working on developing the login and signup page. The application backend is serverless and you are using Lambda, DynamoDB, and API Gateway. Which of the following is the best and easiest approach to configure the authentication for your backend?;;Use Cognito User Pools.
-<!--SR:!2025-07-31,5,232-->
+<!--SR:!2025-08-13,13,232-->
 - You are running a mobile application where you want each registered user to upload/download images to/from his own folder in the S3 bucket. Also, you want to give your users to sign-up and sign in using their social media accounts (e.g., Facebook). Which AWS service should you choose?;;Amazon Cognito.
 <!--SR:!2025-08-13,16,290-->
 
