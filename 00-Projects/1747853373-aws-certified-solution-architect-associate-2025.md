@@ -6,7 +6,7 @@ tags:
   - projects
   - active
   - aws
-start_date: 2025/05/21
+start_date: 2025-05-21
 end_date: 2025-12-01
 ---
 # AWS Certified Solution Architect Associate 2025.
