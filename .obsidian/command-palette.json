@@ -1,6 +1,9 @@
 {
   "pinned": [
+    "switcher:open",
+    "quickadd:runQuickAdd",
     "daily-notes",
+    "templater-obsidian:replace-in-file-templater",
     "obsidian-spaced-repetition:srs-review-flashcards"
   ]
 }

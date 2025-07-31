@@ -14,7 +14,7 @@ created_date: 2025/06/20
 - Amazon RDS supports the following databases:;;MySQL, PostgreSQL, MariaDB,Oracle, MS SQL, and Amazon Aurora.
 <!--SR:!2025-09-01,46,290-->
 - You're planning for a new solution that requires a MySQL database that must be available even in case of a disaster in one of the Availability Zones. What should you use?;; Enable Multi-AZ, since it helps when you plan a disaster recovery for an entire AZ going down.
-<!--SR:!2025-07-27,6,250-->
+<!--SR:!2025-07-31,3,230-->
 - You have set up read replicas on your RDS database, but users are complaining that upon updating their social media posts, they do not see their updated posts right away. What is a possible cause for this?;;Read Replicas have Asynchronous Replication, therefore it's likely your users will only read Eventual Consistency.
 <!--SR:!2025-09-18,56,270-->
 - Which RDS **(NOT Aurora)** feature when used does not require you to change the SQL connection string?;;Multi-AZ, keeps the same connection string regardless of which database is up.
@@ -30,7 +30,7 @@ created_date: 2025/06/20
 - Your company has a production Node.js application that is using RDS MySQL 5.6 as its database. A new application programmed in Java will perform some heavy analytics workload to create a dashboard on a regular hourly basis. What is the most cost-effective solution you can implement to minimize disruption for the main application?;;Create a Read Replica in a different AZ and run the analytics workload on the replica database.
 <!--SR:!2025-09-10,57,310-->
 - You would like to create a disaster recovery strategy for your RDS PostgreSQL database so that in case of a regional outage the database can be quickly made available for both read and write workloads in another AWS Region. The DR database must be highly available. What do you recommend?;;Create a Read Replica in a different region and enable Multi-AZ on the Read Replica.
-<!--SR:!2025-07-29,8,230-->
+<!--SR:!2025-08-16,18,230-->
 - You have migrated the MySQL database from on-premises to RDS. You have a lot of applications and developers interacting with your database. Each developer has an IAM user in the company's AWS account. What is a suitable approach to give access to developers to the MySQL RDS DB instance instead of creating a DB user for each one?;;Enable IAM Database Authentication.
 <!--SR:!2025-08-04,25,270-->
 - Read Replica uses Asynchronous Replication and Multi-AZ uses Synchronous Replication.
@@ -49,7 +49,7 @@ created_date: 2025/06/20
 - Amazon Aurora supports both .......................... databases.;;MySQL and PostgreSQL.
 <!--SR:!2025-09-14,60,310-->
 - You work as a Solutions Architect for a gaming company. One of the games mandates that players are ranked in real-time based on their score. Your boss asked you to design then implement an effective and highly available solution to create a gaming leaderboard. What should you use?;;Use ElastiCache for Redis - Sorted Sets.
-<!--SR:!2025-07-27,4,250-->
+<!--SR:!2025-08-10,13,270-->
 - You need full customization of an Oracle Database on AWS. You would like to benefit from using the AWS services. What do you recommend?;;RDS Custom for Oracle.
 <!--SR:!2025-08-02,17,230-->
 - You need to store long-term backups for your Aurora database for disaster recovery and audit purposes. What do you recommend?;;Perform On Demand Backups.

@@ -29,7 +29,7 @@ created_date: 2025/05/23
 <!--SR:!2025-08-19,60,310-->
 
 - Can IAM User Groups contain IAM Users and other User Groups?;;False.
-<!--SR:!2025-07-27,26,290-->
+<!--SR:!2025-11-10,105,310-->
 
 - An IAM Policy consists of one or more  statement, a statement in an IAM Policy doesn't contain the following?;;Version.
 <!--SR:!2025-10-29,105,310-->
