@@ -13,7 +13,10 @@ status: read
 ---
 # Atomic Habits
 ## Top Concepts:
-1. 
+1. To make a change in your life you have to start with the small things, because those small changes are what are going to start defining who you are.
+2. You have to focus on becoming the type of person that can achieve a goal, not in the goal itself.
+3. You have to change the environment in which you are to make the good habits easier and more appealing.
+4. Reflecting and reviewing are the strongest weapons to getting a long term improvement, because they help you to identify your errors and consider different ways to improve.
 ## Highlights:
 📖 
 > "Es muy común sobrestimar la importancia de los grandes momentos definitorios y restarle valor a la realización de pequeñas mejoras cotidianas."  
