@@ -2,6 +2,8 @@
 link: "[[1744386076-learning-data-science-udemy-course|Learning Data Science Udemy Course]]"
 aliases:
   - Types Of Machine Learning
+  - Machine Learning
+  - ML
 tags:
   - resource
   - data-science
