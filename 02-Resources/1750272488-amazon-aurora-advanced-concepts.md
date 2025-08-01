@@ -42,8 +42,8 @@ created_date: 2025/06/18
 - Enables ML-based predictions to your applications via SQL.
 - Simple, optimized, and secure integration between Aurora and AWS ML services.
 - Supported services:
-	- Amazon SageMaker (use with any ML model)
-	- Amazon Comprehend (for sentiment analysis)
+	- [[1754060519-amazon-sagemaker|Amazon SageMaker]] (use with any ML model)
+	- [[1754059607-amazon-comprehend|Amazon Comprehend]] (for sentiment analysis)
 - No need to have ML experience.
 ![[1750272488-amazon-aurora-advanced-concepts-4.webp]]
 ### Babelfish for Aurora PostgreSQL
