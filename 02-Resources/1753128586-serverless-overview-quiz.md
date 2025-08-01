@@ -35,7 +35,7 @@ created_date:
 - Which AWS service allows you to build Serverless workflows using AWS services (e.g., Lambda) and supports human approval?;;AWS Step Functions.
 <!--SR:!2025-08-13,16,292-->
 - A company has a serverless application on AWS which consists of Lambda, DynamoDB, and Step Functions. In the last month, there are an increase in the number of requests against the application which results in an increase in DynamoDB costs, and requests started to be throttled. After further investigation, it shows that the majority of requests are read requests against some queries in the DynamoDB table. What do you recommend to prevent throttles and reduce costs efficiently?;;Use DynamoDB Accelerator (DAX) to cache the most requested read data.
-<!--SR:!2025-08-01,3,230-->
+<!--SR:!2025-08-11,10,250-->
 - You are a DevOps engineer in a football company that has a website that is backed by a DynamoDB table. The table stores viewers’ feedback for football matches. You have been tasked to work with the analytics team to generate reports on the viewers’ feedback. The analytics team wants the data in DynamoDB in `json` format and hosted in an S3 bucket to start working on it and create the reports. What is the best and most cost-effective way to convert DynamoDB data to `json` files?;;Select DynamoDB table then select Export to S3.
 <!--SR:!2025-08-11,14,292-->
 - A website is currently in the development process and it is going to be hosted on AWS. There is a requirement to store user sessions for users logged in to the website with an automatic expiry and deletion of expired user sessions. Which of the following AWS services are best suited for this use case?;;Store users sessions in a DynamoDB table and enable TTL.
