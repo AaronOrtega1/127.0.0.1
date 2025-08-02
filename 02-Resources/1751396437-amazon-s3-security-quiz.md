@@ -27,13 +27,13 @@ created_date:
 - You are looking to provide temporary URLs to a growing list of federated users to allow them to perform a file upload on your S3 bucket to a specific location. What should you use?;;S3 Pre-Signed URL.
 <!--SR:!2025-09-03,44,290-->
 - For compliance reasons, your company has a policy mandate that database backups must be retained for 4 years. It shouldn't be possible to erase them. What do you recommend?;;Glacier Vaults with Vault Lock Policies.
-<!--SR:!2025-08-02,7,190-->
+<!--SR:!2025-08-15,13,190-->
 - You would like all your files in an S3 bucket to be encrypted by default. What is the optimal way of achieving this?;;Do nothing, Amazon S3 automatically encrypt new objects using Server-Side Encryption with S3-Managed Keys (SSE-S3).
 <!--SR:!2025-08-24,34,270-->
 - You have enabled versioning and want to be extra careful when it comes to deleting files on an S3 bucket. What should you enable to prevent accidental permanent deletions?;;Enable MFA Delete.
 <!--SR:!2025-09-22,61,310-->
 - A company has its data and files stored on some S3 buckets. Some of these files need to be kept for a predefined period of time and protected from being overwritten and deletion according to company compliance policy. Which S3 feature helps you in doing this?;;S3 Object Lock - Retention Compliance Mode.
-<!--SR:!2025-08-02,12,210-->
+<!--SR:!2025-09-07,36,230-->
 - Which of the following S3 Object Lock configuration allows you to prevent an object or its versions from being overwritten or deleted indefinitely and gives you the ability to remove it manually?;;Legal Hold.
 <!--SR:!2025-09-20,59,310-->
 
