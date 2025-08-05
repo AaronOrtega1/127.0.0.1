@@ -17,7 +17,7 @@ created_date:
 - The following AWS service doesn't have an out of the box caching feature;;Lambda.
 <!--SR:!2025-08-08,11,268-->
 - You have a lot of static files stored in an S3 bucket that you want to distribute globally to your users. Which AWS service should you use?;;Amazon CloudFront.
-<!--SR:!2025-08-05,10,288-->
+<!--SR:!2025-09-13,39,308-->
 - You have created a DynamoDB table in `ap-northeast-1` and would like to make it available in `eu-west-1`, so you decided to create a DynamoDB Global Table. What needs to be enabled first before you create a DynamoDB Global Table?;;DynamoDB Streams, since it makes DynamoDB able to get a changelog and use that changelog to replicate data across replica tables in other AWS Regions.
 <!--SR:!2025-08-08,11,270-->
 - You have configured a Lambda function to run each time an item is added to a DynamoDB table using DynamoDB Streams. The function is meant to insert messages into the SQS queue for further long processing jobs. Each time the Lambda function is invoked, it seems able to read from the DynamoDB Stream but it isn't able to insert the messages into the SQS queue. What do you think the problem is?;;The Lambda Execution IAM Role is missing permissions.

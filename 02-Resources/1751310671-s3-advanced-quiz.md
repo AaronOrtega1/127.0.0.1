@@ -17,7 +17,7 @@ created_date:
 - You have an S3 bucket that has S3 Versioning enabled. This S3 bucket has a lot of objects, and you would like to remove old object versions to reduce costs. What's the best approach to automate the deletion of these old object versions?;;S3 Lifecycle Rules - Expiration Actions.
 <!--SR:!2025-08-09,25,270-->
 - How can you automate the transition of S3 objects between their different tiers?;;S3 Lifecycle Rules.
-<!--SR:!2025-08-04,19,250-->
+<!--SR:!2025-08-14,9,230-->
 - While you're uploading large files to an S3 bucket using Multi-part Upload, there are a lot of unfinished parts stored in the S3 bucket due to network issues. You are not using these unfinished parts and they cost you money. What is the best approach to remove these unfinished parts?;;Use an S3 Lifecycle Policy to automate old/unfinished parts deletion.
 <!--SR:!2025-08-11,26,270-->
 - You are looking to get recommendations for S3 Lifecycle Rules. How can you analyze the optimal number of days to move objects between different storage tiers?;;S3 Anlaytics.
