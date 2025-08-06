@@ -1,14 +1,13 @@
 ---
 link: "[[1750441691-aws|AWS]]"
-aliases: 
+aliases:
   - Introducing Cloud Architecting Quiz
 tags:
   - resource
-  - Cards/AWS_Academy/Cloud_Architecting
   - aws
-  - cloud
-created_date:
-  2025-07-07
+  - vocab
+  - Cards/AWS/Cloud_Architecting_Academy
+created_date: 2025-07-07
 ---
 # Introducing Cloud Architecting Quiz
 - Which is the best definition of cloud architecture;;Applying cloud characteristics to a solution that uses cloud services and features to meet and organization's technical needs and business use cases.

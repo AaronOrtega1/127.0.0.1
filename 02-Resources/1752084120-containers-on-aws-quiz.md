@@ -1,15 +1,14 @@
 ---
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|AWS Certified Solution Architect Associate 2025]]"
-aliases: 
+aliases:
   - Containers on AWS Quiz
 tags:
   - resource
-  - Cards/AWS
+  - Cards/AWS/SAA_Udemy
   - aws
   - cloud
   - certificate
-created_date:
-  2025-07-09
+created_date: 2025-07-09
 ---
 # Containers on AWS Quiz
 - You have multiple Docker-based applications hosted on-premises that you want to migrate to AWS. You don't want to provision or manage any infrastructure; you just want to run your containers on AWS. Which AWS service should you choose?;;AWS Fargate on ECS.

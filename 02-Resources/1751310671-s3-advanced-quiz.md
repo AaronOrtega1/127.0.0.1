@@ -4,7 +4,7 @@ aliases:
   - S3 Advanced Quiz
 tags:
   - resource
-  - Cards/AWS
+  - Cards/AWS/SAA_Udemy
   - aws
   - cloud
   - certificate

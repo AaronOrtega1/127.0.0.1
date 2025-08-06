@@ -4,7 +4,7 @@ aliases:
   - Ec2 Data Management Quiz
 tags:
   - resource
-  - Cards/AWS
+  - Cards/AWS/SAA_Udemy
   - aws
   - cloud
   - EC2

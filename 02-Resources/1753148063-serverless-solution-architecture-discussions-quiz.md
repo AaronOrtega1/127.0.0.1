@@ -1,15 +1,14 @@
 ---
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|AWS Certified Solution Architect Associate 2025]]"
-aliases: 
+aliases:
   - Serverless Solution Architecture Discussions Quiz
 tags:
   - resource
-  - Cards/AWS
+  - Cards/AWS/SAA_Udemy
   - aws
   - cloud
   - certificate
-created_date:
-  2025-07-21
+created_date: 2025-07-21
 ---
 # Serverless Solution Architecture Discussions Quiz
 - A startup company plans to run its application on AWS. As a solutions architect, the company hired you to design and implement a fully Serverless REST API. Which technology stack do you recommend?;;API Gateway + AWS Lambda.

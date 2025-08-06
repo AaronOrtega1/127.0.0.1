@@ -1,15 +1,14 @@
 ---
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|Aws Certified Solution Architect Associate 2025]]"
-aliases: 
+aliases:
   - Amazon S3 Security Quiz
 tags:
   - resource
-  - Cards/AWS
+  - Cards/AWS/SAA_Udemy
   - aws
   - cloud
   - certificate
-created_date:
-  2025-07-01
+created_date: 2025-07-01
 ---
 # Amazon S3 Security Quiz
 - Your client wants to make sure that file encryption is happening in S3, but he wants to fully manage the encryption keys and never store them in AWS. You recommend him to use...;;SSE-C, the encryption happens in AWS and you have full control over the encryption keys.

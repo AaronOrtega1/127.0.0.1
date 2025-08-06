@@ -1,15 +1,14 @@
 ---
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|AWS Certified Solution Architect Associate 2025]]"
-aliases: 
+aliases:
   - AWS Storage Extras Quiz
 tags:
   - resource
-  - Cards/AWS
+  - Cards/AWS/SAA_Udemy
   - aws
   - cloud
   - certificate
-created_date:
-  2025-07-03
+created_date: 2025-07-03
 ---
 #AWS Storage Extras Quiz
 - You need to move hundreds of Terabytes into Amazon S3, then process the data using a fleet of EC2 instances. You have a 1 Gbit/s broadband. You would like to move the data faster and possibly processing it while in transit. What do you recommend?;;Use Snowball Edge since it comes with computing capabilities and allows you to pre-process the data while it's being moved into Snowball.

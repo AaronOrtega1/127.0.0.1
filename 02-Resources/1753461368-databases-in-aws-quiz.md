@@ -1,15 +1,14 @@
 ---
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|AWS Certified Solution Architect Associate 2025]]"
-aliases: 
+aliases:
   - Databases in AWS Quiz
 tags:
   - resource
-  - Cards/AWS
+  - Cards/AWS/SAA_Udemy
   - aws
   - cloud
   - certificate
-created_date:
-  2025-07-25
+created_date: 2025-07-25
 ---
 # Databases in AWS Quiz
 - Which database helps you store relational datasets, with SQL language compatibility and the capability of processing transactions such as insert, update, and delete?;;Amazon RDS.

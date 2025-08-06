@@ -4,7 +4,7 @@ aliases:
   - High Availability & Scalability Quiz
 tags:
   - resource
-  - Cards/AWS
+  - Cards/AWS/SAA_Udemy
   - aws
   - cloud
   - certificate

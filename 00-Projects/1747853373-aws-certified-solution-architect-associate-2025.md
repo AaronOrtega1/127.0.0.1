@@ -36,3 +36,9 @@ list
 from "02-Resources" and [[]]
 ```
 
+### Quizzes
+```dataview
+list
+from "02-Resources" and [[]]
+where contains(tags,"Cards/AWS")
+```

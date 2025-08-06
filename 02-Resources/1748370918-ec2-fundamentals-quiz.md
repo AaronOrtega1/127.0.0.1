@@ -6,7 +6,7 @@ tags:
   - resource
   - aws
   - EC2
-  - Cards/AWS
+  - Cards/AWS/SAA_Udemy
   - cloud
 created_date: 2025/05/27
 ---

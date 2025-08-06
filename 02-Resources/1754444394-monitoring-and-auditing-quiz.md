@@ -1,15 +1,14 @@
 ---
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|AWS Certified Solution Architect Associate 2025]]"
-aliases: 
+aliases:
   - Monitoring and Auditing Quiz
 tags:
   - resource
-  - Cards/AWS
+  - Cards/AWS/SAA_Udemy
   - aws
   - cloud
   - certificate
-created_date:
-  2025-08-05
+created_date: 2025-08-05
 ---
 # Monitoring and Auditing Quiz
 - You have an RDS DB instance that's configured to push its database logs to CloudWatch. You want to create a CloudWatch alarm if there's an `Error` found in the logs. How would you do that?;;Create a CloudWatch Logs Metric Filter that filter the logs for the keyword `Error`, then create a CloudWatch Alarm based on that metric filter.

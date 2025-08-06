@@ -1,14 +1,13 @@
 ---
 link: "[[1750441691-aws|AWS]]"
-aliases: 
+aliases:
   - Adding a Storage Layer with Amazon S3 Quiz
 tags:
   - resource
-  - Cards/AWS_Academy/Cloud_Architecting
   - aws
   - cloud
-created_date:
-  2025-07-09
+  - Cards/AWS/Cloud_Architecting_Academy
+created_date: 2025-07-09
 ---
 # Adding a Storage Layer with Amazon S3 Quiz
 - Due to a company merger, a data engineer needs to increase their object storage capacity. They are not sure how much storage they will need. They want a highly scalable service that can store unstructured, semistructured, structured data. Which service would be the most cost effective to accomplish this task?;;Amazon S3.

@@ -7,7 +7,7 @@ tags:
   - aws
   - cloud
   - certificate
-  - Cards/AWS
+  - Cards/AWS/SAA_Udemy
 created_date: 2025/06/20
 ---
 # RDS Aurora And ElastiCache Quiz

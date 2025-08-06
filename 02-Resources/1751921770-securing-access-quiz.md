@@ -1,14 +1,13 @@
 ---
 link: "[[1750441691-aws|AWS]]"
-aliases: 
+aliases:
   - Securing Access Quiz
 tags:
   - resource
-  - Cards/AWS_Academy/Cloud_Architecting
   - aws
   - cloud
-created_date:
-  2025-07-07
+  - Cards/AWS/Cloud_Architecting_Academy
+created_date: 2025-07-07
 ---
 # Securing Access Quiz
 - Which statement reflects a design principle of the security pillar of the Well-Architected Framework?;;Apply security at all layers of an architecture.

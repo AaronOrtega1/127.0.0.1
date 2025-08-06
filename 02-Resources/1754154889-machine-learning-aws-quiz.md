@@ -1,15 +1,14 @@
 ---
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|AWS Certified Solution Architect Associate 2025]]"
-aliases: 
+aliases:
   - Machine Learning AWS Quiz
 tags:
   - resource
-  - Cards/AWS
+  - Cards/AWS/SAA_Udemy
   - aws
   - cloud
   - certificate
-created_date:
-  2025-08-02
+created_date: 2025-08-02
 ---
 # Machine Learning AWS Quiz
 - You should use Amazon Transcribe to turn text into lifelike speech using deep learning.;;False, Transcribe converts speech-to-text. Polly is the service that turns text into lifelike speech.

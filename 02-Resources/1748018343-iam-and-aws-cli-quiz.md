@@ -6,7 +6,7 @@ tags:
   - resource
   - aws
   - cloud
-  - Cards/AWS
+  - Cards/AWS/SAA_Udemy
 created_date: 2025/05/23
 ---
 # IAM And AWS CLI Quiz
