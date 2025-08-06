@@ -39,7 +39,7 @@ created_date: 2025/06/20
 - For your RDS database, you can have up to ............ Read Replicas.;;15.
 <!--SR:!2025-08-11,26,270-->
 - Which RDS database technology does **NOT** support IAM Database Authentication?;;Oracle.
-<!--SR:!2025-08-06,27,290-->
+<!--SR:!2025-11-23,109,310-->
 - You have an un-encrypted RDS DB instance and you want to create Read Replicas. Can you configure the RDS Read Replicas to be encrypted?;;No, you can not create encrypted Read Replicas from an unencrypted RDS DB instance.
 <!--SR:!2025-09-20,65,310-->
 - An application running in production is using an Aurora Cluster as its database. Your development team would like to run a version of the application in a scaled-down application with the ability to perform some heavy workload on a need-basis. Most of the time, the application will be unused. Your CIO has tasked you with helping the team to achieve this while minimizing costs. What do you suggest?;;Use Aurora Serverless.

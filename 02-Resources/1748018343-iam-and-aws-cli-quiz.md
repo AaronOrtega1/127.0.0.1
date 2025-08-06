@@ -14,7 +14,7 @@ created_date: 2025/05/23
 <!--SR:!2025-10-27,87,270-->
 
 - Which are IAM security tool?;;IAM Credentials Report, IAM Last Accessed.
-<!--SR:!2025-08-06,12,210-->
+<!--SR:!2025-09-11,36,230-->
 
 - Should IAM Users access AWS services using root account credentials?;;False.
 <!--SR:!2025-08-18,59,310-->
