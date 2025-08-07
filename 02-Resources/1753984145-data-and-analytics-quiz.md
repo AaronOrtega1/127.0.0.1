@@ -14,7 +14,7 @@ created_date: 2025-07-31
 - You would like to have a database that is efficient at performing analytical queries on large sets of columnar data. You would like to connect to this Data Warehouse using a reporting and dashboard tool such as Amazon QuickSight. Which AWS technology do you recommend?;;Amazon Redshift.
 <!--SR:!2025-08-17,12,270-->
 - You have a lot of log files stored in an S3 bucket that you want to perform a quick analysis, if possible Serverless, to filter the logs and find users that attempted to make an unauthorized action. Which AWS service allows you to do so?;;Amazon Athena.
-<!--SR:!2025-08-07,2,230-->
+<!--SR:!2025-08-14,7,250-->
 - As a Solutions Architect, you have been instructed you to prepare a disaster recovery plan for a Redshift cluster. What should you do?;;Enable Automated Snapshots, then configure you Redshift cluster to automatically copy snapshots to another AWS region.
 <!--SR:!2025-08-12,7,250-->
 - Which feature in Redshift forces all COPY and UNLOAD traffic moving between your cluster and data repositories through your VPCs?;;Enhance VPC Routing.
@@ -38,7 +38,7 @@ created_date: 2025-07-31
 - You have data stored in RDS, S3 buckets and you are using AWS Lake Formation as a data lake to collect, move and catalog data so you can do some analytics. You have a lot of big data and ML engineers in the company and you want to control access to part of the data as it might contain sensitive information. What can you use?;;Lake Formation Fine-grained Access Control.
 <!--SR:!2025-08-16,11,270-->
 - Which AWS service is most appropriate when you want to perform real-time analytics on streams of data?;;Amazon Kinesis Data Analytics.
-<!--SR:!2025-08-07,2,230-->
+<!--SR:!2025-08-08,1,210-->
 
 
 

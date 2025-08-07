@@ -32,7 +32,7 @@ created_date: 2025-07-08
 - You're running many micro-services applications on-premises and they communicate using a message broker that supports MQTT protocol. You're planning to migrate these applications to AWS without re-engineering the applications and modifying the code. Which AWS service allows you to get a managed message broker that supports the MQTT protocol?;;Amazon MQ.
 <!--SR:!2025-09-29,60,310-->
 - An e-commerce company is preparing for a big marketing promotion that will bring millions of transactions. Their website is hosted on EC2 instances in an Auto Scaling Group and they are using Amazon Aurora as their database. The Aurora database has a bottleneck and a lot of transactions have been failed in the last promotion they have made as they had a lot of transaction and the Aurora database wasn’t prepared to handle these too many transactions. What do you recommend to handle those transactions and prevent any failed transactions?;;Use SQS as a buffer to write to Aurora.
-<!--SR:!2025-08-07,15,250-->
+<!--SR:!2025-09-30,54,270-->
 - A company is using Amazon Kinesis Data Streams to ingest clickstream data and then do some analytical processes on it. There is a campaign in the next few days and the traffic is unpredictable which might grow up to 100x. What Kinesis Data Stream capacity mode do you recommend?;;On-demand Mode.
 <!--SR:!2025-10-04,65,310-->
 

@@ -20,7 +20,7 @@ created_date: 2025/06/14
 - You are running a website on 10 EC2 instances fronted by an Elastic Load Balancer. Your users are complaining about the fact that the website always asks them to re-authenticate when they are moving between website pages. You are puzzled because it's working just fine on your machine and in the Dev environment with 1 EC2 instance. What could be the reason?;;The Elastic Load Balancer does not have Sticky Sessions enabled.
 <!--SR:!2025-09-06,58,310-->
 - You are using an Application Load Balancer to distribute traffic to your website hosted on EC2 instances. It turns out that your website only sees traffic coming from private IPv4 addresses which are in fact your Application Load Balancer's IP addresses. What should you do to get the IP address of clients connected to your website?;;Modify your website's backend to get the client IP address from the X-Forwarded-For header.
-<!--SR:!2025-08-07,31,270-->
+<!--SR:!2025-12-02,117,290-->
 - You hosted an application on a set of EC2 instances fronted by an Elastic Load Balancer. A week later, users begin complaining that sometimes the application just doesn't work. You investigate the issue and found that some EC2 instances crash from time to time. What should you do to protect users from connecting to the EC2 instances that are crashing?;;Enable ELB Health Checks.
 <!--SR:!2025-09-18,64,310-->
 - You are working as a Solutions Architect for a company and you are required to design an architecture for a high-performance, low-latency application that will receive millions of requests per second. Which type of Elastic Load Balancer should you choose?;;Network Load Balancer.

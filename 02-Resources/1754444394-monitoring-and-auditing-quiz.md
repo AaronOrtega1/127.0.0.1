@@ -26,7 +26,7 @@ created_date: 2025-08-05
 - One of your teammates terminated an EC2 instance 4 months ago which has critical data. You don't know who made this so you are going to review all API calls within this period using CloudTrail. You already have CloudTrail set up and configured to send logs to the S3 bucket. What should you do to find out who made this?;;Analyze CloudTrail logs in S3 bucket using Amazon Athena.
 <!--SR:!2025-08-10,4,270-->
 - You are running a website on a fleet of EC2 instances with OS that has a known vulnerability on port 84. You want to continuously monitor your EC2 instances if they have port 84 exposed. How should you do this?;;Setup Config Rules.
-<!--SR:!2025-08-07,1,230-->
+<!--SR:!2025-08-09,2,230-->
 - You would like to evaluate the compliance of your resource's configurations over time. Which AWS service will you choose?;;AWS Config.
 <!--SR:!2025-08-10,4,270-->
 - Someone changed the configuration of a resource and made it non-compliant. Which AWS service is responsible for logging who made modifications to resources?;;AWS CloudTrail.

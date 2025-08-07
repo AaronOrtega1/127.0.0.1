@@ -26,7 +26,7 @@ created_date: 2025-07-03
 - You would like to have a distributed POSIX compliant file system that will allow you to maximize the IOPS in order to perform some High-Performance Computing (HPC) and genomics computational research. This file system has to easily scale to millions of IOPS. What do you recommend?;;Amazon FSx for Lustre.
 <!--SR:!2025-08-08,3,230-->
 - Which deployment option in the FSx file system provides you with long-term storage that's replicated within AZ?;;Persistent File System.
-<!--SR:!2025-08-07,10,230-->
+<!--SR:!2025-09-08,32,250-->
 - Which of the following protocols is NOT supported by AWS Transfer Family? (FTP, FTPS, TLS, SFTP);;Transport Layer Security (TLS).
 <!--SR:!2025-09-23,56,310-->
 - A company uses a lot of files and data which is stored in an FSx for Windows File Server storage on AWS. Those files are currently used by the resources hosted on AWS. There’s a requirement for those files to be accessed on-premises with low latency. Which AWS service can help you achieve this?;;FSx File Gateway.
@@ -40,7 +40,7 @@ created_date: 2025-07-03
 - Amazon FSx for NetApp ONTAP isn't compatible with the following protocol;;FTP.
 <!--SR:!2025-08-18,18,270-->
 - Which AWS service is best suited when migrating from an on-premises ZFS file system to AWS?;;Amazon FSx for OpenZFS.
-<!--SR:!2025-08-07,13,250-->
+<!--SR:!2025-09-22,46,270-->
 - A company is running Amazon S3 File Gateway to host their data on S3 buckets and is able to mount them on-premises using SMB. The data currently is hosted on S3 Standard storage class and there is a requirement to reduce the costs for S3. So, they have decided to migrate some of those data to S3 Glacier. What is the most efficient way they can use to move the data to S3 Glacier automatically?;;Use S3 Lifecycle Policy.
 <!--SR:!2025-08-08,3,230-->
 - You have on-premises sensitive files and documents that you want to regularly synchronize to AWS to keep another copy. Which AWS service can help you with that?;;AWS DataSync.

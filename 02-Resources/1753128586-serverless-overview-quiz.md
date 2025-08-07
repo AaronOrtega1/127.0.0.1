@@ -20,7 +20,7 @@ created_date: 2025-07-21
 - You have an e-commerce website where you are using DynamoDB as your database. You are about to enter the Christmas sale and you have a few items which are very popular and you expect that they will be read often. Unfortunately, last year due to the huge traffic you had the `ProvisionedThroughputExceededException` exception. What would you do to prevent this error from happening again?;;Create a DAX Cluster, is a fully managed, highly available, in-memory cache for DynamoDB that delivers up to 10x performance improvement. Caches the most frequently used data, thus offloading the heavy reads on hot keys off your DynamoDB table.
 <!--SR:!2025-09-02,27,290-->
 - You have developed a mobile application that uses DynamoDB as its datastore. You want to automate sending welcome emails to new users after they sign up. What is the most efficient way to achieve this?;;Enable DynamoDB Streams and configure it to invoke a Lambda function to send emails.
-<!--SR:!2025-08-07,10,270-->
+<!--SR:!2025-09-14,38,290-->
 - To create a serverless API, you should integrate Amazon API Gateway with...;;AWS Lambda.
 <!--SR:!2025-08-11,14,290-->
 - When you are using an Edge-Optimized API Gateway, your API Gateway lives in CloudFront Edge Locations across all AWS Regions.;;False, API requests are routed to the nearest CloudFront Edge Location which improves latency. The API Gateway still lives in one AWS Region.
