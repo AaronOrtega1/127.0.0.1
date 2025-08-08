@@ -7,7 +7,6 @@ created_date:
   "{{date}}"
 ---
 # {{cap_title}}
-
 ## Purpose
 
 ## Active Projects

@@ -1,3 +1,8 @@
 {
-  "preview": true
+  "search": false,
+  "outline": false,
+  "bookmarks": false,
+  "file-explorer": false,
+  "tab-header": false,
+  "editor": false
 }

@@ -1,15 +1,15 @@
 ---
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|AWS Certified Solution Architect Associate 2025]]"
-aliases: 
+aliases:
   - AWS CloudTrail
+  - CloudTrail
 tags:
   - resource
   - aws
   - cloud
   - certificate
   - CloudTrail
-created_date:
-  2025-08-05
+created_date: 2025-08-05
 ---
 # AWS CloudTrail
 ## Summary

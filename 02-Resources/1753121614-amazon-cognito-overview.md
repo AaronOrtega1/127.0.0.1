@@ -19,7 +19,7 @@ created_date:
 ## Key Ideas
 ### 
 - Give users an identity to interact with our **web or mobile** applications.
-- **Cognito User Pools:**
+- **Cognito User Pools:** ^UserPools
   - Sign in functionality for app users.
   - Integrate with [[1752812933-api-gateway-overview|API Gateway]] & [[1749061609-application-load-balancer-(alb)|Application Load Balancer]].
 - **Cognito Identity Pools (Federate Identity):**

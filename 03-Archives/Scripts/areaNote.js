@@ -37,12 +37,12 @@ module.exports = async (params) => {
     const year = now.getFullYear(); // Año (4 dígitos)
     const month = String(now.getMonth() + 1).padStart(2, "0"); // Mes (2 dígitos)
     const day = String(now.getDate()).padStart(2, "0"); // Día (2 dígitos)
-    const date = `${year}/${month}/${day}`; // Formato año/mes/día
+    const date = `${year}-${month}-${day}`; // Formato año-mes-día
     const time = now.toLocaleTimeString(); // Formato de hora (ej: 14:30:45)
 
     // Reemplazar placeholders en el template
     const finalContent = templateContent
-      .replace(/{{cap_title}}/g, title.split(' ').map(palabra => palabra.charAt(0).toUpperCase() + palabra.slice(1).toLowerCase()).join(' '))
+      .replace(/{{cap_title}}/g, title)
       .replace(/{{date}}/g, date) // Reemplazar {{date}} con la fecha actual
       .replace(/{{time}}/g, time); // Reemplazar {{time}} con la hora actual
 

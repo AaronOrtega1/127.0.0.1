@@ -3,7 +3,7 @@ module.exports = async (params) => {
 
   // Obtener el título de la nota desde el usuario
   const title = await quickAddApi.inputPrompt(
-    "Enter the title of the Project Note:",
+    "Enter the title of the Pending Note:",
   );
 
   // Generar el ID de la nota
@@ -22,11 +22,11 @@ module.exports = async (params) => {
   }
 
   // Especificar la carpeta de destino
-  const folderPath = "00-Projects"; // Cambia esto por la ruta de tu carpeta
+  const folderPath = "02-Resources"; // Cambia esto por la ruta de tu carpeta
   const filePath = `${folderPath}/${noteID}.md`;
 
   // Ruta del template
-  const templatePath = "06-Templates/project.md"; // Cambia esto por la ruta de tu template
+  const templatePath = "06-Templates/pending.md"; // Cambia esto por la ruta de tu template
 
   try {
     // Leer el contenido del template
