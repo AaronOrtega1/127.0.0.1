@@ -9,6 +9,7 @@ tags:
   - aws
   - cloud
   - certificate
+  - AWS_Security
 created_date: 2025-08-07
 ---
 # AWS Secrets Manager

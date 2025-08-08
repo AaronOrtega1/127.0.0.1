@@ -12,7 +12,7 @@ created_date: 2025-07-21
 ---
 # Serverless Overview Quiz
 - You have created a Lambda function that typically will take around 1 hour to process some data. The code works fine when you run it locally on your machine, but when you invoke the Lambda function it fails with a "timeout" error after 3 seconds. What should you do?;;Run your code somewhere else (e.g., EC2 instance).
-<!--SR:!2025-08-08,11,272-->
+<!--SR:!2025-09-19,42,292-->
 - Before you create a DynamoDB table, you need to provision the EC2 instance the DynamoDB table will be running on.;;False
 <!--SR:!2025-08-12,15,290-->
 - You have provisioned a DynamoDB table with 10 RCUs and 10 WCUs. A month later you want to increase the RCU to handle more read traffic. What should you do?;;Increase RCU and keep WCU the same, since they are decoupled you can increase/decrease each separately.

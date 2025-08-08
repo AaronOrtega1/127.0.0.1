@@ -28,7 +28,7 @@ created_date: 2025-07-25
 - A company using a self-hosted on-premises Apache Cassandra database which they want to migrate to AWS. Which AWS service can they use which provides them with a fully managed, highly available, and scalable Apache Cassandra database?;;Amazon Keyspaces.
 <!--SR:!2025-08-11,10,250-->
 - An online payment company is using AWS to host its infrastructure. Due to the application’s nature, they have a strict requirement to store an accurate record of financial transactions such as credit and debit transactions. Those transactions must be stored in secured, immutable, encrypted storage which can be cryptographically verified. Which AWS service is best suited for this use case?;;Amazon QLDB.
-<!--SR:!2025-08-08,6,210-->
+<!--SR:!2025-08-25,17,230-->
 - A startup is working on developing a new project to reduce forest fires due to climate change. The startup is developing sensors that will be spread across the entire forest to make some readings such as temperature, humidity, and pressures which will help detect the forest fires before it happens. They are going to have thousands of sensors that are going to store a lot of readings each second. There is a requirement to store those readings and do fast analytics so they can predict if there is a fire. Which AWS service can they use to store those readings?;;Amazon Timestream.
 <!--SR:!2025-08-15,16,290-->
 

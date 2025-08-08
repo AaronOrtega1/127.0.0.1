@@ -24,7 +24,7 @@ created_date: 2025-07-31
 - An AWS service allows you to create, run, and monitor ETL (extract, transform, and load) jobs in a few clicks.;;AWS Glue.
 <!--SR:!2025-08-20,15,290-->
 - A company is using AWS to host its public websites and internal applications. Those different websites and applications generate a lot of logs and traces. There is a requirement to centrally store those logs and efficiently search and analyze those logs in real-time for detection of any errors and if there is a threat. Which AWS service can help them efficiently store and analyze logs?;;Amazon OpenSearch service.
-<!--SR:!2025-08-08,3,230-->
+<!--SR:!2025-08-19,11,250-->
 - ... makes it easy and cost-effective for data engineers and analysts to run applications built using open source big data frameworks such as Apache Spark, Hive, or Presto without having to operate or manage clusters.;;Amazon EMR.
 <!--SR:!2025-08-14,9,250-->
 - An e-commerce company has all its historical data such as orders, customers, revenues, and sales for the previous years hosted on a Redshift cluster. There is a requirement to generate some dashboards and reports indicating the revenues from the previous years and the total sales, so it will be easy to define the requirements for the next year. The DevOps team is assigned to find an AWS service that can help define those dashboards and have native integration with Redshift. Which AWS service is best suited?;;Amazon QuickSight.
@@ -38,7 +38,7 @@ created_date: 2025-07-31
 - You have data stored in RDS, S3 buckets and you are using AWS Lake Formation as a data lake to collect, move and catalog data so you can do some analytics. You have a lot of big data and ML engineers in the company and you want to control access to part of the data as it might contain sensitive information. What can you use?;;Lake Formation Fine-grained Access Control.
 <!--SR:!2025-08-16,11,270-->
 - Which AWS service is most appropriate when you want to perform real-time analytics on streams of data?;;Amazon Kinesis Data Analytics.
-<!--SR:!2025-08-08,1,210-->
+<!--SR:!2025-08-11,3,230-->
 
 
 

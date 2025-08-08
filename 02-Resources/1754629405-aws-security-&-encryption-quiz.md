@@ -4,10 +4,10 @@ aliases:
   - AWS Security & Encryption Quiz
 tags:
   - resource
-  - Cards/AWS/SAA_Udemy
   - aws
   - cloud
   - certificate
+  - Cards/AWS/SAA_Udemy
 created_date: 2025-08-07
 ---
 # AWS Security & Encryption Quiz

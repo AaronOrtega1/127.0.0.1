@@ -24,7 +24,7 @@ created_date: 2025-07-03
 - You are planning to migrate your company's infrastructure from on-premises to AWS Cloud. You have an on-premises Microsoft Windows File Server that you want to migrate. What is the most suitable AWS service you can use?;;Amazon FSx for Windows (File Server).
 <!--SR:!2025-08-12,15,270-->
 - You would like to have a distributed POSIX compliant file system that will allow you to maximize the IOPS in order to perform some High-Performance Computing (HPC) and genomics computational research. This file system has to easily scale to millions of IOPS. What do you recommend?;;Amazon FSx for Lustre.
-<!--SR:!2025-08-08,3,230-->
+<!--SR:!2025-08-18,10,250-->
 - Which deployment option in the FSx file system provides you with long-term storage that's replicated within AZ?;;Persistent File System.
 <!--SR:!2025-09-08,32,250-->
 - Which of the following protocols is NOT supported by AWS Transfer Family? (FTP, FTPS, TLS, SFTP);;Transport Layer Security (TLS).
@@ -42,9 +42,9 @@ created_date: 2025-07-03
 - Which AWS service is best suited when migrating from an on-premises ZFS file system to AWS?;;Amazon FSx for OpenZFS.
 <!--SR:!2025-09-22,46,270-->
 - A company is running Amazon S3 File Gateway to host their data on S3 buckets and is able to mount them on-premises using SMB. The data currently is hosted on S3 Standard storage class and there is a requirement to reduce the costs for S3. So, they have decided to migrate some of those data to S3 Glacier. What is the most efficient way they can use to move the data to S3 Glacier automatically?;;Use S3 Lifecycle Policy.
-<!--SR:!2025-08-08,3,230-->
+<!--SR:!2025-08-18,10,250-->
 - You have on-premises sensitive files and documents that you want to regularly synchronize to AWS to keep another copy. Which AWS service can help you with that?;;AWS DataSync.
 <!--SR:!2025-09-11,45,290-->
 - AWS DataSync doesn't supports the following locations...;;EBC.
-<!--SR:!2025-08-08,3,230-->
+<!--SR:!2025-08-19,11,250-->
 

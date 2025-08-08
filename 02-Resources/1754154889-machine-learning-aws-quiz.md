@@ -14,7 +14,7 @@ created_date: 2025-08-02
 - You should use Amazon Transcribe to turn text into lifelike speech using deep learning.;;False, Transcribe converts speech-to-text. Polly is the service that turns text into lifelike speech.
 <!--SR:!2025-08-09,4,270-->
 - A company would like to implement a chatbot that will convert speech-to-text and recognize the customers' intentions. What service should it use?;;Lex, service for building conversational interfaces into any application using voice and text.
-<!--SR:!2025-08-08,1,190-->
+<!--SR:!2025-08-11,3,210-->
 - You would like to find objects, people, text, or scenes in images and videos. What AWS service should you use?;;Amazon Rekognition.
 <!--SR:!2025-08-09,4,270-->
 - A start-up would like to rapidly create customized user experiences. Which AWS service can help?;;Amazon Personalize, ML service that makes it easy to create individualized recommendations for customers.
@@ -34,9 +34,9 @@ created_date: 2025-08-02
 - An online medical company that allows you to book an appointment with doctors using through a phone call is using AWS to host their infrastructure. They are using Amazon Connect and Amazon Lex to receive calls and create a workflow, book an appointment, and pay. According to the company’s policy, all calls must be recorded for review. But, there is a requirement to remove any Personally Identifiable Information (PII) from the call before it's saved. What do you recommend to use which helps in removing PII from calls?;;Amazon Transcribe.
 <!--SR:!2025-08-09,3,250-->
 - Amazon Polly allows you to turn text into speech. It has two important features. First is … which allows you to customize the pronunciation of words (e.g., “Amazon EC2” will be “Amazon Elastic Compute Cloud”). The second is … which allows you to emphasize words, including breathing sounds, whispering, and more.;;Pronunciation Lexicons, Speech Synthesis Markup Language (SSML).
-<!--SR:!2025-08-08,2,230-->
+<!--SR:!2025-08-13,5,230-->
 - A medical company is in the process of implementing a solution to detect, extract, and analyze information from unstructured medical text like doctors’ notes, clinical trial reports, and radiology reports. Those documents are uploaded and stored on S3 buckets. According to the company’s regulations, the solution must be designed and implemented to keep patients’ privacy by identifying Protected Health Information (PHI) so the solution will be eligible with HIPAA. Which AWS service should you use?;;Amazon Comprehend Medical.
-<!--SR:!2025-08-08,3,250-->
+<!--SR:!2025-08-10,2,230-->
 - 
 
 

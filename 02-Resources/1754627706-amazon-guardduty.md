@@ -8,6 +8,7 @@ tags:
   - certificate
   - cloud
   - GuardDuty
+  - AWS_Security
 created_date:
   "2025-08-07"
 ---
