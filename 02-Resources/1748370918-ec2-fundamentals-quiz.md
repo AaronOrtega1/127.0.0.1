@@ -34,4 +34,4 @@ created_date: 2025/05/27
 - You would like to deploy a database technology on an EC2 instance and the vendor license bills you based on the physical cores and underlying network socket visibility. Which EC2 Purchasing Option allows you to get visibility into them?;;Dedicated Hosts.
 <!--SR:!2025-08-30,25,210-->
 - Spot Fleet is a set of Spot Instances and optionally ...............;;On-Demand Instances.
-<!--SR:!2025-08-09,12,250-->
+<!--SR:!2025-09-08,30,250-->

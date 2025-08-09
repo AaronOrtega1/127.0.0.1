@@ -26,7 +26,7 @@ created_date: 2025-07-21
 - When you are using an Edge-Optimized API Gateway, your API Gateway lives in CloudFront Edge Locations across all AWS Regions.;;False, API requests are routed to the nearest CloudFront Edge Location which improves latency. The API Gateway still lives in one AWS Region.
 <!--SR:!2025-08-13,16,292-->
 - You are running an application in production that is leveraging DynamoDB as its datastore and is experiencing smooth sustained usage. There is a need to make the application run in development mode as well, where it will experience the unpredictable volume of requests. What is the most cost-effective solution that you recommend?;;Use Provisioned Capacity Mode with Auto Scaling enabled for production and use On-Demand Capacity Mode for development.
-<!--SR:!2025-08-09,12,270-->
+<!--SR:!2025-09-09,31,270-->
 - You have an application that is served globally using CloudFront Distribution. You want to authenticate users at the CloudFront Edge Locations instead of authentication requests go all the way to your origins. What should you use to satisfy this requirement?;;Lambda@Edge.
 <!--SR:!2025-09-16,41,290-->
 - The maximum size of an item in a DynamoDB table is...;;400 KB.
@@ -38,7 +38,7 @@ created_date: 2025-07-21
 - You are a DevOps engineer in a football company that has a website that is backed by a DynamoDB table. The table stores viewers’ feedback for football matches. You have been tasked to work with the analytics team to generate reports on the viewers’ feedback. The analytics team wants the data in DynamoDB in `json` format and hosted in an S3 bucket to start working on it and create the reports. What is the best and most cost-effective way to convert DynamoDB data to `json` files?;;Select DynamoDB table then select Export to S3.
 <!--SR:!2025-08-11,14,292-->
 - A website is currently in the development process and it is going to be hosted on AWS. There is a requirement to store user sessions for users logged in to the website with an automatic expiry and deletion of expired user sessions. Which of the following AWS services are best suited for this use case?;;Store users sessions in a DynamoDB table and enable TTL.
-<!--SR:!2025-08-09,12,270-->
+<!--SR:!2025-09-23,45,290-->
 - You have a mobile application and would like to give your users access to their own personal space in the S3 bucket. How do you achieve that?;;Use Amazon Cognito Identity Federation.
 <!--SR:!2025-08-20,18,250-->
 - You are developing a new web and mobile application that will be hosted on AWS and currently, you are working on developing the login and signup page. The application backend is serverless and you are using Lambda, DynamoDB, and API Gateway. Which of the following is the best and easiest approach to configure the authentication for your backend?;;Use Cognito User Pools.

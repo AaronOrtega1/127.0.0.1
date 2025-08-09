@@ -13,9 +13,9 @@ created_date:
 ---
 # S3 Advanced Quiz
 - How can you be notified when there's an object uploaded to your S3 bucket?;;S3 Event Notifications.
-<!--SR:!2025-08-09,24,270-->
+<!--SR:!2025-08-21,12,250-->
 - You have an S3 bucket that has S3 Versioning enabled. This S3 bucket has a lot of objects, and you would like to remove old object versions to reduce costs. What's the best approach to automate the deletion of these old object versions?;;S3 Lifecycle Rules - Expiration Actions.
-<!--SR:!2025-08-09,25,270-->
+<!--SR:!2025-11-11,94,290-->
 - How can you automate the transition of S3 objects between their different tiers?;;S3 Lifecycle Rules.
 <!--SR:!2025-08-14,9,230-->
 - While you're uploading large files to an S3 bucket using Multi-part Upload, there are a lot of unfinished parts stored in the S3 bucket due to network issues. You are not using these unfinished parts and they cost you money. What is the best approach to remove these unfinished parts?;;Use an S3 Lifecycle Policy to automate old/unfinished parts deletion.

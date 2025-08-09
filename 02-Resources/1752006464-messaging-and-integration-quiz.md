@@ -26,7 +26,7 @@ created_date: 2025-07-08
 - You are running an application that produces a large amount of real-time data that you want to load into S3 and Redshift. Also, these data need to be transformed before being delivered to their destination. What is the best architecture would you choose?;;Kinesis Data Streams + Kinesis Data Firehose.
 <!--SR:!2025-08-15,18,270-->
 - Which of the following is NOT a supported subscriber for AWS SNS?(Amazon Kinesis Data Streams, Amazon SQS, HTTP(S) Endpoint, AWS Lambda);;Amazon Kinesis Data Streams (Kinesis Data Firehose is now supported, but not Kinesis Data Streams).
-<!--SR:!2025-08-09,8,270-->
+<!--SR:!2025-09-07,29,290-->
 - Which AWS service helps you when you want to send email notifications to your users?;;Amazon SNS.
 <!--SR:!2025-10-06,66,310-->
 - You're running many micro-services applications on-premises and they communicate using a message broker that supports MQTT protocol. You're planning to migrate these applications to AWS without re-engineering the applications and modifying the code. Which AWS service allows you to get a managed message broker that supports the MQTT protocol?;;Amazon MQ.
