@@ -24,7 +24,7 @@ created_date: 2025/05/27
 - You are preparing to launch an application that will be hosted on a set of EC2 instances. This application needs some software installation and some OS packages need to be updated during the first launch. What is the best way to achieve this when you launch the EC2 instances?;;Write a bash script that installs the required software and updates to your OS, then use this script in EC2 User Data when you launch your EC2 instances.
 <!--SR:!2026-01-17,165,310-->
 - Which EC2 Instance Type should you choose for a critical application that uses an in-memory database?;;Memory Optimized.
-<!--SR:!2025-08-11,41,290-->
+<!--SR:!2026-01-23,165,310-->
 - You have an e-commerce application with an OLTP database hosted on-premises. This application has popularity which results in its database has thousands of requests per second. You want to migrate the database to an EC2 instance. Which EC2 Instance Type should you choose to handle this high-frequency OLTP database?;;Storage Optimized.
 <!--SR:!2025-09-21,44,210-->
 - Security Groups can be attached to only one EC2 instance.;;False.

@@ -19,7 +19,7 @@ created_date:
 - How can you automate the transition of S3 objects between their different tiers?;;S3 Lifecycle Rules.
 <!--SR:!2025-08-14,9,230-->
 - While you're uploading large files to an S3 bucket using Multi-part Upload, there are a lot of unfinished parts stored in the S3 bucket due to network issues. You are not using these unfinished parts and they cost you money. What is the best approach to remove these unfinished parts?;;Use an S3 Lifecycle Policy to automate old/unfinished parts deletion.
-<!--SR:!2025-08-11,26,270-->
+<!--SR:!2025-11-16,97,290-->
 - You are looking to get recommendations for S3 Lifecycle Rules. How can you analyze the optimal number of days to move objects between different storage tiers?;;S3 Anlaytics.
 <!--SR:!2025-08-23,13,250-->
 - You are looking to build an index of your files in S3, using Amazon RDS PostgreSQL. To build this index, it is necessary to read the first 250 bytes of each object in S3, which contains some metadata about the content of the file itself. There are over 100,000 files in your S3 bucket, amounting to 50 TB of data. How can you build this index efficiently?;;Create an application that will traverse the S3 bucket, issue a Byte Range Fetch for the first 250 bytes, and store that information in RDS.

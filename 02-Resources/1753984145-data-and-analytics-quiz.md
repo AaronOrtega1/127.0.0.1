@@ -38,7 +38,7 @@ created_date: 2025-07-31
 - You have data stored in RDS, S3 buckets and you are using AWS Lake Formation as a data lake to collect, move and catalog data so you can do some analytics. You have a lot of big data and ML engineers in the company and you want to control access to part of the data as it might contain sensitive information. What can you use?;;Lake Formation Fine-grained Access Control.
 <!--SR:!2025-08-16,11,270-->
 - Which AWS service is most appropriate when you want to perform real-time analytics on streams of data?;;Amazon Kinesis Data Analytics.
-<!--SR:!2025-08-11,3,230-->
+<!--SR:!2025-08-21,10,250-->
 
 
 

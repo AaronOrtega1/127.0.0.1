@@ -14,7 +14,7 @@ created_date: 2025-08-02
 - You should use Amazon Transcribe to turn text into lifelike speech using deep learning.;;False, Transcribe converts speech-to-text. Polly is the service that turns text into lifelike speech.
 <!--SR:!2025-08-24,15,290-->
 - A company would like to implement a chatbot that will convert speech-to-text and recognize the customers' intentions. What service should it use?;;Lex, service for building conversational interfaces into any application using voice and text.
-<!--SR:!2025-08-11,3,210-->
+<!--SR:!2025-08-20,9,230-->
 - You would like to find objects, people, text, or scenes in images and videos. What AWS service should you use?;;Amazon Rekognition.
 <!--SR:!2025-08-25,16,290-->
 - A start-up would like to rapidly create customized user experiences. Which AWS service can help?;;Amazon Personalize, ML service that makes it easy to create individualized recommendations for customers.
@@ -24,7 +24,7 @@ created_date: 2025-08-02
 - A company would like to convert its documents into different languages, with natural and accurate wording. What should they use?;;Amazon Translate.
 <!--SR:!2025-08-23,14,290-->
 - A developer would like to build, train, and deploy a machine learning model quickly. Which service can he use?;;SageMaker, fully managed, can build, train, and deploy ML models quickly.
-<!--SR:!2025-08-11,2,230-->
+<!--SR:!2025-08-18,7,250-->
 - Which AWS service makes it easy to convert speech-to-text?;;Amazon Transcribe.
 <!--SR:!2025-08-25,16,290-->
 - Which of the following services is a document search service powered by machine learning?;;Amazon Kendra.
@@ -36,7 +36,7 @@ created_date: 2025-08-02
 - Amazon Polly allows you to turn text into speech. It has two important features. First is … which allows you to customize the pronunciation of words (e.g., “Amazon EC2” will be “Amazon Elastic Compute Cloud”). The second is … which allows you to emphasize words, including breathing sounds, whispering, and more.;;Pronunciation Lexicons, Speech Synthesis Markup Language (SSML).
 <!--SR:!2025-08-13,5,230-->
 - A medical company is in the process of implementing a solution to detect, extract, and analyze information from unstructured medical text like doctors’ notes, clinical trial reports, and radiology reports. Those documents are uploaded and stored on S3 buckets. According to the company’s regulations, the solution must be designed and implemented to keep patients’ privacy by identifying Protected Health Information (PHI) so the solution will be eligible with HIPAA. Which AWS service should you use?;;Amazon Comprehend Medical.
-<!--SR:!2025-08-11,1,210-->
+<!--SR:!2025-08-14,3,230-->
 - 
 
 

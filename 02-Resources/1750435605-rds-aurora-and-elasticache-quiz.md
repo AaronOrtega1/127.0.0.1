@@ -37,7 +37,7 @@ created_date: 2025/06/20
 - How do you encrypt an unencrypted RDS DB instance?;;Create a snapshot of the unencrypted RDS DB instance, copy the snapshot and tick "Enable encryption", then restore the RDS DB instance from the encrypted snapshot.
 <!--SR:!2025-09-19,64,310-->
 - For your RDS database, you can have up to ............ Read Replicas.;;15.
-<!--SR:!2025-08-11,26,270-->
+<!--SR:!2025-10-20,70,270-->
 - Which RDS database technology does **NOT** support IAM Database Authentication?;;Oracle.
 <!--SR:!2025-11-23,109,310-->
 - You have an un-encrypted RDS DB instance and you want to create Read Replicas. Can you configure the RDS Read Replicas to be encrypted?;;No, you can not create encrypted Read Replicas from an unencrypted RDS DB instance.
@@ -55,6 +55,6 @@ created_date: 2025/06/20
 - You need to store long-term backups for your Aurora database for disaster recovery and audit purposes. What do you recommend?;;Perform On Demand Backups.
 <!--SR:!2025-08-23,13,230-->
 - Your development team would like to perform a suite of read and write tests against your production Aurora database because they need access to production data as soon as possible. What do you advise?;;Use the Aurora Cloning Feature.
-<!--SR:!2025-08-11,6,190-->
+<!--SR:!2025-08-27,16,210-->
 - You have 100 EC2 instances connected to your RDS database and you see that upon a maintenance of the database, all your applications take a lot of time to reconnect to RDS, due to poor application logic. How do you improve this?;;Use an RDS Proxy, this reduces the failover time by up to 66% and keeps connection active for your app.
 <!--SR:!2025-11-06,89,290-->
