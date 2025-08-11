@@ -16,7 +16,7 @@ created_date: 2025-07-03
 - You want to expose virtually infinite storage for your tape backups. You want to keep the same software you're using and want an iSCSI compatible interface. What do you use?;;AWS Storage Gateway - Tape Gateway.
 <!--SR:!2025-08-16,16,230-->
 - Your EC2 Windows Servers need to share some data by having a Network File System mounted on them which respects the Windows security mechanisms and has integration with Microsoft Active Directory. What do you recommend?;;Amazon FSx for Windows (File Server).
-<!--SR:!2025-08-10,9,270-->
+<!--SR:!2025-09-12,33,290-->
 - You have hundreds of Terabytes that you want to migrate to AWS S3 as soon as possible. You tried to use your network bandwidth and it will take around 3 weeks to complete the upload process. What is the recommended approach to using in this situation?;;AWS Snowball Edge.
 <!--SR:!2025-08-26,33,270-->
 - You have a large dataset stored in S3 that you want to access from on-premises servers using the NFS or SMB protocol. Also, you want to authenticate access to these files through on-premises Microsoft AD. What would you use?;;AWS Storage Gateway - S3 File Gateway.
@@ -30,7 +30,7 @@ created_date: 2025-07-03
 - Which of the following protocols is NOT supported by AWS Transfer Family? (FTP, FTPS, TLS, SFTP);;Transport Layer Security (TLS).
 <!--SR:!2025-09-23,56,310-->
 - A company uses a lot of files and data which is stored in an FSx for Windows File Server storage on AWS. Those files are currently used by the resources hosted on AWS. There’s a requirement for those files to be accessed on-premises with low latency. Which AWS service can help you achieve this?;;FSx File Gateway.
-<!--SR:!2025-08-10,13,210-->
+<!--SR:!2025-09-18,39,230-->
 - A Solutions Architect is working on planning the migration of a startup company from on-premises to AWS. Currently, their infrastructure consists of many servers and 30 TB of data hosted on a shared NFS storage. He has decided to use Amazon S3 to host the data. Which AWS service can efficiently migrate the data from on-premises to S3?;;AWS DataSync.
 <!--SR:!2025-08-31,26,250-->
 - Which AWS service is best suited to migrate a large amount of data from an S3 bucket to an EFS file system?;;AWS DataSync.

@@ -49,11 +49,11 @@ created_date: 2025/06/20
 - Amazon Aurora supports both .......................... databases.;;MySQL and PostgreSQL.
 <!--SR:!2025-09-14,60,310-->
 - You work as a Solutions Architect for a gaming company. One of the games mandates that players are ranked in real-time based on their score. Your boss asked you to design then implement an effective and highly available solution to create a gaming leaderboard. What should you use?;;Use ElastiCache for Redis - Sorted Sets.
-<!--SR:!2025-08-10,13,270-->
+<!--SR:!2025-09-13,34,270-->
 - You need full customization of an Oracle Database on AWS. You would like to benefit from using the AWS services. What do you recommend?;;RDS Custom for Oracle.
 <!--SR:!2025-09-10,39,230-->
 - You need to store long-term backups for your Aurora database for disaster recovery and audit purposes. What do you recommend?;;Perform On Demand Backups.
-<!--SR:!2025-08-10,26,250-->
+<!--SR:!2025-08-23,13,230-->
 - Your development team would like to perform a suite of read and write tests against your production Aurora database because they need access to production data as soon as possible. What do you advise?;;Use the Aurora Cloning Feature.
 <!--SR:!2025-08-11,6,190-->
 - You have 100 EC2 instances connected to your RDS database and you see that upon a maintenance of the database, all your applications take a lot of time to reconnect to RDS, due to poor application logic. How do you improve this?;;Use an RDS Proxy, this reduces the failover time by up to 66% and keeps connection active for your app.

@@ -20,7 +20,7 @@ created_date: 2025-07-25
 - You are looking to perform Online Transaction Processing (OLTP). You would like to use a database that has built-in auto-scaling capabilities and provides you with the maximum number of replicas for its underlying storage. What AWS service do you recommend?;;Amazon Aurora.
 <!--SR:!2025-08-12,12,270-->
 - As a Solutions Architect, a startup company asked you for help as they are working on an architecture for a social media website where users can be friends with each other, and like each other's posts. The company plan on performing some complicated queries such as "What are the number of likes on the posts that have been posted by the friends of Mike?". Which database do you recommend?;;Amazon Neptune, since it's a graph database.
-<!--SR:!2025-08-10,10,270-->
+<!--SR:!2025-09-17,38,290-->
 - You have a set of files, 100MB each, that you want to store in a reliable and durable key-value store. Which AWS service do you recommend?;;Amazon S3, the key is the full path of the object in the bucket.
 <!--SR:!2025-08-14,15,290-->
 - A company has an on-premises website that uses ReactJS as its frontend, NodeJS as its backend, and MongoDB for the database. There are some issues with the self-hosted MongoDB database as there is a lot of maintenance required and they don’t have and can’t afford the resources or experience to handle those issues. So, a decision was made to migrate the website to AWS. They have decided to host the frontend ReactJS application in an S3 bucket and the NodeJS backend on a set of EC2 instances. Which AWS service can they use to migrate the MongoDB database that provides them with high scalability and availability without making any code changes?;;Amazon DocumentDB.
