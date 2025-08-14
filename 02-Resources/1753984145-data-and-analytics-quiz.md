@@ -16,7 +16,7 @@ created_date: 2025-07-31
 - You have a lot of log files stored in an S3 bucket that you want to perform a quick analysis, if possible Serverless, to filter the logs and find users that attempted to make an unauthorized action. Which AWS service allows you to do so?;;Amazon Athena.
 <!--SR:!2025-08-14,7,250-->
 - As a Solutions Architect, you have been instructed you to prepare a disaster recovery plan for a Redshift cluster. What should you do?;;Enable Automated Snapshots, then configure you Redshift cluster to automatically copy snapshots to another AWS region.
-<!--SR:!2025-08-12,7,250-->
+<!--SR:!2025-09-06,24,270-->
 - Which feature in Redshift forces all COPY and UNLOAD traffic moving between your cluster and data repositories through your VPCs?;;Enhance VPC Routing.
 <!--SR:!2025-08-15,10,270-->
 - You are running a gaming website that is using DynamoDB as its data store. Users have been asking for a search feature to find other gamers by name, with partial matches if possible. Which AWS technology do you recommend to implement this feature?;;Amazon OpenSearch Service.

@@ -20,7 +20,7 @@ created_date: 2025-08-02
 - A start-up would like to rapidly create customized user experiences. Which AWS service can help?;;Amazon Personalize, ML service that makes it easy to create individualized recommendations for customers.
 <!--SR:!2025-08-19,10,270-->
 - A research team would like to group articles by topics using Natural Language Processing (NLP). Which service should they use?;; Amazon Comprehend.
-<!--SR:!2025-08-12,2,210-->
+<!--SR:!2025-08-19,6,230-->
 - A company would like to convert its documents into different languages, with natural and accurate wording. What should they use?;;Amazon Translate.
 <!--SR:!2025-08-23,14,290-->
 - A developer would like to build, train, and deploy a machine learning model quickly. Which service can he use?;;SageMaker, fully managed, can build, train, and deploy ML models quickly.
@@ -34,7 +34,7 @@ created_date: 2025-08-02
 - An online medical company that allows you to book an appointment with doctors using through a phone call is using AWS to host their infrastructure. They are using Amazon Connect and Amazon Lex to receive calls and create a workflow, book an appointment, and pay. According to the company’s policy, all calls must be recorded for review. But, there is a requirement to remove any Personally Identifiable Information (PII) from the call before it's saved. What do you recommend to use which helps in removing PII from calls?;;Amazon Transcribe.
 <!--SR:!2025-08-21,12,270-->
 - Amazon Polly allows you to turn text into speech. It has two important features. First is … which allows you to customize the pronunciation of words (e.g., “Amazon EC2” will be “Amazon Elastic Compute Cloud”). The second is … which allows you to emphasize words, including breathing sounds, whispering, and more.;;Pronunciation Lexicons, Speech Synthesis Markup Language (SSML).
-<!--SR:!2025-08-13,5,230-->
+<!--SR:!2025-08-26,13,230-->
 - A medical company is in the process of implementing a solution to detect, extract, and analyze information from unstructured medical text like doctors’ notes, clinical trial reports, and radiology reports. Those documents are uploaded and stored on S3 buckets. According to the company’s regulations, the solution must be designed and implemented to keep patients’ privacy by identifying Protected Health Information (PHI) so the solution will be eligible with HIPAA. Which AWS service should you use?;;Amazon Comprehend Medical.
 <!--SR:!2025-08-14,3,230-->
 - 

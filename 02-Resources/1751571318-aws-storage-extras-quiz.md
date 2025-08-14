@@ -22,7 +22,7 @@ created_date: 2025-07-03
 - You have a large dataset stored in S3 that you want to access from on-premises servers using the NFS or SMB protocol. Also, you want to authenticate access to these files through on-premises Microsoft AD. What would you use?;;AWS Storage Gateway - S3 File Gateway.
 <!--SR:!2025-08-17,15,210-->
 - You are planning to migrate your company's infrastructure from on-premises to AWS Cloud. You have an on-premises Microsoft Windows File Server that you want to migrate. What is the most suitable AWS service you can use?;;Amazon FSx for Windows (File Server).
-<!--SR:!2025-08-12,15,270-->
+<!--SR:!2025-10-09,57,290-->
 - You would like to have a distributed POSIX compliant file system that will allow you to maximize the IOPS in order to perform some High-Performance Computing (HPC) and genomics computational research. This file system has to easily scale to millions of IOPS. What do you recommend?;;Amazon FSx for Lustre.
 <!--SR:!2025-08-18,10,250-->
 - Which deployment option in the FSx file system provides you with long-term storage that's replicated within AZ?;;Persistent File System.
