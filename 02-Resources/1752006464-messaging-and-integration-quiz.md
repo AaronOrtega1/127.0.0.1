@@ -24,7 +24,7 @@ created_date: 2025-07-08
 - You have a website where you want to analyze clickstream data such as the sequence of clicks a user makes, the amount of time a user spends, and where the navigation begins and how it ends. You decided to use Amazon Kinesis, so you have configured the website to send these clickstream data all the way to a Kinesis data stream. While you checking the data sent to your Kinesis data stream, you found that the users' data is not ordered and the data for one individual user is spread across many shards. How would you fix this problem?;;For each record sent to Kinesis add a partition key that represents the identity of the user.
 <!--SR:!2025-09-30,62,310-->
 - You are running an application that produces a large amount of real-time data that you want to load into S3 and Redshift. Also, these data need to be transformed before being delivered to their destination. What is the best architecture would you choose?;;Kinesis Data Streams + Kinesis Data Firehose.
-<!--SR:!2025-08-15,18,270-->
+<!--SR:!2025-10-22,68,290-->
 - Which of the following is NOT a supported subscriber for AWS SNS?(Amazon Kinesis Data Streams, Amazon SQS, HTTP(S) Endpoint, AWS Lambda);;Amazon Kinesis Data Streams (Kinesis Data Firehose is now supported, but not Kinesis Data Streams).
 <!--SR:!2025-09-07,29,290-->
 - Which AWS service helps you when you want to send email notifications to your users?;;Amazon SNS.

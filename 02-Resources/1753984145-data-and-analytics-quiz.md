@@ -18,7 +18,7 @@ created_date: 2025-07-31
 - As a Solutions Architect, you have been instructed you to prepare a disaster recovery plan for a Redshift cluster. What should you do?;;Enable Automated Snapshots, then configure you Redshift cluster to automatically copy snapshots to another AWS region.
 <!--SR:!2025-09-06,24,270-->
 - Which feature in Redshift forces all COPY and UNLOAD traffic moving between your cluster and data repositories through your VPCs?;;Enhance VPC Routing.
-<!--SR:!2025-08-15,10,270-->
+<!--SR:!2025-08-20,5,250-->
 - You are running a gaming website that is using DynamoDB as its data store. Users have been asking for a search feature to find other gamers by name, with partial matches if possible. Which AWS technology do you recommend to implement this feature?;;Amazon OpenSearch Service.
 <!--SR:!2025-08-17,12,270-->
 - An AWS service allows you to create, run, and monitor ETL (extract, transform, and load) jobs in a few clicks.;;AWS Glue.
@@ -28,7 +28,7 @@ created_date: 2025-07-31
 - ... makes it easy and cost-effective for data engineers and analysts to run applications built using open source big data frameworks such as Apache Spark, Hive, or Presto without having to operate or manage clusters.;;Amazon EMR.
 <!--SR:!2025-09-06,23,250-->
 - An e-commerce company has all its historical data such as orders, customers, revenues, and sales for the previous years hosted on a Redshift cluster. There is a requirement to generate some dashboards and reports indicating the revenues from the previous years and the total sales, so it will be easy to define the requirements for the next year. The DevOps team is assigned to find an AWS service that can help define those dashboards and have native integration with Redshift. Which AWS service is best suited?;;Amazon QuickSight.
-<!--SR:!2025-08-15,10,270-->
+<!--SR:!2025-09-22,38,290-->
 - Which AWS Glue feature allows you to save and track the data that has already been processed during a previous run of a Glue ETL job?;;Glue Job Bookmarks.
 <!--SR:!2025-08-16,11,270-->
 - You are a DevOps engineer in a machine learning company which 3 TB of JSON files stored in an S3 bucket. There’s a requirement to do some analytics on those files using Amazon Athena and you have been tasked to find a way to convert those files’ format from JSON to Apache Parquet. Which AWS service is best suited?;;AWS Glue.

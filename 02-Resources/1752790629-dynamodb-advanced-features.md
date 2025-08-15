@@ -82,7 +82,7 @@ created_date:
   - Import CSV, DynamoDB JSON or ION format
   - Doesn't consume any write capacity
   - Creates a new table
-  - Import errors are logged in [[1752812834-cloudwatch|CloudWatch]] logs.
+  - Import errors are logged in [[1753150030-cloudwatch-cheat-sheet|CloudWatch]] logs.
 
 
 

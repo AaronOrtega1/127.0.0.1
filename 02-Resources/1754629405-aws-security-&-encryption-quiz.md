@@ -40,7 +40,7 @@ created_date: 2025-08-07
 - You would like to externally maintain the configuration values of your main database, to be picked up at runtime by your application. What's the best place to store them to maintain control and version history?;;SSM Parameter Store.
 <!--SR:!2025-08-29,16,290-->
 - AWS GuardDuty doesn't scan the following data sources;;CloudWatch Logs.
-<!--SR:!2025-08-15,2,250-->
+<!--SR:!2025-08-16,1,230-->
 - You have a website hosted on a fleet of EC2 instances fronted by an Application Load Balancer. What should you use to protect your website from common web application attacks (e.g., SQL Injection)?;;AWS WAF.
 <!--SR:!2025-08-29,16,290-->
 - You would like to analyze OS vulnerabilities from within EC2 instances. You need these analyses to occur weekly and provide you with concrete recommendations in case vulnerabilities are found. Which AWS service should you use?;;Amazon Inspector.
@@ -50,11 +50,11 @@ created_date: 2025-08-07
 - Which AWS service allows you to centrally manage EC2 Security Groups and AWS Shield Advanced across all AWS accounts in your AWS Organization?;;AWS Firewall Manager.
 <!--SR:!2025-08-28,15,290-->
 - Which AWS service helps you protect your sensitive data stored in S3 buckets?;;Amazon Macie.
-<!--SR:!2025-08-15,2,250-->
+<!--SR:!2025-08-22,7,270-->
 - An online-payment company is using AWS to host its infrastructure. The frontend is created using VueJS and is hosted on an S3 bucket and the backend is developed using PHP and is hosted on EC2 instances in an Auto Scaling Group. As their customers are worldwide, they use both CloudFront and Aurora Global database to implement multi-region deployments to provide the lowest latency and provide availability, and resiliency. A new feature required which gives customers the ability to store data encrypted on the database and this data must not be disclosed even by the company admins. The data should be encrypted on the client side and stored in an encrypted format. What do you recommend to implement this?;;Using Aurora Client-side Encryption and KMS Multi-region Keys.
 <!--SR:!2025-08-24,11,270-->
 - You have an S3 bucket that is encrypted with SSE-KMS. You have been tasked to replicate the objects to a target bucket in the same AWS region but with a different KMS Key. You have configured the S3 replication, the target bucket, and the target KMS key and it is still not working. What is missing to make the S3 replication work?;;You have to configure permissions for both Source KMS Key `kms:Decrypt` and Target KMS Key `kms:Encrypt` to be used by the S3 Replication Service.
-<!--SR:!2025-08-15,2,230-->
+<!--SR:!2025-08-22,7,250-->
 - You have generated a public certificate using LetsEncrypt and uploaded it to the ACM so you can use and attach to an Application Load Balancer that forwards traffic to EC2 instances. As this certificate is generated outside of AWS, it does not support the automatic renewal feature. How would you be notified 30 days before this certificate expires so you can manually generate a new one?;;Configure EventBridge for daily expiration events from ACM to invoke SNS notifications to your email.
 <!--SR:!2025-08-20,7,250-->
 - You have created the main Edge-Optimized API Gateway in `us-west-2` AWS region. This main Edge-Optimized API Gateway forwards traffic to the second level API Gateway in `ap-southeast-1`. You want to secure the main API Gateway by attaching an ACM certificate to it. Which AWS region are you going to create the ACM certificate in?;;`us-east-1`, as the edge-optimized API Gateway is using AWS managed CloudFront distribution behind the scene to rout requests across the glob through CloudFront Edge location, the ACM certificate must be created in us-east-1.

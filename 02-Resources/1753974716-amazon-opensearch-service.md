@@ -30,7 +30,7 @@ created_date:
 #### [[1752777935-amazon-dynamodb|DynamoDB]]
 ![[1753974716-amazon-opensearch-service.webp]]
 
-#### [[1752812834-cloudwatch|CloudWatch]] Logs
+#### [[1753150030-cloudwatch-cheat-sheet|CloudWatch]] Logs
 ![[1753974716-amazon-opensearch-service-1.webp]]
 
 #### [[1751996367-amazon-kinesis-data-streams|Kinesis Data Streams]]
