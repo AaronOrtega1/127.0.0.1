@@ -22,7 +22,7 @@ created_date: 2025-08-05
 - Someone has terminated an EC2 instance in your AWS account last week, which was hosting a critical database that contains sensitive data. Which AWS service helps you find who did that and when?;;AWS CloudTrail.
 <!--SR:!2025-08-25,15,290-->
 - You have CloudTrail enabled for your AWS Account in all AWS Regions. What should you use to detect unusual activity in your AWS Account?;;CloudTrail Insights.
-<!--SR:!2025-08-14,1,230-->
+<!--SR:!2025-08-17,3,250-->
 - One of your teammates terminated an EC2 instance 4 months ago which has critical data. You don't know who made this so you are going to review all API calls within this period using CloudTrail. You already have CloudTrail set up and configured to send logs to the S3 bucket. What should you do to find out who made this?;;Analyze CloudTrail logs in S3 bucket using Amazon Athena.
 <!--SR:!2025-08-26,16,290-->
 - You are running a website on a fleet of EC2 instances with OS that has a known vulnerability on port 84. You want to continuously monitor your EC2 instances if they have port 84 exposed. How should you do this?;;Setup Config Rules.
@@ -32,9 +32,9 @@ created_date: 2025-08-05
 - Someone changed the configuration of a resource and made it non-compliant. Which AWS service is responsible for logging who made modifications to resources?;;AWS CloudTrail.
 <!--SR:!2025-08-20,7,270-->
 - You have enabled AWS Config to monitor Security Groups if there's unrestricted SSH access to any of your EC2 instances. Which AWS Config feature can you use to automatically re-configure your Security Groups to their correct state?;;AWS Config Remediations.
-<!--SR:!2025-08-14,1,230-->
+<!--SR:!2025-08-17,3,250-->
 - You are running a critical website on a set of EC2 instances with a tightened Security Group that has restricted SSH access. You have enabled AWS Config in your AWS Region and you want to be notified via email when someone modified your EC2 instances' Security Group. Which AWS Config feature helps you do this?;;AWS Config Notifications.
-<!--SR:!2025-08-14,1,230-->
+<!--SR:!2025-08-17,3,250-->
 - … is a CloudWatch feature that allows you to send CloudWatch metrics in near real-time to S3 bucket (through Kinesis Data Firehose) and 3rd party destinations (e.g., Splunk, Datadog, …);;CloudWatch Metric Stream.
 <!--SR:!2025-08-26,16,290-->
 - A DevOps engineer is working for a company and managing its infrastructure and resources on AWS. There was a sudden spike in traffic for the main application for the company which was not normal in this period of the year. The application is hosted on a couple of EC2 instances in private subnets and is fronted by an Application Load Balancer in a public subnet. To detect if this is normal traffic or an attack, the DevOps engineer enabled the VPC Flow Logs for the subnets and stored those logs in CloudWatch Log Group. The DevOps wants to analyze those logs and find out the top IP addresses making requests against the website to check if there is an attack. Which of the following can help the DevOps engineer to analyze those logs?;;CloudWatch Contributor Insights.
