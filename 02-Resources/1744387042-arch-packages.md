@@ -37,10 +37,10 @@ created_date: 2025/04/11
 - [ ] wl-clipboard
 - [ ] xclip
 - [ ] pipewire pipewire-pulse pipewire-alsa wireplumber
-- [[Pipewire Activation]]
+- [[1755355487-pipewire-activation|Pipewire Activation]]
 - [ ] pavucontrol
 - [ ] bluez bluez-utils blueman
-- [[Bluetooth Activation]]
+- [[1755355597-bluetooth-activation|Bluetooth Activation]]
 - [ ] jq
 - [ ] tree
 - [ ] zenity
@@ -55,15 +55,16 @@ created_date: 2025/04/11
 - [ ] tldr
 - [ ] tlp
   - [ ] tlp-rdw
-- [ ] [[Install Nerd Fonts]]
+- [ ] [[1755355716-install-nerd-fonts|Install Nerd Fonts]]
 - [ ] noto-fonts-emoji
 - [ ] ethool
-- [ ] [[Japanese Language]]
+- [ ] [[1755355799-japanese-language|Japanese Language]]
 - [ ] dunst
 - [ ] brightnessctl
 - [ ] dbus
 - [ ] less
-- [ ] [[keyd]]
+- [ ] [[1755356283-kanata|Kanata]]
+- [ ] stow
 
 ## Install yay
 
