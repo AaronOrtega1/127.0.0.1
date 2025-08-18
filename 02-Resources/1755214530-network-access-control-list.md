@@ -29,7 +29,7 @@ created_date: 2025-08-14
 - Accepts everything inbound/outbound with the subnets it's associated with
 ![[1755214530-network-access-control-list.webp]]
 
-### Ephemeral Ports
+### Ephemeral Ports ^EphemeralPorts
 - For any two endpoints to establish a connection, they must use ports.
 - Clients connect to a **defined port**, and expect a response on an **ephemeral port.**
 - Different Operating Systems use different port ranges, examples:

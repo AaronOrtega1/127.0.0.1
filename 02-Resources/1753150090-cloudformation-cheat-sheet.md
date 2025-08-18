@@ -1,15 +1,15 @@
 ---
 link: "[[1750441691-aws|AWS]]"
-aliases: 
+aliases:
   - CloudFormation Cheat Sheet
+  - CloudFormation
 tags:
   - resource
   - aws
   - cloud
   - CheatSheet
-  - Management&Governance
-created_date:
-  2025-07-21
+  - ManagementAndGovernance
+created_date: 2025-07-21
 ---
 # CloudFormation Cheat Sheet
 **Key Features:**

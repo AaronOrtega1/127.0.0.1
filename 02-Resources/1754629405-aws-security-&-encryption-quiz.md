@@ -40,7 +40,7 @@ created_date: 2025-08-07
 - You would like to externally maintain the configuration values of your main database, to be picked up at runtime by your application. What's the best place to store them to maintain control and version history?;;SSM Parameter Store.
 <!--SR:!2025-08-29,16,290-->
 - AWS GuardDuty doesn't scan the following data sources;;CloudWatch Logs.
-<!--SR:!2025-08-16,1,230-->
+<!--SR:!2025-08-19,1,210-->
 - You have a website hosted on a fleet of EC2 instances fronted by an Application Load Balancer. What should you use to protect your website from common web application attacks (e.g., SQL Injection)?;;AWS WAF.
 <!--SR:!2025-08-29,16,290-->
 - You would like to analyze OS vulnerabilities from within EC2 instances. You need these analyses to occur weekly and provide you with concrete recommendations in case vulnerabilities are found. Which AWS service should you use?;;Amazon Inspector.

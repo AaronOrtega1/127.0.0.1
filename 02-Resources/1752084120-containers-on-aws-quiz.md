@@ -12,7 +12,7 @@ created_date: 2025-07-09
 ---
 # Containers on AWS Quiz
 - You have multiple Docker-based applications hosted on-premises that you want to migrate to AWS. You don't want to provision or manage any infrastructure; you just want to run your containers on AWS. Which AWS service should you choose?;;AWS Fargate on ECS.
-<!--SR:!2025-08-18,25,290-->
+<!--SR:!2025-11-27,101,310-->
 - Amazon Elastic Container Service (ECS) has two Launch Types: ... and ...;;Amazon EC2 Launch Type and Fargate Launch Type.
 <!--SR:!2025-09-27,59,310-->
 - You have an application hosted on an ECS Cluster (EC2 Launch Type) where you want your ECS tasks to upload files to an S3 bucket. Which IAM Role for your ECS Tasks should you modify?;;ECS Task Role.

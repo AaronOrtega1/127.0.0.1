@@ -17,7 +17,7 @@ created_date: 2025/05/23
 <!--SR:!2025-09-11,36,230-->
 
 - Should IAM Users access AWS services using root account credentials?;;False.
-<!--SR:!2025-08-18,59,310-->
+<!--SR:!2026-04-28,253,330-->
 
 - What are IAM Policies?;;JSON documents that define a set of permissions form making requests to AWS services, and can be used by IAM Users, User Groups, and IAM Roles.
 <!--SR:!2025-08-22,37,250-->

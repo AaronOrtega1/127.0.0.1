@@ -30,7 +30,7 @@ created_date: 2025/06/20
 - Your company has a production Node.js application that is using RDS MySQL 5.6 as its database. A new application programmed in Java will perform some heavy analytics workload to create a dashboard on a regular hourly basis. What is the most cost-effective solution you can implement to minimize disruption for the main application?;;Create a Read Replica in a different AZ and run the analytics workload on the replica database.
 <!--SR:!2025-09-10,57,310-->
 - You would like to create a disaster recovery strategy for your RDS PostgreSQL database so that in case of a regional outage the database can be quickly made available for both read and write workloads in another AWS Region. The DR database must be highly available. What do you recommend?;;Create a Read Replica in a different region and enable Multi-AZ on the Read Replica.
-<!--SR:!2025-08-16,18,230-->
+<!--SR:!2025-10-16,59,250-->
 - You have migrated the MySQL database from on-premises to RDS. You have a lot of applications and developers interacting with your database. Each developer has an IAM user in the company's AWS account. What is a suitable approach to give access to developers to the MySQL RDS DB instance instead of creating a DB user for each one?;;Enable IAM Database Authentication.
 <!--SR:!2025-11-07,94,290-->
 - Read Replica uses Asynchronous Replication and Multi-AZ uses Synchronous Replication.

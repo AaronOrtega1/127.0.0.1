@@ -2,6 +2,8 @@
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|AWS Certified Solution Architect Associate 2025]]"
 aliases:
   - Direct Connect and Direct Connect Gateway
+  - Direct Connect Gateway
+  - Direct Connect
 tags:
   - resource
   - aws
