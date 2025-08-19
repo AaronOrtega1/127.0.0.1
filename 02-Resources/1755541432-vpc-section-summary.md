@@ -36,8 +36,3 @@ created_date: 2025-08-18
 - **Transit Gateway** - transitive peering connections for VPC, VPN & DX.
 - **Traffic Mirroring** - copy network traffic from ENIs for further analysis.
 - **Egress-only Internet Gateway** - like a NAT Gateway, but for IPv6.
-
-
-
-
-

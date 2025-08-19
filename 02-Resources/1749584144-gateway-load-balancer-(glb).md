@@ -1,7 +1,7 @@
 ---
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|AWS Certified Solution Architect Associate 2025]]"
 aliases:
-  - Gateway Load Balancer (glb)
+  - Gateway Load Balancer
   - GLB
 tags:
   - resource
