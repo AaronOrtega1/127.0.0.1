@@ -1,0 +1,17 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasTag("projects")
+        - '!file.inFolder("06-Templates")'
+    order:
+      - file.name
+      - tags
+      - link
+    sort:
+      - property: tags
+        direction: ASC
+    columnSize:
+      file.name: 552
+      note.tags: 595

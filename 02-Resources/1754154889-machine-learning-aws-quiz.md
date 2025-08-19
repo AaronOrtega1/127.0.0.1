@@ -18,9 +18,9 @@ created_date: 2025-08-02
 - You would like to find objects, people, text, or scenes in images and videos. What AWS service should you use?;;Amazon Rekognition.
 <!--SR:!2025-08-25,16,290-->
 - A start-up would like to rapidly create customized user experiences. Which AWS service can help?;;Amazon Personalize, ML service that makes it easy to create individualized recommendations for customers.
-<!--SR:!2025-08-19,10,270-->
+<!--SR:!2025-09-26,38,290-->
 - A research team would like to group articles by topics using Natural Language Processing (NLP). Which service should they use?;; Amazon Comprehend.
-<!--SR:!2025-08-19,6,230-->
+<!--SR:!2025-09-09,21,250-->
 - A company would like to convert its documents into different languages, with natural and accurate wording. What should they use?;;Amazon Translate.
 <!--SR:!2025-08-23,14,290-->
 - A developer would like to build, train, and deploy a machine learning model quickly. Which service can he use?;;SageMaker, fully managed, can build, train, and deploy ML models quickly.

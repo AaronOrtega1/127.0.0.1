@@ -4,9 +4,9 @@ aliases:
   - Learning Data Science Udemy Course
 tags:
   - projects
+  - archived
   - udemy
   - data-science
-  - archived
 start_date: 2025/04/11
 end_date: 2025-08-11
 ---

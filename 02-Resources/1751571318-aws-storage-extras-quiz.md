@@ -46,5 +46,5 @@ created_date: 2025-07-03
 - You have on-premises sensitive files and documents that you want to regularly synchronize to AWS to keep another copy. Which AWS service can help you with that?;;AWS DataSync.
 <!--SR:!2025-09-11,45,290-->
 - AWS DataSync doesn't supports the following locations...;;EBC.
-<!--SR:!2025-08-19,11,250-->
+<!--SR:!2025-08-25,6,230-->
 

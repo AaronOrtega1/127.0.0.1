@@ -4,8 +4,8 @@ aliases:
   - Learning SQL
 tags:
   - projects
-  - sql
   - archived
+  - sql
 end_date: 2025-04-08
 link: "[[1743802452-programming|Programming]]"
 start_date: 2025-04-08

@@ -1,5 +1,5 @@
 .tmp.driveupload/
-.obsidian/plugins/
+# .obsidian/plugins/
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/workspace.json
