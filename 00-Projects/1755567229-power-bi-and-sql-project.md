@@ -34,15 +34,15 @@ We would like to visualize various aspects of our pizza sales data to gain insig
 7. **Top 5 Worst Sellers by Revenue, Total Quantity and Total Orders:** Create a bar chart highlighting the top 5 worst-selling pizzas based on the Revenue, Total Quantity, Total Orders.
 
 ## Tech Stack
-- MS Office/[[1755635809-excel|Excel]]
+- [[1752020699-docker|Docker]]
 - [[1754522252-postgresql|PostgreSQL]]
+- DBeaver
 - [[1755635883-power-bi|Power BI]]
 
-
-
-
 ## Tasks
-
+- [x] Create docker compose for PostgreSQL DB
+- [x] Connect to DB using DBeaver
+- [x] Queries for KPI's requirements
 - [ ] 
 
 ## Notes
