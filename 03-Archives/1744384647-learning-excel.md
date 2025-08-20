@@ -5,8 +5,8 @@ aliases:
 tags:
   - projects
   - archived
-start_date: 2025/04/11
-end_date: 2025/04/11
+start_date: 2025-04-11
+end_date: 2025-04-11
 ---
 # Learning Excel
 ## Objective

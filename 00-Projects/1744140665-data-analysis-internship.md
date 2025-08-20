@@ -11,7 +11,7 @@ tags:
   - 2ndQ
   - data-analysis
 start_date: 2025-04-08
-end_date: 2025-08-08
+end_date: 2025-12-31
 ---
 # Data Analysis Internship
 ## Objective

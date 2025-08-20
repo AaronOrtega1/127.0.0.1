@@ -7,7 +7,7 @@ tags:
   - archived
   - python
   - data-analysis
-start_date: 2025/04/24
+start_date: 2025-04-24
 end_date: 2025-04-29
 ---
 # California House Price Prediction

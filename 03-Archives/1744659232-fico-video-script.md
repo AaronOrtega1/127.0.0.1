@@ -6,8 +6,8 @@ tags:
   - projects
   - archived
   - Fico
-start_date: 2025/04/14
-end_date: 2025/04/14
+start_date: 2025-04-14
+end_date: 2025-04-14
 ---
 # Final version
 Hi, my name is Aarón Ortega, and I’m from Guadalajara, Jalisco, México. I’m currently in my 8th semester studying Computer Systems Engineering at ITESO, and I’ll be graduating this December.

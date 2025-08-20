@@ -9,10 +9,11 @@ tags:
   - sql
   - PowerBI
 start_date: 2025-08-18
-end_date: 2025-08-18
+end_date: 2025-09-01
 ---
 # Power BI and SQL Project
 ## Objective
+Develop a project for my portfolio in which I use SQL and Power BI, to get important insights in the sales of a pizzeria and create a dashboard to present all the requirements that the client whats to know.
 
 ## Problem Statement
 ### KPI's REQUIREMENT
@@ -43,7 +44,9 @@ We would like to visualize various aspects of our pizza sales data to gain insig
 - [x] Create docker compose for PostgreSQL DB
 - [x] Connect to DB using DBeaver
 - [x] Queries for KPI's requirements
-- [ ] 
+- [ ] .
+- [ ] Create README for the project
+- [ ] Put it in my CV
 
 ## Notes
 ```dataview

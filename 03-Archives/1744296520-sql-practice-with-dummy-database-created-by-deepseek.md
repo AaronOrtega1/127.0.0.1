@@ -5,8 +5,8 @@ tags:
   - projects
   - archived
 link: "[[1744153475-learning-sql|Learning SQL]]"
-start_date: 2025/04/10
-end_date: 2025/04/10
+start_date: 2025-04-10
+end_date: 2025-04-10
 ---
 # Sql Practice With Dummy Database Created By Deepseek
 

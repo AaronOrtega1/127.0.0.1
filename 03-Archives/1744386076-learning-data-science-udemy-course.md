@@ -7,7 +7,7 @@ tags:
   - archived
   - udemy
   - data-science
-start_date: 2025/04/11
+start_date: 2025-04-11
 end_date: 2025-08-11
 ---
 # Learning Data Science Udemy Course

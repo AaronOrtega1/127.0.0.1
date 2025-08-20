@@ -8,9 +8,9 @@ tags:
   - active
   - 1stQ
 start_date: 2025-04-07
-end_date: 2025-05-19
+end_date: 2025-12-31
 ---
-# Leetcode Problems
+# LeetCode Problems
 ## Objective
 Learn data structures and different algorithms, using them to solve question frequently used in interviews.
 ## Tasks
