@@ -18,11 +18,11 @@ created_date: 2025-07-31
 - As a Solutions Architect, you have been instructed you to prepare a disaster recovery plan for a Redshift cluster. What should you do?;;Enable Automated Snapshots, then configure you Redshift cluster to automatically copy snapshots to another AWS region.
 <!--SR:!2025-09-06,24,270-->
 - Which feature in Redshift forces all COPY and UNLOAD traffic moving between your cluster and data repositories through your VPCs?;;Enhance VPC Routing.
-<!--SR:!2025-08-20,5,250-->
+<!--SR:!2025-09-02,13,250-->
 - You are running a gaming website that is using DynamoDB as its data store. Users have been asking for a search feature to find other gamers by name, with partial matches if possible. Which AWS technology do you recommend to implement this feature?;;Amazon OpenSearch Service.
 <!--SR:!2025-10-03,46,290-->
 - An AWS service allows you to create, run, and monitor ETL (extract, transform, and load) jobs in a few clicks.;;AWS Glue.
-<!--SR:!2025-08-20,15,290-->
+<!--SR:!2025-10-19,60,310-->
 - A company is using AWS to host its public websites and internal applications. Those different websites and applications generate a lot of logs and traces. There is a requirement to centrally store those logs and efficiently search and analyze those logs in real-time for detection of any errors and if there is a threat. Which AWS service can help them efficiently store and analyze logs?;;Amazon OpenSearch service.
 <!--SR:!2025-09-27,39,270-->
 - ... makes it easy and cost-effective for data engineers and analysts to run applications built using open source big data frameworks such as Apache Spark, Hive, or Presto without having to operate or manage clusters.;;Amazon EMR.

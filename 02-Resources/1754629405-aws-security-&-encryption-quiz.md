@@ -44,7 +44,7 @@ created_date: 2025-08-07
 - You have a website hosted on a fleet of EC2 instances fronted by an Application Load Balancer. What should you use to protect your website from common web application attacks (e.g., SQL Injection)?;;AWS WAF.
 <!--SR:!2025-08-29,16,290-->
 - You would like to analyze OS vulnerabilities from within EC2 instances. You need these analyses to occur weekly and provide you with concrete recommendations in case vulnerabilities are found. Which AWS service should you use?;;Amazon Inspector.
-<!--SR:!2025-08-20,7,250-->
+<!--SR:!2025-08-24,4,230-->
 - What is the most suitable AWS service for storing RDS DB passwords which also provides you automatic rotation?;;AWS Secrets Manager.
 <!--SR:!2025-08-23,10,270-->
 - Which AWS service allows you to centrally manage EC2 Security Groups and AWS Shield Advanced across all AWS accounts in your AWS Organization?;;AWS Firewall Manager.
@@ -56,7 +56,7 @@ created_date: 2025-08-07
 - You have an S3 bucket that is encrypted with SSE-KMS. You have been tasked to replicate the objects to a target bucket in the same AWS region but with a different KMS Key. You have configured the S3 replication, the target bucket, and the target KMS key and it is still not working. What is missing to make the S3 replication work?;;You have to configure permissions for both Source KMS Key `kms:Decrypt` and Target KMS Key `kms:Encrypt` to be used by the S3 Replication Service.
 <!--SR:!2025-08-22,7,250-->
 - You have generated a public certificate using LetsEncrypt and uploaded it to the ACM so you can use and attach to an Application Load Balancer that forwards traffic to EC2 instances. As this certificate is generated outside of AWS, it does not support the automatic renewal feature. How would you be notified 30 days before this certificate expires so you can manually generate a new one?;;Configure EventBridge for daily expiration events from ACM to invoke SNS notifications to your email.
-<!--SR:!2025-08-20,7,250-->
+<!--SR:!2025-09-06,17,250-->
 - You have created the main Edge-Optimized API Gateway in `us-west-2` AWS region. This main Edge-Optimized API Gateway forwards traffic to the second level API Gateway in `ap-southeast-1`. You want to secure the main API Gateway by attaching an ACM certificate to it. Which AWS region are you going to create the ACM certificate in?;;`us-east-1`, as the edge-optimized API Gateway is using AWS managed CloudFront distribution behind the scene to rout requests across the glob through CloudFront Edge location, the ACM certificate must be created in us-east-1.
 <!--SR:!2025-08-28,15,290-->
 - You are managing an AWS Organization with multiple AWS accounts. Each account has a separate application with different resources. You want an easy way to manage Security Groups and WAF Rules across those accounts as there was a security incident the last week and you want to tighten up your resources. Which AWS service can help you to do so?;;AWS Firewall Manager.

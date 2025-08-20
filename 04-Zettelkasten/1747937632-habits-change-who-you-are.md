@@ -16,4 +16,4 @@ created_date: 2025/05/22
 ## Connections
 - [[]]
 ## Source
-[[1744325018-atomic-habits-book#^Pos694|Atomic Habits]]
+[[1744325018-atomic-habits#^Pos694|Atomic Habits]]

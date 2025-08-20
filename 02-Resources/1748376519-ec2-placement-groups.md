@@ -17,7 +17,7 @@ created_date: 2025/05/27
 ### What are Placement Groups used for?
 - For when you want control over the EC2 instance placement strategy.
 ### What you specify when creating a Placement Group?
-- Cluster - Clusters instances into low-latency groups in a single AZ.
+- Cluster - Clusters instances into low-latency groups in a single AZ. ^Cluster
 	- ![[1748376519-ec2-placement-groups.webp]]
 	- Great network (10 Gbps between instances with enhanced networking enabled - recommended), but if the AZ fails, all the instances fail at the same time.
 	- Use case:

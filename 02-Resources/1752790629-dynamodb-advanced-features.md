@@ -17,7 +17,7 @@ created_date:
 - 
 
 ## Key Ideas
-### DynamoDB Accelerator (DAX)
+### DynamoDB Accelerator (DAX) ^DAX
 - Fully-managed, [[1749053894-scalability-and-high-availability|high availability]], seamless in memory cache.
 - Help solve read congestion by caching.
 - *Microseconds* latency for cached data.

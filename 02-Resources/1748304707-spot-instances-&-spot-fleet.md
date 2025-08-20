@@ -2,6 +2,8 @@
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|Aws Certified Solution Architect Associate 2025]]"
 aliases:
   - Spot Instances & Spot Fleet
+  - Spot Fleet
+  - Spot Instances
 tags:
   - resource
   - aws
@@ -13,7 +15,7 @@ created_date: 2025/05/26
 ## Summary
 - 
 ## Key Ideas
-### Spot Instance
+### Spot Instance ^Spot
 #### EC2 Spot Instance Requests
 - Define **max spot price** and get the instance while **current spot price < max**.
 	- Hourly spot price varies based on offer and capacity.

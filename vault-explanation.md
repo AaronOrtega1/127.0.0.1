@@ -20,4 +20,6 @@ tags: []
   - My personal journal and training tracker.
 - 06-Templates
   - Templates for my notes.
+- 07-Bases
+  - Data bases to group better my notes and visualize them.
 

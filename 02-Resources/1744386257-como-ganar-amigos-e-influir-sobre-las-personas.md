@@ -7,6 +7,7 @@ tags:
   - book
   - 2ndQ
 created_date: 2025/04/11
+status: to read
 ---
 # Como Ganar Amigos E Influir Sobre Las Personas
 

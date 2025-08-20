@@ -1,5 +1,7 @@
 ---
-link: "[[1750441691-aws|AWS]]"
+link:
+  - "[[1750441691-aws|AWS]]"
+  - "[[1747853373-aws-certified-solution-architect-associate-2025|AWS Certified Solution Architect Associate 2025]]"
 aliases:
   - CloudFormation Cheat Sheet
   - CloudFormation
@@ -9,6 +11,7 @@ tags:
   - cloud
   - CheatSheet
   - ManagementAndGovernance
+  - CloudFormation
 created_date: 2025-07-21
 ---
 # CloudFormation Cheat Sheet

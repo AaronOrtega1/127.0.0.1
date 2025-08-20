@@ -1,0 +1,25 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasTag("book")
+    order:
+      - file.name
+      - status
+      - rating
+    sort:
+      - property: status
+        direction: ASC
+  - type: cards
+    name: View
+    filters:
+      and:
+        - file.hasTag("book")
+    order:
+      - file.name
+      - status
+      - rating
+    sort:
+      - property: rating
+        direction: DESC

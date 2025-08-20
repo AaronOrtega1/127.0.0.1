@@ -2,6 +2,8 @@
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|Aws Certified Solution Architect Associate 2025]]"
 aliases:
   - Security Groups & Classic Ports Overview
+  - Classic Ports
+  - Security Groups
 tags:
   - resource
   - aws

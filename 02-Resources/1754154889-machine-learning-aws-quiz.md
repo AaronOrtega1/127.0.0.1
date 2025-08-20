@@ -14,7 +14,7 @@ created_date: 2025-08-02
 - You should use Amazon Transcribe to turn text into lifelike speech using deep learning.;;False, Transcribe converts speech-to-text. Polly is the service that turns text into lifelike speech.
 <!--SR:!2025-08-24,15,290-->
 - A company would like to implement a chatbot that will convert speech-to-text and recognize the customers' intentions. What service should it use?;;Lex, service for building conversational interfaces into any application using voice and text.
-<!--SR:!2025-08-20,9,230-->
+<!--SR:!2025-09-18,29,250-->
 - You would like to find objects, people, text, or scenes in images and videos. What AWS service should you use?;;Amazon Rekognition.
 <!--SR:!2025-08-25,16,290-->
 - A start-up would like to rapidly create customized user experiences. Which AWS service can help?;;Amazon Personalize, ML service that makes it easy to create individualized recommendations for customers.
@@ -28,9 +28,9 @@ created_date: 2025-08-02
 - Which AWS service makes it easy to convert speech-to-text?;;Amazon Transcribe.
 <!--SR:!2025-08-25,16,290-->
 - Which of the following services is a document search service powered by machine learning?;;Amazon Kendra.
-<!--SR:!2025-08-20,11,270-->
+<!--SR:!2025-10-01,42,290-->
 - A company is managing an image and video sharing platform which is used by customers around the globe. The platform is running on AWS using an S3 bucket to host both images and videos and using CloudFront as the CDN to deliver content to customers all over the world with low latency. In the last couple of months, a lot of customers have complained that they have started to see inappropriate content on the platform which started to increase in the last week. It will be very expensive and time-consuming to manually approve those images and videos by employees before its published on the platform. There is a requirement to find a solution that can automatically detect inappropriate and offensive images and videos and give you the ability to set a minimum confidence threshold for items that will be flagged and allows for manual review. Which AWS service can fit the requirement?;;Amazon Rekognition.
-<!--SR:!2025-08-20,11,270-->
+<!--SR:!2025-09-30,41,290-->
 - An online medical company that allows you to book an appointment with doctors using through a phone call is using AWS to host their infrastructure. They are using Amazon Connect and Amazon Lex to receive calls and create a workflow, book an appointment, and pay. According to the company’s policy, all calls must be recorded for review. But, there is a requirement to remove any Personally Identifiable Information (PII) from the call before it's saved. What do you recommend to use which helps in removing PII from calls?;;Amazon Transcribe.
 <!--SR:!2025-08-21,12,270-->
 - Amazon Polly allows you to turn text into speech. It has two important features. First is … which allows you to customize the pronunciation of words (e.g., “Amazon EC2” will be “Amazon Elastic Compute Cloud”). The second is … which allows you to emphasize words, including breathing sounds, whispering, and more.;;Pronunciation Lexicons, Speech Synthesis Markup Language (SSML).

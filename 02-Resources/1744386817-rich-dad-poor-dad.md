@@ -6,6 +6,7 @@ tags:
   - resource
   - book
 created_date: 2025/04/11
+status: to read
 ---
 # Rich Dad Poor Dad
 

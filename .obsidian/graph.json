@@ -11,7 +11,7 @@
       "query": "tag:#pending  ",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 16711680
       }
     },
     {
@@ -43,6 +43,27 @@
       }
     },
     {
+      "query": "tag:#CloudFormation  ",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "tag:#Lambda  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "tag:#CloudTrail  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
       "query": "tag:#aws  ",
       "color": {
         "a": 1,
@@ -53,7 +74,14 @@
       "query": "tag:#area  ",
       "color": {
         "a": 1,
-        "rgb": 9252301
+        "rgb": 9175295
+      }
+    },
+    {
+      "query": "tag:#SQS  ",
+      "color": {
+        "a": 1,
+        "rgb": 1928327
       }
     }
   ],
@@ -67,6 +95,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.12786363586004612,
+  "scale": 0.23490049838560975,
   "close": true
 }

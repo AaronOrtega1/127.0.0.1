@@ -3,6 +3,7 @@ link: "[[1747853373-aws-certified-solution-architect-associate-2025|aws Certifie
 aliases: 
   - Amazon Lex and Connect
   - Lex and Connect
+  - Lex
 tags:
   - resource
   - aws
