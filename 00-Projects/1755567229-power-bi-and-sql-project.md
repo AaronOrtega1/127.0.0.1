@@ -8,6 +8,7 @@ tags:
   - data-analysis
   - sql
   - PowerBI
+  - PostgreSQL
 start_date: 2025-08-18
 end_date: 2025-09-01
 ---
@@ -44,7 +45,7 @@ We would like to visualize various aspects of our pizza sales data to gain insig
 - [x] Create docker compose for PostgreSQL DB
 - [x] Connect to DB using DBeaver
 - [x] Queries for KPI's requirements
-- [ ] .
+- [ ] Queries for Chart requirements
 - [ ] Create README for the project
 - [ ] Put it in my CV
 
