@@ -15,7 +15,7 @@ SELECT
 	COUNT(DISTINCT ps.order_id) as total_orders
 FROM pizza_sales AS ps
 GROUP BY TO_CHAR(ps.order_date, 'Day'), EXTRACT(DOW FROM ps.order_date)
-ORDER BY EXTRACT(DOW FROM ps.order_date)
+ORDER BY EXTRACT(DOW FROM ps.order_date);
 ```
 ![[1755728488-chart-requirement-power-bi-and-sql-project.webp]]
 2. **Monthly Trend for Total Orders:**

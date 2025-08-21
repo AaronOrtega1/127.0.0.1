@@ -2,6 +2,7 @@
 link: "[[1750441691-aws|AWS]]"
 aliases:
   - AWS Certified Solution Architect Associate 2025
+  - AWS SAA 2025
 tags:
   - projects
   - active
@@ -16,7 +17,7 @@ end_date: 2025-12-01
 - Prepare for the AWS Solution Architect certification to take the exam by the end of the year.
 - Be able to design solution with optimized cost and performance.
 ## Tasks
-- [ ] Finish course (23/August/25).
+- [x] Finish course (23/August/25).
 - [x] Ask Jose where he did his practice exams.
 - [ ] Do practice exams till we get 80+ all the time.
 - [ ] Take the certification exam (1/December/25).
