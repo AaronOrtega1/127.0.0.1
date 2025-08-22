@@ -6,7 +6,7 @@ tags:
   - resource
   - aws
   - vocab
-  - Cards/AWS/Cloud_Architecting_Academy
+  - Cards/Archive/AWS/Cloud_Architecting_Academy
 created_date: 2025-07-07
 ---
 # Introducing Cloud Architecting Quiz

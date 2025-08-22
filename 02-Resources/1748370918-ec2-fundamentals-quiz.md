@@ -14,7 +14,7 @@ created_date: 2025/05/27
 - Which EC2 Purchasing Option can provide you the biggest discount, but it is not suitable for critical jobs or databases?;;Spot Instances.
 <!--SR:!2025-09-05,46,250-->
 - What should you use to control traffic in and out of EC2 instances?;; Security Groups.
-<!--SR:!2025-08-22,17,250-->
+<!--SR:!2025-10-21,60,270-->
 - How long can you reserve an EC2 Reserved instance?;;1 or 3 years.
 <!--SR:!2025-08-30,60,310-->
 - You would like to deploy a High-Performance Computing (HPC) application on EC2 instances. Which EC2 instance type should you choose?;; Compute Optimized.

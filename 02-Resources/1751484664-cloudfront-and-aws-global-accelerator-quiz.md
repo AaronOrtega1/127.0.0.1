@@ -12,7 +12,7 @@ created_date: 2025-07-02
 ---
 # CloudFront And AWS Global Accelerator Quiz
 - You have a CloudFront Distribution that serves your website hosted on a fleet of EC2 instances behind an Application Load Balancer. All your clients are from the United States, but you found that some malicious requests are coming from other countries. What should you do to only allow users from the US and block other countries?;;Use CloudFront Geo Restriction.
-<!--SR:!2025-08-22,32,270-->
+<!--SR:!2025-11-15,85,270-->
 - You have a static website hosted on an S3 bucket. You have created a CloudFront Distribution that points to your S3 bucket to better serve your requests and improve performance. After a while, you noticed that users can still access your website directly from the S3 bucket. You want to enforce users to access the website only through CloudFront. How would you achieve that?;; Configure your CloudFront Distribution and create an Origin Access Control (OAC), then update your S3 bucket Policy to only accept request from your CloudFront Distribution.
 <!--SR:!2025-09-09,38,250-->
 - ![[1751484664-cloudfront-and-aws-global-accelerator-quiz.webp]];;Only allows the S3 bucket content to be accessed from your CloudFront Distribution.

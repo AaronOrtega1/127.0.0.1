@@ -16,7 +16,7 @@ created_date: 2025-08-05
 - You have an application hosted on a fleet of EC2 instances managed by an Auto Scaling Group that you configured its minimum capacity to 2. Also, you have created a CloudWatch Alarm that is configured to scale in your ASG when CPU Utilization is below 60%. Currently, your application runs on 2 EC2 instances and has low traffic and the CloudWatch Alarm is in the ALARM state. What will happen?;;The CloudWatch Alarm will remain in ALARM state but never decrease the number of EC2 instances in the ASG.
 <!--SR:!2025-08-24,14,290-->
 - How would you monitor your EC2 instance memory usage in CloudWatch?;;Use the Unified CloudWatch Agent to push memory usage as a custom metric to CloudWatch.
-<!--SR:!2025-08-22,12,270-->
+<!--SR:!2025-10-07,46,290-->
 - You have made a configuration change and would like to evaluate the impact of it on the performance of your application. Which AWS service should you use?;;Amazon CloudWatch.
 <!--SR:!2025-08-25,15,290-->
 - Someone has terminated an EC2 instance in your AWS account last week, which was hosting a critical database that contains sensitive data. Which AWS service helps you find who did that and when?;;AWS CloudTrail.

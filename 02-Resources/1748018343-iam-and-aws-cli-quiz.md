@@ -20,7 +20,7 @@ created_date: 2025/05/23
 <!--SR:!2026-04-28,253,330-->
 
 - What are IAM Policies?;;JSON documents that define a set of permissions form making requests to AWS services, and can be used by IAM Users, User Groups, and IAM Roles.
-<!--SR:!2025-08-22,37,250-->
+<!--SR:!2025-11-22,92,250-->
 
 - Which principle should you apply regarding IAM Permissions?;;Grant least privilege.
 <!--SR:!2025-08-23,64,310-->

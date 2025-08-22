@@ -6,7 +6,7 @@ tags:
   - resource
   - aws
   - cloud
-  - Cards/AWS/Cloud_Architecting_Academy
+  - Cards/Archive/AWS/Cloud_Architecting_Academy
 created_date: 2025-07-09
 ---
 # Adding a Storage Layer with Amazon S3 Quiz
