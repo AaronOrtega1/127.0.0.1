@@ -20,7 +20,7 @@ created_date: 2025/05/27
 - You would like to deploy a High-Performance Computing (HPC) application on EC2 instances. Which EC2 instance type should you choose?;; Compute Optimized.
 <!--SR:!2025-09-06,45,230-->
 - Which EC2 Purchasing Option should you use for an application you plan to run on a server continuously for 1 year?;;Reserved Instances.
-<!--SR:!2025-08-21,57,310-->
+<!--SR:!2026-04-23,245,330-->
 - You are preparing to launch an application that will be hosted on a set of EC2 instances. This application needs some software installation and some OS packages need to be updated during the first launch. What is the best way to achieve this when you launch the EC2 instances?;;Write a bash script that installs the required software and updates to your OS, then use this script in EC2 User Data when you launch your EC2 instances.
 <!--SR:!2026-01-17,165,310-->
 - Which EC2 Instance Type should you choose for a critical application that uses an in-memory database?;;Memory Optimized.

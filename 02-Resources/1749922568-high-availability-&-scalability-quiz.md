@@ -16,7 +16,7 @@ created_date: 2025/06/14
 - Running an application on an Auto Scaling Group that scales the number of EC2 instances in and out is called...;;Horizontal Scalability.
 <!--SR:!2025-09-04,57,310-->
 - Elastic Load Balancers provide a...;;static DNS name we can use in our application.
-<!--SR:!2025-08-21,23,230-->
+<!--SR:!2025-11-04,75,250-->
 - You are running a website on 10 EC2 instances fronted by an Elastic Load Balancer. Your users are complaining about the fact that the website always asks them to re-authenticate when they are moving between website pages. You are puzzled because it's working just fine on your machine and in the Dev environment with 1 EC2 instance. What could be the reason?;;The Elastic Load Balancer does not have Sticky Sessions enabled.
 <!--SR:!2025-09-06,58,310-->
 - You are using an Application Load Balancer to distribute traffic to your website hosted on EC2 instances. It turns out that your website only sees traffic coming from private IPv4 addresses which are in fact your Application Load Balancer's IP addresses. What should you do to get the IP address of clients connected to your website?;;Modify your website's backend to get the client IP address from the X-Forwarded-For header.

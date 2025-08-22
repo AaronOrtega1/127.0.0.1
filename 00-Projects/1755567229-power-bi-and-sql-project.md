@@ -49,7 +49,7 @@ We would like to visualize various aspects of our pizza sales data to gain insig
 - [x] Create dashboard with Power BI and publish it
 	- [x] KPI's dashboard
 	- [x] Chart requirements.
-- [ ] Create README for the project
+- [x] Create README for the project
 - [ ] Put it in my CV
 
 ## Notes
