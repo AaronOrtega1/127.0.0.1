@@ -34,7 +34,7 @@ created_date: 2025-07-03
 - A Solutions Architect is working on planning the migration of a startup company from on-premises to AWS. Currently, their infrastructure consists of many servers and 30 TB of data hosted on a shared NFS storage. He has decided to use Amazon S3 to host the data. Which AWS service can efficiently migrate the data from on-premises to S3?;;AWS DataSync.
 <!--SR:!2025-08-31,26,250-->
 - Which AWS service is best suited to migrate a large amount of data from an S3 bucket to an EFS file system?;;AWS DataSync.
-<!--SR:!2025-08-24,27,290-->
+<!--SR:!2025-09-07,13,270-->
 - A Machine Learning company is working on a set of datasets that are hosted on S3 buckets. The company decided to release those datasets to the public to be useful for others in their research, but they don’t want to configure the S3 bucket to be public. And those datasets should be exposed over the FTP protocol. What can they do to do the requirement efficiently and with the least effort?;;Use AWS Transfer Family, since it allows you to securely transfer files stored in S3 over the FTP protocol without exposing the S3 bucket to the public.
 <!--SR:!2025-09-06,35,230-->
 - Amazon FSx for NetApp ONTAP isn't compatible with the following protocol;;FTP.
@@ -46,5 +46,5 @@ created_date: 2025-07-03
 - You have on-premises sensitive files and documents that you want to regularly synchronize to AWS to keep another copy. Which AWS service can help you with that?;;AWS DataSync.
 <!--SR:!2025-09-11,45,290-->
 - AWS DataSync doesn't supports the following locations...;;EBC.
-<!--SR:!2025-08-25,6,230-->
+<!--SR:!2025-09-13,19,250-->
 

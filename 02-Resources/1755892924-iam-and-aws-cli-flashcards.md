@@ -23,14 +23,12 @@ created_date: 2025-08-22
 - What are the two main defense mechanisms to protect IAM users and groups from being compromised?;;The two main defense mechanisms are defining a **password policy** and enforcing **Multi-Factor Authentication (MFA).**
 - Name at least three configuration options for an AWS IAM password policy:;;You can set a **minimum password length,** require **specific character types** (e.g., uppercase, lowercase, numbers, non-alphanumeric characters), allow or disallow IAM users to **change their own passwords,** require users to **change passwords after a certain time** (password expiration), and **prevent password reuse.**
 - List two types of Multi-Factor Authentication (MFA) devices supported by AWS:;;Two types include **virtual MFA devices** (like Google Authenticator or Authy) and **Universal 2nd Factor (U2F) Security Keys** (physical devices like YubiKey). Other options include hardware key fob MFA devices and special key fobs for AWS GovCloud.
-
-
-
-
-
-
-
-
-
-
+- What are two essential security tools available in IAM to help enforce the principle of least privilege?;;The **IAM Credentials Report** (account-level) provides the status of all user credentials, and the **IAM Access Advisor** (user-level) shows service permissions granted to a user and when those services were last accessed.
+- What is the difference between an IAM user and an IAM role?;;An **IAM user** represents a **physical person** within your organization, while an **IAM role** is intended to be used by **AWS services** to perform actions on your behalf.
+- Can IAM groups contain other IAM groups?;;No, IAM groups can **only contain users**, not other groups.
+- Which specific AWS SDK is the AWS CLI built upon?;;The AWS CLI is built on the **AWS SDK for Python, name boto.**
+- What are access keys, and how should the be treated?;;Access keys are **credentials (like a secret password)** that allow you to access AWS programatically or via the CLI. They are **private to you** and **should never be shared** with others.
+- Can an IAM user belong to multiple groups?;;Yes, a user **can belong to multiple groups** within IAM.
+- What is an "inline policy" in AWS IAM?;;An **inline policy** is an IAM policy that is **attached directly to a specific user** (or group or role), rather than being a standalone managed policy.
+- Is IAM (Identity Access Management) a global or regional AWS service?;;IAM is a **global service.**
 

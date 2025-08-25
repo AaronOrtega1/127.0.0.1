@@ -12,7 +12,7 @@ created_date: 2025-07-31
 ---
 # Data and Analytics Quiz
 - You would like to have a database that is efficient at performing analytical queries on large sets of columnar data. You would like to connect to this Data Warehouse using a reporting and dashboard tool such as Amazon QuickSight. Which AWS technology do you recommend?;;Amazon Redshift.
-<!--SR:!2025-08-24,6,250-->
+<!--SR:!2025-09-14,20,270-->
 - You have a lot of log files stored in an S3 bucket that you want to perform a quick analysis, if possible Serverless, to filter the logs and find users that attempted to make an unauthorized action. Which AWS service allows you to do so?;;Amazon Athena.
 <!--SR:!2025-09-08,25,270-->
 - As a Solutions Architect, you have been instructed you to prepare a disaster recovery plan for a Redshift cluster. What should you do?;;Enable Automated Snapshots, then configure you Redshift cluster to automatically copy snapshots to another AWS region.

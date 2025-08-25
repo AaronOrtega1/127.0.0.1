@@ -10,7 +10,7 @@ created_date: 2025-08-19
 ---
 # IA Prompts for Learning
 ## Notebook ML summary
-Act as an AWS expert tutor helping me study for my AWS SAA certificate. Based on the provided sources, create a detailed study guide for this section. Organize it by key services (e.g., RDS, DynamoDB, Redshift, etc...) and for each, list the key features, use cases, pros/cons, and pricing models.
+Act as an AWS expert tutor helping me study for my AWS SAA certificate. Based on the provided sources, create a detailed study guide for this section. Organize it by key services (e.g., RDS, DynamoDB, Redshift, etc...) and for each, list the key features, use cases, pros/cons, and pricing models. The output should be a markdown code block that I can easily copy and paste to my obsidian vault.
 
 ## Notebook ML flashcards.
 Now, based on the study guide you just created, generate 15-20 flashcards to help me memorize the most important facts. Format them clearly with a 'Question:' and 'Answer:' on separate lines. Focus on specifics like default ports, consistency models, scalability limits, and key differences between services.
