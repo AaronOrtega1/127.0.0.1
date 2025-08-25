@@ -1,0 +1,36 @@
+---
+link: "[[1755881612-iam-and-aws-cli-study-guide|IAM and AWS CLI study guide]]"
+aliases:
+  - IAM and AWS CLI Flashcards
+tags:
+  - resource
+  - aws
+  - cloud
+  - certificate
+  - Cards/AWS/NotebookLM/IAM_CLI
+created_date: 2025-08-22
+---
+# IAM and AWS CLI Flashcards
+- What is AWS CloudShell;;Is a **free-to-use terminal in the cloud** of AWS that allows you to issue commands.
+- In AWS CloudShell, what is the default region for API calls?;;The **default region** in CloudShell is the **region you are currently logged into.**
+- What happens to files you create within your CloudShell environment if you restart your CloudShell session?;;All files you create within your CloudShell environment will **persist and stay** even if you restart your session.
+- What are the three different options to access AWS services?;;The three options are the **AWS Management Console** (web interface), the **AWS Command Line Interface (CLI)**, and the **AWS Software Development Kit (SDK)**.
+- How are the AWS Management Console, CLI, and SDK typically protected for access?;;The  Management Console is protected by **username/password** (and potentially MFA). The CLI and SDK are protected by **access key.**
+- What is the primary difference in how you use the AWS CLI versus the AWS SDK?;;The **AWS CLI** is a tool you use to interact with AWS services via **commands typed in your command-line shell**, while the **AWS SDK** is a set of language-specific libraries that you **embed within your application code** to programmatically access and manage AWS services.
+- What is the "least privilege principle" in AWS IAM?;;The least privilege principle means you **don't give more permissions than a user needs.** If a user only requires access to three services, you should only grant permissions for those specific services.
+- What is the recommended use for the AWS Root Account?;;The root account should only be used for setting up your AWS account initially and should not be used for daily operations or shared.
+- What is the purpose of IAM Roles?;;**IAM Roles** are used to assign permissions to **AWS services** (not physical people) that need to perform actions on your behalf, such as an EC2 Instance or a Lambda Function.
+- What are the two main defense mechanisms to protect IAM users and groups from being compromised?;;The two main defense mechanisms are defining a **password policy** and enforcing **Multi-Factor Authentication (MFA).**
+- Name at least three configuration options for an AWS IAM password policy:;;You can set a **minimum password length,** require **specific character types** (e.g., uppercase, lowercase, numbers, non-alphanumeric characters), allow or disallow IAM users to **change their own passwords,** require users to **change passwords after a certain time** (password expiration), and **prevent password reuse.**
+- List two types of Multi-Factor Authentication (MFA) devices supported by AWS:;;Two types include **virtual MFA devices** (like Google Authenticator or Authy) and **Universal 2nd Factor (U2F) Security Keys** (physical devices like YubiKey). Other options include hardware key fob MFA devices and special key fobs for AWS GovCloud.
+
+
+
+
+
+
+
+
+
+
+

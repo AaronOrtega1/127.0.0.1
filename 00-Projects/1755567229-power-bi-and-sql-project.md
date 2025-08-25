@@ -4,7 +4,7 @@ aliases:
   - Power BI and SQL Project
 tags:
   - projects
-  - active
+  - archived
   - data-analysis
   - sql
   - PowerBI
