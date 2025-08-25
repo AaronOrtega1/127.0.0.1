@@ -30,5 +30,12 @@
   ],
   "promptDelete": false,
   "tabSize": 2,
-  "livePreview": false
+  "livePreview": false,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
