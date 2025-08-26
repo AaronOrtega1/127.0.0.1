@@ -32,7 +32,7 @@ created_date: 2025-07-31
 - Which AWS Glue feature allows you to save and track the data that has already been processed during a previous run of a Glue ETL job?;;Glue Job Bookmarks.
 <!--SR:!2025-09-27,40,290-->
 - You are a DevOps engineer in a machine learning company which 3 TB of JSON files stored in an S3 bucket. There’s a requirement to do some analytics on those files using Amazon Athena and you have been tasked to find a way to convert those files’ format from JSON to Apache Parquet. Which AWS service is best suited?;;AWS Glue.
-<!--SR:!2025-08-26,7,270-->
+<!--SR:!2025-09-21,26,290-->
 - You have an on-premises application that is used together with an on-premises Apache Kafka to receive a stream of clickstream events from multiple websites. You have been tasked to migrate this application as soon as possible without any code changes. You decided to host the application on an EC2 instance. What is the best option you recommend to migrate Apache Kafka?;;Amazon MSK.
 <!--SR:!2025-09-17,30,270-->
 - You have data stored in RDS, S3 buckets and you are using AWS Lake Formation as a data lake to collect, move and catalog data so you can do some analytics. You have a lot of big data and ML engineers in the company and you want to control access to part of the data as it might contain sensitive information. What can you use?;;Lake Formation Fine-grained Access Control.

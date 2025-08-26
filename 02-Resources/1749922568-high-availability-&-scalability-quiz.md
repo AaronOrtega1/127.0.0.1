@@ -30,7 +30,7 @@ created_date: 2025/06/14
 - Application Load Balancer can route traffic to different Target Groups Based on what?;;URL Path, Hostname, HTTP Headers, and Query Strings.
 <!--SR:!2025-08-27,28,210-->
 - What can be registered as a targets in a Target Groups for an Application Load Balancer can be?;;EC2 Instances, Private IP Addresses, Lambda Functions.
-<!--SR:!2025-08-26,24,210-->
+<!--SR:!2025-10-15,50,210-->
 - For compliance purposes, you would like to expose a fixed static IP address to your end-users so that they can write firewall rules that will be stable and approved by regulators. What type of Elastic Load Balancer would you choose?;;Network Load Balancer, because it has one static IP address per AZ and you can attach an Elastic IP address to it.
 <!--SR:!2026-02-06,165,310-->
 - You want to create a custom application-based cookie in your Application Load Balancer. Which of the following you can use as a cookie name?;;APPUSERC

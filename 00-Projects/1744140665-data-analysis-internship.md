@@ -8,7 +8,7 @@ tags:
   - python
   - sql
   - internship
-  - 2ndQ
+  - 3rdQ25
   - data-analysis
 start_date: 2025-04-08
 end_date: 2025-12-31

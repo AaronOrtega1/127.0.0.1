@@ -7,6 +7,7 @@ tags:
   - active
   - BusinessIntelligence
   - udemy
+  - 3rdQ25
 start_date: 2025-08-25
 end_date: 2025-10-25
 ---

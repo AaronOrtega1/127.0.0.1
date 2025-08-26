@@ -20,7 +20,8 @@ end_date: 2025-12-01
 - [x] Finish course (23/August/25).
 - [x] Ask Jose where he did his practice exams.
 - [ ] Do practice exams till we get 80+ all the time.
-- [ ] Take the certification exam (1/December/25).
+- [ ] Finish AWS Academy course for Cloud Architecture.
+- [ ] Take the certification exam (October/2025).
 ## Notes
 - https://aws-aaron-root.signin.aws.amazon.com/console
 - **AWS Courses** is the root user of the teacher.

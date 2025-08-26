@@ -36,4 +36,6 @@ created_date: 2025-08-22
 - GitHub actions evidence
 ![[1755868181-homework-4-compilation-notebook.webp]]
 
+This homework helped me refresh my memory with not only `Makefiles` but also with GitHub actions that I remember that in one point of my degree I saw a little bit about both things but I haven't used them in a build and they can be really useful tools.
+
 [GitHub Repo](https://github.com/AaronOrtega1/HW4-CompilationNotebook/)
