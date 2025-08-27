@@ -16,17 +16,17 @@ created_date: 2025-08-07
 - Server-Side Encryption means that the data is sent encrypted to the server.;;False, it means that the server will encrypt the data for use.
 <!--SR:!2025-08-28,15,290-->
 - In Server-Side Encryption, where do the encryption and decryption happen?;;Both encryption and decryption happen on the server.
-<!--SR:!2025-08-27,14,290-->
+<!--SR:!2025-10-22,56,310-->
 - In Client-Side Encryption, the server must know our encryption scheme before we can upload the data.;;False.
-<!--SR:!2025-08-27,14,290-->
+<!--SR:!2025-10-23,57,310-->
 - You need to create KMS Keys in AWS KMS before you are able to use the encryption features for EBS, S3, RDS ...;;False.
 <!--SR:!2025-08-29,16,290-->
 - AWS KMS supports both symmetric and asymmetric KMS keys.;;True.
 <!--SR:!2025-08-29,16,290-->
 - When you enable Automatic Rotation on your KMS Key, the backing key is rotated every;;1 year.
-<!--SR:!2025-08-27,14,290-->
+<!--SR:!2025-10-22,56,310-->
 - You have an AMI that has an encrypted EBS snapshot using KMS CMK. You want to share this AMI with another AWS account. You have shared the AMI with the desired AWS account, but the other AWS account still can't use it. How would you solve this problem?;;You need to share the KMS CMK used to encrypt the AMI with the other AWS account.
-<!--SR:!2025-08-27,14,290-->
+<!--SR:!2025-10-21,55,310-->
 - You have created a Customer-managed CMK in KMS that you use to encrypt both S3 buckets and EBS snapshots. Your company policy mandates that your encryption keys be rotated every 6 months. What should you do?;;Re-configure your KMS CMK and enable Automatic Key Rotation, and configure the Retention Period with 180 days.
 <!--SR:!2025-08-29,16,290-->
 - What should you use to control access to your KMS CMKs?;;KMS Key Policies.
@@ -44,7 +44,7 @@ created_date: 2025-08-07
 - You have a website hosted on a fleet of EC2 instances fronted by an Application Load Balancer. What should you use to protect your website from common web application attacks (e.g., SQL Injection)?;;AWS WAF.
 <!--SR:!2025-08-29,16,290-->
 - You would like to analyze OS vulnerabilities from within EC2 instances. You need these analyses to occur weekly and provide you with concrete recommendations in case vulnerabilities are found. Which AWS service should you use?;;Amazon Inspector.
-<!--SR:!2025-08-27,2,210-->
+<!--SR:!2025-08-28,1,190-->
 - What is the most suitable AWS service for storing RDS DB passwords which also provides you automatic rotation?;;AWS Secrets Manager.
 <!--SR:!2025-10-01,37,290-->
 - Which AWS service allows you to centrally manage EC2 Security Groups and AWS Shield Advanced across all AWS accounts in your AWS Organization?;;AWS Firewall Manager.

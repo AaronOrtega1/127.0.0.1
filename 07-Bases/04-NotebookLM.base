@@ -1,0 +1,12 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      or:
+        - file.hasTag("StudyGuide")
+        - file.hasTag("Cards/AWS/NotebookLM")
+    order:
+      - file.name
+      - tags
+    columnSize:
+      file.name: 479

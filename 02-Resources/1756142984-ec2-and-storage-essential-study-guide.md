@@ -1,7 +1,7 @@
 ---
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|AWS Certified Solution Architect Associate 2025]]"
 aliases:
-  - EC2 study guide
+- EC2 and Storage Essential Study Guide
 tags:
   - resource
   - StudyGuide
@@ -14,7 +14,7 @@ tags:
   - Section7
 created_date: 2025-08-25
 ---
-# EC2 study guide
+# EC2 and Storage Essential Study Guide
 ## 1. Amazon EC2 (Elastic Compute Cloud)
 **EC2 Overview**
 *   **Key Features**:

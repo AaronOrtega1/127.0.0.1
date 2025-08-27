@@ -4,6 +4,7 @@ views:
     filters:
       and:
         - file.hasTag("book")
+        - '!file.inFolder("06-Templates")'
     order:
       - file.name
       - status
@@ -11,6 +12,9 @@ views:
     sort:
       - property: status
         direction: ASC
+    columnSize:
+      file.name: 496
+      note.status: 150
   - type: cards
     name: View
     filters:

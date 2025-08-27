@@ -25,7 +25,7 @@ created_date:
 - You are looking to build an index of your files in S3, using Amazon RDS PostgreSQL. To build this index, it is necessary to read the first 250 bytes of each object in S3, which contains some metadata about the content of the file itself. There are over 100,000 files in your S3 bucket, amounting to 50 TB of data. How can you build this index efficiently?;;Create an application that will traverse the S3 bucket, issue a Byte Range Fetch for the first 250 bytes, and store that information in RDS.
 <!--SR:!2025-11-13,84,270-->
 - You have a large dataset stored on-premises that you want to upload to the S3 bucket. The dataset is divided into 10 GB files. You have good bandwidth but your Internet connection isn't stable. What is the best way to upload this dataset to S3 and ensure that the process is fast and avoid any problems with the Internet connection?;;Use S3 Multi-part Upload and S3 Transfer Acceleration.
-<!--SR:!2025-08-27,30,230-->
+<!--SR:!2025-11-03,68,230-->
 - A company is preparing for compliance and regulatory review on its infrastructure on AWS. Currently, they have their files stored on S3 buckets encrypted using S3 Default Encryption, which must be encrypted using KMS as required for compliance and regulatory review. Which S3 feature allows them to encrypt all files in their S3 buckets in the most efficient and cost-effective way?;;S3 Batch Operations.
 <!--SR:!2025-09-15,56,310-->
 - You have a 25 GB file that you're trying to upload to S3 but you're getting errors. What is a possible solution for this?;;Use Multi-part upload when uploading files larger than 5GB.

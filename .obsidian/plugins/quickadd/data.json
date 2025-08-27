@@ -99,6 +99,26 @@
           }
         ]
       }
+    },
+    {
+      "id": "3a5302b3-464c-4df1-8f46-20bfc1c3efbc",
+      "name": "Book",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Book",
+        "id": "df7abe52-d2f4-4118-b649-c88868408c85",
+        "commands": [
+          {
+            "name": "bookNote",
+            "type": "UserScript",
+            "id": "f4755b9f-2ca2-4b4f-86b5-ed82c765d2e4",
+            "path": "03-Archives/Scripts/bookNote.js",
+            "settings": {}
+          }
+        ]
+      }
     }
   ],
   "inputPrompt": "single-line",

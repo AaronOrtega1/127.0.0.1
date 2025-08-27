@@ -1,6 +1,6 @@
 ---
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|AWS Certified Solution Architect Associate 2025]]"
-aliases: 
+aliases:
   - Load Balancing and Auto Scaling Study Guide
 tags:
   - resource
@@ -8,10 +8,10 @@ tags:
   - aws
   - cloud
   - certificate
-  - EC2
+  - ALB
+  - ASG
   - Section8
-created_date:
-  "2025-08-26"
+created_date: 2025-08-26
 ---
 # Load Balancing and Auto Scaling Study Guide
 ## 1. Load Balancing (General Concepts)

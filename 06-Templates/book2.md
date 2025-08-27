@@ -1,19 +1,22 @@
 ---
 link: "[[]]"
 aliases: 
-  - "{{cap_title}}"
+  - {{title}}
 tags:
   - resource
 created_date:
-  "{{date}}"
+  {{date}}
 ---
-# {{cap_title}}
+# {{title}}
 ## Summary
 - 
+
 ## Key Ideas
 ### 
 - 
+
 ## Related Links
 - [[]]
+
 ## Source
 [text]()
