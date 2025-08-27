@@ -83,6 +83,13 @@
         "a": 1,
         "rgb": 1928327
       }
+    },
+    {
+      "query": "tag:#excel  ",
+      "color": {
+        "a": 1,
+        "rgb": 2133322
+      }
     }
   ],
   "collapse-display": true,

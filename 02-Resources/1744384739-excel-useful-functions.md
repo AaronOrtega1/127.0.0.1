@@ -1,11 +1,11 @@
 ---
-link: "[[1744384647-learning-excel|Learning Excel]]"
-aliases: 
+link: "[[1744384647-excel|Excel]]"
+aliases:
   - Excel Useful Functions
 tags:
   - resource
-created_date:
-  "2025/04/11"
+  - excel
+created_date: 2025/04/11
 ---
 # Excel Useful Functions
 ## Key Ideas

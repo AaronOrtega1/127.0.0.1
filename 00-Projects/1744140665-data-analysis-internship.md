@@ -26,7 +26,7 @@ Get a data analysis internship by the Q4 of 2025.
 - [ ] Update CV part of Education with the work done in my PAP and in [[1743811421-procesamiento-de-datos-masivos|Procesamiento De Datos Masivos]]
 
 ## Sub-projects
-- [[1744384647-learning-excel|Learning Excel]]
+- [[1744384647-excel|Learning Excel]]
 - [[1744153475-learning-sql|Learning SQL]]
 - [[1744296520-sql-practice-with-dummy-database-created-by-deepseek|SQL Practice Deepseek]]
 - [[1744040981-leetcode-problems|Leetcode Problems]]

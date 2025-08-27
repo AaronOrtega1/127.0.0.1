@@ -1,5 +1,5 @@
 ---
-link: "[[1744384647-learning-excel|Learning Excel]]"
+link: "[[1744384647-excel|Learning Excel]]"
 aliases:
   - Excel Xlookup Vlookup
 tags:
