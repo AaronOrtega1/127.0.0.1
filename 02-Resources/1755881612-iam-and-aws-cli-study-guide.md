@@ -9,6 +9,7 @@ tags:
   - cloud
   - certificate
   - IAM
+  - Section4
 created_date: 2025-08-22
 ---
 # IAM and AWS CLI study guide

@@ -1,6 +1,6 @@
 ---
 link: "[[1756142984-ec2-study-guide|EC2 study guide]]"
-aliases: 
+aliases:
   - EC2 and Storage Essential Flashcards
 tags:
   - resource
@@ -8,8 +8,7 @@ tags:
   - cloud
   - certificate
   - Cards/AWS/NotebookLM/EC2_and_Storage
-created_date:
-  "2025-08-25"
+created_date: 2025-08-25
 ---
 # EC2 and Storage Essential Flashcards
 - What is the primary purpose of EC2 **Placement Groups**?;;To control how **EC2 instances are placed** within the AWS infrastructure, defining their strategy relative to one another.
@@ -88,20 +87,13 @@ created_date:
 - What is an **Elastic Network Interface (ENI)** and what is a key benefit?;;An ENI is a **virtual network card** for an EC2 instance. A key benefit is that ENIs can be **attached or moved on the fly between EC2 instances** for **failover purposes.**
 - What are **Security Groups** in AWS?;;Security Groups act as a **firewall around EC2 instances**, controlling how **traffic is allowed into an out of them.**
 - What are the **default inbound and outbound rules** for a Security Group?;;By default, **all inbound traffic is blocked**, and **all outbound traffic is authorized.**
-- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- If you are unable to connect to your EC2 instance and experience a **timeout**, what is the likely cause?;;A **Security Group issue** is the likely cause.
+- What are the **default port numbers for SSH (Linux)** and **RDP (Windows)** access?;;SSH (Linux) port 22, RDP (Windows) port 3389.
+- What are the default port numbers for **HTTP** and **HTTPS** web traffic?;;HTTP port 80, HTTPS port 443.
+- What is **EC2 User Data** and when does it run?;;EC2 User Data is a **bootstrap script** that runs **once when an EC2 instance first starts** (bootstrapping) to automate initial configuration tasks like installing software or updates. It runs with the **root user.**
+- What is the difference between a **Public IP** and a **Private IP**?;;A **Public IP** is identifiable and unique across the **internet**, while a **Private IP** is only identifiable and unique within its **private network.**
+- What is an **Elastic IP (EIP)** and why is it generally recommended to avoid them?;;An EIP is a **public IPv4 address you own** that can be attached to an instance. It's generally recommend to **avoid EIPs** for good architecture and use **DNS names (route 53)** or **Load Balancers** instead for scalability and flexibility.
+- In the EC2 instance naming convention `m5.2xlarge`, what do `m, 5, and 2xlarge` represent?;;`m` the **instance class**, `5` the **generation** and `2xlarge` the **size**.
+- Which EC2 instance class is optimized for workloads that **process large datasets in memory (RAM)**, often used for high-performance database or caches?;;**Memory Optimized** instances (e.g., **R-series**, where `R` stands for RAM).
+- Which EC2 instance class is optimized for applications that **access a lot of data sets on local storage**, such as high-frequency OLTP systems or data warehousing?;;**Storage Optimized** instances (e.g., I, D, or H1 series).
 

@@ -9,6 +9,9 @@ tags:
   - cloud
   - certificate
   - EC2
+  - Section5
+  - Section6
+  - Section7
 created_date: 2025-08-25
 ---
 # EC2 study guide

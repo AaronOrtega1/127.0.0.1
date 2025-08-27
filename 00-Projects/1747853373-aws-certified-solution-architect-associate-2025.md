@@ -19,6 +19,8 @@ end_date: 2025-12-01
 ## Tasks
 - [x] Finish course (23/August/25).
 - [x] Ask Jose where he did his practice exams.
+- [ ] Create Study Guides of all the sections with NotebookLM.
+- [ ] Create Flashcards of all the Study Guides with NotebookLM.
 - [ ] Do practice exams till we get 80+ all the time.
 - [ ] Finish AWS Academy course for Cloud Architecture.
 - [ ] Take the certification exam (October/2025).
@@ -36,6 +38,7 @@ from "04-Zettelkasten" and [[]]
 ```dataview
 list
 from "02-Resources" and [[]]
+where !contains(tags,"Cards/AWS") or !contains(tags,"StudyGuide")
 ```
 
 ### Quizzes
@@ -43,4 +46,11 @@ from "02-Resources" and [[]]
 list
 from "02-Resources" and [[]]
 where contains(tags,"Cards/AWS")
+```
+
+### Study Guide
+```dataview
+list
+from "02-Resources" and [[]]
+where contains(tags,"StudyGuide")
 ```
