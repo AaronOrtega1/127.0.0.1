@@ -16,7 +16,7 @@ end_date: 2025-10-25
 Master all the crucial technologies and fundamentals for Business Intelligence, like math, excel, SQL, tableau (which I will change for Power BI) and python, and how to integrate SQL, tableau and python.
 
 ## Tasks
-- [ ] 
+- [ ] Create project that integrates SQL, Power BI and python
 
 ## Notes
 ```dataview
