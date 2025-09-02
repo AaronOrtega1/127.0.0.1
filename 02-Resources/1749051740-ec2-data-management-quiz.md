@@ -15,7 +15,7 @@ created_date: 2025/06/04
 - You have just terminated an EC2 instance in `us-east-1a`, and its attached EBS volume is now available. Your teammate tries to attach it to an EC2 instance in `us-east-1b` but he can't. What is a possible cause for this?;;EBS volumes are locked to an AZ.
 <!--SR:!2025-09-05,60,310-->
 - You have launched an EC2 instance with two EBS volumes, Root volume type and the other EBS volume type to store the data. A month later you are planning to terminate the EC2 instance. What's the default behavior that will happen to each EBS volume?;;The root volume type will be deleted an the EBS volume type will not be deleted.
-<!--SR:!2025-08-31,55,310-->
+<!--SR:!2026-04-25,236,330-->
 - You can use an AMI in N.Virginia Region `us-east-1` to launch an EC2 instance in any AWS Region.;;False, AMIs are built for specific AWS Regions.
 <!--SR:!2026-02-15,181,310-->
 - Which of the following EBS volume types can be used as boot volumes when you create EC2 instances?;;gp2, gp3, io1, io2.

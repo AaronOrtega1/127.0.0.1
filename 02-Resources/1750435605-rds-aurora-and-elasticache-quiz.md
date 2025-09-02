@@ -12,15 +12,15 @@ created_date: 2025/06/20
 ---
 # RDS Aurora And ElastiCache Quiz
 - Amazon RDS supports the following databases:;;MySQL, PostgreSQL, MariaDB,Oracle, MS SQL, and Amazon Aurora.
-<!--SR:!2025-09-01,46,290-->
+<!--SR:!2026-03-05,185,310-->
 - You're planning for a new solution that requires a MySQL database that must be available even in case of a disaster in one of the Availability Zones. What should you use?;; Enable Multi-AZ, since it helps when you plan a disaster recovery for an entire AZ going down.
-<!--SR:!2025-08-29,22,250-->
+<!--SR:!2025-11-14,77,270-->
 - You have set up read replicas on your RDS database, but users are complaining that upon updating their social media posts, they do not see their updated posts right away. What is a possible cause for this?;;Read Replicas have Asynchronous Replication, therefore it's likely your users will only read Eventual Consistency.
 <!--SR:!2025-09-18,56,270-->
 - Which RDS **(NOT Aurora)** feature when used does not require you to change the SQL connection string?;;Multi-AZ, keeps the same connection string regardless of which database is up.
 <!--SR:!2025-10-14,70,270-->
 - Your application running on a fleet of EC2 instances managed by an Auto Scaling Group behind an Application Load Balancer. Users have to constantly log back in and you don't want to enable Sticky Sessions on your ALB as you fear it will overload some EC2 instances. What should you do?;;Store session data in ElastiCache.
-<!--SR:!2025-08-31,45,290-->
+<!--SR:!2026-03-01,181,310-->
 - An analytics application is currently performing its queries against your main production RDS database. These queries run at any time of the day and slow down the RDS database which impacts your users' experience. What should you do to improve the users' experience?;;Setup a Read Replica.
 <!--SR:!2025-09-12,58,310-->
 - You would like to ensure you have a replica of your database available in another AWS Region if a disaster happens to your main AWS Region. Which database do you recommend to implement this easily?;;Aurora Global Database, since it allows you to have an replica in another AWS Region.
@@ -43,7 +43,7 @@ created_date: 2025/06/20
 - You have an un-encrypted RDS DB instance and you want to create Read Replicas. Can you configure the RDS Read Replicas to be encrypted?;;No, you can not create encrypted Read Replicas from an unencrypted RDS DB instance.
 <!--SR:!2025-09-20,65,310-->
 - An application running in production is using an Aurora Cluster as its database. Your development team would like to run a version of the application in a scaled-down application with the ability to perform some heavy workload on a need-basis. Most of the time, the application will be unused. Your CIO has tasked you with helping the team to achieve this while minimizing costs. What do you suggest?;;Use Aurora Serverless.
-<!--SR:!2025-08-31,41,290-->
+<!--SR:!2026-02-13,165,310-->
 - How many Aurora Read Replicas can you have in a single Aurora DB Cluster?;;15.
 <!--SR:!2025-11-17,104,310-->
 - Amazon Aurora supports both .......................... databases.;;MySQL and PostgreSQL.
@@ -53,7 +53,7 @@ created_date: 2025/06/20
 - You need full customization of an Oracle Database on AWS. You would like to benefit from using the AWS services. What do you recommend?;;RDS Custom for Oracle.
 <!--SR:!2025-09-10,39,230-->
 - You need to store long-term backups for your Aurora database for disaster recovery and audit purposes. What do you recommend?;;Perform On Demand Backups.
-<!--SR:!2025-09-01,7,210-->
+<!--SR:!2025-09-05,4,190-->
 - Your development team would like to perform a suite of read and write tests against your production Aurora database because they need access to production data as soon as possible. What do you advise?;;Use the Aurora Cloning Feature.
 <!--SR:!2025-10-14,48,230-->
 - You have 100 EC2 instances connected to your RDS database and you see that upon a maintenance of the database, all your applications take a lot of time to reconnect to RDS, due to poor application logic. How do you improve this?;;Use an RDS Proxy, this reduces the failover time by up to 66% and keeps connection active for your app.

@@ -16,7 +16,7 @@ created_date: 2025/05/27
 - What should you use to control traffic in and out of EC2 instances?;; Security Groups.
 <!--SR:!2025-10-21,60,270-->
 - How long can you reserve an EC2 Reserved instance?;;1 or 3 years.
-<!--SR:!2025-08-30,60,310-->
+<!--SR:!2026-05-16,257,330-->
 - You would like to deploy a High-Performance Computing (HPC) application on EC2 instances. Which EC2 instance type should you choose?;; Compute Optimized.
 <!--SR:!2025-09-06,45,230-->
 - Which EC2 Purchasing Option should you use for an application you plan to run on a server continuously for 1 year?;;Reserved Instances.
@@ -28,10 +28,10 @@ created_date: 2025/05/27
 - You have an e-commerce application with an OLTP database hosted on-premises. This application has popularity which results in its database has thousands of requests per second. You want to migrate the database to an EC2 instance. Which EC2 Instance Type should you choose to handle this high-frequency OLTP database?;;Storage Optimized.
 <!--SR:!2025-09-21,44,210-->
 - Security Groups can be attached to only one EC2 instance.;;False.
-<!--SR:!2025-08-29,59,310-->
+<!--SR:!2026-05-09,253,330-->
 - You're planning to migrate on-premises applications to AWS. Your company has strict compliance requirements that require your applications to run on dedicated servers. You also need to use your own server-bound software license to reduce costs. Which EC2 Purchasing Option is suitable for you?;;Dedicated Hosts.
 <!--SR:!2025-09-27,50,230-->
 - You would like to deploy a database technology on an EC2 instance and the vendor license bills you based on the physical cores and underlying network socket visibility. Which EC2 Purchasing Option allows you to get visibility into them?;;Dedicated Hosts.
-<!--SR:!2025-08-30,25,210-->
+<!--SR:!2025-11-15,75,230-->
 - Spot Fleet is a set of Spot Instances and optionally ...............;;On-Demand Instances.
 <!--SR:!2025-09-08,30,250-->

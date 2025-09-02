@@ -18,7 +18,7 @@ created_date: 2025-07-25
 - You want to migrate an on-premises MongoDB NoSQL database to AWS. You don't want to manage any database servers, so you want to use a managed NoSQL Serverless database, that provides you with high availability, durability, and reliability, and the capability to take your database global. Which database should you choose?;;Amazon DynamoDB, is a key-value, document, NoSQL database.
 <!--SR:!2025-09-26,29,210-->
 - You are looking to perform Online Transaction Processing (OLTP). You would like to use a database that has built-in auto-scaling capabilities and provides you with the maximum number of replicas for its underlying storage. What AWS service do you recommend?;;Amazon Aurora.
-<!--SR:!2025-09-01,10,250-->
+<!--SR:!2025-10-06,35,270-->
 - As a Solutions Architect, a startup company asked you for help as they are working on an architecture for a social media website where users can be friends with each other, and like each other's posts. The company plan on performing some complicated queries such as "What are the number of likes on the posts that have been posted by the friends of Mike?". Which database do you recommend?;;Amazon Neptune, since it's a graph database.
 <!--SR:!2025-09-17,38,290-->
 - You have a set of files, 100MB each, that you want to store in a reliable and durable key-value store. Which AWS service do you recommend?;;Amazon S3, the key is the full path of the object in the bucket.

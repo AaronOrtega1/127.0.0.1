@@ -12,7 +12,7 @@ created_date: 2025-07-08
 ---
 # Messaging and Integration Quiz
 - You have an e-commerce website and you are preparing for Black Friday which is the biggest sale of the year. You expect that your traffic will increase by 100x. Your website already using an SQS Standard Queue, and you're running a fleet of EC2 instances in an Auto Scaling Group to consume SQS messages. What should you do to prepare your SQS Queue?;;Do nothing, SQS scales automatically.
-<!--SR:!2025-09-01,38,290-->
+<!--SR:!2026-02-01,153,310-->
 - You have an SQS Queue where each consumer polls 10 messages at a time and finishes processing them in 1 minute. After a while, you noticed that the same SQS messages are received by different consumers resulting in your messages being processed more than once. What should you do to resolve this issue?;;Increase the Visibility Timeout.
 <!--SR:!2025-10-05,65,310-->
 - Which SQS Queue type allows your messages to be processed exactly once and in order?;;SQS FIFO Queue.
