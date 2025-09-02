@@ -33,7 +33,7 @@ created_date:
 - What is the purpose of **Connection Draining (or Deregistration Delay)** in load balancers?;;Connection Draining (CLB) or Deregistration Delay (for ALB/NLB) gives instance **time to complete in-flight or active request** while the instance is being deregistered or marked unhealthy. During this period, the ELB **stops sending new requests** to the draining instance but allows existing connections to finish.
 <!--SR:!2025-09-08,7,250-->
 - What is the **default duration** for Connection Draining/Deregistration Delay?;;The default duration is **300 seconds (five minutes)**. It can be configured between 1 and 3,600 seconds or disabled by setting it to zero.
-<!--SR:!2025-09-02,1,190-->
+<!--SR:!2025-09-05,3,210-->
 - What is the **default cross-zone load balancing setting** for ALB, NLB, and CLB?;;Application Load Balancer (ALB): Enabled by default, Network Load Balancer (NLB): Disabled by default, Classic Load Balancer (CLB): Disabled by default.
 <!--SR:!2025-09-04,3,230-->
 - Which load balancer incur **charges for inter-AZ data transfer** if cross-zone load balancing is enabled?;;The **Network Load Balancer (NLB) and Gateway Load Balancer (GWLB) incur charges** for inter-AZ data trnsfer if cross-zone load balancing is enabled. For the ALB, there are **no charges** for inter-AZ data transfer because it is enabled by default. For the CLB, if enabled, you are **not charged** for inter-AZ data transfers.

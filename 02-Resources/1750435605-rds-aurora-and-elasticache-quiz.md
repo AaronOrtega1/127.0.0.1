@@ -26,7 +26,7 @@ created_date: 2025/06/20
 - You would like to ensure you have a replica of your database available in another AWS Region if a disaster happens to your main AWS Region. Which database do you recommend to implement this easily?;;Aurora Global Database, since it allows you to have an replica in another AWS Region.
 <!--SR:!2025-09-10,56,310-->
 - How can you enhance the security of your ElastiCache Redis Cluster by allowing users to access your ElastiCache Redis Cluster using their IAM Identities (e.g., Users, Roles)?;;Using IAM Authentication.
-<!--SR:!2025-09-02,43,270-->
+<!--SR:!2025-12-27,116,270-->
 - Your company has a production Node.js application that is using RDS MySQL 5.6 as its database. A new application programmed in Java will perform some heavy analytics workload to create a dashboard on a regular hourly basis. What is the most cost-effective solution you can implement to minimize disruption for the main application?;;Create a Read Replica in a different AZ and run the analytics workload on the replica database.
 <!--SR:!2025-09-10,57,310-->
 - You would like to create a disaster recovery strategy for your RDS PostgreSQL database so that in case of a regional outage the database can be quickly made available for both read and write workloads in another AWS Region. The DR database must be highly available. What do you recommend?;;Create a Read Replica in a different region and enable Multi-AZ on the Read Replica.

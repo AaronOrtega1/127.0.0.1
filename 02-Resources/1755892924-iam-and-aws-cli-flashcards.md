@@ -22,7 +22,7 @@ created_date: 2025-08-22
 - How are the AWS Management Console, CLI, and SDK typically protected for access?;;The  Management Console is protected by **username/password** (and potentially MFA). The CLI and SDK are protected by **access key.**
 <!--SR:!2025-09-08,7,230-->
 - What is the primary difference in how you use the AWS CLI versus the AWS SDK?;;The **AWS CLI** is a tool you use to interact with AWS services via **commands typed in your command-line shell**, while the **AWS SDK** is a set of language-specific libraries that you **embed within your application code** to programmatically access and manage AWS services.
-<!--SR:!2025-09-02,5,248-->
+<!--SR:!2025-09-20,18,268-->
 - What is the "least privilege principle" in AWS IAM?;;The least privilege principle means you **don't give more permissions than a user needs.** If a user only requires access to three services, you should only grant permissions for those specific services.
 <!--SR:!2025-09-15,14,290-->
 - What is the recommended use for the AWS Root Account?;;The root account should only be used for setting up your AWS account initially and should not be used for daily operations or shared.

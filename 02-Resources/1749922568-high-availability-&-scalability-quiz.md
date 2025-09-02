@@ -44,7 +44,7 @@ created_date: 2025/06/14
 - You have an application hosted on a set of EC2 instances managed by an Auto Scaling Group that you configured both desired and maximum capacity to 3. Also, you have created a CloudWatch Alarm that is configured to scale out your ASG when CPU Utilization reaches 60%. Your application suddenly received huge traffic and is now running at 80% CPU Utilization. What will happen?;;Nothing, the ASG can't go over the maximum capacity (you configured) during scale-out events.
 <!--SR:!2025-09-16,63,310-->
 - You have an Auto Scaling Group fronted by an Application Load Balancer. You have configured the ASG to use ALB Health Checks, then one EC2 instance has just been reported unhealthy. What will happen to the EC2 instance?;;The ASG will terminate the EC2 instance, and then launch a new EC2 instance.
-<!--SR:!2025-09-02,55,310-->
+<!--SR:!2026-04-26,236,330-->
 - Your boss asked you to scale your Auto Scaling Group based on the **number of requests per minute** your application makes to your database. What should you do?;;Create a CloudWatch custom metric then create a Cloud Watch Alarm on this Metric to scale your ASG.
 <!--SR:!2025-10-01,70,270-->
 - An application is deployed with an Application Load Balancer and an Auto Scaling Group. Currently, you manually scale the ASG and you would like to define a Scaling Policy that will ensure the average number of connections to your EC2 instances is around 1000. Which Scaling Policy should you use?;;Target Tracking Policy.
