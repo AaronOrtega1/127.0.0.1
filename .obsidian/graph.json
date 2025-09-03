@@ -90,6 +90,13 @@
         "a": 1,
         "rgb": 2133322
       }
+    },
+    {
+      "query": "tag:#python  ",
+      "color": {
+        "a": 1,
+        "rgb": 16765763
+      }
     }
   ],
   "collapse-display": true,
@@ -102,6 +109,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.23490049838560975,
+  "scale": 0.12786363586004612,
   "close": true
 }

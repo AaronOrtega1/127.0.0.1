@@ -62,12 +62,12 @@
     },
     {
       "id": "69a5c96f-3fe9-4514-97dc-942a6e6b4af3",
-      "name": "Notes",
+      "name": "Zettelkasten",
       "type": "Macro",
       "command": false,
       "runOnStartup": false,
       "macro": {
-        "name": "Notes",
+        "name": "Zettelkasten",
         "id": "11ae9fd9-ed0e-4f13-b536-544d1281080b",
         "commands": [
           {
