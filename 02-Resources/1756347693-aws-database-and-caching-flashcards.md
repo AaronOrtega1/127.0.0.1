@@ -19,7 +19,7 @@ created_date:
 - What are the typical default network ports for PostgreSQL, MySQL, and Aurora (PostgreSQL compatible / MySQL compatible) databases on RDS?;;**PostgreSQL - 5432**, **MySQL - 3306**, **Aurora (PostgreSQL compatible) - 5432**, **Aurora (MySQL compatible) - 3306**.
 <!--SR:!2025-09-08,7,250-->
 - Describe the functionality and conditions for **RDS Storage Auto Scaling**.;;With RDS Storage Auto Scaling enabled, RDS will **automatically scale the storage** for your database if the **free storage is less than 10%** of what's allocated, the low-storage condition last for **more than five minutes**, and **six hours** have passed since the last modification. A maximum storage threshold can be set.
-<!--SR:!2025-09-03,2,250-->
+<!--SR:!2025-09-08,5,250-->
 - What is the primary purpose of **RDS Read Replicas**, and what consistency model do they use?;;Read Replicas help you **scale your reads**. They use **asynchronous replication**, meaning reads are **eventually consistent**. You can have up to **15** Read Replicas.
 <!--SR:!2025-09-10,9,250-->
 - What is the primary purpose of **RDS Multi-AZ**, and what type of replication does it use?;;Multi-AZ is mainly used for **Disaster Recovery**. It uses **synchronous replication** to a standby instance in different AZ. It is **not used for scaling reads**.
@@ -39,7 +39,7 @@ created_date:
 - How is **at-rest encryption** managed for RDS and Aurora databases, especially for existing unencrypted databases?;;At-rest encryption using KMS is defined at **launch time**. To encrypt an **already existing unencrypted database**, you must **take a database snapshot** and then **restore the snapshot as an encrypted database**.
 <!--SR:!2025-09-11,10,270-->
 - What is the typical replication lag for Aurora Global Database secondary regions, and what is the Recovery Time Objective (RTO) for promoting another region for disaster recovery?;;The replication lag for secondary read-only regions should be **less than one second**. The RTO for promoting another region for disaster recovery is **less than one minute**.
-<!--SR:!2025-09-03,2,230-->
+<!--SR:!2025-09-08,5,230-->
 - What is the purpose of **Babelfish for Aurora PostgreSQL**?;;Babelfish allows **Amazon Aurora PostgreSQL to understand commands (T-SQL)** that are target for **Microsoft SQL Server**, enabling applications written for SQL Server to migrate Aurora PostgreSQL with little to no code changes.
 <!--SR:!2025-09-13,12,270-->
 - Describe the mechanism of **Aurora Database Cloning** and its benefit.;;Aurora Database Cloning creates a new Aurora cluster from an existing one **very quickly**, faster than snapshot/restore. It uses a **copy-on-write protocol**, meaning it initially uses the same data volume as the original, and new storage is allocated only as updates are made to either clone.

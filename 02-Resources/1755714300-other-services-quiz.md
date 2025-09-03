@@ -16,7 +16,7 @@ created_date: 2025-08-20
 - Which AWS service allows you to send marketing SMS and push notifications to a large number of customers with personalized messages?;;Amazon PinPoint.
 <!--SR:!2025-09-04,10,270-->
 - What is the most secure way to connect to an EC2 instance without exposing the SSH port 22?;;SSM Session Manager.
-<!--SR:!2025-09-03,9,250-->
+<!--SR:!2025-10-04,31,270-->
 - Which AWS service allows you to run and schedule hundreds of thousands of computing jobs on AWS such as big data and complex analytics jobs?;;AWS Batch.
 <!--SR:!2025-09-05,11,270-->
 - The company you are working on is using Salesforce and Slack internally. For archival and some analytics requirements, you have been tasked to transfer the data in both Salesforce and Slack to AWS in an S3 bucket. Which AWS service is best suited for this scenario?;;Amazon AppFlow.

@@ -33,17 +33,17 @@ created_date: 2025-08-25
 - What types of **big data applications** are commonly used with **Partition Placement Groups**?;;Applications like **Hadoop, Cassandra, Kafka, HDFS, and HBase** that are partition-aware.
 <!--SR:!2025-09-11,10,270-->
 - What must be enabled in the root account for setting for **IAM users to access billing data**?;;**"IAM user and role access to billing information"** must be activated.
-<!--SR:!2025-09-03,2,170-->
+<!--SR:!2025-09-06,3,170-->
 - What is the purpose of an AWS **zero-spend budget?**;;It alerts you as soon as you incur **even a minimal cost (e.g., 1 cent)**, which is very helpful for cost monitoring.
 <!--SR:!2025-09-17,16,290-->
 - What is **Amazon EFS** and its key capability regarding EC2 instances?;;EFS is a **managed Network File System (NFS)** that can be **mounted on many EC2 instances across different Availability Zones simultaneously.**
 <!--SR:!2025-09-16,15,290-->
 - What is the primary **compatibility restriction** for Amazon EFS?;;It is **only compatible with Linux-based AMIs,** not Windows.
-<!--SR:!2025-09-03,1,190-->
+<!--SR:!2025-09-06,3,210-->
 - Name the two **performance modes** available for EFS, and when you would use each:;;**General Purpose (default)**, for **latency-sensitive** use cases like servers or CMS. **Max I/O**, for **higher throughput** and highly parallel applications like big data or media processing, through it has higher latency.
 <!--SR:!2025-09-05,4,210-->
 - Which EFS **throughput mode** allows you to set throughput independently of storage size?;;**Provisioned** throughput mode.
-<!--SR:!2025-09-03,2,250-->
+<!--SR:!2025-09-04,1,230-->
 - What EFS storage class is designed for **infrequently accessed files** and offers cost savings?;;**EFS-IA (Infrequent Access)**.
 <!--SR:!2025-09-17,16,290-->
 - What is and **Amazon Machine Image (AMI)** and what does it contain?;;An AMI represents a **customization fo an EC2 instance** and contains the **software configuration, operating system, and monitoring tools.**
@@ -77,17 +77,17 @@ created_date: 2025-08-25
 - What is the **default behavior for the root EBS volume** when its associated EC2 instance is terminated?;;By default, the **root EBS volume is deleted** along with the instance.
 <!--SR:!2025-09-15,14,296-->
 - Which **EBS volume types** can be used as **boot volumes**?;;Only **gp2, gp3, io1, io2.**
-<!--SR:!2025-09-03,2,236-->
+<!--SR:!2025-09-10,7,256-->
 - What is the key difference in **IOPS management between gp2 and gp3 EBS volumes**?;;For **gp2**, IOPS are **linked to the disk size**; for **gp3**, IOPS and throughput can be **increased independently** from the disk size.
 <!--SR:!2025-09-07,6,236-->
 - For what use case are **io1/io2 EBS volumes** primarily designed?;;**Mission-critical, low-latency, high-throughput workloads**, especially **sensitive database workloads** needing sustained IOPS performance.
-<!--SR:!2025-09-03,1,156-->
+<!--SR:!2025-09-05,2,156-->
 - What is the main characteristic distinguishing **EC2 Instance Store** from **EBS volumes**?;;EC2 Instance Store is a **physical hardware disk attached directly to the EC2 instance's underlying server**, providing **extremely high performance**, but it is **ephemeral storage**, meaning **data is lost if the instance stops or terminates**.
 <!--SR:!2025-09-16,15,296-->
 - What is preserved when an EC2 instance is **hibernated**?;;Then **in-memory state (RAM)** is preserved by dumping it to the root EBS volume.
 <!--SR:!2025-09-13,12,276-->
 - What are two crucial requirements for an EC2 instance to support **hibernation**?;;The **root EBS volume must be encrypted** and it **must have enough space to contain the RAM dump.**
-<!--SR:!2025-09-03,2,236-->
+<!--SR:!2025-09-08,5,236-->
 - What EC2 purchasing option offers the **highest cost savings** but is the **least reliable**?;;**Spot Instances**, offering up to **90% discounts**, but they can be reclaimed by AWS at any time.
 <!--SR:!2025-09-17,16,296-->
 - What is the **grace period** given before a **Spot Instance is reclaimed** when the spot price exceeds your maximum price?;;A **two-minute grace period**.
@@ -101,7 +101,7 @@ created_date: 2025-08-25
 - What is the difference between a **Dedicated Host** and a **Dedicated Instance**?;;A **Dedicated Host** gives you access to the **entire physical server** and control over instance placements. A **Dedicated Instance** runs on hardware dedicated to you, but you **may share the hardware with other instances in the same account** and have **no control over instance placements.**
 <!--SR:!2025-09-17,16,296-->
 - What is the primary purpose of **Capacity Reservations** for EC2?;;To **reserve On-Demand instance capacity in a specific AZ** for any duration, guaranteeing availability, but they do not **provide billing discounts** and you are charged even if instances are not running.
-<!--SR:!2025-09-03,2,196-->
+<!--SR:!2025-09-09,6,216-->
 - What is an **Elastic Network Interface (ENI)** and what is a key benefit?;;An ENI is a **virtual network card** for an EC2 instance. A key benefit is that ENIs can be **attached or moved on the fly between EC2 instances** for **failover purposes.**
 <!--SR:!2025-09-13,12,276-->
 - What are **Security Groups** in AWS?;;Security Groups act as a **firewall around EC2 instances**, controlling how **traffic is allowed into an out of them.**
