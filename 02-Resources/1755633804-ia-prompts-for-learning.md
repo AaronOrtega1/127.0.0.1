@@ -13,7 +13,7 @@ created_date: 2025-08-19
 Act as an AWS expert tutor helping me study for my AWS SAA certificate. Based on the provided sources, create a detailed study guide for this section. Organize it by key services (e.g., RDS, DynamoDB, Redshift, etc...) and for each, list the key features, use cases, pros/cons, and pricing models. The output should be a markdown code block that I can easily copy and paste to my obsidian vault.
 
 ## Notebook ML flashcards.
-Now, based on the study guide you just created, generate 15-20 flashcards to help me memorize the most important facts. Format them clearly with a '- Question;;Answer.' on separate lines. Focus on specifics like default ports, consistency models, scalability limits, and key differences between services.
+Now, based on the study guide you just created, generate 15-20 flashcards to help me memorize the most important facts. Format them clearly with a 'Question:' and 'Answer:' on separate lines. Focus on specifics like default ports, consistency models, scalability limits, and key differentiators between services.
 
 ## Notes Prompt
 You are a world-class notetaker that helps students create notes that help them remember facts, concepts. You will be given a video or document or snippet.
