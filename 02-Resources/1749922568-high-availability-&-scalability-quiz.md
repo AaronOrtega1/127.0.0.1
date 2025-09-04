@@ -14,7 +14,7 @@ created_date: 2025/06/14
 - Scaling an EC2 instance from `r4.large` to `r4.4xlarge` is called...;;Vertical Scalability.
 <!--SR:!2025-09-08,60,310-->
 - Running an application on an Auto Scaling Group that scales the number of EC2 instances in and out is called...;;Horizontal Scalability.
-<!--SR:!2025-09-04,57,310-->
+<!--SR:!2026-05-07,245,330-->
 - Elastic Load Balancers provide a...;;static DNS name we can use in our application.
 <!--SR:!2025-11-04,75,250-->
 - You are running a website on 10 EC2 instances fronted by an Elastic Load Balancer. Your users are complaining about the fact that the website always asks them to re-authenticate when they are moving between website pages. You are puzzled because it's working just fine on your machine and in the Dev environment with 1 EC2 instance. What could be the reason?;;The Elastic Load Balancer does not have Sticky Sessions enabled.
@@ -36,7 +36,7 @@ created_date: 2025/06/14
 - You want to create a custom application-based cookie in your Application Load Balancer. Which of the following you can use as a cookie name?;;APPUSERC
 <!--SR:!2025-11-24,102,270-->
 - You have a Network Load Balancer that distributes traffic across a set of EC2 instances in `us-east-1`. You have 2 EC2 instances in `us-east-1b` AZ and 5 EC2 instances in `us-east-1e` AZ. You have noticed that the CPU utilization is higher in the EC2 instances in `us-east-1b` AZ. After more investigation, you noticed that the traffic is equally distributed across the two AZs. How would you solve this problem?;;Enable Cross-Zone Load Balancing, to distribute the traffic evenly.
-<!--SR:!2025-09-04,16,230-->
+<!--SR:!2025-10-10,36,230-->
 - Which feature in both Application Load Balancers and Network Load Balancers allows you to load multiple SSL certificates on one listener?;;Sever Name Indication.
 <!--SR:!2025-09-17,64,310-->
 - Which feature in both Application Load Balancers and Network Load Balancers allows you to load multiple SSL certificates on one listener?;;Server Name Indication. -Continue.

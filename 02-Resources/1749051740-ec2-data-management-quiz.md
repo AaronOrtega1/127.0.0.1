@@ -25,7 +25,7 @@ created_date: 2025/06/04
 - You would like to encrypt an unencrypted EBS volume attached to your EC2 instance. What should you do?;;Create an EBS snapshot of you EBS volume. Copy the snapshot and tick the option to encrypt the copied snapshot. Then, use the encrypted snapshot to create a new EBS volume.
 <!--SR:!2025-09-29,70,270-->
 - You have a fleet of EC2 instances distributes across AZs that process a large data set. What do you recommend to make the same data to be accessible as an NFS drive to all of your EC2 instances?;;Use EFS, that allows you to mount the same file system on EC2 instances in different AZs.
-<!--SR:!2025-09-04,38,250-->
+<!--SR:!2026-01-15,133,270-->
 - You would like to have a high-performance local cache for your application hosted on an EC2 instance. You don't mind losing the cache upon the termination of your EC2 instance. Which storage mechanism do you recommend as a Solutions Architect?;;Instance Store, because it provides the best disk I/O performance.
 <!--SR:!2026-01-08,153,310-->
 - You are running a high-performance database that requires an IOPS of 310,000 for its underlying storage. What do you recommend?;;Use an EC2 Instance Store, but the data will be lost if the EC2 instance is stopped, you can have a replica of the instance with another instance store as solution or have a backup mechanism.

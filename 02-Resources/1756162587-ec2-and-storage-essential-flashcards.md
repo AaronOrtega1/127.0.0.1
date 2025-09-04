@@ -43,7 +43,7 @@ created_date: 2025-08-25
 - Name the two **performance modes** available for EFS, and when you would use each:;;**General Purpose (default)**, for **latency-sensitive** use cases like servers or CMS. **Max I/O**, for **higher throughput** and highly parallel applications like big data or media processing, through it has higher latency.
 <!--SR:!2025-09-05,4,210-->
 - Which EFS **throughput mode** allows you to set throughput independently of storage size?;;**Provisioned** throughput mode.
-<!--SR:!2025-09-04,1,230-->
+<!--SR:!2025-09-07,3,250-->
 - What EFS storage class is designed for **infrequently accessed files** and offers cost savings?;;**EFS-IA (Infrequent Access)**.
 <!--SR:!2025-09-17,16,290-->
 - What is and **Amazon Machine Image (AMI)** and what does it contain?;;An AMI represents a **customization fo an EC2 instance** and contains the **software configuration, operating system, and monitoring tools.**
@@ -125,5 +125,5 @@ created_date: 2025-08-25
 - Which EC2 instance class is optimized for workloads that **process large datasets in memory (RAM)**, often used for high-performance database or caches?;;**Memory Optimized** instances (e.g., **R-series**, where `R` stands for RAM).
 <!--SR:!2025-09-12,11,276-->
 - Which EC2 instance class is optimized for applications that **access a lot of data sets on local storage**, such as high-frequency OLTP systems or data warehousing?;;**Storage Optimized** instances (e.g., I, D, or H1 series).
-<!--SR:!2025-09-04,3,216-->
+<!--SR:!2025-09-14,10,236-->
 

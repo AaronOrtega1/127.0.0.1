@@ -12,7 +12,7 @@ created_date: 2025-08-22
 ---
 # IAM and AWS CLI Flashcards
 - What is AWS CloudShell;;Is a **free-to-use terminal in the cloud** of AWS that allows you to issue commands.
-<!--SR:!2025-09-04,7,268-->
+<!--SR:!2025-09-30,26,288-->
 - In AWS CloudShell, what is the default region for API calls?;;The **default region** in CloudShell is the **region you are currently logged into.**
 <!--SR:!2025-09-10,12,288-->
 - What happens to files you create within your CloudShell environment if you restart your CloudShell session?;;All files you create within your CloudShell environment will **persist and stay** even if you restart your session.
@@ -34,7 +34,7 @@ created_date: 2025-08-22
 - Name at least three configuration options for an AWS IAM password policy:;;You can set a **minimum password length,** require **specific character types** (e.g., uppercase, lowercase, numbers, non-alphanumeric characters), allow or disallow IAM users to **change their own passwords,** require users to **change passwords after a certain time** (password expiration), and **prevent password reuse.**
 <!--SR:!2025-09-13,12,270-->
 - List two types of Multi-Factor Authentication (MFA) devices supported by AWS:;;Two types include **virtual MFA devices** (like Google Authenticator or Authy) and **Universal 2nd Factor (U2F) Security Keys** (physical devices like YubiKey). Other options include hardware key fob MFA devices and special key fobs for AWS GovCloud.
-<!--SR:!2025-09-04,7,268-->
+<!--SR:!2025-09-29,25,288-->
 - What are two essential security tools available in IAM to help enforce the principle of least privilege?;;The **IAM Credentials Report** (account-level) provides the status of all user credentials, and the **IAM Access Advisor** (user-level) shows service permissions granted to a user and when those services were last accessed.
 <!--SR:!2025-09-05,7,250-->
 - What is the difference between an IAM user and an IAM role?;;An **IAM user** represents a **physical person** within your organization, while an **IAM role** is intended to be used by **AWS services** to perform actions on your behalf.
