@@ -4,7 +4,10 @@ aliases:
   - big-o-timer-and-space-complexity
   - Big O Timer And Space Complexity
   - Time and Space Complexity
-tags: 
+tags:
+  - resource
+  - time_complexity
+  - space_complexity
 created_date: 2025-04-07
 ---
 # Big O Timer And Space Complexity
