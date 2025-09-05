@@ -2,19 +2,19 @@
   "choices": [
     {
       "id": "60c9050b-3e8d-4787-92c4-f2413d8d2054",
-      "name": "Projects",
+      "name": "Quest",
       "type": "Macro",
       "command": false,
       "runOnStartup": false,
       "macro": {
-        "name": "Projects",
+        "name": "Quest",
         "id": "fa3d55c3-d00b-47ec-bbb2-dd2843e3abe0",
         "commands": [
           {
-            "name": "projectNote",
+            "name": "questNote",
             "type": "UserScript",
-            "id": "16332b6d-bdcd-45ff-987f-d2093ab11312",
-            "path": "03-Archives/Scripts/projectNote.js",
+            "id": "274aa61b-9725-4d32-955d-d6c96a8b1b28",
+            "path": "03-Vault/Scripts/questNote.js",
             "settings": {}
           }
         ]
@@ -22,19 +22,19 @@
     },
     {
       "id": "8afb7d03-305e-4474-b6d5-7528b71bc7e0",
-      "name": "Areas",
+      "name": "Domain",
       "type": "Macro",
       "command": false,
       "runOnStartup": false,
       "macro": {
-        "name": "Areas",
+        "name": "Domain",
         "id": "781bfa6f-5442-4b7e-8331-bddbb80625b3",
         "commands": [
           {
-            "name": "areaNote",
+            "name": "domainNote",
             "type": "UserScript",
-            "id": "f219677c-5fa5-4302-a34b-1a3764733d10",
-            "path": "03-Archives/Scripts/areaNote.js",
+            "id": "ea4fb957-bdce-4335-93e7-ff697342408f",
+            "path": "03-Vault/Scripts/domainNote.js",
             "settings": {}
           }
         ]
@@ -42,19 +42,19 @@
     },
     {
       "id": "66d3b89a-af71-49ff-8c27-68e39f7de818",
-      "name": "Resources",
+      "name": "Knowledge",
       "type": "Macro",
       "command": false,
       "runOnStartup": false,
       "macro": {
-        "name": "Resources",
+        "name": "Knowledge",
         "id": "cd3e5c5a-6758-48b2-af8d-f638fd6454e9",
         "commands": [
           {
-            "name": "resourceNote",
+            "name": "knowledgeNote",
             "type": "UserScript",
-            "id": "7f3305f8-edb0-4137-802b-628913d4ce3c",
-            "path": "03-Archives/Scripts/resourceNote.js",
+            "id": "8e143e0c-dc31-452f-9676-c82b44ca1bf6",
+            "path": "03-Vault/Scripts/knowledgeNote.js",
             "settings": {}
           }
         ]
@@ -62,19 +62,19 @@
     },
     {
       "id": "69a5c96f-3fe9-4514-97dc-942a6e6b4af3",
-      "name": "Zettelkasten",
+      "name": "Smithing",
       "type": "Macro",
       "command": false,
       "runOnStartup": false,
       "macro": {
-        "name": "Zettelkasten",
+        "name": "Smithing",
         "id": "11ae9fd9-ed0e-4f13-b536-544d1281080b",
         "commands": [
           {
-            "name": "zettelkastenNote",
+            "name": "smithingNote",
             "type": "UserScript",
-            "id": "0b12a837-1ca2-4854-bd56-6120336b9264",
-            "path": "03-Archives/Scripts/zettelkastenNote.js",
+            "id": "4e5af28e-e51d-4ece-99f3-fc1e5cb0894b",
+            "path": "03-Vault/Scripts/smithingNote.js",
             "settings": {}
           }
         ]
@@ -102,12 +102,12 @@
     },
     {
       "id": "3a5302b3-464c-4df1-8f46-20bfc1c3efbc",
-      "name": "Book",
+      "name": "Tome",
       "type": "Macro",
       "command": false,
       "runOnStartup": false,
       "macro": {
-        "name": "Book",
+        "name": "Tome",
         "id": "df7abe52-d2f4-4118-b649-c88868408c85",
         "commands": [
           {

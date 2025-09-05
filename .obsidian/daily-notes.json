@@ -1,6 +1,6 @@
 {
   "format": "YYYY-MM-DD",
-  "folder": "05-Journal",
-  "template": "06-Templates/daily",
-  "autorun": false
+  "folder": "05-Codex",
+  "template": "06-Scrolls/dailyChronicles",
+  "autorun": true
 }

@@ -34,13 +34,13 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "02-Resources": "LiNotebook",
-  "04-Zettelkasten": "LiLeaf",
-  "03-Archives": "LiArchive",
-  "01-Areas": "LiUser",
-  "05-Journal": "LiCalendar",
-  "06-Templates": "LiLayoutTemplate",
-  "00-Projects": "LiAtom",
-  "02-Resources/Assets": "LiImage",
-  "07-Bases": "LiDatabase"
+  "02-Library": "LiNotebook",
+  "02-Library/Assets": "LiImage",
+  "01-Domains": "LiUser",
+  "00-Quests": "LiAtom",
+  "03-Vault": "LiArchive",
+  "04-Forge": "LiLeaf",
+  "05-Codex": "LiCalendar",
+  "06-Scrolls": "LiLayoutTemplate",
+  "07-Atlas": "LiDatabase"
 }
