@@ -12,7 +12,7 @@ created_date: 2025/05/27
 ---
 # EC2 Fundamentals Quiz
 - Which EC2 Purchasing Option can provide you the biggest discount, but it is not suitable for critical jobs or databases?;;Spot Instances.
-<!--SR:!2025-09-05,46,250-->
+<!--SR:!2026-02-12,160,270-->
 - What should you use to control traffic in and out of EC2 instances?;; Security Groups.
 <!--SR:!2025-10-21,60,270-->
 - How long can you reserve an EC2 Reserved instance?;;1 or 3 years.

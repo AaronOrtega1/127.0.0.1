@@ -18,7 +18,7 @@ created_date: 2025-08-22
 - What happens to files you create within your CloudShell environment if you restart your CloudShell session?;;All files you create within your CloudShell environment will **persist and stay** even if you restart your session.
 <!--SR:!2025-09-09,11,288-->
 - What are the three different options to access AWS services?;;The three options are the **AWS Management Console** (web interface), the **AWS Command Line Interface (CLI)**, and the **AWS Software Development Kit (SDK)**.
-<!--SR:!2025-09-05,7,250-->
+<!--SR:!2025-09-24,19,250-->
 - How are the AWS Management Console, CLI, and SDK typically protected for access?;;The  Management Console is protected by **username/password** (and potentially MFA). The CLI and SDK are protected by **access key.**
 <!--SR:!2025-09-08,7,230-->
 - What is the primary difference in how you use the AWS CLI versus the AWS SDK?;;The **AWS CLI** is a tool you use to interact with AWS services via **commands typed in your command-line shell**, while the **AWS SDK** is a set of language-specific libraries that you **embed within your application code** to programmatically access and manage AWS services.
@@ -36,13 +36,13 @@ created_date: 2025-08-22
 - List two types of Multi-Factor Authentication (MFA) devices supported by AWS:;;Two types include **virtual MFA devices** (like Google Authenticator or Authy) and **Universal 2nd Factor (U2F) Security Keys** (physical devices like YubiKey). Other options include hardware key fob MFA devices and special key fobs for AWS GovCloud.
 <!--SR:!2025-09-29,25,288-->
 - What are two essential security tools available in IAM to help enforce the principle of least privilege?;;The **IAM Credentials Report** (account-level) provides the status of all user credentials, and the **IAM Access Advisor** (user-level) shows service permissions granted to a user and when those services were last accessed.
-<!--SR:!2025-09-05,7,250-->
+<!--SR:!2025-09-09,4,230-->
 - What is the difference between an IAM user and an IAM role?;;An **IAM user** represents a **physical person** within your organization, while an **IAM role** is intended to be used by **AWS services** to perform actions on your behalf.
 <!--SR:!2025-09-09,11,288-->
 - Can IAM groups contain other IAM groups?;;No, IAM groups can **only contain users**, not other groups.
 <!--SR:!2025-09-08,10,288-->
 - Which specific AWS SDK is the AWS CLI built upon?;;The AWS CLI is built on the **AWS SDK for Python, name boto.**
-<!--SR:!2025-09-05,7,250-->
+<!--SR:!2025-10-01,26,270-->
 - What are access keys, and how should the be treated?;;Access keys are **credentials (like a secret password)** that allow you to access AWS programatically or via the CLI. They are **private to you** and **should never be shared** with others.
 <!--SR:!2025-09-17,16,290-->
 - Can an IAM user belong to multiple groups?;;Yes, a user **can belong to multiple groups** within IAM.
