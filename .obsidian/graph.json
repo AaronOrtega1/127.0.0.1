@@ -71,7 +71,7 @@
       }
     },
     {
-      "query": "tag:#area  ",
+      "query": "tag:#Domain  ",
       "color": {
         "a": 1,
         "rgb": 9175295
