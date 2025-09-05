@@ -5,25 +5,24 @@ aliases:
 tags:
   - Quests
   - active
-start_date:
+accepted:
   "{{date}}"
-end_date:
+deadline:
   "{{date}}"
 ---
-# {{cap_title}}
+# Quest: {{cap_title}}
 ## Objective
 
 ## Tasks
 - [ ] 
 
-## Notes
+## Forged Relics
 ```dataview
 list
-from "04-Zettelkasten" and [[]]
+from "04-Forge" and [[]]
 ```
-
-## Resources
+## Knowledge and Tomes
 ```dataview
 list
-from "02-Resources" and [[]]
+from "02-Library" and [[]]
 ```

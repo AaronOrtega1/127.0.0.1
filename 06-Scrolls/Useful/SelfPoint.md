@@ -1,5 +1,5 @@
 ```dataview
 list
-from [[]] and !"5 - Templates"
+from [[]] and !"06-Scrolls"
 sort file.name
 ```

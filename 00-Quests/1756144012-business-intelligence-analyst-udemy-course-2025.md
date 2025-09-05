@@ -23,11 +23,11 @@ Master all the crucial technologies and fundamentals for Business Intelligence, 
 ## Notes
 ```dataview
 list
-from "04-Zettelkasten" and [[]]
+from "04-Forge" and [[]]
 ```
 
 ## Resources
 ```dataview
 list
-from "02-Resources" and [[]]
+from "02-Library" and [[]]
 ```

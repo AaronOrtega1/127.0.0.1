@@ -4,33 +4,34 @@ aliases:
   - Programming
 tags:
   - Domain
-created_date: 2025-04-04
+founded: 2025-04-04
 ---
-# Programming
+# Domain of Programming
 ## Purpose
 Principal core of my professional life. It's also something that I am passionate about, I love to learn new things in this area and to deepen my knowledge.
-
-## Active Projects
+ 
+ date(end_date) - date(today) as remaining-days
+## Active Quests
 ```dataview
-table date(end_date) - date(today) as remaining-days
-from [[]] and !"5 - Templates"
-where contains(tags, "projects") and contains(tags, "active")
+table
+from [[]] and !"06-Scrolls"
+where contains(tags, "Quests") and contains(tags, "active")
 sort file.name
 ```
 
-## Archived Projects
+## Archived Quests
 ```dataview
-list
-from [[]] and !"5 - Templates"
-where contains(tags, "archive")
+table
+from [[]] and !"06-Scrolls"
+where contains(tags, "Quests") and contains(tags, "archive")
 sort file.name
 ```
 
-### Resources
+### Knowledge
 ```dataview
 list
-from [[]] and !"5 - Templates"
-where contains(tags, "resource")
+from [[]] and !"06-Scrolls"
+where contains(tags, "Knowledge")
 sort file.name
 ```
 

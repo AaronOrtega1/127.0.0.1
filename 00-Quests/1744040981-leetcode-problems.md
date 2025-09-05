@@ -7,10 +7,10 @@ tags:
   - Quests
   - active
   - 1stQ
-start_date: 2025-04-07
-end_date: 2025-12-31
+accepted: 2025-04-07
+deadline: 2025-12-31
 ---
-# LeetCode Problems
+# Quest: LeetCode Problems
 ## Objective
 Learn data structures and different algorithms, using them to solve question frequently used in interviews.
 ## Tasks

@@ -3,24 +3,30 @@ aliases:
   - {{cap_title}}
 tags:
   - Domain
-created_date:
+founded:
   "{{date}}"
 ---
-# {{cap_title}}
+# Domain of {{cap_title}}
 ## Purpose
 
-## Active Projects
+## Active Quests
 ```dataview
 list
-from [[]] and !"5 - Templates"
-where contains(tags, "projects") and contains(tags, "active")
+from [[]] and !"06-Scrolls"
+where contains(tags, "Quests") and contains(tags, "active")
 sort file.name
 ```
-
-## Archived Projects
+## Archived Quests
 ```dataview
 list
-from [[]] and !"5 - Templates"
-where contains(tags, "projects") and contains(tags, "archive")
+from [[]] and !"06-Scrolls"
+where contains(tags, "Quests") and contains(tags, "archive")
+sort file.name
+```
+## Completed Quests
+```dataview
+list
+from [[]] and !"06-Scrolls"
+where contains(tags, "Quests") and contains(tags, "completed")
 sort file.name
 ```
