@@ -4,7 +4,6 @@ aliases:
   - "AWS Amazon S3 Security Flashcards"
 tags:
   - resource
-  - resource
   - aws
   - cloud
   - certificate
