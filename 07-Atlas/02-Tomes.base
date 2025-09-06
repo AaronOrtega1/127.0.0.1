@@ -1,0 +1,29 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasTag("Tome")
+        - '!file.inFolder("06-Scrolls")'
+    order:
+      - file.name
+      - status
+      - rating
+    sort:
+      - property: status
+        direction: ASC
+    columnSize:
+      file.name: 496
+      note.status: 150
+  - type: cards
+    name: View
+    filters:
+      and:
+        - file.hasTag("book")
+    order:
+      - file.name
+      - status
+      - rating
+    sort:
+      - property: rating
+        direction: DESC

@@ -6,7 +6,7 @@ tags:
   - Knowledge
   - aws
   - vocab
-  - Cards/Archive/AWS/Cloud_Architecting_Academy
+  - Training/Archive/AWS/Cloud_Architecting_Academy
 created_date: 2025-07-07
 ---
 # Introducing Cloud Architecting Quiz

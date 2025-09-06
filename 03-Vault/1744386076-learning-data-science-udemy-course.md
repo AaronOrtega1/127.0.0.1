@@ -9,6 +9,7 @@ tags:
   - data-science
 start_date: 2025-04-11
 end_date: 2025-08-11
+XP:
 ---
 # Learning Data Science Udemy Course
 ## Objective

@@ -8,6 +8,7 @@ tags:
   - 9thSemester
 start_date: 2025-08-18
 end_date: 2025-12-08
+XP: 0
 ---
 # Integración de Servicios de Aprendizaje Automático
 ## Objective

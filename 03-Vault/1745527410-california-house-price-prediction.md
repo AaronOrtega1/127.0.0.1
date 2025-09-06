@@ -9,6 +9,7 @@ tags:
   - data-analysis
 start_date: 2025-04-24
 end_date: 2025-04-29
+XP:
 ---
 # California House Price Prediction
 ## Objective

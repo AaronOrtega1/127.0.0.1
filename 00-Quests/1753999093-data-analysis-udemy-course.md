@@ -1,14 +1,13 @@
 ---
 link: "[[1743802452-programming|Programming]]"
-aliases: 
+aliases:
   - Data Analysis Udemy Course
 tags:
   - Quests
   - active
-start_date:
-  2025-07-31
-end_date:
-  2025-12-01
+start_date: 2025-07-31
+end_date: 2025-12-01
+XP:
 ---
 # Data Analysis Udemy Course
 ## Objective

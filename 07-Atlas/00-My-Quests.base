@@ -1,0 +1,30 @@
+formulas:
+  Remaining Days: |-
+    if(tags.contains("archived"), 
+       "Archived Project",
+       if(date(end_date) > today(), 
+          "Due in " + (date(end_date) - today()), 
+          if(date(end_date) == today(), 
+             "Due today!", 
+             "Overdue by " + (today() - date(end_date))
+          )
+       )
+    )
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasTag("Quests")
+        - '!file.inFolder("06-Scrolls")'
+    order:
+      - file.name
+      - tags
+      - link
+      - formula.Remaining Days
+    sort:
+      - property: formula.Remaining Days
+        direction: DESC
+    columnSize:
+      file.name: 552
+      note.tags: 595

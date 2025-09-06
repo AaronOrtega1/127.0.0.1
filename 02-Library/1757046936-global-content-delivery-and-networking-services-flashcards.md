@@ -7,7 +7,7 @@ tags:
   - aws
   - cloud
   - certificate
-  - Cards/AWS/NotebookLM/Content_Delivery_Networking_Services
+  - Training/AWS/NotebookLM/Content_Delivery_Networking_Services
 created_date:
   "2025-09-04"
 ---

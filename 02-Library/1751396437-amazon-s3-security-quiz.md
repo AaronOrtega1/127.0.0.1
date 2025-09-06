@@ -4,7 +4,7 @@ aliases:
   - Amazon S3 Security Quiz
 tags:
   - Knowledge
-  - Cards/AWS/SAA_Udemy
+  - Training/AWS/SAA_Udemy
   - aws
   - cloud
   - certificate

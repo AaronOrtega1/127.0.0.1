@@ -7,7 +7,7 @@ tags:
   - aws
   - cloud
   - certificate
-  - Cards/AWS/NotebookLM/S3_Intro_Advance
+  - Training/AWS/NotebookLM/S3_Intro_Advance
 created_date:
   "2025-09-03"
 ---

@@ -11,6 +11,7 @@ tags:
   - PostgreSQL
 start_date: 2025-08-18
 end_date: 2025-09-01
+XP: 0
 ---
 # Power BI and SQL Project
 ## Objective

@@ -4,7 +4,7 @@ aliases:
   - Classic Solutions Architecture Discussions Quiz
 tags:
   - Knowledge
-  - Cards/AWS/SAA_Udemy
+  - Training/AWS/SAA_Udemy
   - aws
 created_date: 2025/06/25
 ---

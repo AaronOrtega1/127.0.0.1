@@ -7,7 +7,7 @@ tags:
   - aws
   - certificate
   - cloud
-  - Cards/AWS/SAA_Udemy
+  - Training/AWS/SAA_Udemy
 created_date: 2025-08-20
 ---
 # Other Services Quiz

@@ -7,7 +7,7 @@ tags:
   - aws
   - cloud
   - certificate
-  - Cards/AWS/NotebookLM/IAM_CLI
+  - Training/AWS/NotebookLM/IAM_CLI
 created_date: 2025-08-22
 ---
 # IAM and AWS CLI Flashcards

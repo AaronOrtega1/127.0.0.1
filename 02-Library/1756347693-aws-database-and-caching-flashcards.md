@@ -7,7 +7,7 @@ tags:
   - aws
   - cloud
   - certificate
-  - Cards/AWS/NotebookLM/DB_and_Caching
+  - Training/AWS/NotebookLM/DB_and_Caching
 created_date:
   "2025-08-27"
 ---

@@ -7,7 +7,7 @@ tags:
   - aws
   - cloud
   - certificate
-  - Cards/AWS/NotebookLM/Route53
+  - Training/AWS/NotebookLM/Route53
 created_date:
   "2025-08-27"
 ---

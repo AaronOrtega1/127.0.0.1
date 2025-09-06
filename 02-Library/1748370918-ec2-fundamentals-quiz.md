@@ -6,7 +6,7 @@ tags:
   - Knowledge
   - aws
   - EC2
-  - Cards/AWS/SAA_Udemy
+  - Training/AWS/SAA_Udemy
   - cloud
 created_date: 2025/05/27
 ---

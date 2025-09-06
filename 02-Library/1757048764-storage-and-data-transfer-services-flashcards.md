@@ -7,7 +7,7 @@ tags:
   - aws
   - cloud
   - certificate
-  - Cards/AWS/NotebookLM/Storage_Data_Transfer
+  - Training/AWS/NotebookLM/Storage_Data_Transfer
 created_date:
   "2025-09-04"
 ---

@@ -12,6 +12,7 @@ tags:
   - data-analysis
 accepted: 2025-04-08
 deadline: 2025-12-31
+XP:
 ---
 # Quest: Get a Data Analysis Internship
 ## Objective

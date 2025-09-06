@@ -1,14 +1,15 @@
 ---
 link: "[[]]"
-aliases: 
-  - {{title}}
+aliases:
+  - "{ title }":
 tags:
   - Quests
   - active
-start_date:
-  {{date}}
-end_date:
-  {{date}}
+accepted:
+  "{ date }":
+deadline:
+  "{ date }":
+XP: 0
 ---
 # {{title}}
 ## Objective

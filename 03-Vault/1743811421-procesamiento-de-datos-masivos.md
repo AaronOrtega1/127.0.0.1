@@ -7,6 +7,7 @@ tags:
   - completed
 accepted: 2025-04-19
 deadline: 2025-05-19
+XP:
 ---
 # Quest: Procesamiento De Datos Masivos
 ## Objective

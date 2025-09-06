@@ -9,6 +9,7 @@ tags:
   - DSA
 start_date: 2025-09-02
 end_date: 2025-09-02
+XP: 0
 ---
 # Data Structures and Algorithms in Python
 ## Objective

@@ -7,7 +7,7 @@ tags:
   - aws
   - cloud
   - certificate
-  - Cards/AWS/NotebookLM/LB_and_ASG
+  - Training/AWS/NotebookLM/LB_and_ASG
   - ALB
   - ASG
 created_date:

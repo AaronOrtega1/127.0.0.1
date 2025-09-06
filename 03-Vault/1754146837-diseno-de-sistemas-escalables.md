@@ -1,14 +1,13 @@
 ---
 link: "[[1743802715-school|school]]"
-aliases: 
+aliases:
   - Diseño de Sistemas Escalables
 tags:
   - Quests
   - archived
-start_date:
-  2025-08-02
-end_date:
-  2025-08-02
+start_date: 2025-08-02
+end_date: 2025-08-02
+XP: 0
 ---
 # Diseño de Sistemas Escalables
 ## Objective

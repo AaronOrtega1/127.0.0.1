@@ -5,21 +5,21 @@ aliases:
   - Vault Map
 tags: []
 ---
-# Vault Map
-- 00-Projects
-  - Active projects, short time horizon.
-- 01-Areas
-  - Something that you're responsible for longer periods of time or plays a significant role in your life.
-- 02-Resources
-  - Information that interest you, used for references, it gathers all the content you come across.
-- 03-Archives
-  - Projects or Areas currently not active in your life, used to save information from deletion.
-- 04-Zettelkasten
-  - Permanent notes, fundamental concepts, atemporal ideas.
-- 05-Journal
-  - My personal journal and training tracker.
-- 06-Templates
-  - Templates for my notes.
-- 07-Bases
-  - Data bases to group better my notes and visualize them.
+# ️Vault Map
 
+- 00-Quests
+  - Active missions and challenges, short time horizon.
+- 01-Domains
+  - Realms you govern long-term (health, craft, finances, relationships).
+- 02-Library
+  - Scrolls, tomes, and references gathered from sages (resources).
+- 03-Vault
+  - Resting place for completed or archived quests/domains (treasures of the past).
+- 04-Forge
+  - Workshop where fleeting thoughts are reforged into weapons (permanent notes).
+- 05-Codex
+  - Chronicle of daily life and training arc (journal, reflections).
+- 06-Scrolls
+  - Ritual templates and incantations (note blueprints).
+- 07-Atlas
+  - Maps, trackers, and databases to chart progress (XP, streaks, dashboards).

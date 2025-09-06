@@ -4,7 +4,7 @@ aliases:
   - Ec2 Data Management Quiz
 tags:
   - Knowledge
-  - Cards/AWS/SAA_Udemy
+  - Training/AWS/SAA_Udemy
   - aws
   - cloud
   - EC2

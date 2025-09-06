@@ -4,7 +4,7 @@ aliases:
   - CloudFront And AWS Global Accelerator Quiz
 tags:
   - Knowledge
-  - Cards/AWS/SAA_Udemy
+  - Training/AWS/SAA_Udemy
   - aws
   - cloud
   - certificate

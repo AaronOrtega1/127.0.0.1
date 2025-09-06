@@ -7,7 +7,7 @@ tags:
   - aws
   - cloud
   - certificate
-  - Cards/AWS/NotebookLM/EC2_and_Storage
+  - Training/AWS/NotebookLM/EC2_and_Storage
   - EC2
 created_date: 2025-08-25
 ---

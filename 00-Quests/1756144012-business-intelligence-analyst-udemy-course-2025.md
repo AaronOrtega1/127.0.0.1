@@ -10,6 +10,7 @@ tags:
   - 3rdQ
 start_date: 2025-08-25
 end_date: 2025-10-25
+XP: 0
 ---
 # Business Intelligence Analyst Udemy Course 2025 
 ## Objective

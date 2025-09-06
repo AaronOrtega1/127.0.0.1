@@ -7,7 +7,7 @@ tags:
   - aws
   - cloud
   - certificate
-  - Cards/AWS/NotebookLM/S3_Security
+  - Training/AWS/NotebookLM/S3_Security
 created_date:
   "2025-09-03"
 ---

@@ -9,6 +9,7 @@ tags:
   - 1stQ
 accepted: 2025-04-07
 deadline: 2025-12-31
+XP:
 ---
 # Quest: LeetCode Problems
 ## Objective

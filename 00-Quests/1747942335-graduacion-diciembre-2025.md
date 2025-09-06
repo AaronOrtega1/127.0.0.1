@@ -7,6 +7,7 @@ tags:
   - active
 start_date: 2025-05-22
 end_date: 2025-12-05
+XP:
 ---
 ## 0303 2090 0039 192496
 ## Jose Luis Romero

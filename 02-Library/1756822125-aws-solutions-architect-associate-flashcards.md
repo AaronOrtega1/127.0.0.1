@@ -7,7 +7,7 @@ tags:
   - aws
   - cloud
   - certificate
-  - Cards/AWS/NotebookLM/SAA
+  - Training/AWS/NotebookLM/SAA
 created_date: 2025-09-02
 ---
 # AWS Solutions Architect Associate Flashcards
