@@ -9,7 +9,7 @@ tags:
   - sql
   - internship
   - 3rdQ25
-  - data-analysis
+  - DataAnalysis
 accepted: 2025-04-08
 deadline: 2025-12-31
 XP:

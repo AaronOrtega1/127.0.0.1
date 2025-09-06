@@ -6,7 +6,7 @@ tags:
   - Quests
   - archived
   - python
-  - data-analysis
+  - DataAnalysis
 start_date: 2025-04-24
 end_date: 2025-04-29
 XP:

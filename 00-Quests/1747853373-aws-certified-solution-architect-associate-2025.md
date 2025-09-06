@@ -55,7 +55,7 @@ XP: 165
 - [x] Ask Jose where he did his practice exams.
 - [ ] Create Study Guides of all the sections with NotebookLM. (XP +10)
 - [ ] Create Flashcards of all the Study Guides with NotebookLM. (XP +10)
-- [ ] Do practice exams till we get 80+ all the time. 
+- [ ] Do practice exams till we get 80+ all the time. (XP +20)
 - [ ] Pass AWS SAA certification exam (October/2025). (XP +50)
 ## Notes
 - https://aws-aaron-root.signin.aws.amazon.com/console

@@ -5,7 +5,7 @@ aliases:
 tags:
   - Quests
   - archived
-  - data-analysis
+  - DataAnalysis
   - sql
   - PowerBI
   - PostgreSQL
