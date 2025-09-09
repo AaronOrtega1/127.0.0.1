@@ -12,7 +12,7 @@ created_date: 2025-08-20
 ---
 # Other Services Quiz
 - As part of your Disaster Recovery strategy, you would like to make sure your entire infrastructure is code (IaC) so that you can easily re-deploy it in any AWS region. Which AWS service do you recommend?;;AWS CloudFormation.
-<!--SR:!2025-09-08,14,290-->
+<!--SR:!2025-11-04,56,310-->
 - Which AWS service allows you to send marketing SMS and push notifications to a large number of customers with personalized messages?;;Amazon PinPoint.
 <!--SR:!2025-10-11,37,290-->
 - What is the most secure way to connect to an EC2 instance without exposing the SSH port 22?;;SSM Session Manager.

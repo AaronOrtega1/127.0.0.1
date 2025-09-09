@@ -1,4 +1,5 @@
 
+I am a **Systems Architect** who masters fundamentals, builds valuable solutions, and maintains a balanced, powerful vessel (my body and mind).
 ```dataviewjs
 // === CONFIG ===
 const folder = "00-Quests";       // check exact folder name

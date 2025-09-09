@@ -26,7 +26,7 @@ created_date: 2025-07-03
 - You would like to have a distributed POSIX compliant file system that will allow you to maximize the IOPS in order to perform some High-Performance Computing (HPC) and genomics computational research. This file system has to easily scale to millions of IOPS. What do you recommend?;;Amazon FSx for Lustre.
 <!--SR:!2025-09-23,36,270-->
 - Which deployment option in the FSx file system provides you with long-term storage that's replicated within AZ?;;Persistent File System.
-<!--SR:!2025-09-08,32,250-->
+<!--SR:!2025-12-30,112,270-->
 - Which of the following protocols is NOT supported by AWS Transfer Family? (FTP, FTPS, TLS, SFTP);;Transport Layer Security (TLS).
 <!--SR:!2025-09-23,56,310-->
 - A company uses a lot of files and data which is stored in an FSx for Windows File Server storage on AWS. Those files are currently used by the resources hosted on AWS. There’s a requirement for those files to be accessed on-premises with low latency. Which AWS service can help you achieve this?;;FSx File Gateway.
@@ -34,9 +34,9 @@ created_date: 2025-07-03
 - A Solutions Architect is working on planning the migration of a startup company from on-premises to AWS. Currently, their infrastructure consists of many servers and 30 TB of data hosted on a shared NFS storage. He has decided to use Amazon S3 to host the data. Which AWS service can efficiently migrate the data from on-premises to S3?;;AWS DataSync.
 <!--SR:!2025-12-01,91,270-->
 - Which AWS service is best suited to migrate a large amount of data from an S3 bucket to an EFS file system?;;AWS DataSync.
-<!--SR:!2025-09-07,13,270-->
+<!--SR:!2025-10-27,48,290-->
 - A Machine Learning company is working on a set of datasets that are hosted on S3 buckets. The company decided to release those datasets to the public to be useful for others in their research, but they don’t want to configure the S3 bucket to be public. And those datasets should be exposed over the FTP protocol. What can they do to do the requirement efficiently and with the least effort?;;Use AWS Transfer Family, since it allows you to securely transfer files stored in S3 over the FTP protocol without exposing the S3 bucket to the public.
-<!--SR:!2025-09-06,35,230-->
+<!--SR:!2026-01-01,114,250-->
 - Amazon FSx for NetApp ONTAP isn't compatible with the following protocol;;FTP.
 <!--SR:!2025-10-25,68,290-->
 - Which AWS service is best suited when migrating from an on-premises ZFS file system to AWS?;;Amazon FSx for OpenZFS.

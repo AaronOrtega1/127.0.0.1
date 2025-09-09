@@ -30,7 +30,7 @@
   ],
   "promptDelete": false,
   "tabSize": 2,
-  "livePreview": false,
+  "livePreview": true,
   "pdfExportSettings": {
     "includeName": false,
     "pageSize": "Letter",

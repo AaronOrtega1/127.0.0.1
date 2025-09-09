@@ -18,7 +18,7 @@ created_date: 2025-07-08
 - Which SQS Queue type allows your messages to be processed exactly once and in order?;;SQS FIFO Queue.
 <!--SR:!2025-09-25,57,310-->
 - You have 3 different applications that you'd like to send them the same message. All 3 applications are using SQS. What is the best approach would you choose?;;Use SNS + SQS Fan Out Pattern.
-<!--SR:!2025-09-09,43,290-->
+<!--SR:!2026-02-28,172,310-->
 - You have a Kinesis data stream with 6 shards provisioned. This data stream usually receiving 5 MB/s of data and sending out 8 MB/s. Occasionally, your traffic spikes up to 2x and you get a `ProvisionedThroughputExceeded` exception. What should you do to resolve the issue?;;Add more shards.
 <!--SR:!2025-10-03,64,310-->
 - You have a website where you want to analyze clickstream data such as the sequence of clicks a user makes, the amount of time a user spends, and where the navigation begins and how it ends. You decided to use Amazon Kinesis, so you have configured the website to send these clickstream data all the way to a Kinesis data stream. While you checking the data sent to your Kinesis data stream, you found that the users' data is not ordered and the data for one individual user is spread across many shards. How would you fix this problem?;;For each record sent to Kinesis add a partition key that represents the identity of the user.
@@ -26,7 +26,7 @@ created_date: 2025-07-08
 - You are running an application that produces a large amount of real-time data that you want to load into S3 and Redshift. Also, these data need to be transformed before being delivered to their destination. What is the best architecture would you choose?;;Kinesis Data Streams + Kinesis Data Firehose.
 <!--SR:!2025-10-22,68,290-->
 - Which of the following is NOT a supported subscriber for AWS SNS?(Amazon Kinesis Data Streams, Amazon SQS, HTTP(S) Endpoint, AWS Lambda);;Amazon Kinesis Data Streams (Kinesis Data Firehose is now supported, but not Kinesis Data Streams).
-<!--SR:!2025-09-07,29,290-->
+<!--SR:!2026-01-05,118,310-->
 - Which AWS service helps you when you want to send email notifications to your users?;;Amazon SNS.
 <!--SR:!2025-10-06,66,310-->
 - You're running many micro-services applications on-premises and they communicate using a message broker that supports MQTT protocol. You're planning to migrate these applications to AWS without re-engineering the applications and modifying the code. Which AWS service allows you to get a managed message broker that supports the MQTT protocol?;;Amazon MQ.

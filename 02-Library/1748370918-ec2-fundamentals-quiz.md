@@ -18,7 +18,7 @@ created_date: 2025/05/27
 - How long can you reserve an EC2 Reserved instance?;;1 or 3 years.
 <!--SR:!2026-05-16,257,330-->
 - You would like to deploy a High-Performance Computing (HPC) application on EC2 instances. Which EC2 instance type should you choose?;; Compute Optimized.
-<!--SR:!2025-09-06,45,230-->
+<!--SR:!2026-02-03,147,250-->
 - Which EC2 Purchasing Option should you use for an application you plan to run on a server continuously for 1 year?;;Reserved Instances.
 <!--SR:!2026-04-23,245,330-->
 - You are preparing to launch an application that will be hosted on a set of EC2 instances. This application needs some software installation and some OS packages need to be updated during the first launch. What is the best way to achieve this when you launch the EC2 instances?;;Write a bash script that installs the required software and updates to your OS, then use this script in EC2 User Data when you launch your EC2 instances.
@@ -34,4 +34,4 @@ created_date: 2025/05/27
 - You would like to deploy a database technology on an EC2 instance and the vendor license bills you based on the physical cores and underlying network socket visibility. Which EC2 Purchasing Option allows you to get visibility into them?;;Dedicated Hosts.
 <!--SR:!2025-11-15,75,230-->
 - Spot Fleet is a set of Spot Instances and optionally ...............;;On-Demand Instances.
-<!--SR:!2025-09-08,30,250-->
+<!--SR:!2025-11-21,73,250-->
