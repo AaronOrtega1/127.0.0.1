@@ -17,7 +17,7 @@ created_date:
 - How are encryption keys managed for **SSE-S3**?;;The encryption key for SSE-S3 is **handled, managed, and owned by AWS**. Users **never have access** to this key.
 <!--SR:!2025-09-25,16,290-->
 - How do users manage encryption keys when using **SSE-KMS**?;;With SSE-KMS, users manage their own encryption keys using the **KMS service (Key Management Service)**, allowing for user control over key creation and logging key usage in **CloudTrail**.
-<!--SR:!2025-09-10,2,230-->
+<!--SR:!2025-09-17,7,250-->
 - What is a potential **scalability limitation** when using SSE-KMS for encryption?;;SSE-KMS API calls count towards **KMS quotas** (between 5,000 and 30,000 requests per second per region), which can be a thread limit for very high-throughput S3 buckets, though quotas can be increased.
 <!--SR:!2025-09-12,3,255-->
 - How are encryption keys handled for **SSE-C**?;;For SSE-C, keys are **customer-provided and managed outside of AWS**. Amazon S3 uses the key for server-side encryption but **never stores it**, discarding it after use.

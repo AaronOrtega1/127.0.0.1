@@ -15,13 +15,13 @@ created_date:
 - What does AWS RDS stand for, and what is its primary function?;;RDS stands for **Relational Database Service**, and it is a **managed database service** for databases that use **SQL** as a query language.
 <!--SR:!2025-09-12,11,270-->
 - What are the key limitations when using AWS RDS instances as a managed service?;;You **cannot SSH into the RDS instances** because AWS manages the underlying EC2 instance.
-<!--SR:!2025-09-10,9,250-->
+<!--SR:!2025-10-13,33,270-->
 - What are the typical default network ports for PostgreSQL, MySQL, and Aurora (PostgreSQL compatible / MySQL compatible) databases on RDS?;;**PostgreSQL - 5432**, **MySQL - 3306**, **Aurora (PostgreSQL compatible) - 5432**, **Aurora (MySQL compatible) - 3306**.
 <!--SR:!2025-10-02,24,270-->
 - Describe the functionality and conditions for **RDS Storage Auto Scaling**.;;With RDS Storage Auto Scaling enabled, RDS will **automatically scale the storage** for your database if the **free storage is less than 10%** of what's allocated, the low-storage condition last for **more than five minutes**, and **six hours** have passed since the last modification. A maximum storage threshold can be set.
 <!--SR:!2025-09-22,14,250-->
 - What is the primary purpose of **RDS Read Replicas**, and what consistency model do they use?;;Read Replicas help you **scale your reads**. They use **asynchronous replication**, meaning reads are **eventually consistent**. You can have up to **15** Read Replicas.
-<!--SR:!2025-09-10,9,250-->
+<!--SR:!2025-09-15,5,230-->
 - What is the primary purpose of **RDS Multi-AZ**, and what type of replication does it use?;;Multi-AZ is mainly used for **Disaster Recovery**. It uses **synchronous replication** to a standby instance in different AZ. It is **not used for scaling reads**.
 <!--SR:!2025-09-21,13,230-->
 - How does the failover time for Aurora compare to Multi-AZ on MySQL RDS?;;Failover in Aurora is **instantaneous**, typically less than **30 seconds on average**, which is much faster than Multi-AZ on MySQL RDS.

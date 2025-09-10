@@ -40,7 +40,7 @@ created_date: 2025-09-02
 - What is **vertical scaling** for an EC2 instance, and what is its primary drawback?;;Vertical scaling involves **stopping an instance, changing its type** to a larger one (e.g., T2 Micro to M5 Large), and then restarting it. The primary drawback is that it causes **downtime** during the upgrade process.
 <!--SR:!2025-09-18,9,250-->
 - What is the **default limit** of Elastic IP addresses per region per AWS account?;;There is a default limit of **five Elastic IPs per region per account**.
-<!--SR:!2025-09-10,1,170-->
+<!--SR:!2025-09-12,2,190-->
 - When using Route 53 with an **A record to point directly to EC2 instance IPs**, what problem arises if an EC2 instance is terminated, especially considering the DNS TTL?;;Due to the **Time-To-Live (TTL)** of the A record (e.g., one hour), users may continue to try and connect to the IP address of the **terminated instance for the duration of the TTL**, leading to perceived application downtime for those users.
 <!--SR:!2025-09-25,16,290-->
 - When using Route 53 with an Elastic Load Balancer (ELB), what type of **Route 53 record** is required to point to the ELB, and why?;;An **Alias record** is required because a load balancer's IP address can change over time, and an A record would not be able to keep up with these dynamic changes.

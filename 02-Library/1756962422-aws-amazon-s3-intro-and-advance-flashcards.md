@@ -43,13 +43,13 @@ created_date:
 - Which Amazon S3 Glacier storage class provides milliseconds retrieval?;;**Amazon S3 Glacier Instant Retrieval**.
 <!--SR:!2025-09-18,10,270-->
 - What is a key financial characteristic of the Amazon S3 Intelligent-Tiering storage class?;;It incurs a **small monthly monitoring fee**, but has **no retrieval charges**.
-<!--SR:!2025-09-10,2,230-->
+<!--SR:!2025-09-15,5,230-->
 - What are the two primary types of actions that can be configured in S3 Lifecycle rules?;;**Transition actions** (to move objects to another storage class) and **Expiration actions** (to delete objects).
 <!--SR:!2025-09-20,12,270-->
 - In an S3 Requester Pays bucket, what specific costs does the requester pay for?;;The **data download (networking) costs** associated with accessing the objects. The requester must also be **authenticated**.
 <!--SR:!2025-09-18,10,270-->
 - What are the key characteristics of the S3 Express One Zone storage class?;;It offers **high performance** for a **single Availability Zone** and stores objects in a special **directory bucket**. It provides about **10 times the performance** of S3 Standard with **50% lower cost**.
-<!--SR:!2025-09-10,2,230-->
+<!--SR:!2025-09-11,1,210-->
 - What is a primary use case for S3 Batch Operations?;;To perform **bulk operations** on existing S3 objects, such as **encrypting all unencrypted objects** in a bucket.
 <!--SR:!2025-09-24,16,290-->
 

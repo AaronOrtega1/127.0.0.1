@@ -11,6 +11,7 @@ end_date: 2025-12-08
 XP: 0
 ---
 # Integración de Servicios de Aprendizaje Automático
+[Integración Console Login](https://aws-integracion.signin.aws.amazon.com/console)
 ## Objective
 
 ## Tasks

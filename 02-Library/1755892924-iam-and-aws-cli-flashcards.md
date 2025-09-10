@@ -14,7 +14,7 @@ created_date: 2025-08-22
 - What is AWS CloudShell;;Is a **free-to-use terminal in the cloud** of AWS that allows you to issue commands.
 <!--SR:!2025-09-30,26,288-->
 - In AWS CloudShell, what is the default region for API calls?;;The **default region** in CloudShell is the **region you are currently logged into.**
-<!--SR:!2025-09-10,12,288-->
+<!--SR:!2025-10-30,50,308-->
 - What happens to files you create within your CloudShell environment if you restart your CloudShell session?;;All files you create within your CloudShell environment will **persist and stay** even if you restart your session.
 <!--SR:!2025-10-24,45,308-->
 - What are the three different options to access AWS services?;;The three options are the **AWS Management Console** (web interface), the **AWS Command Line Interface (CLI)**, and the **AWS Software Development Kit (SDK)**.
@@ -28,7 +28,7 @@ created_date: 2025-08-22
 - What is the recommended use for the AWS Root Account?;;The root account should only be used for setting up your AWS account initially and should not be used for daily operations or shared.
 <!--SR:!2025-09-16,15,290-->
 - What is the purpose of IAM Roles?;;**IAM Roles** are used to assign permissions to **AWS services** (not physical people) that need to perform actions on your behalf, such as an EC2 Instance or a Lambda Function.
-<!--SR:!2025-09-10,12,288-->
+<!--SR:!2025-10-28,48,308-->
 - What are the two main defense mechanisms to protect IAM users and groups from being compromised?;;The two main defense mechanisms are defining a **password policy** and enforcing **Multi-Factor Authentication (MFA).**
 <!--SR:!2025-09-14,11,230-->
 - Name at least three configuration options for an AWS IAM password policy:;;You can set a **minimum password length,** require **specific character types** (e.g., uppercase, lowercase, numbers, non-alphanumeric characters), allow or disallow IAM users to **change their own passwords,** require users to **change passwords after a certain time** (password expiration), and **prevent password reuse.**

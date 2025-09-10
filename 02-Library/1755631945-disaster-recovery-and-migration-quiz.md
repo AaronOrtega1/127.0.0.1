@@ -12,7 +12,7 @@ created_date: 2025-08-19
 ---
 # Disaster Recovery and Migration Quiz
 - As part of your Disaster Recovery plan, you would like to have only the critical infrastructure up and running in AWS. You don't mind a longer Recovery Time Objective (RTO). Which DR strategy do you recommend?;;Pilot Light.
-<!--SR:!2025-09-10,6,210-->
+<!--SR:!2025-09-22,12,210-->
 - You would like to get the Disaster Recovery strategy with the lowest Recovery Time Objective (RTO) and Recovery Point Objective (RPO), regardless of the cost. Which DR should you choose?;;Multi-Site.
 <!--SR:!2025-11-09,61,310-->
 - Which of the following Disaster Recovery strategies has a potentially high Recovery Point Objective (RPO) and Recovery Time Objective (RTO)?;;Backup and Restore.

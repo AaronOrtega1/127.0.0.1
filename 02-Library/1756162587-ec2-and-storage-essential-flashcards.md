@@ -43,11 +43,11 @@ created_date: 2025-08-25
 - Name the two **performance modes** available for EFS, and when you would use each:;;**General Purpose (default)**, for **latency-sensitive** use cases like servers or CMS. **Max I/O**, for **higher throughput** and highly parallel applications like big data or media processing, through it has higher latency.
 <!--SR:!2025-09-12,4,190-->
 - Which EFS **throughput mode** allows you to set throughput independently of storage size?;;**Provisioned** throughput mode.
-<!--SR:!2025-09-10,2,230-->
+<!--SR:!2025-09-17,7,250-->
 - What EFS storage class is designed for **infrequently accessed files** and offers cost savings?;;**EFS-IA (Infrequent Access)**.
 <!--SR:!2025-09-17,16,290-->
 - What is and **Amazon Machine Image (AMI)** and what does it contain?;;An AMI represents a **customization fo an EC2 instance** and contains the **software configuration, operating system, and monitoring tools.**
-<!--SR:!2025-09-10,12,270-->
+<!--SR:!2025-10-26,46,290-->
 - Why would you create your **own custom AMI**?;;To achieve **faster boot and configuration times** because all desired software is prepackaged.
 <!--SR:!2025-09-15,14,290-->
 - What is a crucial step for **data integrity** when creating an AMI from a running EC2 instance?;;You must **stop the instance** before building the AMI.
@@ -77,7 +77,7 @@ created_date: 2025-08-25
 - What is the **default behavior for the root EBS volume** when its associated EC2 instance is terminated?;;By default, the **root EBS volume is deleted** along with the instance.
 <!--SR:!2025-09-15,14,296-->
 - Which **EBS volume types** can be used as **boot volumes**?;;Only **gp2, gp3, io1, io2.**
-<!--SR:!2025-09-10,7,256-->
+<!--SR:!2025-10-06,26,276-->
 - What is the key difference in **IOPS management between gp2 and gp3 EBS volumes**?;;For **gp2**, IOPS are **linked to the disk size**; for **gp3**, IOPS and throughput can be **increased independently** from the disk size.
 <!--SR:!2025-09-28,20,256-->
 - For what use case are **io1/io2 EBS volumes** primarily designed?;;**Mission-critical, low-latency, high-throughput workloads**, especially **sensitive database workloads** needing sustained IOPS performance.

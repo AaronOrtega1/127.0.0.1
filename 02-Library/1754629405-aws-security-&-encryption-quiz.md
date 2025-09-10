@@ -12,7 +12,7 @@ created_date: 2025-08-07
 ---
 # AWS Security & Encryption Quiz
 - To enable In-flight Encryption (In-Transit Encryption), we need to have...;;an HTTPS endpoint with an SSL certificate.
-<!--SR:!2025-09-10,20,250-->
+<!--SR:!2025-10-31,51,250-->
 - Server-Side Encryption means that the data is sent encrypted to the server.;;False, it means that the server will encrypt the data for use.
 <!--SR:!2025-10-28,61,310-->
 - In Server-Side Encryption, where do the encryption and decryption happen?;;Both encryption and decryption happen on the server.

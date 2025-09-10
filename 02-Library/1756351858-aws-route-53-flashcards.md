@@ -21,7 +21,7 @@ created_date:
 - What is the primary purpose of an **A record** in Route 53?;;An A record is used to **map a hostname into an IPv4 IP address**.
 <!--SR:!2025-09-20,12,270-->
 - What is the primary purpose of an **AAAA record** in Route 53?;;An AAAA record is used to **map a hostname into an IPv6 address**.
-<!--SR:!2025-09-10,2,230-->
+<!--SR:!2025-09-17,7,250-->
 - What is a key **restriction for CNAME records** in Route 53 regarding the domain namespace?;;You **cannot create CNAME records for the top node of a DNS namespace, also known as the Zone Apex** (e.g., example.com).
 <!--SR:!2025-09-14,6,230-->
 - How do **Alias records** differ from CNAME records regarding the Zone Apex?;;Unlike CNAMEs, **Alias records can be used for the Zone Apex** (e.g., mydomain.com can point to an alias resource).
