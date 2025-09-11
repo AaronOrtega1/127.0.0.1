@@ -1,7 +1,7 @@
 ---
 link: "[[ ]]"
 aliases:
-  - "{ cap_title }":
+  - "{{cap_title}}"
 tags:
   - Quests
   - active

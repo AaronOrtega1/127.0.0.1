@@ -17,9 +17,9 @@ link: "[[Journal|Codex]]"
 - [ ] Oracle's Trials (LeetCode).
 	- [ ] Solve the Labyrinth (Python).
 	- [ ] Query the Gods (SQL).
-- [ ] Ensure the well-being of the creatures under Pato's care.
 - [ ] Forge one new component of my portfolio project that I'm proud to showcase.
 - [ ] Train strength with my companion at the iron temple. (Go to the gym with my GF)
+- [ ] Train my hand-to-hand combat skills.
 
 ## Council of Thoughts
 

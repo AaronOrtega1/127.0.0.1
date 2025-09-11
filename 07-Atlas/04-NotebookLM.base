@@ -4,7 +4,7 @@ views:
     filters:
       or:
         - file.hasTag("StudyGuide")
-        - file.hasTag("Cards/AWS/NotebookLM")
+        - file.hasTag("Training/AWS/NotebookLM")
     order:
       - file.name
       - tags

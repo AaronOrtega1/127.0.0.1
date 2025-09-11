@@ -80,7 +80,8 @@
   "editor:open-search-replace": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "R"
     }
@@ -180,5 +181,6 @@
       "key": "T"
     }
   ],
-  "workspace:undo-close-pane": []
+  "workspace:undo-close-pane": [],
+  "various-complements:reload-custom-dictionaries": []
 }

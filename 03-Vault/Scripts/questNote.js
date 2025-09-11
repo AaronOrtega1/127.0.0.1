@@ -26,7 +26,7 @@ module.exports = async (params) => {
   const filePath = `${folderPath}/${noteID}.md`;
 
   // Ruta del template
-  const templatePath = "06-scrolls/quest.md"; // Cambia esto por la ruta de tu template
+  const templatePath = "06-Scrolls/quest.md"; // Cambia esto por la ruta de tu template
 
   try {
     // Leer el contenido del template

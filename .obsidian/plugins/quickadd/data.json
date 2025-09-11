@@ -13,7 +13,7 @@
           {
             "name": "questNote",
             "type": "UserScript",
-            "id": "274aa61b-9725-4d32-955d-d6c96a8b1b28",
+            "id": "ac4d6cd4-b9aa-4fc4-9316-c9f3b95e2a29",
             "path": "03-Vault/Scripts/questNote.js",
             "settings": {}
           }
@@ -93,8 +93,8 @@
           {
             "name": "pendingNote",
             "type": "UserScript",
-            "id": "da447c41-a23d-487f-9577-f8f6ccec5070",
-            "path": "03-Archives/Scripts/pendingNote.js",
+            "id": "779a0cdd-4ecc-42d6-b6ec-e498a731ee8e",
+            "path": "03-Vault/Scripts/pendingNote.js",
             "settings": {}
           }
         ]
