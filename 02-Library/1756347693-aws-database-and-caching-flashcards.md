@@ -31,13 +31,13 @@ created_date:
 - What is **RDS Custom**, and for which database types is it available?;;RDS Custom allows you to have **full admin access** to the **underlying operating system and database** for certain database types. It is available for **Oracle** and **Microsoft SQL Server**. You can SSH into the underlying EC2 instance.
 <!--SR:!2025-09-12,11,270-->
 - What are the main benefits of using **Amazon RDS Proxy**?;;RDS Proxy allows applications to **pool and share database connections**, reducing stress on database resources. It also **reduces failover time by up to 66%** for RDS and Aurora. Additionally, it can **enforce IAM authentication** for your database.
-<!--SR:!2025-09-11,10,270-->
+<!--SR:!2025-10-19,38,290-->
 - What is **Amazon ElastiCache** primarily used for, and what are the two main caching technologies it manages?;;ElastiCache provides **managed Redis or Memcached**. It is used for **in-memory databases** with high performance and low latency to **reduce the load off of databases for read-intensive workloads** and to make applications **stateless** by storing session data.
 <!--SR:!2025-09-29,20,250-->
 - Which ElastiCache technology supports Multi-AZ with auto-failover and read replicas, and what unique use case can it facilitate with Sorted Sets?;; **Redis** supports Multi-AZ with auto-failover and read replicas. It can facilitate **real-time gaming leaderboards** using its **Sorted Sets** feature.
 <!--SR:!2025-09-15,14,290-->
 - How is **at-rest encryption** managed for RDS and Aurora databases, especially for existing unencrypted databases?;;At-rest encryption using KMS is defined at **launch time**. To encrypt an **already existing unencrypted database**, you must **take a database snapshot** and then **restore the snapshot as an encrypted database**.
-<!--SR:!2025-09-11,10,270-->
+<!--SR:!2025-09-16,5,250-->
 - What is the typical replication lag for Aurora Global Database secondary regions, and what is the Recovery Time Objective (RTO) for promoting another region for disaster recovery?;;The replication lag for secondary read-only regions should be **less than one second**. The RTO for promoting another region for disaster recovery is **less than one minute**.
 <!--SR:!2025-09-20,12,230-->
 - What is the purpose of **Babelfish for Aurora PostgreSQL**?;;Babelfish allows **Amazon Aurora PostgreSQL to understand commands (T-SQL)** that are target for **Microsoft SQL Server**, enabling applications written for SQL Server to migrate Aurora PostgreSQL with little to no code changes.

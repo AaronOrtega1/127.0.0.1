@@ -17,13 +17,13 @@ created_date:
 - Explain the fundamental difference between Unicast IP and Anycast IP.;;With **Unicast IP**, one server holds one IP address, and clients are routed to that specific server. With **Anycast IP**, all servers hold the **same IP address**, and clients are routed to the **nearest** one.
 <!--SR:!2025-09-12,3,230-->
 - What core IP addressing concept does AWS Global Accelerator leverage to route traffic?;;AWS Global Accelerator leverages the **Anycast IP** concept to route traffic.
-<!--SR:!2025-09-11,2,210-->
+<!--SR:!2025-09-12,1,190-->
 - How many static IP addresses does AWS Global Accelerator provide for an application, and are they global or regional?;;AWS Global Accelerator provides **two static Anycast IP addresses** that are **global** for your application.
-<!--SR:!2025-09-11,3,250-->
+<!--SR:!2025-09-19,8,250-->
 - Describe the mechanism by which AWS Global Accelerator improves traffic routing for global users.;;It sends user traffic to the **closest AWS edge location** using **Anycast IP**, and from there, it routes the traffic directly to the application over the **private AWS global network**, bypassing the public internet for most of the path.
 <!--SR:!2025-09-19,11,270-->
 - Name three types of AWS resources that can be used as endpoints with AWS Global Accelerator.;;AWS Global Accelerator can work with **Elastic IP addresses, EC2 instances, Application Load Balancers (ALB), and Network Load Balancers (NLB)**, whether they are public or private.
-<!--SR:!2025-09-11,1,210-->
+<!--SR:!2025-09-14,3,230-->
 - How does AWS Global Accelerator handle regional application failures?;;AWS Global Accelerator performs **health checks** on your application endpoints. If an endpoint becomes unhealthy, it provides **automated failover to a healthy endpoint in less than one minute**.
 <!--SR:!2025-09-13,3,210-->
 - What is a key differentiating factor between AWS Global Accelerator and CloudFront regarding content caching?;;**CloudFront** is designed to **cache content** (both static and dynamic) at edge locations and serve it directly from there. In contrast, **Global Accelerator has no caching available**; it proxies packets from edge locations directly to the application in AWS regions.
@@ -47,4 +47,4 @@ created_date:
 - When would you choose CloudFront over S3 Cross Region Replication for content distribution?;;You would choose **CloudFront** for distributing and caching **static content** that needs to be available globally with low latency. **S3 Cross Region Replication** is suitable for **dynamic content** that requires near real-time updates in a few specific regions.
 <!--SR:!2025-09-15,5,230-->
 - What broad types of application layer protocols do Global Accelerator and CloudFront typically optimize?;;**CloudFront** primarily optimizes performance for applications using **HTTP/HTTPS** protocols. **Global Accelerator** optimizes performance for a **wide range of applications over TCP or UDP**.
-<!--SR:!2025-09-11,1,210-->
+<!--SR:!2025-09-14,3,230-->

@@ -26,3 +26,8 @@ from "04-Forge" and [[]]
 list
 from "02-Library" and [[]]
 ```
+
+## Important Sources of Information
+[Using Python Environment Variables with Python Dotenv - GeeksforGeeks](https://www.geeksforgeeks.org/python/using-python-environment-variables-with-python-dotenv/)
+[Connecting PostgreSQL with SQLAlchemy in Python - GeeksforGeeks](https://www.geeksforgeeks.org/python/connecting-postgresql-with-sqlalchemy-in-python/)
+[Uber Data Analytics Dashboard](https://www.kaggle.com/datasets/yashdevladdha/uber-ride-analytics-dashboard)

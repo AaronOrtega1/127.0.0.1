@@ -11,7 +11,7 @@ tags:
   - DataAnalysis
 start_date: 2025-08-25
 end_date: 2025-10-25
-XP: 80
+XP: 85
 ---
 # Business Intelligence Analyst Udemy Course 2025 
 ## Objective
@@ -35,7 +35,7 @@ Master all the crucial technologies and fundamentals for Business Intelligence, 
 	- [x] Section 14 (XP +5)
 	- [x] Section 15 (XP +5)
 	- [x] Section 16 (XP +5)
-	- [ ] Section 17 (XP +5)
+	- [x] Section 17 (XP +5)
 	- [ ] Section 18 (XP +5)
 	- [ ] Section 19 (XP +5)
 	- [ ] Section 20 (XP +5)

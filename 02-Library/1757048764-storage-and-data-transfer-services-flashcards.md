@@ -15,7 +15,7 @@ created_date:
 - What is a key differentiator of AWS DataSync regarding file attributes?;;AWS DataSync has the ability to **preserve file permissions and metadata**, including security, NFS POSIX, and SMB permissions, which is often a unique option for this requirement in exams.
 <!--SR:!2025-09-13,3,230-->
 - What protocols does AWS DataSync support when connecting to on-premises servers, and when is an agent required?;;DataSync connects to on-premises servers using **NFS, SMB, or HDFS protocols**. An agent is required to run **on-premises or on other clouds** for this connection, but no agent is needed for AWS-to-AWS data transfers.
-<!--SR:!2025-09-11,1,190-->
+<!--SR:!2025-09-12,1,170-->
 - Describe the scheduling capability of AWS DataSync.;;DataSync replication tasks are **not continuous** but are **scheduled** to run hourly, daily, or weekly, meaning there is a lag in synchronization.
 <!--SR:!2025-09-21,12,270-->
 - What is the maximum data transfer speed for a single AWS DataSync agent, and can this be limited?;;One DataSync agent can transfer up to **10 gigabits of data per second**. Bandwidth limits can be set to avoid maxing out your network.
@@ -33,21 +33,21 @@ created_date:
 - Which protocols does the Amazon S3 File Gateway use to expose S3 buckets on-premises, and what is a key caching feature?;;The S3 File Gateway allows on-premises application servers to access S3 buckets using the **NFS or SMB protocol**. It **caches the most recently used data locally** for rapid access.
 <!--SR:!2025-09-12,2,210-->
 - How does the AWS Storage Gateway's Volume Gateway store and back up data?;;The Volume Gateway provides **block storage using the iSCSI protocol**, with volumes backed up by **Amazon EBS snapshots stored in Amazon S3**.
-<!--SR:!2025-09-11,2,230-->
+<!--SR:!2025-09-16,5,230-->
 - What is the core purpose of AWS Transfer Family, and what three protocols does it support?;;AWS Transfer Family allows users to **send data in and out of Amazon S3 or EFS using FTP protocols** without using S3 APIs or EFS NFS. It supports **FTP (unencrypted), FTPS (encrypted), and SFTP (encrypted)**.
-<!--SR:!2025-09-11,2,230-->
+<!--SR:!2025-09-16,5,230-->
 - What is the main characteristic of Amazon FSx as a service?;;Amazon FSx enables the launch of **third-party high-performance file systems** on AWS as a fully managed service, similar to how RDS manages databases for relational databases.
 <!--SR:!2025-09-13,3,230-->
 - What protocols does Amazon FSx for Windows File Server support, and what is a notable compatibility feature?;;FSx for Windows File Server supports the **SMB protocol** and Windows NTFS. A notable feature is that it can be **mounted on Linux EC2 instances**, despite its Windows-centric design.
-<!--SR:!2025-09-11,2,230-->
+<!--SR:!2025-09-16,5,230-->
 - What is the primary use case for Amazon FSx for Lustre, and how does it integrate with Amazon S3?;;FSx for Lustre is designed for **High-Performance Computing (HPC), machine learning, and large-scale computing** workloads. It offers seamless integration with S3, allowing it to **read S3 as a file system** and write computation outputs back to S3.
 <!--SR:!2025-09-18,9,250-->
 - Differentiate between "scratch" and "persistent" file systems in Amazon FSx for Lustre regarding data durability.;;**Scratch file systems** provide temporary storage, and **data is not replicated**, meaning it can be lost on server failure. **Persistent file systems** are for long-term storage, with **data replicated within the same Availability Zone** to transparently replace files in minutes upon server failure.
 <!--SR:!2025-09-23,14,290-->
 - Which protocols does Amazon FSx for NetApp ONTAP support, and what unique data optimization feature does it offer compared to OpenZFS?;;FSx for NetApp ONTAP supports **NFS, SMB, and iSCSI protocols**. It offers **data de-duplication** (finding duplicates of files) in addition to compression, which FSx for OpenZFS does not.
-<!--SR:!2025-09-11,2,250-->
+<!--SR:!2025-09-18,7,270-->
 - What is the primary protocol supported by Amazon FSx for OpenZFS, and does it support data de-duplication?;;Amazon FSx for OpenZFS is compatible **only with the NFS protocol**. While it supports snapshots and compression, it **does not support data de-duplication**.
-<!--SR:!2025-09-11,2,230-->
+<!--SR:!2025-09-18,7,250-->
 
 
 

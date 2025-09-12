@@ -44,7 +44,7 @@ created_date: 2025-07-03
 - A company is running Amazon S3 File Gateway to host their data on S3 buckets and is able to mount them on-premises using SMB. The data currently is hosted on S3 Standard storage class and there is a requirement to reduce the costs for S3. So, they have decided to migrate some of those data to S3 Glacier. What is the most efficient way they can use to move the data to S3 Glacier automatically?;;Use S3 Lifecycle Policy.
 <!--SR:!2025-09-21,34,270-->
 - You have on-premises sensitive files and documents that you want to regularly synchronize to AWS to keep another copy. Which AWS service can help you with that?;;AWS DataSync.
-<!--SR:!2025-09-11,45,290-->
+<!--SR:!2026-03-11,181,310-->
 - AWS DataSync doesn't supports the following locations...;;EBC.
 <!--SR:!2025-09-13,19,250-->
 

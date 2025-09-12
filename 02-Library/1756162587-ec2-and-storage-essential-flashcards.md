@@ -13,7 +13,7 @@ created_date: 2025-08-25
 ---
 # EC2 and Storage Essential Flashcards
 - What is the primary purpose of EC2 **Placement Groups**?;;To control how **EC2 instances are placed** within the AWS infrastructure, defining their strategy relative to one another.
-<!--SR:!2025-09-11,10,270-->
+<!--SR:!2025-10-19,38,290-->
 - Name the **three strategies** available for EC2 Placement Groups.;;Cluster, Spread, Partition.
 <!--SR:!2025-09-12,11,270-->
 - What is the key characteristic of **Cluster Placement Groups**?;;Instances are grouped together in a **low-latency hardware setup withing a single AZ**, offering **high performance** but **high risk.**
@@ -31,7 +31,7 @@ created_date: 2025-08-25
 - What is the scalability benefit of a **Partition Placement Group** compared to a **Spread Placement Group**?;;It can scale to **hundreds of EC2 instances per group**, whereas Spread is limited to seven per AZ.
 <!--SR:!2025-09-12,11,270-->
 - What types of **big data applications** are commonly used with **Partition Placement Groups**?;;Applications like **Hadoop, Cassandra, Kafka, HDFS, and HBase** that are partition-aware.
-<!--SR:!2025-09-11,10,270-->
+<!--SR:!2025-10-19,38,290-->
 - What must be enabled in the root account for setting for **IAM users to access billing data**?;;**"IAM user and role access to billing information"** must be activated.
 <!--SR:!2025-09-13,5,170-->
 - What is the purpose of an AWS **zero-spend budget?**;;It alerts you as soon as you incur **even a minimal cost (e.g., 1 cent)**, which is very helpful for cost monitoring.
@@ -63,13 +63,13 @@ created_date: 2025-08-25
 - Which **EBS volume types** support the **Multi-Attach** feature?;;Only **io1 and io2** volumes.
 <!--SR:!2025-09-16,15,290-->
 - What is the **maximum number of EC2 instances** that can attach to a single EBS volume using Multi-Attach?;;Up to **16 EC2 instances.**
-<!--SR:!2025-09-11,10,250-->
+<!--SR:!2025-10-15,34,270-->
 - How can you migrate an **EBS volume across different AZ**?;;You must **take a snapshot** of the EBS volume and then **restore that snapshot in the desired AZ.**
 <!--SR:!2025-09-16,15,290-->
 - What is the purpose of the **EBS Snapshot Archive tier**, and what is its main characteristic?;;It allows moving snapshots to a **cheaper storage tier (up to 75% savings),** but **restoring from it takes 24-72 hours.**
 <!--SR:!2025-10-04,26,270-->
 - What is **Fast Snapshot Restore (FSR)** and its main drawback?;;FSR forces a **full initialization of a snapshot** to eliminate latency on first use, but it **cost a lot of money.**
-<!--SR:!2025-09-11,10,276-->
+<!--SR:!2025-10-20,39,296-->
 - If an EBS volume is encrypted, what else is automatically encrypted?;;All **data at rest, data in flight** (between instance and volume), all **snapshots**, and all **volumes created from those snapshots** are encrypted.
 <!--SR:!2025-09-15,14,296-->
 - Which AWS service provides the keys used for EBS encryption?;;**KMS (Key Management Service)**, using **AWS-256**.
@@ -91,7 +91,7 @@ created_date: 2025-08-25
 - What EC2 purchasing option offers the **highest cost savings** but is the **least reliable**?;;**Spot Instances**, offering up to **90% discounts**, but they can be reclaimed by AWS at any time.
 <!--SR:!2025-09-17,16,296-->
 - What is the **grace period** given before a **Spot Instance is reclaimed** when the spot price exceeds your maximum price?;;A **two-minute grace period**.
-<!--SR:!2025-09-11,10,276-->
+<!--SR:!2025-10-18,37,296-->
 - For what type of workloads are **Spot Instances NOT suited?**;;Critical jobs or databases.
 <!--SR:!2025-09-13,12,276-->
 - What is the correct procedure to **terminate persistent Spot Instances** and prevent them from relaunching?;;First, you must **cancel the spot request**, and then you must **terminate the associated spot instances.**

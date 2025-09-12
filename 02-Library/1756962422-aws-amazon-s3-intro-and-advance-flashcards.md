@@ -23,7 +23,7 @@ created_date:
 - What is the Amazon S3 baseline performance for PUT/COPY/POST/DELETE requests per second per prefix?;;**3,500 requests per second per prefix**.
 <!--SR:!2025-09-19,11,270-->
 - What is the Amazon S3 baseline performance for GET/HEAD requests per second per prefix?;;**5,500 requests per second per prefix**.
-<!--SR:!2025-09-11,3,230-->
+<!--SR:!2025-09-18,7,230-->
 - What version ID is assigned to files that are not versioned prior to enabling versioning on an S3 bucket?;;They will have the **version null**.
 <!--SR:!2025-09-22,14,290-->
 - Does suspending Amazon S3 bucket versioning delete previous object versions?;;No, suspending versioning **does not delete the previous version**; it is a safe operation.
@@ -49,7 +49,7 @@ created_date:
 - In an S3 Requester Pays bucket, what specific costs does the requester pay for?;;The **data download (networking) costs** associated with accessing the objects. The requester must also be **authenticated**.
 <!--SR:!2025-09-18,10,270-->
 - What are the key characteristics of the S3 Express One Zone storage class?;;It offers **high performance** for a **single Availability Zone** and stores objects in a special **directory bucket**. It provides about **10 times the performance** of S3 Standard with **50% lower cost**.
-<!--SR:!2025-09-11,1,210-->
+<!--SR:!2025-09-13,2,210-->
 - What is a primary use case for S3 Batch Operations?;;To perform **bulk operations** on existing S3 objects, such as **encrypting all unencrypted objects** in a bucket.
 <!--SR:!2025-09-24,16,290-->
 
