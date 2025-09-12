@@ -22,7 +22,7 @@ created_date: 2025/06/20
 - Your application running on a fleet of EC2 instances managed by an Auto Scaling Group behind an Application Load Balancer. Users have to constantly log back in and you don't want to enable Sticky Sessions on your ALB as you fear it will overload some EC2 instances. What should you do?;;Store session data in ElastiCache.
 <!--SR:!2026-03-01,181,310-->
 - An analytics application is currently performing its queries against your main production RDS database. These queries run at any time of the day and slow down the RDS database which impacts your users' experience. What should you do to improve the users' experience?;;Setup a Read Replica.
-<!--SR:!2025-09-12,58,310-->
+<!--SR:!2026-05-17,247,330-->
 - You would like to ensure you have a replica of your database available in another AWS Region if a disaster happens to your main AWS Region. Which database do you recommend to implement this easily?;;Aurora Global Database, since it allows you to have an replica in another AWS Region.
 <!--SR:!2026-05-08,240,330-->
 - How can you enhance the security of your ElastiCache Redis Cluster by allowing users to access your ElastiCache Redis Cluster using their IAM Identities (e.g., Users, Roles)?;;Using IAM Authentication.

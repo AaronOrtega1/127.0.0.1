@@ -13,7 +13,7 @@ created_date:
 ---
 # AWS Database and Caching Flashcards
 - What does AWS RDS stand for, and what is its primary function?;;RDS stands for **Relational Database Service**, and it is a **managed database service** for databases that use **SQL** as a query language.
-<!--SR:!2025-09-12,11,270-->
+<!--SR:!2025-10-23,41,290-->
 - What are the key limitations when using AWS RDS instances as a managed service?;;You **cannot SSH into the RDS instances** because AWS manages the underlying EC2 instance.
 <!--SR:!2025-10-13,33,270-->
 - What are the typical default network ports for PostgreSQL, MySQL, and Aurora (PostgreSQL compatible / MySQL compatible) databases on RDS?;;**PostgreSQL - 5432**, **MySQL - 3306**, **Aurora (PostgreSQL compatible) - 5432**, **Aurora (MySQL compatible) - 3306**.
@@ -29,7 +29,7 @@ created_date:
 - Explain the difference between Aurora's **Writer Endpoint** and **Reader Endpoint**.;;The **Writer Endpoint** is a DNS name that **always points to the master instance** for writes. The **Reader Endpoint** is for **load balancing connections** across all read replicas for read workloads.
 <!--SR:!2025-09-26,18,250-->
 - What is **RDS Custom**, and for which database types is it available?;;RDS Custom allows you to have **full admin access** to the **underlying operating system and database** for certain database types. It is available for **Oracle** and **Microsoft SQL Server**. You can SSH into the underlying EC2 instance.
-<!--SR:!2025-09-12,11,270-->
+<!--SR:!2025-10-22,40,290-->
 - What are the main benefits of using **Amazon RDS Proxy**?;;RDS Proxy allows applications to **pool and share database connections**, reducing stress on database resources. It also **reduces failover time by up to 66%** for RDS and Aurora. Additionally, it can **enforce IAM authentication** for your database.
 <!--SR:!2025-10-19,38,290-->
 - What is **Amazon ElastiCache** primarily used for, and what are the two main caching technologies it manages?;;ElastiCache provides **managed Redis or Memcached**. It is used for **in-memory databases** with high performance and low latency to **reduce the load off of databases for read-intensive workloads** and to make applications **stateless** by storing session data.

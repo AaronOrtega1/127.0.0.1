@@ -15,13 +15,13 @@ created_date:
 - What is a key differentiator of AWS DataSync regarding file attributes?;;AWS DataSync has the ability to **preserve file permissions and metadata**, including security, NFS POSIX, and SMB permissions, which is often a unique option for this requirement in exams.
 <!--SR:!2025-09-13,3,230-->
 - What protocols does AWS DataSync support when connecting to on-premises servers, and when is an agent required?;;DataSync connects to on-premises servers using **NFS, SMB, or HDFS protocols**. An agent is required to run **on-premises or on other clouds** for this connection, but no agent is needed for AWS-to-AWS data transfers.
-<!--SR:!2025-09-12,1,170-->
+<!--SR:!2025-09-14,2,170-->
 - Describe the scheduling capability of AWS DataSync.;;DataSync replication tasks are **not continuous** but are **scheduled** to run hourly, daily, or weekly, meaning there is a lag in synchronization.
 <!--SR:!2025-09-21,12,270-->
 - What is the maximum data transfer speed for a single AWS DataSync agent, and can this be limited?;;One DataSync agent can transfer up to **10 gigabits of data per second**. Bandwidth limits can be set to avoid maxing out your network.
-<!--SR:!2025-09-12,2,210-->
+<!--SR:!2025-09-16,4,210-->
 - How does AWS Snowcone integrate with AWS DataSync for data transfer challenges?;;The **AWS Snowcone device comes with the DataSync agent pre-installed**. This is useful when network capacity is insufficient to directly use DataSync, allowing data to be pulled by Snowcone, shipped to AWS, and then synchronized to AWS storage resources.
-<!--SR:!2025-09-12,3,250-->
+<!--SR:!2025-09-24,12,270-->
 - What are the two main types of AWS Snowball Edge devices and their primary distinction?;;The two types are **Edge Storage Optimized (210 TB storage)** and **Edge Compute Optimized (28 TB storage)**. The difference lies in their storage capacity, indicating their primary purpose for either storage-heavy migration or edge computing.
 <!--SR:!2025-09-13,3,230-->
 - When is using an AWS Snowball device recommended for data migration?;;Snowball is recommended when transferring data takes **over a week** due to slow connections, limited connectivity/bandwidth, high network costs, or an unstable connection.
@@ -31,7 +31,7 @@ created_date:
 - What is the primary function of AWS Storage Gateway in a hybrid cloud architecture?;;AWS Storage Gateway acts as a **bridge between on-premises data and cloud data**, facilitating hybrid cloud solutions for disaster recovery, backups, cloud migration, and extending on-premises storage.
 <!--SR:!2025-09-24,15,290-->
 - Which protocols does the Amazon S3 File Gateway use to expose S3 buckets on-premises, and what is a key caching feature?;;The S3 File Gateway allows on-premises application servers to access S3 buckets using the **NFS or SMB protocol**. It **caches the most recently used data locally** for rapid access.
-<!--SR:!2025-09-12,2,210-->
+<!--SR:!2025-09-13,1,190-->
 - How does the AWS Storage Gateway's Volume Gateway store and back up data?;;The Volume Gateway provides **block storage using the iSCSI protocol**, with volumes backed up by **Amazon EBS snapshots stored in Amazon S3**.
 <!--SR:!2025-09-16,5,230-->
 - What is the core purpose of AWS Transfer Family, and what three protocols does it support?;;AWS Transfer Family allows users to **send data in and out of Amazon S3 or EFS using FTP protocols** without using S3 APIs or EFS NFS. It supports **FTP (unencrypted), FTPS (encrypted), and SFTP (encrypted)**.

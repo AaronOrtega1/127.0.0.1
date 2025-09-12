@@ -19,7 +19,7 @@ created_date:
 - You have 5 AWS Accounts that you manage using AWS Organizations. You want to restrict access to certain AWS services in each account. How should you do that?;;Using AWS Organizations SCP.
 <!--SR:!2025-09-20,29,270-->
 - Which of the following IAM condition key you can use only to allow API calls to a specified AWS region?;;`aws:RequestedRegion`.
-<!--SR:!2025-09-12,3,190-->
+<!--SR:!2025-09-19,7,210-->
 - When configuring permissions for EventBridge to configure a Lambda function as a target you should use ... but when you want to configure a Kinesis Data Streams as a target you should use ...;;Resource-Based Policy, Identity-based Policy
 <!--SR:!2025-10-17,36,250-->
 

@@ -24,7 +24,7 @@ created_date: 2025-07-09
 - You are migrating your on-premises Docker-based applications to Amazon ECS. You were using Docker Hub Container Image Library as your container image repository. Which is an alternative AWS service which is fully integrated with Amazon ECS?;;Elastic Container Registry (ECR).
 <!--SR:!2025-09-28,59,310-->
 - Amazon EKS doesn't supports which node types?;;AWS Lambda.
-<!--SR:!2025-09-12,42,290-->
+<!--SR:!2026-02-26,167,310-->
 - A developer has a running website and APIs on his local machine using containers and he wants to deploy both of them on AWS. The developer is new to AWS and doesn’t know much about different AWS services. Which of the following AWS services allows the developer to build and deploy the website and the APIs in the easiest way according to AWS best practices?;;AWS App Runner.
 <!--SR:!2025-11-20,84,270-->
 

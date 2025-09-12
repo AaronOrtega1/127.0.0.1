@@ -17,6 +17,16 @@ XP: 85
 ## Objective
 Master all the crucial technologies and fundamentals for Business Intelligence, like math, excel, SQL, tableau (which I will change for Power BI) and python, and how to integrate SQL, tableau and python.
 
+### After `docker compose down -v`
+Run this commands:
+```bash
+docker exec -it mysql8 mysql -uroot -prootpassword
+```
+
+```SQL
+GRANT ALL PRIVILEGES ON *.* TO 'myuser'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+```
 ## Tasks
 - [ ] Finish Udemy Course.
 	- [x] Section 1 (XP +5)
@@ -36,9 +46,9 @@ Master all the crucial technologies and fundamentals for Business Intelligence, 
 	- [x] Section 15 (XP +5)
 	- [x] Section 16 (XP +5)
 	- [x] Section 17 (XP +5)
-	- [ ] Section 18 (XP +5)
-	- [ ] Section 19 (XP +5)
-	- [ ] Section 20 (XP +5)
+	- [x] Section 18 (XP +5)
+	- [x] Section 19 (XP +5)
+	- [x] Section 20 (XP +5)
 	- [ ] Section 21 (XP +5)
 	- [ ] Section 22 (XP +5)
 	- [ ] Section 23 (XP +5)

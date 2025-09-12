@@ -15,7 +15,7 @@ created_date: 2025-08-25
 - What is the primary purpose of EC2 **Placement Groups**?;;To control how **EC2 instances are placed** within the AWS infrastructure, defining their strategy relative to one another.
 <!--SR:!2025-10-19,38,290-->
 - Name the **three strategies** available for EC2 Placement Groups.;;Cluster, Spread, Partition.
-<!--SR:!2025-09-12,11,270-->
+<!--SR:!2025-10-24,42,290-->
 - What is the key characteristic of **Cluster Placement Groups**?;;Instances are grouped together in a **low-latency hardware setup withing a single AZ**, offering **high performance** but **high risk.**
 <!--SR:!2025-10-20,41,290-->
 - What is a major drawback of using a **Cluster Placement Group**?;;If the **AZ fails, all instances withing that group will fail** at the same time.
@@ -29,7 +29,7 @@ created_date: 2025-08-25
 - How many **partitions per AZ** can a **Partition Placement Group** have?;;Up to **seven partitions per AZ.**
 <!--SR:!2025-10-16,38,290-->
 - What is the scalability benefit of a **Partition Placement Group** compared to a **Spread Placement Group**?;;It can scale to **hundreds of EC2 instances per group**, whereas Spread is limited to seven per AZ.
-<!--SR:!2025-09-12,11,270-->
+<!--SR:!2025-10-21,39,290-->
 - What types of **big data applications** are commonly used with **Partition Placement Groups**?;;Applications like **Hadoop, Cassandra, Kafka, HDFS, and HBase** that are partition-aware.
 <!--SR:!2025-10-19,38,290-->
 - What must be enabled in the root account for setting for **IAM users to access billing data**?;;**"IAM user and role access to billing information"** must be activated.
@@ -41,7 +41,7 @@ created_date: 2025-08-25
 - What is the primary **compatibility restriction** for Amazon EFS?;;It is **only compatible with Linux-based AMIs,** not Windows.
 <!--SR:!2025-09-18,10,230-->
 - Name the two **performance modes** available for EFS, and when you would use each:;;**General Purpose (default)**, for **latency-sensitive** use cases like servers or CMS. **Max I/O**, for **higher throughput** and highly parallel applications like big data or media processing, through it has higher latency.
-<!--SR:!2025-09-12,4,190-->
+<!--SR:!2025-09-20,8,190-->
 - Which EFS **throughput mode** allows you to set throughput independently of storage size?;;**Provisioned** throughput mode.
 <!--SR:!2025-09-17,7,250-->
 - What EFS storage class is designed for **infrequently accessed files** and offers cost savings?;;**EFS-IA (Infrequent Access)**.
@@ -97,7 +97,7 @@ created_date: 2025-08-25
 - What is the correct procedure to **terminate persistent Spot Instances** and prevent them from relaunching?;;First, you must **cancel the spot request**, and then you must **terminate the associated spot instances.**
 <!--SR:!2025-09-13,12,276-->
 - What is a **Dedicated Host** and when would you use it?;;A Dedicated Host is an **entire physical server with EC2 instance capacity fully dedicated to your use case.** It's used for **compliance requirements** or to leverage **existing server-bound software licenses.**
-<!--SR:!2025-09-12,11,276-->
+<!--SR:!2025-10-25,43,296-->
 - What is the difference between a **Dedicated Host** and a **Dedicated Instance**?;;A **Dedicated Host** gives you access to the **entire physical server** and control over instance placements. A **Dedicated Instance** runs on hardware dedicated to you, but you **may share the hardware with other instances in the same account** and have **no control over instance placements.**
 <!--SR:!2025-09-17,16,296-->
 - What is the primary purpose of **Capacity Reservations** for EC2?;;To **reserve On-Demand instance capacity in a specific AZ** for any duration, guaranteeing availability, but they do not **provide billing discounts** and you are charged even if instances are not running.
@@ -113,7 +113,7 @@ created_date: 2025-08-25
 - What are the **default port numbers for SSH (Linux)** and **RDP (Windows)** access?;;SSH (Linux) port 22, RDP (Windows) port 3389.
 <!--SR:!2025-09-13,4,236-->
 - What are the default port numbers for **HTTP** and **HTTPS** web traffic?;;HTTP port 80, HTTPS port 443.
-<!--SR:!2025-09-12,11,276-->
+<!--SR:!2025-10-11,29,276-->
 - What is **EC2 User Data** and when does it run?;;EC2 User Data is a **bootstrap script** that runs **once when an EC2 instance first starts** (bootstrapping) to automate initial configuration tasks like installing software or updates. It runs with the **root user.**
 <!--SR:!2025-09-16,15,296-->
 - What is the difference between a **Public IP** and a **Private IP**?;;A **Public IP** is identifiable and unique across the **internet**, while a **Private IP** is only identifiable and unique within its **private network.**
@@ -123,7 +123,7 @@ created_date: 2025-08-25
 - In the EC2 instance naming convention `m5.2xlarge`, what do `m, 5, and 2xlarge` represent?;;`m` the **instance class**, `5` the **generation** and `2xlarge` the **size**.
 <!--SR:!2025-09-16,15,296-->
 - Which EC2 instance class is optimized for workloads that **process large datasets in memory (RAM)**, often used for high-performance database or caches?;;**Memory Optimized** instances (e.g., **R-series**, where `R` stands for RAM).
-<!--SR:!2025-09-12,11,276-->
+<!--SR:!2025-10-12,30,276-->
 - Which EC2 instance class is optimized for applications that **access a lot of data sets on local storage**, such as high-frequency OLTP systems or data warehousing?;;**Storage Optimized** instances (e.g., I, D, or H1 series).
 <!--SR:!2025-09-14,10,236-->
 

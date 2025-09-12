@@ -21,13 +21,13 @@ created_date:
 - At what OSI layer does the **Application Load Balancer (ALB)** operate, and what are its primary protocols?;;The ALB is **Layer 7 only load balancer**, meaning it primarily operates at the **HTTP layer**. It supports **HTTP, HTTPS, and WebSocket protocols**, including **HTTP/2**.
 <!--SR:!2025-09-16,15,290-->
 - At what OSI layer does the **Network Load Balancer (NLB)** operate, and what protocols does it support?;;The NLB is a **Layer 4 load balancer**. It supports **TCP, TLS, secure TCP, and UDP protocols**
-<!--SR:!2025-09-12,11,270-->
+<!--SR:!2025-10-13,31,270-->
 - At what OSI layer does the **Gateway Load Balancer (GWLB)** operate, and what specific protocol does it use?;;The GWLB operates at the **network layer (Layer 3) for IP packets**. It uses the **GENEVE protocol on port 6081**.
 <!--SR:!2025-09-13,12,270-->
 - What is AWS's recommendation regarding the **Classic Load Balancer (CLB)**?;;AWS **does not want users to use the Classic Load Balancer anymore**; it is shown as **deprecated** within the console, though still available. It is an **older generation** load balancer.
 <!--SR:!2025-09-15,14,290-->
 - What are some key routing capabilities of the Application Load Balancer (ALB)?;;**Target path of the URL** (e.g., /users, /posts), **host name of the url** (e.g., one.example.com, other.example.com), **query strings and headers** (e.g., ?Platform=Mobile, ?Platform=Desktop).
-<!--SR:!2025-09-12,11,270-->
+<!--SR:!2025-10-23,41,290-->
 - How do EC2 instances behind an Application Load Balancer (ALB) get the true client IP address?;;The application servers **do not directly see the client's IP**. The ALB performs **connection termination** and the talks to the EC2 instance using its own IP. The true client IP is inserted into the **X-Forwarder-For** header of the HTTP request. The port and protocol are similarly found in **X-Forwarder-Port** and **X-Forwarded-Proto** headers, respectively.
 <!--SR:!2025-09-15,14,290-->
 - What is the purpose of **Connection Draining (or Deregistration Delay)** in load balancers?;;Connection Draining (CLB) or Deregistration Delay (for ALB/NLB) gives instance **time to complete in-flight or active request** while the instance is being deregistered or marked unhealthy. During this period, the ELB **stops sending new requests** to the draining instance but allows existing connections to finish.

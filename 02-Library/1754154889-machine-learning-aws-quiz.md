@@ -24,7 +24,7 @@ created_date: 2025-08-02
 - A company would like to convert its documents into different languages, with natural and accurate wording. What should they use?;;Amazon Translate.
 <!--SR:!2025-10-20,56,310-->
 - A developer would like to build, train, and deploy a machine learning model quickly. Which service can he use?;;SageMaker, fully managed, can build, train, and deploy ML models quickly.
-<!--SR:!2025-09-12,25,270-->
+<!--SR:!2025-12-15,94,290-->
 - Which AWS service makes it easy to convert speech-to-text?;;Amazon Transcribe.
 <!--SR:!2025-10-26,62,310-->
 - Which of the following services is a document search service powered by machine learning?;;Amazon Kendra.

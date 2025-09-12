@@ -41,9 +41,9 @@ created_date:
 - In **Geoproximity Routing Policy**, how does a "bias" value affect traffic distribution?;;A **positive bias (increasing the value) expands the size of a geographic region**, shifting more traffic to that resource. A **negative bias (decreasing the value) shrinks the region**, sending less traffic to that resource.
 <!--SR:!2025-09-19,11,250-->
 - How does the **IP-based Routing Policy** determine where to send traffic?;;IP-based Routing Policy defines routing based on **client IP addresses** by allowing you to define a list of **CIDR blocks (IP ranges)** and specifying the target location for traffic originating from those ranges.
-<!--SR:!2025-09-12,1,170-->
+<!--SR:!2025-09-13,1,150-->
 - What is a **mandatory requirement** for the primary record when using a **Failover Routing Policy**?;;The **primary record must be associated with a health check**. If this health check becomes unhealthy, Route 53 automatically fails over to the secondary resource.
-<!--SR:!2025-09-12,3,230-->
+<!--SR:!2025-09-23,11,250-->
 - How can you perform **health checks on private resources** using Route 53, given that Route 53 health checkers are public?;;To monitor private resources, you should: Monitor the private resource using a **CloudWatch Metric**. Create a **CloudWatch Alarm** on that metric. Assign the **CloudWatch Alarm to the Route 53 health check**, which will then become unhealthy when the alarm state is triggered.
 <!--SR:!2025-09-15,7,250-->
 - What is a key difference between **Multi-Value Routing Policy** and **Simple Routing Policy** when multiple values are returned?;;**Multi-Value Routing Policy can be associated with health checks**, ensuring that only **healthy resources (up to eight)** are returned. **Simple Routing Policy cannot be associated with health checks**, meaning it might return unhealthy resources.
