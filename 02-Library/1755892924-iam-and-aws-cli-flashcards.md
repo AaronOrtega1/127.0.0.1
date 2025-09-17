@@ -24,15 +24,15 @@ created_date: 2025-08-22
 - What is the primary difference in how you use the AWS CLI versus the AWS SDK?;;The **AWS CLI** is a tool you use to interact with AWS services via **commands typed in your command-line shell**, while the **AWS SDK** is a set of language-specific libraries that you **embed within your application code** to programmatically access and manage AWS services.
 <!--SR:!2025-09-20,18,268-->
 - What is the "least privilege principle" in AWS IAM?;;The least privilege principle means you **don't give more permissions than a user needs.** If a user only requires access to three services, you should only grant permissions for those specific services.
-<!--SR:!2025-09-15,14,290-->
+<!--SR:!2025-11-11,55,310-->
 - What is the recommended use for the AWS Root Account?;;The root account should only be used for setting up your AWS account initially and should not be used for daily operations or shared.
-<!--SR:!2025-09-16,15,290-->
+<!--SR:!2025-11-17,61,310-->
 - What is the purpose of IAM Roles?;;**IAM Roles** are used to assign permissions to **AWS services** (not physical people) that need to perform actions on your behalf, such as an EC2 Instance or a Lambda Function.
 <!--SR:!2025-10-28,48,308-->
 - What are the two main defense mechanisms to protect IAM users and groups from being compromised?;;The two main defense mechanisms are defining a **password policy** and enforcing **Multi-Factor Authentication (MFA).**
-<!--SR:!2025-09-14,11,230-->
+<!--SR:!2025-10-22,35,250-->
 - Name at least three configuration options for an AWS IAM password policy:;;You can set a **minimum password length,** require **specific character types** (e.g., uppercase, lowercase, numbers, non-alphanumeric characters), allow or disallow IAM users to **change their own passwords,** require users to **change passwords after a certain time** (password expiration), and **prevent password reuse.**
-<!--SR:!2025-09-13,12,270-->
+<!--SR:!2025-11-02,46,290-->
 - List two types of Multi-Factor Authentication (MFA) devices supported by AWS:;;Two types include **virtual MFA devices** (like Google Authenticator or Authy) and **Universal 2nd Factor (U2F) Security Keys** (physical devices like YubiKey). Other options include hardware key fob MFA devices and special key fobs for AWS GovCloud.
 <!--SR:!2025-09-29,25,288-->
 - What are two essential security tools available in IAM to help enforce the principle of least privilege?;;The **IAM Credentials Report** (account-level) provides the status of all user credentials, and the **IAM Access Advisor** (user-level) shows service permissions granted to a user and when those services were last accessed.
@@ -44,11 +44,11 @@ created_date: 2025-08-22
 - Which specific AWS SDK is the AWS CLI built upon?;;The AWS CLI is built on the **AWS SDK for Python, name boto.**
 <!--SR:!2025-10-01,26,270-->
 - What are access keys, and how should the be treated?;;Access keys are **credentials (like a secret password)** that allow you to access AWS programatically or via the CLI. They are **private to you** and **should never be shared** with others.
-<!--SR:!2025-09-17,16,290-->
+<!--SR:!2025-11-23,67,310-->
 - Can an IAM user belong to multiple groups?;;Yes, a user **can belong to multiple groups** within IAM.
-<!--SR:!2025-09-16,15,290-->
+<!--SR:!2025-11-15,59,310-->
 - What is an "inline policy" in AWS IAM?;;An **inline policy** is an IAM policy that is **attached directly to a specific user** (or group or role), rather than being a standalone managed policy.
 <!--SR:!2025-09-28,20,250-->
 - Is IAM (Identity Access Management) a global or regional AWS service?;;IAM is a **global service.**
-<!--SR:!2025-09-17,16,290-->
+<!--SR:!2025-11-22,66,310-->
 
