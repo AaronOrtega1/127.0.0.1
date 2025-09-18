@@ -16,7 +16,7 @@ created_date: 2025-07-01
 - A company you're working for wants their data stored in S3 to be encrypted. They don't mind the encryption keys stored and managed by AWS, but they want to maintain control over the rotation policy of the encryption keys. You recommend them to use ...;;SSE-KMS, the encryption happens in AWS, and the encryption keys are managed by AWS but you have full control over the rotation policy of the encryption key. Encryption keys stored in AWS.
 <!--SR:!2025-11-30,109,310-->
 - Your company does not trust AWS for the encryption process and wants it to happen on the application. You recommend them to use ...;;Client-Side Encryption, you have to do the encryption yourself and you have full control over the encryption keys. You perform the encryption yourself and send the encrypted data to AWS.
-<!--SR:!2025-09-15,32,270-->
+<!--SR:!2026-01-16,120,290-->
 - You have a website that loads files from an S3 bucket. When you try the URL of the files directly in your Chrome browser it works, but when a website with a different domain tries to load these files it doesn't. What's the problem?;;CORS is wrong.
 <!--SR:!2025-09-25,64,310-->
 - An e-commerce company has its customers and orders data stored in an S3 bucket. The company’s CEO wants to generate a report to show the list of customers and the revenue for each customer. Customer data stored in files on the S3 bucket has sensitive information that we don’t want to expose in the report. How do you recommend the report can be created without exposing sensitive information?;;Use S3 Object Lambda to chnge the objects before they are retrieved by the report generator application.

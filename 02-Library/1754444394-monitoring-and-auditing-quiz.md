@@ -26,11 +26,11 @@ created_date: 2025-08-05
 - One of your teammates terminated an EC2 instance 4 months ago which has critical data. You don't know who made this so you are going to review all API calls within this period using CloudTrail. You already have CloudTrail set up and configured to send logs to the S3 bucket. What should you do to find out who made this?;;Analyze CloudTrail logs in S3 bucket using Amazon Athena.
 <!--SR:!2025-10-31,66,310-->
 - You are running a website on a fleet of EC2 instances with OS that has a known vulnerability on port 84. You want to continuously monitor your EC2 instances if they have port 84 exposed. How should you do this?;;Setup Config Rules.
-<!--SR:!2025-09-13,26,270-->
+<!--SR:!2025-12-25,98,290-->
 - You would like to evaluate the compliance of your resource's configurations over time. Which AWS service will you choose?;;AWS Config.
 <!--SR:!2025-09-28,27,290-->
 - Someone changed the configuration of a resource and made it non-compliant. Which AWS service is responsible for logging who made modifications to resources?;;AWS CloudTrail.
-<!--SR:!2025-09-15,26,290-->
+<!--SR:!2026-01-01,105,310-->
 - You have enabled AWS Config to monitor Security Groups if there's unrestricted SSH access to any of your EC2 instances. Which AWS Config feature can you use to automatically re-configure your Security Groups to their correct state?;;AWS Config Remediations.
 <!--SR:!2025-10-17,46,290-->
 - You are running a critical website on a set of EC2 instances with a tightened Security Group that has restricted SSH access. You have enabled AWS Config in your AWS Region and you want to be notified via email when someone modified your EC2 instances' Security Group. Which AWS Config feature helps you do this?;;AWS Config Notifications.
@@ -42,7 +42,7 @@ created_date: 2025-08-05
 - A company is developing a Serverless application on AWS using Lambda, DynamoDB, and Cognito. A junior developer joined a few weeks ago and accidentally deleted one of the DynamoDB tables in the dev AWS account which contained important data. The CTO asks you to prevent this from happening again and there must be a notification system to monitor if there is an attempt to make such deletion actions for the DynamoDB tables. What would you do?;;Assign developers to a certain IAM group which prevents deletion of DynamoDB tables. Configure EventBridge to capture any `DeleteTable` API calls through CloudTrail and send a notification using SNS.
 <!--SR:!2025-10-28,49,250-->
 - A company has a running Serverless application on AWS which uses EventBridge as an inter-communication channel between different services within the application. There is a requirement to use the events in the prod environment in the dev environment to make some tests. The tests will be done every 6 months, so the events need to be stored and used later on. What is the most efficient and cost-effective way to store EventBridge events and use them later?;;Use EventBridge Archive and Replay feature.
-<!--SR:!2025-09-14,25,290-->
+<!--SR:!2025-12-26,99,310-->
 
 
 

@@ -13,19 +13,19 @@ created_date:
 ---
 # Integration and Messaging Flashcards
 - What is the default and maximum message retention period for an Amazon SQS Standard queue?;; Default: 4 days. Maximum: 14 days.
-<!--SR:!2025-09-18,1,210-->
+<!--SR:!2025-09-21,3,230-->
 - What is the maximum message size for a single message sent to an Amazon SQS queue?;; Less than 256 KB.
 <!--SR:!2025-09-22,5,230-->
 - What is the acceptable range for Amazon SQS Long Polling wait times, and what is its benefit?;; Between 1 second and 20 seconds. It reduces API calls and latency.
-<!--SR:!2025-09-18,1,190-->
+<!--SR:!2025-09-21,3,210-->
 - What is the default message visibility timeout in Amazon SQS, and what is its maximum configurable value?;; Default: 30 seconds. Maximum: 12 hours.
 <!--SR:!2025-09-20,3,230-->
 - What are the ordering and delivery guarantees for Amazon SQS Standard queues?;; Best-effort ordering and at-least-once delivery.
 <!--SR:!2025-09-26,9,250-->
 - How does Amazon SQS FIFO guarantee message ordering and support exactly-once send?;; Ordering by Message Group ID and exactly-once send using deduplication IDs or content-based deduplication within a 5-minute window.
-<!--SR:!2025-09-18,1,190-->
+<!--SR:!2025-09-19,1,170-->
 - What are the throughput limits for Amazon SQS FIFO queues?;; 300 messages per second without batching, or 3,000 messages per second with batching.
-<!--SR:!2025-09-18,1,190-->
+<!--SR:!2025-09-19,1,170-->
 - What is the maximum number of subscribers per topic and topics per account for Amazon SNS?;; Up to 12.5 million subscribers per topic and up to 100,000 topics per account.
 <!--SR:!2025-09-24,7,250-->
 - Is data persistent in Amazon SNS Standard topics?;; No, if a message is not delivered to a subscriber, there's a chance of losing it as the data is not persistent.

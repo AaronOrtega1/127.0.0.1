@@ -14,7 +14,7 @@ created_date: 2025-08-02
 - You should use Amazon Transcribe to turn text into lifelike speech using deep learning.;;False, Transcribe converts speech-to-text. Polly is the service that turns text into lifelike speech.
 <!--SR:!2025-10-24,60,310-->
 - A company would like to implement a chatbot that will convert speech-to-text and recognize the customers' intentions. What service should it use?;;Lex, service for building conversational interfaces into any application using voice and text.
-<!--SR:!2025-09-18,29,250-->
+<!--SR:!2025-12-29,102,270-->
 - You would like to find objects, people, text, or scenes in images and videos. What AWS service should you use?;;Amazon Rekognition.
 <!--SR:!2025-10-30,66,310-->
 - A start-up would like to rapidly create customized user experiences. Which AWS service can help?;;Amazon Personalize, ML service that makes it easy to create individualized recommendations for customers.

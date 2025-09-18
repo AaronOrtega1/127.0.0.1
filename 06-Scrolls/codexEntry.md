@@ -16,7 +16,6 @@ link: "[[Journal|Codex]]"
 - [ ] Unlock new secrets of [[1756144012-business-intelligence-analyst-udemy-course-2025|Business Intelligence in the Udemy scrolls]].
 - [ ] Oracle's Trials (LeetCode).
 	- [ ] Solve the Labyrinth (Python).
-	- [ ] Query the Gods (SQL).
 - [ ] Forge one new component of my portfolio project that I'm proud to showcase.
 - [ ] Train strength with my companion at the iron temple. (Go to the gym with my GF)
 - [ ] Train my hand-to-hand combat skills.

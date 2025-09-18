@@ -16,7 +16,7 @@ created_date: 2025/06/20
 - You're planning for a new solution that requires a MySQL database that must be available even in case of a disaster in one of the Availability Zones. What should you use?;; Enable Multi-AZ, since it helps when you plan a disaster recovery for an entire AZ going down.
 <!--SR:!2025-11-14,77,270-->
 - You have set up read replicas on your RDS database, but users are complaining that upon updating their social media posts, they do not see their updated posts right away. What is a possible cause for this?;;Read Replicas have Asynchronous Replication, therefore it's likely your users will only read Eventual Consistency.
-<!--SR:!2025-09-18,56,270-->
+<!--SR:!2026-04-16,210,290-->
 - Which RDS **(NOT Aurora)** feature when used does not require you to change the SQL connection string?;;Multi-AZ, keeps the same connection string regardless of which database is up.
 <!--SR:!2025-10-14,70,270-->
 - Your application running on a fleet of EC2 instances managed by an Auto Scaling Group behind an Application Load Balancer. Users have to constantly log back in and you don't want to enable Sticky Sessions on your ALB as you fear it will overload some EC2 instances. What should you do?;;Store session data in ElastiCache.
@@ -47,7 +47,7 @@ created_date: 2025/06/20
 - How many Aurora Read Replicas can you have in a single Aurora DB Cluster?;;15.
 <!--SR:!2025-11-17,104,310-->
 - Amazon Aurora supports both .......................... databases.;;MySQL and PostgreSQL.
-<!--SR:!2025-09-14,60,310-->
+<!--SR:!2025-10-18,30,290-->
 - You work as a Solutions Architect for a gaming company. One of the games mandates that players are ranked in real-time based on their score. Your boss asked you to design then implement an effective and highly available solution to create a gaming leaderboard. What should you use?;;Use ElastiCache for Redis - Sorted Sets.
 <!--SR:!2025-09-13,34,270-->
 - You need full customization of an Oracle Database on AWS. You would like to benefit from using the AWS services. What do you recommend?;;RDS Custom for Oracle.

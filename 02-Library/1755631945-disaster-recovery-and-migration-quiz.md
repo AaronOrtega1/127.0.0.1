@@ -24,7 +24,7 @@ created_date: 2025-08-19
 - You are running many resources in AWS such as EC2 instances, EBS volumes, DynamoDB tables... You want an easy way to manage backups across all these AWS services from a single place. Which AWS offering makes this process easy?;;AWS Backup.
 <!--SR:!2025-09-17,8,270-->
 - A company planning to migrate its existing websites, applications, servers, virtual machines, and data to AWS. They want to do a lift-and-shift migration with minimum downtime and reduced costs. Which AWS service can help in this scenario?;;AWS Application Migration Service.
-<!--SR:!2025-09-18,13,230-->
+<!--SR:!2025-10-18,30,230-->
 - A company is using VMware on its on-premises data center to manage its infrastructure. There is a requirement to extend their data center and infrastructure to AWS but keep using the technology stack they are using which is VMware. Which AWS service can they use?;;VMware Cloud on AWS.
 <!--SR:!2025-11-05,57,310-->
 - A company is using RDS for MySQL as their main database but, lately they have been facing issues in managing the database, performance issues, and the scalability. And they have decided to use Aurora for MySQL instead for better performance, less complexity and less administrative tasks required. What is the best way and most cost-effective way to migrate from RDS for MySQL to Aurora for MySQL?;;Create a snapshot from RDS for MySQL and restore it to Aurora for MySQL.

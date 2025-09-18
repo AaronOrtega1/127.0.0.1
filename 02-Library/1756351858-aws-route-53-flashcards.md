@@ -15,7 +15,7 @@ created_date:
 - What is the **traditional DNS port** that "Route 53" refers to?;;The traditional DNS port is **53**.
 <!--SR:!2025-09-21,10,230-->
 - What is the **availability Service Level Agreement (SLA)** offered by Amazon Route 53?;;Amazon Route 53 is the **only service in AWS that provides a 100% availability SLA**.
-<!--SR:!2025-09-18,10,250-->
+<!--SR:!2025-10-24,36,270-->
 - What does it mean for Route 53 to be an "**authoritative DNS**"?;;It means that the **customer (you) can update the DNS records**, giving you full control over the DNS.
 <!--SR:!2025-10-13,26,270-->
 - What is the primary purpose of an **A record** in Route 53?;;An A record is used to **map a hostname into an IPv4 IP address**.
@@ -25,7 +25,7 @@ created_date:
 - What is a key **restriction for CNAME records** in Route 53 regarding the domain namespace?;;You **cannot create CNAME records for the top node of a DNS namespace, also known as the Zone Apex** (e.g., example.com).
 <!--SR:!2025-10-07,20,250-->
 - How do **Alias records** differ from CNAME records regarding the Zone Apex?;;Unlike CNAMEs, **Alias records can be used for the Zone Apex** (e.g., mydomain.com can point to an alias resource).
-<!--SR:!2025-09-18,10,250-->
+<!--SR:!2025-10-23,35,270-->
 - What is a key difference in **TTL management** between Alias records and other record types in Route 53?;;With Alias records, you **cannot set the TTL; it is set automatically by Route 53**. TTL is mandatory for all other record types.
 <!--SR:!2025-10-04,17,250-->
 - What is a **cost difference** for queries between Alias records and other Route 53 records?;;**Alias records are free of charge for queries**.
@@ -41,7 +41,7 @@ created_date:
 - In **Geoproximity Routing Policy**, how does a "bias" value affect traffic distribution?;;A **positive bias (increasing the value) expands the size of a geographic region**, shifting more traffic to that resource. A **negative bias (decreasing the value) shrinks the region**, sending less traffic to that resource.
 <!--SR:!2025-09-19,11,250-->
 - How does the **IP-based Routing Policy** determine where to send traffic?;;IP-based Routing Policy defines routing based on **client IP addresses** by allowing you to define a list of **CIDR blocks (IP ranges)** and specifying the target location for traffic originating from those ranges.
-<!--SR:!2025-09-18,1,130-->
+<!--SR:!2025-09-20,2,150-->
 - What is a **mandatory requirement** for the primary record when using a **Failover Routing Policy**?;;The **primary record must be associated with a health check**. If this health check becomes unhealthy, Route 53 automatically fails over to the secondary resource.
 <!--SR:!2025-09-23,11,250-->
 - How can you perform **health checks on private resources** using Route 53, given that Route 53 health checkers are public?;;To monitor private resources, you should: Monitor the private resource using a **CloudWatch Metric**. Create a **CloudWatch Alarm** on that metric. Assign the **CloudWatch Alarm to the Route 53 health check**, which will then become unhealthy when the alarm state is triggered.

@@ -12,7 +12,7 @@ created_date: 2025-07-31
 ---
 # Data and Analytics Quiz
 - You would like to have a database that is efficient at performing analytical queries on large sets of columnar data. You would like to connect to this Data Warehouse using a reporting and dashboard tool such as Amazon QuickSight. Which AWS technology do you recommend?;;Amazon Redshift.
-<!--SR:!2025-09-14,20,270-->
+<!--SR:!2025-09-29,11,250-->
 - You have a lot of log files stored in an S3 bucket that you want to perform a quick analysis, if possible Serverless, to filter the logs and find users that attempted to make an unauthorized action. Which AWS service allows you to do so?;;Amazon Athena.
 <!--SR:!2025-12-12,94,290-->
 - As a Solutions Architect, you have been instructed to prepare a disaster recovery plan for a Redshift cluster. What should you do?;;Enable Automated Snapshots, then configure you Redshift cluster to automatically copy snapshots to another AWS region.
@@ -34,7 +34,7 @@ created_date: 2025-07-31
 - You are a DevOps engineer in a machine learning company which 3 TB of JSON files stored in an S3 bucket. There’s a requirement to do some analytics on those files using Amazon Athena and you have been tasked to find a way to convert those files’ format from JSON to Apache Parquet. Which AWS service is best suited?;;AWS Glue.
 <!--SR:!2025-09-21,26,290-->
 - You have an on-premises application that is used together with an on-premises Apache Kafka to receive a stream of clickstream events from multiple websites. You have been tasked to migrate this application as soon as possible without any code changes. You decided to host the application on an EC2 instance. What is the best option you recommend to migrate Apache Kafka?;;Amazon MSK.
-<!--SR:!2025-09-17,30,270-->
+<!--SR:!2026-01-09,113,290-->
 - You have data stored in RDS, S3 buckets and you are using AWS Lake Formation as a data lake to collect, move and catalog data so you can do some analytics. You have a lot of big data and ML engineers in the company and you want to control access to part of the data as it might contain sensitive information. What can you use?;;Lake Formation Fine-grained Access Control.
 <!--SR:!2025-09-16,29,270-->
 - Which AWS service is most appropriate when you want to perform real-time analytics on streams of data?;;Amazon Kinesis Data Analytics.
