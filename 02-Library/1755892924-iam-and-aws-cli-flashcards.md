@@ -22,7 +22,7 @@ created_date: 2025-08-22
 - How are the AWS Management Console, CLI, and SDK typically protected for access?;;The  Management Console is protected by **username/password** (and potentially MFA). The CLI and SDK are protected by **access key.**
 <!--SR:!2025-09-30,22,250-->
 - What is the primary difference in how you use the AWS CLI versus the AWS SDK?;;The **AWS CLI** is a tool you use to interact with AWS services via **commands typed in your command-line shell**, while the **AWS SDK** is a set of language-specific libraries that you **embed within your application code** to programmatically access and manage AWS services.
-<!--SR:!2025-09-20,18,268-->
+<!--SR:!2025-11-26,65,288-->
 - What is the "least privilege principle" in AWS IAM?;;The least privilege principle means you **don't give more permissions than a user needs.** If a user only requires access to three services, you should only grant permissions for those specific services.
 <!--SR:!2025-11-11,55,310-->
 - What is the recommended use for the AWS Root Account?;;The root account should only be used for setting up your AWS account initially and should not be used for daily operations or shared.
@@ -36,7 +36,7 @@ created_date: 2025-08-22
 - List two types of Multi-Factor Authentication (MFA) devices supported by AWS:;;Two types include **virtual MFA devices** (like Google Authenticator or Authy) and **Universal 2nd Factor (U2F) Security Keys** (physical devices like YubiKey). Other options include hardware key fob MFA devices and special key fobs for AWS GovCloud.
 <!--SR:!2025-09-29,25,288-->
 - What are two essential security tools available in IAM to help enforce the principle of least privilege?;;The **IAM Credentials Report** (account-level) provides the status of all user credentials, and the **IAM Access Advisor** (user-level) shows service permissions granted to a user and when those services were last accessed.
-<!--SR:!2025-09-21,12,250-->
+<!--SR:!2025-10-22,30,250-->
 - What is the difference between an IAM user and an IAM role?;;An **IAM user** represents a **physical person** within your organization, while an **IAM role** is intended to be used by **AWS services** to perform actions on your behalf.
 <!--SR:!2025-10-23,44,308-->
 - Can IAM groups contain other IAM groups?;;No, IAM groups can **only contain users**, not other groups.

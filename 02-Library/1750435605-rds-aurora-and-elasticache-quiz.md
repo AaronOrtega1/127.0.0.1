@@ -35,13 +35,13 @@ created_date: 2025/06/20
 <!--SR:!2025-11-07,94,290-->
 - Read Replica uses Asynchronous Replication and Multi-AZ uses Synchronous Replication.
 - How do you encrypt an unencrypted RDS DB instance?;;Create a snapshot of the unencrypted RDS DB instance, copy the snapshot and tick "Enable encryption", then restore the RDS DB instance from the encrypted snapshot.
-<!--SR:!2025-09-19,64,310-->
+<!--SR:!2026-06-24,275,330-->
 - For your RDS database, you can have up to ............ Read Replicas.;;15.
 <!--SR:!2025-10-20,70,270-->
 - Which RDS database technology does **NOT** support IAM Database Authentication?;;Oracle.
 <!--SR:!2025-11-23,109,310-->
 - You have an un-encrypted RDS DB instance and you want to create Read Replicas. Can you configure the RDS Read Replicas to be encrypted?;;No, you can not create encrypted Read Replicas from an unencrypted RDS DB instance.
-<!--SR:!2025-09-20,65,310-->
+<!--SR:!2026-06-28,279,330-->
 - An application running in production is using an Aurora Cluster as its database. Your development team would like to run a version of the application in a scaled-down application with the ability to perform some heavy workload on a need-basis. Most of the time, the application will be unused. Your CIO has tasked you with helping the team to achieve this while minimizing costs. What do you suggest?;;Use Aurora Serverless.
 <!--SR:!2026-02-13,165,310-->
 - How many Aurora Read Replicas can you have in a single Aurora DB Cluster?;;15.
@@ -49,11 +49,11 @@ created_date: 2025/06/20
 - Amazon Aurora supports both .......................... databases.;;MySQL and PostgreSQL.
 <!--SR:!2025-10-18,30,290-->
 - You work as a Solutions Architect for a gaming company. One of the games mandates that players are ranked in real-time based on their score. Your boss asked you to design then implement an effective and highly available solution to create a gaming leaderboard. What should you use?;;Use ElastiCache for Redis - Sorted Sets.
-<!--SR:!2025-09-13,34,270-->
+<!--SR:!2025-12-23,92,270-->
 - You need full customization of an Oracle Database on AWS. You would like to benefit from using the AWS services. What do you recommend?;;RDS Custom for Oracle.
 <!--SR:!2026-01-14,126,250-->
 - You need to store long-term backups for your Aurora database for disaster recovery and audit purposes. What do you recommend?;;Perform On Demand Backups.
-<!--SR:!2025-09-15,10,210-->
+<!--SR:!2025-10-23,31,230-->
 - Your development team would like to perform a suite of read and write tests against your production Aurora database because they need access to production data as soon as possible. What do you advise?;;Use the Aurora Cloning Feature.
 <!--SR:!2025-10-14,48,230-->
 - You have 100 EC2 instances connected to your RDS database and you see that upon a maintenance of the database, all your applications take a lot of time to reconnect to RDS, due to poor application logic. How do you improve this?;;Use an RDS Proxy, this reduces the failover time by up to 66% and keeps connection active for your app.

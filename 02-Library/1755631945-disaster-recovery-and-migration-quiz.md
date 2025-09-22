@@ -12,13 +12,13 @@ created_date: 2025-08-19
 ---
 # Disaster Recovery and Migration Quiz
 - As part of your Disaster Recovery plan, you would like to have only the critical infrastructure up and running in AWS. You don't mind a longer Recovery Time Objective (RTO). Which DR strategy do you recommend?;;Pilot Light.
-<!--SR:!2025-09-22,12,210-->
+<!--SR:!2025-10-17,25,210-->
 - You would like to get the Disaster Recovery strategy with the lowest Recovery Time Objective (RTO) and Recovery Point Objective (RPO), regardless of the cost. Which DR should you choose?;;Multi-Site.
 <!--SR:!2025-11-09,61,310-->
 - Which of the following Disaster Recovery strategies has a potentially high Recovery Point Objective (RPO) and Recovery Time Objective (RTO)?;;Backup and Restore.
 <!--SR:!2025-10-25,46,290-->
 - You want to make a Disaster Recovery plan where you have a scaled-down version of your system up and running, and when a disaster happens, it scales up quickly. Which DR strategy should you choose?;;Warm Standby.
-<!--SR:!2025-09-22,20,250-->
+<!--SR:!2025-10-02,10,230-->
 - You have an on-premises Oracle database that you want to migrate to AWS, specifically to Amazon Aurora. How would you do the migration?;;Use AWS Schema Conversion Tool (AWS SCT) to convert the database schema then use AWS Database Migration Service (AWS DMS) to migrate the data.
 <!--SR:!2025-10-08,34,270-->
 - You are running many resources in AWS such as EC2 instances, EBS volumes, DynamoDB tables... You want an easy way to manage backups across all these AWS services from a single place. Which AWS offering makes this process easy?;;AWS Backup.

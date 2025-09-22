@@ -20,7 +20,7 @@ created_date: 2025-07-09
 - You're planning to migrate a WordPress website running on Docker containers from on-premises to AWS. You have decided to run the application in an ECS Cluster, but you want your docker containers to access the same WordPress website content such as website files, images, videos, etc. What do you recommend to achieve this?;;Mount an EFS, since it can be shared between different EC2 instances and different ECS Tasks.
 <!--SR:!2025-09-24,56,310-->
 - You are deploying an application on an ECS Cluster made of EC2 instances. Currently, the cluster is hosting one application that is issuing API calls to DynamoDB successfully. Upon adding a second application, which issues API calls to S3, you are getting authorization issues. What should you do to resolve the problem and ensure proper security?;;Create an IAM task role for the new application.
-<!--SR:!2025-09-22,54,310-->
+<!--SR:!2026-05-11,231,330-->
 - You are migrating your on-premises Docker-based applications to Amazon ECS. You were using Docker Hub Container Image Library as your container image repository. Which is an alternative AWS service which is fully integrated with Amazon ECS?;;Elastic Container Registry (ECR).
 <!--SR:!2025-09-28,59,310-->
 - Amazon EKS doesn't supports which node types?;;AWS Lambda.

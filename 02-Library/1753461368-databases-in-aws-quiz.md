@@ -12,7 +12,7 @@ created_date: 2025-07-25
 ---
 # Databases in AWS Quiz
 - Which database helps you store relational datasets, with SQL language compatibility and the capability of processing transactions such as insert, update, and delete?;;Amazon RDS.
-<!--SR:!2025-09-20,40,290-->
+<!--SR:!2026-03-02,161,310-->
 - Which AWS service provides you with caching capability that is compatible with Redis API?;;Amazon ElastiCache, fully managed in-memory data store, compatible with Redis or Memcached.
 <!--SR:!2025-10-13,60,310-->
 - You want to migrate an on-premises MongoDB NoSQL database to AWS. You don't want to manage any database servers, so you want to use a managed NoSQL Serverless database, that provides you with high availability, durability, and reliability, and the capability to take your database global. Which database should you choose?;;Amazon DynamoDB, is a key-value, document, NoSQL database.
@@ -30,5 +30,5 @@ created_date: 2025-07-25
 - An online payment company is using AWS to host its infrastructure. Due to the application’s nature, they have a strict requirement to store an accurate record of financial transactions such as credit and debit transactions. Those transactions must be stored in secured, immutable, encrypted storage which can be cryptographically verified. Which AWS service is best suited for this use case?;;Amazon QLDB.
 <!--SR:!2025-09-25,23,230-->
 - A startup is working on developing a new project to reduce forest fires due to climate change. The startup is developing sensors that will be spread across the entire forest to make some readings such as temperature, humidity, and pressures which will help detect the forest fires before it happens. They are going to have thousands of sensors that are going to store a lot of readings each second. There is a requirement to store those readings and do fast analytics so they can predict if there is a fire. Which AWS service can they use to store those readings?;;Amazon Timestream.
-<!--SR:!2025-09-16,22,270-->
+<!--SR:!2025-11-22,61,270-->
 

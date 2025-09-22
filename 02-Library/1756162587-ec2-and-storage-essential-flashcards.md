@@ -41,7 +41,7 @@ created_date: 2025-08-25
 - What is the primary **compatibility restriction** for Amazon EFS?;;It is **only compatible with Linux-based AMIs,** not Windows.
 <!--SR:!2025-10-21,33,250-->
 - Name the two **performance modes** available for EFS, and when you would use each:;;**General Purpose (default)**, for **latency-sensitive** use cases like servers or CMS. **Max I/O**, for **higher throughput** and highly parallel applications like big data or media processing, through it has higher latency.
-<!--SR:!2025-09-20,8,190-->
+<!--SR:!2025-10-15,23,210-->
 - Which EFS **throughput mode** allows you to set throughput independently of storage size?;;**Provisioned** throughput mode.
 <!--SR:!2025-10-11,24,270-->
 - What EFS storage class is designed for **infrequently accessed files** and offers cost savings?;;**EFS-IA (Infrequent Access)**.
