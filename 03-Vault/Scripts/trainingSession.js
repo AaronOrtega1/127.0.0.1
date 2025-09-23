@@ -1,10 +1,7 @@
 module.exports = async (params) => {
   const { quickAddApi } = params;
 
-  // Obtener el título de la nota desde el usuario
-  const title = await quickAddApi.inputPrompt(
-    "Name this Domain you oversee:",
-  );
+  const title = "Training Session"
 
   // Generar el ID de la nota
   let noteID;
@@ -22,11 +19,11 @@ module.exports = async (params) => {
   }
 
   // Especificar la carpeta de destino
-  const folderPath = "01-Domains"; // Cambia esto por la ruta de tu carpeta
+  const folderPath = "08-Training-Sessions";
   const filePath = `${folderPath}/${noteID}.md`;
 
   // Ruta del template
-  const templatePath = "06-Scrolls/domain.md"; // Cambia esto por la ruta de tu template
+  const templatePath = "06-Scrolls/training-sessions.md";
 
   try {
     // Leer el contenido del template
@@ -38,13 +35,11 @@ module.exports = async (params) => {
     const month = String(now.getMonth() + 1).padStart(2, "0"); // Mes (2 dígitos)
     const day = String(now.getDate()).padStart(2, "0"); // Día (2 dígitos)
     const date = `${year}-${month}-${day}`; // Formato año-mes-día
-    const time = now.toLocaleTimeString(); // Formato de hora (ej: 14:30:45)
 
     // Reemplazar placeholders en el template
     const finalContent = templateContent
       .replace(/{{cap_title}}/g, title)
       .replace(/{{date}}/g, date) // Reemplazar {{date}} con la fecha actual
-      .replace(/{{time}}/g, time); // Reemplazar {{time}} con la hora actual
 
     // Crear la nota en la carpeta especificada con el contenido del template
     const newFile = await app.vault.create(filePath, finalContent);
@@ -53,8 +48,8 @@ module.exports = async (params) => {
     const leaf = app.workspace.getLeaf(true); // true para abrir en una nueva pestaña
     await leaf.openFile(newFile);
 
-    return `Note created on: ${filePath}`;
+    return `Nota creada en: ${filePath}`;
   } catch (error) {
-    return `Error when creting the note: ${error.message}`;
+    return `Error al crear la nota: ${error.message}`;
   }
 };

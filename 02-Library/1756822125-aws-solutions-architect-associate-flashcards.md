@@ -48,7 +48,7 @@ created_date: 2025-09-02
 - What is the main benefit of using **Reserved Instances** for cost savings in an Auto Scaling Group?;;Reserved Instances help **diminish costs** by reserving capacity for the **minimum (baseline) capacity** of your Auto Scaling Group, as you know those instances will be running consistently.
 <!--SR:!2025-11-02,41,290-->
 - How can **security groups** be configured to restrict traffic between services like ELB, EC2 instances, and RDS databases for enhanced security?;;Security groups can be configured to **reference each other**, allowing you to restrict traffic. For example, EC2 instances would only receive traffic from the ELB's security group, and ElastiCache or RDS would only receive traffic from the EC2 instances' security group.
-<!--SR:!2025-09-23,14,290-->
+<!--SR:!2025-11-20,58,310-->
 
 
 

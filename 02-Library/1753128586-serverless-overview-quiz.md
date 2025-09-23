@@ -12,7 +12,7 @@ created_date: 2025-07-21
 ---
 # Serverless Overview Quiz
 - You have created a Lambda function that typically will take around 1 hour to process some data. The code works fine when you run it locally on your machine, but when you invoke the Lambda function it fails with a "timeout" error after 3 seconds. What should you do?;;Run your code somewhere else (e.g., EC2 instance).
-<!--SR:!2025-09-19,42,292-->
+<!--SR:!2026-03-12,170,312-->
 - Before you create a DynamoDB table, you need to provision the EC2 instance the DynamoDB table will be running on.;;False
 <!--SR:!2025-10-11,59,310-->
 - You have provisioned a DynamoDB table with 10 RCUs and 10 WCUs. A month later you want to increase the RCU to handle more read traffic. What should you do?;;Increase RCU and keep WCU the same, since they are decoupled you can increase/decrease each separately.
@@ -38,7 +38,7 @@ created_date: 2025-07-21
 - You are a DevOps engineer in a football company that has a website that is backed by a DynamoDB table. The table stores viewers’ feedback for football matches. You have been tasked to work with the analytics team to generate reports on the viewers’ feedback. The analytics team wants the data in DynamoDB in `json` format and hosted in an S3 bucket to start working on it and create the reports. What is the best and most cost-effective way to convert DynamoDB data to `json` files?;;Select DynamoDB table then select Export to S3.
 <!--SR:!2025-10-08,58,312-->
 - A website is currently in the development process and it is going to be hosted on AWS. There is a requirement to store user sessions for users logged in to the website with an automatic expiry and deletion of expired user sessions. Which of the following AWS services are best suited for this use case?;;Store users sessions in a DynamoDB table and enable TTL.
-<!--SR:!2025-09-23,45,290-->
+<!--SR:!2026-01-31,130,290-->
 - You have a mobile application and would like to give your users access to their own personal space in the S3 bucket. How do you achieve that?;;Use Amazon Cognito Identity Federation.
 <!--SR:!2025-10-04,45,250-->
 - You are developing a new web and mobile application that will be hosted on AWS and currently, you are working on developing the login and signup page. The application backend is serverless and you are using Lambda, DynamoDB, and API Gateway. Which of the following is the best and easiest approach to configure the authentication for your backend?;;Use Cognito User Pools.

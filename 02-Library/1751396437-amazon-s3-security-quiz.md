@@ -30,11 +30,11 @@ created_date: 2025-07-01
 - You would like all your files in an S3 bucket to be encrypted by default. What is the optimal way of achieving this?;;Do nothing, Amazon S3 automatically encrypt new objects using Server-Side Encryption with S3-Managed Keys (SSE-S3).
 <!--SR:!2025-12-31,128,290-->
 - You have enabled versioning and want to be extra careful when it comes to deleting files on an S3 bucket. What should you enable to prevent accidental permanent deletions?;;Enable MFA Delete.
-<!--SR:!2025-09-22,61,310-->
+<!--SR:!2026-06-12,262,330-->
 - A company has its data and files stored on some S3 buckets. Some of these files need to be kept for a predefined period of time and protected from being overwritten and deletion according to company compliance policy. Which S3 feature helps you in doing this?;;S3 Object Lock - Retention Compliance Mode.
 <!--SR:!2026-01-02,115,250-->
 - Which of the following S3 Object Lock configuration allows you to prevent an object or its versions from being overwritten or deleted indefinitely and gives you the ability to remove it manually?;;Legal Hold.
-<!--SR:!2025-09-20,59,310-->
+<!--SR:!2025-10-24,31,290-->
 
 
 

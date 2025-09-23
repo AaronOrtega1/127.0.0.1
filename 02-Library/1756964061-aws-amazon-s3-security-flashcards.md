@@ -23,7 +23,7 @@ created_date:
 - How are encryption keys handled for **SSE-C**?;;For SSE-C, keys are **customer-provided and managed outside of AWS**. Amazon S3 uses the key for server-side encryption but **never stores it**, discarding it after use.
 <!--SR:!2025-09-30,12,270-->
 - What **protocol requirement** is mandatory when using SSE-C?;;When using SSE-C, you **must use HTTPS** and pass the encryption key as part of HTTP headers for every request.
-<!--SR:!2025-09-23,14,290-->
+<!--SR:!2025-11-19,57,310-->
 - What is a key differentiator in **key management** for client-side encryption compared to server-side options?;;In client-side encryption, the **clients fully manage the keys and the entire encryption cycle**, performing encryption before uploading data to S3 and decryption after retrieving it outside of S3.
 <!--SR:!2025-09-25,16,290-->
 - How can you **force encryption in transit** for an S3 bucket?;;You can use an S3 **bucket policy** to deny any `GetObject` operation if the condition `"aws:SecureTransport": "false"` is met, thereby blocking unencrypted HTTP connections and forcing HTTPS.
@@ -33,7 +33,7 @@ created_date:
 - What are the **prerequisites and permissions** for enabling MFA Delete?;;To use MFA Delete, **Versioning must first be enabled** on the bucket, and only the **bucket owner (root account)** can enable or disable MFA Delete.
 <!--SR:!2025-10-14,26,270-->
 - What is a **critical warning** regarding the configuration of S3 Access Logs?;;**Never set the logging bucket to be the same as the bucket you are monitoring**, as this will create an infinite logging loop, causing exponential bucket growth and significant costs.
-<!--SR:!2025-09-23,11,250-->
+<!--SR:!2025-11-02,40,270-->
 - What is the primary benefit and key differentiator of **S3 Access Points**?;;S3 Access Points **simplify security management and scale access** to S3 buckets by allowing the creation of multiple access points, each with its own access point policy, thereby offloading complex security management from a single bucket policy.
 <!--SR:!2025-10-07,19,250-->
 - How do you privately access an S3 Access Point configured with a **VPC origin**?;;To access an S3 Access Point with a VPC origin privately, you must create a **VPC endpoint**, and its policy must explicitly allow access to both the target S3 buckets and the access points.

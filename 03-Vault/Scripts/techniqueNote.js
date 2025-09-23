@@ -3,7 +3,7 @@ module.exports = async (params) => {
 
   // Obtener el título de la nota desde el usuario
   const title = await quickAddApi.inputPrompt(
-    "Name this Domain you oversee:",
+    "Name Your Combat Technique:",
   );
 
   // Generar el ID de la nota
@@ -22,11 +22,11 @@ module.exports = async (params) => {
   }
 
   // Especificar la carpeta de destino
-  const folderPath = "01-Domains"; // Cambia esto por la ruta de tu carpeta
+  const folderPath = "02-Library";
   const filePath = `${folderPath}/${noteID}.md`;
 
   // Ruta del template
-  const templatePath = "06-Scrolls/domain.md"; // Cambia esto por la ruta de tu template
+  const templatePath = "06-Scrolls/techniques.md"; // Cambia esto por la ruta de tu template
 
   try {
     // Leer el contenido del template
@@ -53,8 +53,8 @@ module.exports = async (params) => {
     const leaf = app.workspace.getLeaf(true); // true para abrir en una nueva pestaña
     await leaf.openFile(newFile);
 
-    return `Note created on: ${filePath}`;
+    return `Nota creada en: ${filePath}`;
   } catch (error) {
-    return `Error when creting the note: ${error.message}`;
+    return `Error al crear la nota: ${error.message}`;
   }
 };

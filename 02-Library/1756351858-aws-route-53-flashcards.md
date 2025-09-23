@@ -43,10 +43,10 @@ created_date:
 - How does the **IP-based Routing Policy** determine where to send traffic?;;IP-based Routing Policy defines routing based on **client IP addresses** by allowing you to define a list of **CIDR blocks (IP ranges)** and specifying the target location for traffic originating from those ranges.
 <!--SR:!2025-09-25,3,150-->
 - What is a **mandatory requirement** for the primary record when using a **Failover Routing Policy**?;;The **primary record must be associated with a health check**. If this health check becomes unhealthy, Route 53 automatically fails over to the secondary resource.
-<!--SR:!2025-09-23,11,250-->
+<!--SR:!2025-11-01,39,270-->
 - How can you perform **health checks on private resources** using Route 53, given that Route 53 health checkers are public?;;To monitor private resources, you should: Monitor the private resource using a **CloudWatch Metric**. Create a **CloudWatch Alarm** on that metric. Assign the **CloudWatch Alarm to the Route 53 health check**, which will then become unhealthy when the alarm state is triggered.
 <!--SR:!2025-10-12,25,270-->
 - What is a key difference between **Multi-Value Routing Policy** and **Simple Routing Policy** when multiple values are returned?;;**Multi-Value Routing Policy can be associated with health checks**, ensuring that only **healthy resources (up to eight)** are returned. **Simple Routing Policy cannot be associated with health checks**, meaning it might return unhealthy resources.
 <!--SR:!2025-10-01,14,230-->
 - What is the impact of setting a **high TTL** (e.g., 24 hours) versus a **low TTL** (e.g., 60 seconds) on Route 53 traffic and record changes?;;**High TTL:** Results in **less traffic on Route 53** (lower cost) but means clients may have **outdated records for longer**, making record changes slower to propagate. **Low TTL:** Results in **more traffic on your DNS** (higher cost) but records are **outdated for less time**, making it quicker and easier to change records.
-<!--SR:!2025-09-23,15,290-->
+<!--SR:!2025-11-24,62,310-->

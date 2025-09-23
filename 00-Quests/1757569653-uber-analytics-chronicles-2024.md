@@ -23,7 +23,9 @@ Preprocess the [Uber](https://www.kaggle.com/datasets/yashdevladdha/uber-ride-an
 - [ ] Create star schema from staging table.
 	- [ ] Create fact and dimension tables. (XP +5)
 	- [ ] Populate each new table from staging. (XP +5)
-- [ ] Create Power BI dashboard. (XP +15)
+- [ ] Define what information is important to display to client (XP +20)
+	- [ ] 
+- [ ] Create Power BI dashboard. (XP +25)
 - [ ] Finish README. (XP +5)
 - [ ] Add it to my CV. (XP +5)
 

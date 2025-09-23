@@ -119,6 +119,46 @@
           }
         ]
       }
+    },
+    {
+      "id": "91e28a80-e285-4428-99fd-0e2b8f01fc95",
+      "name": "Training Session",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Training Session",
+        "id": "2081a61f-3819-4ae1-9a63-f9196d18a3de",
+        "commands": [
+          {
+            "name": "trainingSession",
+            "type": "UserScript",
+            "id": "b3f6486b-7c0d-4fcc-8328-e948fa2b999e",
+            "path": "03-Vault/Scripts/trainingSession.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "5de255c4-09ea-45c9-bd50-38894f80e198",
+      "name": "Technique",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Technique",
+        "id": "230dab68-087d-4041-8adf-e3e6ccd0d12a",
+        "commands": [
+          {
+            "name": "techniqueNote",
+            "type": "UserScript",
+            "id": "b0af0861-c417-4051-b453-d944e34ba9e7",
+            "path": "03-Vault/Scripts/techniqueNote.js",
+            "settings": {}
+          }
+        ]
+      }
     }
   ],
   "inputPrompt": "single-line",

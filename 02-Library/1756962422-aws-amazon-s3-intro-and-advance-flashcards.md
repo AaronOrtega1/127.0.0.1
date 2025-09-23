@@ -27,7 +27,7 @@ created_date:
 - What version ID is assigned to files that are not versioned prior to enabling versioning on an S3 bucket?;;They will have the **version null**.
 <!--SR:!2025-11-16,55,310-->
 - Does suspending Amazon S3 bucket versioning delete previous object versions?;;No, suspending versioning **does not delete the previous version**; it is a safe operation.
-<!--SR:!2025-09-23,15,290-->
+<!--SR:!2025-11-25,63,310-->
 - When S3 Replication is enabled, which objects are replicated by default?;;Only **new objects** are going to be replicated.
 <!--SR:!2025-11-06,45,290-->
 - Are delete operations with a version ID replicated from a source S3 bucket to a target bucket?;;No, **if it's a permanent deletion with the version ID, they are not replicated** to avoid malicious deletes.
@@ -35,9 +35,9 @@ created_date:
 - What is considered the most common way to implement security on an Amazon S3 Bucket now?;;To use **S3 Bucket policies**.
 <!--SR:!2025-09-24,16,290-->
 - What is the purpose of the "Block Public Access" settings for S3 buckets?;;It acts as an **extra layer of security** to prevent data leaks, ensuring the bucket will **never be public** even if a bucket policy attempts to make it so.
-<!--SR:!2025-09-23,15,290-->
+<!--SR:!2025-11-25,63,310-->
 - Which Amazon S3 storage class is suitable for infrequently accessed data that requires rapid access when needed, commonly used for disaster recovery and backups, and incurs a retrieval cost?;;**S3 Infrequent Access (S3 Standard-IA)**.
-<!--SR:!2025-09-23,15,290-->
+<!--SR:!2025-11-24,62,310-->
 - What is a significant risk associated with using the Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA) storage class?;;The data will be **lost if the single Availability Zone (AZ) is somewhat destroyed**.
 <!--SR:!2025-09-24,16,290-->
 - Which Amazon S3 Glacier storage class provides milliseconds retrieval?;;**Amazon S3 Glacier Instant Retrieval**.

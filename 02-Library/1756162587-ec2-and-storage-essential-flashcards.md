@@ -25,7 +25,7 @@ created_date: 2025-08-25
 - What is the **instance limit** for a **Spread Placement Group** per AZ?;;You can only have **seven EC2 instances per placement group per AZ.**
 <!--SR:!2025-11-21,65,310-->
 - For what kind of applications would you use a **Spread Placement Group**?;;**Critical applications** where instance failures must be **isolated from one another** and to **maximize high availability.**
-<!--SR:!2025-09-23,15,250-->
+<!--SR:!2025-10-31,38,250-->
 - How many **partitions per AZ** can a **Partition Placement Group** have?;;Up to **seven partitions per AZ.**
 <!--SR:!2025-10-16,38,290-->
 - What is the scalability benefit of a **Partition Placement Group** compared to a **Spread Placement Group**?;;It can scale to **hundreds of EC2 instances per group**, whereas Spread is limited to seven per AZ.

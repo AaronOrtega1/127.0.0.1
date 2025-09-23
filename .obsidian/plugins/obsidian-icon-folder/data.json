@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RaGears",
+      "LiSwords",
       "LiCompass",
       "RaTwoDragons",
-      "LiScroll",
-      "RaForging",
-      "LiVault"
+      "LiScroll"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -42,5 +42,6 @@
   "04-Forge": "RaForging",
   "05-Codex": "LiCalendar",
   "06-Scrolls": "LiScroll",
-  "07-Atlas": "LiCompass"
+  "07-Atlas": "LiCompass",
+  "08-Training-Sessions": "LiSwords"
 }
