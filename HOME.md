@@ -1,110 +1,92 @@
+![150](/02-Library/Assets/00-dashboard/characterRPG.jpg)
 
 ```dataviewjs
 // === CONFIG ===
-const folder = "00-Quests";       // check exact folder name
-const targetTag = "aws";          // target tag (no #)
+const folder = "00-Quests";
+const folders = ["00-Quests", "03-Vault"]
 const xpPerLevel = 100;
 const barLength = 20;
-// ===============
 
-// Query notes in the folder
-const pages = dv.pages(`"${folder}"`)
-    .where(p => p.XP); // must have XP property
+// Character Info
+const character = {
+  name: "Aarón",
+  age: 24,
+  role: "Cloud Sorcerer/Data Alchemist",
+  avatar: "https://placehold.co/150x150/4a90e2/ffffff?text=Aarón",
+  classes: [
+    { tag: "aws", label: "AWS Adventurer" },
+    { tag: "dataanalysis", label: "Data Analysis Adventurer" }
+  ]
+};
 
-// Normalize tags and filter by target tag
-const filtered = pages.where(p => {
+// === HELPERS ===
+function getXP(tag) {
+  const pages = dv.pages(`"${folder}"`).where(p => p.XP);
+  const filtered = pages.where(p => {
     const tags = (p.tags ?? p.file?.tags ?? []);
     const normalized = Array.isArray(tags)
-        ? tags.map(t => t.toString().replace(/^#/, "").toLowerCase())
-        : [String(tags).replace(/^#/, "").toLowerCase()];
-    return normalized.includes(targetTag.toLowerCase());
-});
+      ? tags.map(t => t.toString().replace(/^#/, "").toLowerCase())
+      : [String(tags).replace(/^#/, "").toLowerCase()];
+    return normalized.includes(tag.toLowerCase());
+  });
 
-// Sum XP
-let totalXP = 0;
-let contributors = [];
-for (const p of filtered) {
+  let totalXP = 0;
+  for (const p of filtered) {
     const reward = Number(p.XP ?? 0);
-    if (!isNaN(reward) && reward > 0) {
-        totalXP += reward;
-        contributors.push({ title: p.file.name, reward });
-    }
+    if (!isNaN(reward) && reward > 0) totalXP += reward;
+  }
+
+  const level = Math.floor(totalXP / xpPerLevel);
+  const currentXP = totalXP % xpPerLevel;
+  return { level, currentXP };
 }
 
-// Level calc
-const level = Math.floor(totalXP / xpPerLevel);
-const currentXP = totalXP % xpPerLevel;
-
-// Progress bar
 function progressBar(value, max, length = barLength) {
-    const filled = Math.round((value / max) * length);
-    const empty = Math.max(0, length - filled);
-    return "🟩".repeat(filled) + "⬛".repeat(empty) + ` ${value}/${max}`;
+  const filled = Math.round((value / max) * length);
+  const empty = Math.max(0, length - filled);
+  return `
+  <div class="xp-bar">
+    <div class="xp-bar-fill" style="width:${(value / max) * 100}%"></div>
+    <span class="xp-label">${value}/${max}</span>
+  </div>
+  `;
 }
 
-// Output
-dv.header(2, `${targetTag.toUpperCase()} Progress`);
-dv.paragraph(`**Level:** ${level}`);
-dv.paragraph(progressBar(currentXP, xpPerLevel));
+// === OUTPUT ===
+// Render Character Info
+let htmlChar = `
+  <div class="character-sheet">
+    <div class="character-header">
+      <img src="${character.avatar}" class="character-avatar"/>
+      <div class="character-info">
+        <h2>${character.name}</h2>
+        <p><strong>Age:</strong> ${character.age}</p>
+        <p><strong>Role:</strong> ${character.role}</p>
+      </div>
+    </div>
+  </div>
+`;
 
-if (!contributors.length) {
-    dv.paragraph("_No quests with this tag and XP found._");
+// Render Classes + Progress
+let htmlXP = `
+<div class="character-sheet">
+`;
+
+for (const c of character.classes) {
+  const xp = getXP(c.tag);
+  htmlXP += `
+    <div class="class-section">
+      <h3>${c.label}</h3>
+      <p><strong>Level:</strong> ${xp.level}</p>
+      ${progressBar(xp.currentXP, xpPerLevel)}
+    </div>
+  `;
 }
+
+htmlXP += `</div>`;
+
+// inject all HTML at once
+dv.container.innerHTML = htmlChar + htmlXP;
 ```
-
-```dataviewjs
-// === CONFIG ===
-const folder = "00-Quests";       // check exact folder name
-const targetTag = "DataAnalysis";          // target tag (no #)
-const xpPerLevel = 100;
-const barLength = 20;
-// ===============
-
-// Query notes in the folder
-const pages = dv.pages(`"${folder}"`)
-    .where(p => p.XP); // must have XP property
-
-// Normalize tags and filter by target tag
-const filtered = pages.where(p => {
-    const tags = (p.tags ?? p.file?.tags ?? []);
-    const normalized = Array.isArray(tags)
-        ? tags.map(t => t.toString().replace(/^#/, "").toLowerCase())
-        : [String(tags).replace(/^#/, "").toLowerCase()];
-    return normalized.includes(targetTag.toLowerCase());
-});
-
-// Sum XP
-let totalXP = 0;
-let contributors = [];
-for (const p of filtered) {
-    const reward = Number(p.XP ?? 0);
-    if (!isNaN(reward) && reward > 0) {
-        totalXP += reward;
-        contributors.push({ title: p.file.name, reward });
-    }
-}
-
-// Level calc
-const level = Math.floor(totalXP / xpPerLevel);
-const currentXP = totalXP % xpPerLevel;
-
-// Progress bar
-function progressBar(value, max, length = barLength) {
-    const filled = Math.round((value / max) * length);
-    const empty = Math.max(0, length - filled);
-    return "🟩".repeat(filled) + "⬛".repeat(empty) + ` ${value}/${max}`;
-}
-
-// Output
-dv.header(2, `Data Analysis Progress`);
-dv.paragraph(`**Level:** ${level}`);
-dv.paragraph(progressBar(currentXP, xpPerLevel));
-
-if (!contributors.length) {
-    dv.paragraph("_No quests with this tag and XP found._");
-}
-```
-
-
 
 

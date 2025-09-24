@@ -23,11 +23,11 @@ created_date:
 - What are the ordering and delivery guarantees for Amazon SQS Standard queues?;; Best-effort ordering and at-least-once delivery.
 <!--SR:!2025-09-26,9,250-->
 - How does Amazon SQS FIFO guarantee message ordering and support exactly-once send?;; Ordering by Message Group ID and exactly-once send using deduplication IDs or content-based deduplication within a 5-minute window.
-<!--SR:!2025-09-24,2,170-->
+<!--SR:!2025-09-29,5,190-->
 - What are the throughput limits for Amazon SQS FIFO queues?;; 300 messages per second without batching, or 3,000 messages per second with batching.
-<!--SR:!2025-09-24,2,190-->
+<!--SR:!2025-09-29,5,210-->
 - What is the maximum number of subscribers per topic and topics per account for Amazon SNS?;; Up to 12.5 million subscribers per topic and up to 100,000 topics per account.
-<!--SR:!2025-09-24,7,250-->
+<!--SR:!2025-10-18,24,270-->
 - Is data persistent in Amazon SNS Standard topics?;; No, if a message is not delivered to a subscriber, there's a chance of losing it as the data is not persistent.
 <!--SR:!2025-09-28,11,270-->
 - What is the primary difference in data delivery models between Amazon SQS and Amazon SNS?;; SQS uses a **pull** model (consumers pull messages from the queue), while SNS uses a **push** (Pub/Sub) model (messages are pushed to subscribers).
@@ -45,7 +45,7 @@ created_date:
 - What open-source message brokers are managed by Amazon MQ, and what is a key use case for the service?;; RabbitMQ and ActiveMQ. A key use case is migrating existing on-premises applications that rely on open messaging protocols without re-engineering.
 <!--SR:!2025-09-27,10,270-->
 - How does Amazon MQ achieve high availability in a multi-AZ setup?;; It uses an active/standby broker across two Availability Zones (AZs) with Amazon EFS as backend storage to ensure data safety and consistency during failover.
-<!--SR:!2025-09-24,7,250-->
+<!--SR:!2025-10-18,24,270-->
 
 
 

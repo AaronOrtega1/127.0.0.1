@@ -11,7 +11,7 @@ tags:
   - PostgreSQL
 start_date: 2025-08-18
 end_date: 2025-09-01
-XP: 0
+XP: 65
 ---
 # Power BI and SQL Project
 ## Objective
@@ -43,15 +43,15 @@ We would like to visualize various aspects of our pizza sales data to gain insig
 - [[1755635883-power-bi|Power BI]]
 
 ## Tasks
-- [x] Create docker compose for PostgreSQL DB
-- [x] Connect to DB using DBeaver
-- [x] Queries for KPI's requirements
-- [x] Queries for Chart requirements
+- [x] Create docker compose for PostgreSQL DB (XP +10)
+- [x] Connect to DB using DBeaver (XP +5)
+- [x] Queries for KPI's requirements (XP +10)
+- [x] Queries for Chart requirements (XP +10)
 - [x] Create dashboard with Power BI and publish it
-	- [x] KPI's dashboard
-	- [x] Chart requirements.
-- [x] Create README for the project
-- [ ] Put it in my CV
+	- [x] KPI's dashboard (XP +10)
+	- [x] Chart requirements. (XP +10)
+- [x] Create README for the project (XP +5)
+- [x] Put it in my CV (XP +5)
 
 ## Notes
 ```dataview

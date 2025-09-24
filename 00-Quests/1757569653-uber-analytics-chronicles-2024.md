@@ -21,7 +21,8 @@ Preprocess the [Uber](https://www.kaggle.com/datasets/yashdevladdha/uber-ride-an
 	- [x] Create staging table in PostgreSQL DB. (XP +5)
 	- [x] Populate PostgreSQL table with data analysis ready data. (XP +5)
 - [ ] Create star schema from staging table.
-	- [ ] Create fact and dimension tables. (XP +5)
+	- [ ] Define fact and dimension tables. (XP +5)
+	- [ ] Create each table in SQL. (XP +5)
 	- [ ] Populate each new table from staging. (XP +5)
 - [ ] Define what information is important to display to client (XP +20)
 	- [ ] 

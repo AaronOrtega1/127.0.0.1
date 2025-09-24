@@ -4,9 +4,9 @@ aliases:
   - Python DSA Mastery
 tags:
   - Quests
-  - active
   - DSA
   - python
+  - archived
 start_date: 2025-08-27
 end_date: 2025-10-27
 XP: 0

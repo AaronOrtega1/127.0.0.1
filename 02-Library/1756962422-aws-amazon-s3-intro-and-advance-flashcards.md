@@ -33,13 +33,13 @@ created_date:
 - Are delete operations with a version ID replicated from a source S3 bucket to a target bucket?;;No, **if it's a permanent deletion with the version ID, they are not replicated** to avoid malicious deletes.
 <!--SR:!2025-11-01,40,290-->
 - What is considered the most common way to implement security on an Amazon S3 Bucket now?;;To use **S3 Bucket policies**.
-<!--SR:!2025-09-24,16,290-->
+<!--SR:!2025-11-26,63,310-->
 - What is the purpose of the "Block Public Access" settings for S3 buckets?;;It acts as an **extra layer of security** to prevent data leaks, ensuring the bucket will **never be public** even if a bucket policy attempts to make it so.
 <!--SR:!2025-11-25,63,310-->
 - Which Amazon S3 storage class is suitable for infrequently accessed data that requires rapid access when needed, commonly used for disaster recovery and backups, and incurs a retrieval cost?;;**S3 Infrequent Access (S3 Standard-IA)**.
 <!--SR:!2025-11-24,62,310-->
 - What is a significant risk associated with using the Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA) storage class?;;The data will be **lost if the single Availability Zone (AZ) is somewhat destroyed**.
-<!--SR:!2025-09-24,16,290-->
+<!--SR:!2025-11-28,65,310-->
 - Which Amazon S3 Glacier storage class provides milliseconds retrieval?;;**Amazon S3 Glacier Instant Retrieval**.
 <!--SR:!2025-10-25,37,290-->
 - What is a key financial characteristic of the Amazon S3 Intelligent-Tiering storage class?;;It incurs a **small monthly monitoring fee**, but has **no retrieval charges**.
@@ -51,5 +51,5 @@ created_date:
 - What are the key characteristics of the S3 Express One Zone storage class?;;It offers **high performance** for a **single Availability Zone** and stores objects in a special **directory bucket**. It provides about **10 times the performance** of S3 Standard with **50% lower cost**.
 <!--SR:!2025-10-04,12,230-->
 - What is a primary use case for S3 Batch Operations?;;To perform **bulk operations** on existing S3 objects, such as **encrypting all unencrypted objects** in a bucket.
-<!--SR:!2025-09-24,16,290-->
+<!--SR:!2025-11-27,64,310-->
 

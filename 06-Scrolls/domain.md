@@ -11,7 +11,7 @@ founded:
 
 ## Active Quests
 ```dataview
-list
+table date(deadline) - date(today) as remaining-days
 from [[]] and !"06-Scrolls"
 where contains(tags, "Quests") and contains(tags, "active")
 sort file.name

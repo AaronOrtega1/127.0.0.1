@@ -10,10 +10,9 @@ founded: 2025-04-04
 ## Purpose
 Principal core of my professional life. It's also something that I am passionate about, I love to learn new things in this area and to deepen my knowledge.
  
- date(end_date) - date(today) as remaining-days
 ## Active Quests
 ```dataview
-table
+table date(end_date) - date(today) as remaining-days
 from [[]] and !"06-Scrolls"
 where contains(tags, "Quests") and contains(tags, "active")
 sort file.name

@@ -1,0 +1,69 @@
+.character-sheet {
+  border: 3px solid #89b4fa;              /* blue border */
+  border-radius: 12px;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #1e1e2e;                   /* base */
+  color: #cdd6f4;                        /* text */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+  max-width: 900px;
+}
+
+.character-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.character-avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid #b4befe;             /* lavender border */
+  border-radius: 8px;
+}
+
+.character-info h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #f9e2af;                        /* yellow for name */
+}
+
+.class-section {
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #45475a;         /* surface1 */
+}
+
+.class-section h3 {
+  margin: 0 0 0.25rem;
+  color: #89b4fa;                        /* blue for section titles */
+}
+
+/* XP Bar */
+.xp-bar {
+  position: relative;
+  background: #313244;                   /* surface0 */
+  border: 2px solid #a6e3a1;             /* green border */
+  border-radius: 8px;
+  height: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.xp-bar-fill {
+  background: linear-gradient(90deg, #a6e3a1, #89dceb); /* green → teal */
+  height: 100%;
+  transition: width 0.4s ease-in-out;
+}
+
+.xp-label {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+  top: 0;
+  color: #45475a;                        /* text */
+  line-height: 20px;
+}

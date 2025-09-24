@@ -12,7 +12,7 @@ created_date: 2025-09-02
 ---
 # AWS Solutions Architect Associate Flashcards
 - What is the **fastest way** to start an EC2 instance with pre-installed applications and OS dependencies?;;Using a **golden AMI**.
-<!--SR:!2025-09-24,15,290-->
+<!--SR:!2025-11-23,60,310-->
 - What is the **primary purpose** of EC2 user data, and how does it compare to a golden AMI for application installation?;;EC2 user data is used for **dynamic configuration** (e.g., retrieving database URLs or passwords) when an instance first starts. While it can install applications and OS dependencies, this method is **very slow** compared to a golden AMI.
 <!--SR:!2025-11-04,43,290-->
 - How can you ensure **schemas and data** are readily available when starting an RDS database quickly, instead of running slow insert statements?;;By **restoring from snapshots**.

@@ -31,7 +31,7 @@ created_date:
 - What is a **cost difference** for queries between Alias records and other Route 53 records?;;**Alias records are free of charge for queries**.
 <!--SR:!2025-11-07,46,290-->
 - What specific type of target can an **Alias record** point to that a CNAME cannot directly represent?;;Alias records allow you to point a hostname to a **specific AWS Resource** (e.g., Elastic Load Balancers, CloudFront Distributions, S3 Websites). They cannot, however, target EC2 DNS names.
-<!--SR:!2025-09-24,7,190-->
+<!--SR:!2025-10-13,19,210-->
 - What is the **monthly cost** for creating a hosted zone in Route 53?;;You pay **50 cents per month for any hosted zone** you create in AWS.
 <!--SR:!2025-10-21,29,250-->
 - What is the fundamental difference in scope between **public and private hosted zones**?;;A **public hosted zone** answers queries from **public clients** (anyone on the internet), while a **private hosted zone** is only queried from **within your private resources**, such as your VPC.

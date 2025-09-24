@@ -4,9 +4,9 @@ aliases:
   - Data Structures and Algorithms in Python
 tags:
   - Quests
-  - active
   - python
   - DSA
+  - archived
 start_date: 2025-09-02
 end_date: 2025-09-02
 XP: 0

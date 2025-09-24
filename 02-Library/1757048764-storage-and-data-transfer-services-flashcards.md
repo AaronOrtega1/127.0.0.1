@@ -21,7 +21,7 @@ created_date:
 - What is the maximum data transfer speed for a single AWS DataSync agent, and can this be limited?;;One DataSync agent can transfer up to **10 gigabits of data per second**. Bandwidth limits can be set to avoid maxing out your network.
 <!--SR:!2025-10-01,13,230-->
 - How does AWS Snowcone integrate with AWS DataSync for data transfer challenges?;;The **AWS Snowcone device comes with the DataSync agent pre-installed**. This is useful when network capacity is insufficient to directly use DataSync, allowing data to be pulled by Snowcone, shipped to AWS, and then synchronized to AWS storage resources.
-<!--SR:!2025-09-24,12,270-->
+<!--SR:!2025-11-10,47,290-->
 - What are the two main types of AWS Snowball Edge devices and their primary distinction?;;The two types are **Edge Storage Optimized (210 TB storage)** and **Edge Compute Optimized (28 TB storage)**. The difference lies in their storage capacity, indicating their primary purpose for either storage-heavy migration or edge computing.
 <!--SR:!2025-09-25,7,230-->
 - When is using an AWS Snowball device recommended for data migration?;;Snowball is recommended when transferring data takes **over a week** due to slow connections, limited connectivity/bandwidth, high network costs, or an unstable connection.
@@ -29,7 +29,7 @@ created_date:
 - Can data be imported directly into Amazon Glacier using AWS Snowball?;;No, **Snowball cannot import data directly into Glacier**. The data must first be imported into **Amazon S3**, and then an S3 lifecycle policy can be used to transition the objects into Amazon Glacier.
 <!--SR:!2025-09-25,16,290-->
 - What is the primary function of AWS Storage Gateway in a hybrid cloud architecture?;;AWS Storage Gateway acts as a **bridge between on-premises data and cloud data**, facilitating hybrid cloud solutions for disaster recovery, backups, cloud migration, and extending on-premises storage.
-<!--SR:!2025-09-24,15,290-->
+<!--SR:!2025-11-24,61,310-->
 - Which protocols does the Amazon S3 File Gateway use to expose S3 buckets on-premises, and what is a key caching feature?;;The S3 File Gateway allows on-premises application servers to access S3 buckets using the **NFS or SMB protocol**. It **caches the most recently used data locally** for rapid access.
 <!--SR:!2025-09-30,8,230-->
 - How does the AWS Storage Gateway's Volume Gateway store and back up data?;;The Volume Gateway provides **block storage using the iSCSI protocol**, with volumes backed up by **Amazon EBS snapshots stored in Amazon S3**.

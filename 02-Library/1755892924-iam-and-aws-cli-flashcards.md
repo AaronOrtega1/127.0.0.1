@@ -18,7 +18,7 @@ created_date: 2025-08-22
 - What happens to files you create within your CloudShell environment if you restart your CloudShell session?;;All files you create within your CloudShell environment will **persist and stay** even if you restart your session.
 <!--SR:!2025-10-24,45,308-->
 - What are the three different options to access AWS services?;;The three options are the **AWS Management Console** (web interface), the **AWS Command Line Interface (CLI)**, and the **AWS Software Development Kit (SDK)**.
-<!--SR:!2025-09-24,19,250-->
+<!--SR:!2025-11-30,67,270-->
 - How are the AWS Management Console, CLI, and SDK typically protected for access?;;The  Management Console is protected by **username/password** (and potentially MFA). The CLI and SDK are protected by **access key.**
 <!--SR:!2025-09-30,22,250-->
 - What is the primary difference in how you use the AWS CLI versus the AWS SDK?;;The **AWS CLI** is a tool you use to interact with AWS services via **commands typed in your command-line shell**, while the **AWS SDK** is a set of language-specific libraries that you **embed within your application code** to programmatically access and manage AWS services.

@@ -87,7 +87,7 @@ created_date: 2025-08-25
 - What is preserved when an EC2 instance is **hibernated**?;;Then **in-memory state (RAM)** is preserved by dumping it to the root EBS volume.
 <!--SR:!2025-10-16,33,276-->
 - What are two crucial requirements for an EC2 instance to support **hibernation**?;;The **root EBS volume must be encrypted** and it **must have enough space to contain the RAM dump.**
-<!--SR:!2025-09-24,16,256-->
+<!--SR:!2025-10-01,7,236-->
 - What EC2 purchasing option offers the **highest cost savings** but is the **least reliable**?;;**Spot Instances**, offering up to **90% discounts**, but they can be reclaimed by AWS at any time.
 <!--SR:!2025-11-22,66,316-->
 - What is the **grace period** given before a **Spot Instance is reclaimed** when the spot price exceeds your maximum price?;;A **two-minute grace period**.
