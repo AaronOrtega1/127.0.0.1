@@ -16,7 +16,7 @@ created_date: 2025-07-08
 - You have an SQS Queue where each consumer polls 10 messages at a time and finishes processing them in 1 minute. After a while, you noticed that the same SQS messages are received by different consumers resulting in your messages being processed more than once. What should you do to resolve this issue?;;Increase the Visibility Timeout.
 <!--SR:!2025-10-05,65,310-->
 - Which SQS Queue type allows your messages to be processed exactly once and in order?;;SQS FIFO Queue.
-<!--SR:!2025-09-25,57,310-->
+<!--SR:!2026-05-26,243,330-->
 - You have 3 different applications that you'd like to send them the same message. All 3 applications are using SQS. What is the best approach would you choose?;;Use SNS + SQS Fan Out Pattern.
 <!--SR:!2026-02-28,172,310-->
 - You have a Kinesis data stream with 6 shards provisioned. This data stream usually receiving 5 MB/s of data and sending out 8 MB/s. Occasionally, your traffic spikes up to 2x and you get a `ProvisionedThroughputExceeded` exception. What should you do to resolve the issue?;;Add more shards.

@@ -23,11 +23,11 @@ created_date:
 - How does AWS Snowcone integrate with AWS DataSync for data transfer challenges?;;The **AWS Snowcone device comes with the DataSync agent pre-installed**. This is useful when network capacity is insufficient to directly use DataSync, allowing data to be pulled by Snowcone, shipped to AWS, and then synchronized to AWS storage resources.
 <!--SR:!2025-11-10,47,290-->
 - What are the two main types of AWS Snowball Edge devices and their primary distinction?;;The two types are **Edge Storage Optimized (210 TB storage)** and **Edge Compute Optimized (28 TB storage)**. The difference lies in their storage capacity, indicating their primary purpose for either storage-heavy migration or edge computing.
-<!--SR:!2025-09-25,7,230-->
+<!--SR:!2025-10-17,22,250-->
 - When is using an AWS Snowball device recommended for data migration?;;Snowball is recommended when transferring data takes **over a week** due to slow connections, limited connectivity/bandwidth, high network costs, or an unstable connection.
 <!--SR:!2025-11-17,55,310-->
 - Can data be imported directly into Amazon Glacier using AWS Snowball?;;No, **Snowball cannot import data directly into Glacier**. The data must first be imported into **Amazon S3**, and then an S3 lifecycle policy can be used to transition the objects into Amazon Glacier.
-<!--SR:!2025-09-25,16,290-->
+<!--SR:!2025-11-28,64,310-->
 - What is the primary function of AWS Storage Gateway in a hybrid cloud architecture?;;AWS Storage Gateway acts as a **bridge between on-premises data and cloud data**, facilitating hybrid cloud solutions for disaster recovery, backups, cloud migration, and extending on-premises storage.
 <!--SR:!2025-11-24,61,310-->
 - Which protocols does the Amazon S3 File Gateway use to expose S3 buckets on-premises, and what is a key caching feature?;;The S3 File Gateway allows on-premises application servers to access S3 buckets using the **NFS or SMB protocol**. It **caches the most recently used data locally** for rapid access.

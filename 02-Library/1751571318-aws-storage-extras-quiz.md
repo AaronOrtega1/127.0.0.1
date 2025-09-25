@@ -14,7 +14,7 @@ created_date: 2025-07-03
 - You need to move hundreds of Terabytes into Amazon S3, then process the data using a fleet of EC2 instances. You have a 1 Gbit/s broadband. You would like to move the data faster and possibly processing it while in transit. What do you recommend?;;Use Snowball Edge since it comes with computing capabilities and allows you to pre-process the data while it's being moved into Snowball.
 <!--SR:!2026-01-22,148,310-->
 - You want to expose virtually infinite storage for your tape backups. You want to keep the same software you're using and want an iSCSI compatible interface. What do you use?;;AWS Storage Gateway - Tape Gateway.
-<!--SR:!2025-09-25,38,230-->
+<!--SR:!2026-01-27,124,250-->
 - Your EC2 Windows Servers need to share some data by having a Network File System mounted on them which respects the Windows security mechanisms and has integration with Microsoft Active Directory. What do you recommend?;;Amazon FSx for Windows (File Server).
 <!--SR:!2026-01-21,131,310-->
 - You have hundreds of Terabytes that you want to migrate to AWS S3 as soon as possible. You tried to use your network bandwidth and it will take around 3 weeks to complete the upload process. What is the recommended approach to using in this situation?;;AWS Snowball Edge.

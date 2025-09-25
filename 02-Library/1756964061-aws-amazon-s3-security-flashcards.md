@@ -15,17 +15,17 @@ created_date:
 - What is the **default server-side encryption** method for new Amazon S3 buckets and objects?;;**SSE-S3** (Server-Side Encryption with Amazon S3-managed keys) is enabled by default for new buckets and objects.
 <!--SR:!2025-11-07,46,290-->
 - How are encryption keys managed for **SSE-S3**?;;The encryption key for SSE-S3 is **handled, managed, and owned by AWS**. Users **never have access** to this key.
-<!--SR:!2025-09-25,16,290-->
+<!--SR:!2025-11-29,65,310-->
 - How do users manage encryption keys when using **SSE-KMS**?;;With SSE-KMS, users manage their own encryption keys using the **KMS service (Key Management Service)**, allowing for user control over key creation and logging key usage in **CloudTrail**.
 <!--SR:!2025-10-14,26,270-->
 - What is a potential **scalability limitation** when using SSE-KMS for encryption?;;SSE-KMS API calls count towards **KMS quotas** (between 5,000 and 30,000 requests per second per region), which can be a thread limit for very high-throughput S3 buckets, though quotas can be increased.
-<!--SR:!2025-09-25,7,255-->
+<!--SR:!2025-10-20,25,275-->
 - How are encryption keys handled for **SSE-C**?;;For SSE-C, keys are **customer-provided and managed outside of AWS**. Amazon S3 uses the key for server-side encryption but **never stores it**, discarding it after use.
 <!--SR:!2025-09-30,12,270-->
 - What **protocol requirement** is mandatory when using SSE-C?;;When using SSE-C, you **must use HTTPS** and pass the encryption key as part of HTTP headers for every request.
 <!--SR:!2025-11-19,57,310-->
 - What is a key differentiator in **key management** for client-side encryption compared to server-side options?;;In client-side encryption, the **clients fully manage the keys and the entire encryption cycle**, performing encryption before uploading data to S3 and decryption after retrieving it outside of S3.
-<!--SR:!2025-09-25,16,290-->
+<!--SR:!2025-11-30,66,310-->
 - How can you **force encryption in transit** for an S3 bucket?;;You can use an S3 **bucket policy** to deny any `GetObject` operation if the condition `"aws:SecureTransport": "false"` is met, thereby blocking unencrypted HTTP connections and forcing HTTPS.
 <!--SR:!2025-10-27,35,270-->
 - What are two **specific destructive operations** that require MFA Delete in S3?;;MFA Delete is required to **permanently delete an object version** and to **suspend Versioning** on an S3 bucket.

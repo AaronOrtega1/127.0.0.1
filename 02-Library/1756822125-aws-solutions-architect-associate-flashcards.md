@@ -42,7 +42,7 @@ created_date: 2025-09-02
 - What is the **default limit** of Elastic IP addresses per region per AWS account?;;There is a default limit of **five Elastic IPs per region per account**.
 <!--SR:!2025-10-03,15,230-->
 - When using Route 53 with an **A record to point directly to EC2 instance IPs**, what problem arises if an EC2 instance is terminated, especially considering the DNS TTL?;;Due to the **Time-To-Live (TTL)** of the A record (e.g., one hour), users may continue to try and connect to the IP address of the **terminated instance for the duration of the TTL**, leading to perceived application downtime for those users.
-<!--SR:!2025-09-25,16,290-->
+<!--SR:!2025-12-01,67,310-->
 - When using Route 53 with an Elastic Load Balancer (ELB), what type of **Route 53 record** is required to point to the ELB, and why?;;An **Alias record** is required because a load balancer's IP address can change over time, and an A record would not be able to keep up with these dynamic changes.
 <!--SR:!2025-11-08,47,290-->
 - What is the main benefit of using **Reserved Instances** for cost savings in an Auto Scaling Group?;;Reserved Instances help **diminish costs** by reserving capacity for the **minimum (baseline) capacity** of your Auto Scaling Group, as you know those instances will be running consistently.

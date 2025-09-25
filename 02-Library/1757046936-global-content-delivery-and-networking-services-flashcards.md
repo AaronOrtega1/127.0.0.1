@@ -37,11 +37,11 @@ created_date:
 - How does CloudFront securely connect to an Amazon S3 bucket used as an origin?;;CloudFront uses an **Origin Access Control (OAC)** to secure the connection to an S3 bucket, along with modifying the S3 bucket policy.
 <!--SR:!2025-09-27,5,230-->
 - Why would an administrator use CloudFront cache invalidation?;;An administrator would use CloudFront cache invalidation to **force an immediate refresh** of cached content at the edge locations, ensuring that users receive updated content from the origin **without waiting for the cache's Time To Live (TTL) to expire**.
-<!--SR:!2025-09-25,16,290-->
+<!--SR:!2025-11-27,63,310-->
 - How does CloudFront determine a user's country for geo-restriction purposes?;;CloudFront uses a **third-party Geo-IP database** to match the user's IP address to their country.
-<!--SR:!2025-09-25,16,290-->
+<!--SR:!2025-11-28,64,310-->
 - What is the purpose of CloudFront Price Classes?;;CloudFront Price Classes allow you to **reduce the number of edge locations** your distribution uses to **lower costs**. Options include Price Class All (all regions), Price Class 200 (most regions, excluding most expensive), and Price Class 100 (least expensive regions like North America and Europe).
-<!--SR:!2025-09-25,16,290-->
+<!--SR:!2025-12-01,67,310-->
 - What is the main security advantage of using CloudFront VPC origins?;;The main security advantage of CloudFront VPC origins is that they allow CloudFront to deliver content from applications hosted in **private subnets within your VPC**, meaning the applications **do not need to be publicly exposed to the internet**.
 <!--SR:!2025-10-24,32,270-->
 - When would you choose CloudFront over S3 Cross Region Replication for content distribution?;;You would choose **CloudFront** for distributing and caching **static content** that needs to be available globally with low latency. **S3 Cross Region Replication** is suitable for **dynamic content** that requires near real-time updates in a few specific regions.

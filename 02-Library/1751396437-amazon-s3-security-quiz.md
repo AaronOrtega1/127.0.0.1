@@ -18,7 +18,7 @@ created_date: 2025-07-01
 - Your company does not trust AWS for the encryption process and wants it to happen on the application. You recommend them to use ...;;Client-Side Encryption, you have to do the encryption yourself and you have full control over the encryption keys. You perform the encryption yourself and send the encrypted data to AWS.
 <!--SR:!2026-01-16,120,290-->
 - You have a website that loads files from an S3 bucket. When you try the URL of the files directly in your Chrome browser it works, but when a website with a different domain tries to load these files it doesn't. What's the problem?;;CORS is wrong.
-<!--SR:!2025-09-25,64,310-->
+<!--SR:!2026-06-27,275,330-->
 - An e-commerce company has its customers and orders data stored in an S3 bucket. The company’s CEO wants to generate a report to show the list of customers and the revenue for each customer. Customer data stored in files on the S3 bucket has sensitive information that we don’t want to expose in the report. How do you recommend the report can be created without exposing sensitive information?;;Use S3 Object Lambda to chnge the objects before they are retrieved by the report generator application.
 <!--SR:!2026-02-17,165,310-->
 - You suspect that some of your employees try to access files in an S3 bucket that they don't have access to. How can you verify this is indeed the case without them noticing?;;Enable S3 Access Logs and analyze them using Athena.

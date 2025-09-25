@@ -81,7 +81,7 @@ created_date: 2025-08-25
 - What is the key difference in **IOPS management between gp2 and gp3 EBS volumes**?;;For **gp2**, IOPS are **linked to the disk size**; for **gp3**, IOPS and throughput can be **increased independently** from the disk size.
 <!--SR:!2025-09-28,20,256-->
 - For what use case are **io1/io2 EBS volumes** primarily designed?;;**Mission-critical, low-latency, high-throughput workloads**, especially **sensitive database workloads** needing sustained IOPS performance.
-<!--SR:!2025-09-25,12,176-->
+<!--SR:!2025-10-27,32,196-->
 - What is the main characteristic distinguishing **EC2 Instance Store** from **EBS volumes**?;;EC2 Instance Store is a **physical hardware disk attached directly to the EC2 instance's underlying server**, providing **extremely high performance**, but it is **ephemeral storage**, meaning **data is lost if the instance stops or terminates**.
 <!--SR:!2025-11-18,62,316-->
 - What is preserved when an EC2 instance is **hibernated**?;;Then **in-memory state (RAM)** is preserved by dumping it to the root EBS volume.
@@ -119,7 +119,7 @@ created_date: 2025-08-25
 - What is the difference between a **Public IP** and a **Private IP**?;;A **Public IP** is identifiable and unique across the **internet**, while a **Private IP** is only identifiable and unique within its **private network.**
 <!--SR:!2025-10-27,44,296-->
 - What is an **Elastic IP (EIP)** and why is it generally recommended to avoid them?;;An EIP is a **public IPv4 address you own** that can be attached to an instance. It's generally recommend to **avoid EIPs** for good architecture and use **DNS names (route 53)** or **Load Balancers** instead for scalability and flexibility.
-<!--SR:!2025-09-25,17,256-->
+<!--SR:!2025-11-08,44,256-->
 - In the EC2 instance naming convention `m5.2xlarge`, what do `m, 5, and 2xlarge` represent?;;`m` the **instance class**, `5` the **generation** and `2xlarge` the **size**.
 <!--SR:!2025-11-19,63,316-->
 - Which EC2 instance class is optimized for workloads that **process large datasets in memory (RAM)**, often used for high-performance database or caches?;;**Memory Optimized** instances (e.g., **R-series**, where `R` stands for RAM).
