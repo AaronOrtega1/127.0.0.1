@@ -3,7 +3,6 @@
 ```dataviewjs
 // === CONFIG ===
 const folder = "00-Quests";
-const folders = ["00-Quests", "03-Vault"]
 const xpPerLevel = 100;
 const barLength = 20;
 
@@ -11,11 +10,14 @@ const barLength = 20;
 const character = {
   name: "Aarón",
   age: 24,
-  role: "Cloud Sorcerer/Data Alchemist",
+  role: "Cloud Sorcerer/Data Alchemist/MMA Practitioner",
+  role: "Computer Systems Engineer Student",
   avatar: "https://placehold.co/150x150/4a90e2/ffffff?text=Aarón",
+  avatar: "/02-Library/Assets/00-dashboard/characterRPG.jpg",
   classes: [
-    { tag: "aws", label: "AWS Adventurer" },
-    { tag: "dataanalysis", label: "Data Analysis Adventurer" }
+    { tag: "aws", label: "AWS Sorcerer" },
+    { tag: "dataanalysis", label: "Data Alchemist" },
+    { tag: "MMA", label: "MMA Fighter" }
   ]
 };
 
@@ -55,16 +57,16 @@ function progressBar(value, max, length = barLength) {
 // === OUTPUT ===
 // Render Character Info
 let htmlChar = `
-  <div class="character-sheet">
-    <div class="character-header">
-      <img src="${character.avatar}" class="character-avatar"/>
-      <div class="character-info">
-        <h2>${character.name}</h2>
-        <p><strong>Age:</strong> ${character.age}</p>
-        <p><strong>Role:</strong> ${character.role}</p>
-      </div>
-    </div>
-  </div>
+<div class="character-sheet">
+	<div class="character-header">
+		<img src="${character.avatar}" class="character-avatar"/>
+		<div class="character-info">
+			<h2>${character.name}</h2>
+			<p><strong>Age:</strong> ${character.age}</p>
+			<p><strong>Role:</strong> ${character.role}</p>
+		</div>
+	</div>
+</div>
 `;
 
 // Render Classes + Progress

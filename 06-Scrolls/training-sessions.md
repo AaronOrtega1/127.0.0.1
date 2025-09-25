@@ -1,7 +1,6 @@
 ---
 link: "[[1758607062-mma|MMA]]"
-session_date:
-  "{{date}}"
+session_date: "{{date}}"
 session_focus:
   - Striking
   - Grappling
@@ -9,8 +8,10 @@ session_rating: 0
 techniques_practices:
   - "[[]]"
 rounds_sparred: 0
-notes_to_self: "placeholder"
+notes_to_self: placeholder
 XP: 0
+tags:
+  - MMA
 ---
 # {{cap_title}}: [[<% tp.date.now("YYYY-MM-DD") %>]]
 ## Techniques & Drills
