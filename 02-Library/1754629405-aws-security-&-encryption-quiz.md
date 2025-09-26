@@ -34,7 +34,7 @@ created_date: 2025-08-07
 - You have a Lambda function used to process some data in the database. You would like to give your Lambda function access to the database password. Which of the following options is the most secure?;;Have it as an encrypted environment variable and decrypt it at runtime.
 <!--SR:!2025-10-02,38,290-->
 - You have a secret value that you use for encryption purposes, and you want to store and track the values of this secret over time. Which AWS service should you use?;;SSM Parameter Store.
-<!--SR:!2025-09-26,32,270-->
+<!--SR:!2026-01-25,121,290-->
 - Your user-facing website is a high-risk target for DDoS attacks and you would like to get 24/7 support in case they happen and AWS bill reimbursement for the incurred costs during the attack. What AWS service should you use?;;AWS Shield Advanced.
 <!--SR:!2025-10-30,63,310-->
 - You would like to externally maintain the configuration values of your main database, to be picked up at runtime by your application. What's the best place to store them to maintain control and version history?;;SSM Parameter Store.

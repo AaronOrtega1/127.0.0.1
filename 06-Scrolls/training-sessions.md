@@ -15,9 +15,6 @@ tags:
 ---
 # {{cap_title}}: [[<% tp.date.now("YYYY-MM-DD") %>]]
 ## Techniques & Drills
-### Warm-up
-- 
-
 ### Technical Focus
 - 
 

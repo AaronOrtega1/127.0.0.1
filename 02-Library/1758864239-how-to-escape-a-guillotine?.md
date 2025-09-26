@@ -3,15 +3,15 @@ link: "[[1758607062-mma|MMA]]"
 technique-type:
   - Grappling
   - Defense
-related-techniques: "[[]]"
+related-techniques: "[[1758864351-guillotine|Guillotine]]"
 tags:
   - technique
   - MMA
   - pending
 aliases:
-  - Turtle
+  - How to escape a guillotine?
 ---
-# Turtle
+# How to escape a guillotine?
 
 ## Description
 *Brief description of the technique and its purpose*

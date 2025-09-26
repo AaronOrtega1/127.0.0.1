@@ -33,7 +33,7 @@ created_date: 2025-08-25
 - What types of **big data applications** are commonly used with **Partition Placement Groups**?;;Applications like **Hadoop, Cassandra, Kafka, HDFS, and HBase** that are partition-aware.
 <!--SR:!2025-10-19,38,290-->
 - What must be enabled in the root account for setting for **IAM users to access billing data**?;;**"IAM user and role access to billing information"** must be activated.
-<!--SR:!2025-09-26,13,190-->
+<!--SR:!2025-10-30,34,210-->
 - What is the purpose of an AWS **zero-spend budget?**;;It alerts you as soon as you incur **even a minimal cost (e.g., 1 cent)**, which is very helpful for cost monitoring.
 <!--SR:!2025-11-20,64,310-->
 - What is **Amazon EFS** and its key capability regarding EC2 instances?;;EFS is a **managed Network File System (NFS)** that can be **mounted on many EC2 instances across different Availability Zones simultaneously.**
@@ -111,7 +111,7 @@ created_date: 2025-08-25
 - If you are unable to connect to your EC2 instance and experience a **timeout**, what is the likely cause?;;A **Security Group issue** is the likely cause.
 <!--SR:!2025-11-14,58,316-->
 - What are the **default port numbers for SSH (Linux)** and **RDP (Windows)** access?;;SSH (Linux) port 22, RDP (Windows) port 3389.
-<!--SR:!2025-09-26,13,256-->
+<!--SR:!2025-11-13,48,276-->
 - What are the default port numbers for **HTTP** and **HTTPS** web traffic?;;HTTP port 80, HTTPS port 443.
 <!--SR:!2025-10-11,29,276-->
 - What is **EC2 User Data** and when does it run?;;EC2 User Data is a **bootstrap script** that runs **once when an EC2 instance first starts** (bootstrapping) to automate initial configuration tasks like installing software or updates. It runs with the **root user.**

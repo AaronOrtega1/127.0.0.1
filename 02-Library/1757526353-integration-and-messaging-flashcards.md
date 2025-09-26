@@ -21,7 +21,7 @@ created_date:
 - What is the default message visibility timeout in Amazon SQS, and what is its maximum configurable value?;; Default: 30 seconds. Maximum: 12 hours.
 <!--SR:!2025-09-29,7,230-->
 - What are the ordering and delivery guarantees for Amazon SQS Standard queues?;; Best-effort ordering and at-least-once delivery.
-<!--SR:!2025-09-26,9,250-->
+<!--SR:!2025-10-19,23,250-->
 - How does Amazon SQS FIFO guarantee message ordering and support exactly-once send?;; Ordering by Message Group ID and exactly-once send using deduplication IDs or content-based deduplication within a 5-minute window.
 <!--SR:!2025-09-29,5,190-->
 - What are the throughput limits for Amazon SQS FIFO queues?;; 300 messages per second without batching, or 3,000 messages per second with batching.

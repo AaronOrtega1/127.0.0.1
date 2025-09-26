@@ -21,7 +21,7 @@ created_date:
 - While you're uploading large files to an S3 bucket using Multi-part Upload, there are a lot of unfinished parts stored in the S3 bucket due to network issues. You are not using these unfinished parts and they cost you money. What is the best approach to remove these unfinished parts?;;Use an S3 Lifecycle Policy to automate old/unfinished parts deletion.
 <!--SR:!2025-11-16,97,290-->
 - You are looking to get recommendations for S3 Lifecycle Rules. How can you analyze the optimal number of days to move objects between different storage tiers?;;S3 Analytics.
-<!--SR:!2025-09-26,8,190-->
+<!--SR:!2025-10-17,21,210-->
 - You are looking to build an index of your files in S3, using Amazon RDS PostgreSQL. To build this index, it is necessary to read the first 250 bytes of each object in S3, which contains some metadata about the content of the file itself. There are over 100,000 files in your S3 bucket, amounting to 50 TB of data. How can you build this index efficiently?;;Create an application that will traverse the S3 bucket, issue a Byte Range Fetch for the first 250 bytes, and store that information in RDS.
 <!--SR:!2025-11-13,84,270-->
 - You have a large dataset stored on-premises that you want to upload to the S3 bucket. The dataset is divided into 10 GB files. You have good bandwidth but your Internet connection isn't stable. What is the best way to upload this dataset to S3 and ensure that the process is fast and avoid any problems with the Internet connection?;;Use S3 Multi-part Upload and S3 Transfer Acceleration.

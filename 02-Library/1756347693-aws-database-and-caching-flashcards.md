@@ -27,7 +27,7 @@ created_date:
 - How does the failover time for Aurora compare to Multi-AZ on MySQL RDS?;;Failover in Aurora is **instantaneous**, typically less than **30 seconds on average**, which is much faster than Multi-AZ on MySQL RDS.
 <!--SR:!2025-11-16,60,310-->
 - Explain the difference between Aurora's **Writer Endpoint** and **Reader Endpoint**.;;The **Writer Endpoint** is a DNS name that **always points to the master instance** for writes. The **Reader Endpoint** is for **load balancing connections** across all read replicas for read workloads.
-<!--SR:!2025-09-26,18,250-->
+<!--SR:!2025-11-27,62,270-->
 - What is **RDS Custom**, and for which database types is it available?;;RDS Custom allows you to have **full admin access** to the **underlying operating system and database** for certain database types. It is available for **Oracle** and **Microsoft SQL Server**. You can SSH into the underlying EC2 instance.
 <!--SR:!2025-10-22,40,290-->
 - What are the main benefits of using **Amazon RDS Proxy**?;;RDS Proxy allows applications to **pool and share database connections**, reducing stress on database resources. It also **reduces failover time by up to 66%** for RDS and Aurora. Additionally, it can **enforce IAM authentication** for your database.

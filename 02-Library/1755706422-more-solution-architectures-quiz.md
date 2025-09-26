@@ -16,7 +16,7 @@ created_date: 2025-08-20
 - As a Solutions Architect, you have created an architecture for a company that includes the following AWS services: CloudFront, Web Application Firewall (AWS WAF), AWS Shield, Application Load Balancer, and EC2 instances managed by an Auto Scaling Group. Sometimes the company receives malicious requests and wants to block these IP addresses. According to your architecture, Where should you do it?;;AWS WAF, because it is specifically designed to protect web applications by allowing you to manage and block specific IP addresses.
 <!--SR:!2025-11-09,61,310-->
 - You have a set of Linux EC2 instances deployed in a Cluster Placement Group in order to perform High-Performance Computing (HPC). You would like to maximize network performance between your EC2 instances. What should you use?;;Elastic Fabric Adapter (EFA).
-<!--SR:!2025-09-26,3,230-->
+<!--SR:!2025-10-06,10,250-->
 
 
 

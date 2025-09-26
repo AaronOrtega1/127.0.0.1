@@ -13,10 +13,9 @@ techniques_practices:
   - Finishes
 rounds_sparred: 1
 notes_to_self: Keep my arms tuck in to not expose them.
-XP: 70
+XP: 35
 tags:
   - MMA
-  - pending
 ---
 # Training Session: [[2025-09-24]]
 ## Techniques & Drills
@@ -48,11 +47,13 @@ tags:
 
 ## Mistakes & Learnings
 - When doing a triangle choke from full guard when I position my leg in my opponents shoulders and I want to tighten up, I should pull my leg down from my shin to avoid injuries by pulling my feet and move my body to the side that I have my leg in my opponents shoulder.
-- 
+- When I shoot my take downs I have to keep my head looking up.
+- When I kick I have to point my foot outward and move my hips also.
+- My low kick should be from the top-down, not upwards.
 
 ## XP Awarded
-- **Striking:** +20 XP
-- **Grappling:** +40 XP  
+- **Striking:** +10 XP
+- **Grappling:** +15 XP  
 - **Resistance:** +10 XP
 
 ---
