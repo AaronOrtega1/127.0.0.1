@@ -1,12 +1,12 @@
 ---
 link: "[[1743802452-programming|Programming]]"
 aliases:
-  - leetcode-problems
-  - Leetcode Problems
+  - 150 NeetCode Problems
+  - NeetCode Problems
 tags:
   - Quests
   - active
-  - 1stQ
+  - 4thQ25
 accepted: 2025-04-07
 deadline: 2025-12-31
 XP:

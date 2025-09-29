@@ -1,5 +1,5 @@
 ---
-link: "[[1744040981-leetcode-problems|Leetcode Problems]]"
+link: "[[1744040981-150-neetcode-problems|Leetcode Problems]]"
 aliases:
   - valid-palindrome-in-python
   - Valid Palindrome In Python

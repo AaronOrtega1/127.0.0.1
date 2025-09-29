@@ -60,7 +60,7 @@ created_date: 2025-08-07
 - You have created the main Edge-Optimized API Gateway in `us-west-2` AWS region. This main Edge-Optimized API Gateway forwards traffic to the second level API Gateway in `ap-southeast-1`. You want to secure the main API Gateway by attaching an ACM certificate to it. Which AWS region are you going to create the ACM certificate in?;;`us-east-1`, as the edge-optimized API Gateway is using AWS managed CloudFront distribution behind the scene to rout requests across the glob through CloudFront Edge location, the ACM certificate must be created in us-east-1.
 <!--SR:!2025-10-29,62,310-->
 - You are managing an AWS Organization with multiple AWS accounts. Each account has a separate application with different resources. You want an easy way to manage Security Groups and WAF Rules across those accounts as there was a security incident the last week and you want to tighten up your resources. Which AWS service can help you to do so?;;AWS Firewall Manager.
-<!--SR:!2025-09-27,22,270-->
+<!--SR:!2025-12-21,83,290-->
 
 
 

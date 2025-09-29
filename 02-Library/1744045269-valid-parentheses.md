@@ -8,7 +8,7 @@ tags:
   - leetcode
   - stack
 created_date: 2025-04-07
-link: "[[1744040981-leetcode-problems|Leetcode Problems]]"
+link: "[[1744040981-150-neetcode-problems|Leetcode Problems]]"
 ---
 # Valid Parentheses
 - Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.

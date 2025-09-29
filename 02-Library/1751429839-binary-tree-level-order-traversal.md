@@ -1,11 +1,10 @@
 ---
-link: "[[1744040981-leetcode-problems|Leetcode Problems]]"
-aliases: 
+link: "[[1744040981-150-neetcode-problems|Leetcode Problems]]"
+aliases:
   - Binary Tree Level Order Traversal
 tags:
   - Knowledge
-created_date:
-  2025-07-01
+created_date: 2025-07-01
 ---
 # Binary Tree Level Order Traversal
 - Given the `root` of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).

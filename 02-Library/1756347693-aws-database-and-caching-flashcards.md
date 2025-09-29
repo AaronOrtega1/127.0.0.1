@@ -33,7 +33,7 @@ created_date:
 - What are the main benefits of using **Amazon RDS Proxy**?;;RDS Proxy allows applications to **pool and share database connections**, reducing stress on database resources. It also **reduces failover time by up to 66%** for RDS and Aurora. Additionally, it can **enforce IAM authentication** for your database.
 <!--SR:!2025-10-19,38,290-->
 - What is **Amazon ElastiCache** primarily used for, and what are the two main caching technologies it manages?;;ElastiCache provides **managed Redis or Memcached**. It is used for **in-memory databases** with high performance and low latency to **reduce the load off of databases for read-intensive workloads** and to make applications **stateless** by storing session data.
-<!--SR:!2025-09-29,20,250-->
+<!--SR:!2025-12-08,70,270-->
 - Which ElastiCache technology supports Multi-AZ with auto-failover and read replicas, and what unique use case can it facilitate with Sorted Sets?;; **Redis** supports Multi-AZ with auto-failover and read replicas. It can facilitate **real-time gaming leaderboards** using its **Sorted Sets** feature.
 <!--SR:!2025-11-12,56,310-->
 - How is **at-rest encryption** managed for RDS and Aurora databases, especially for existing unencrypted databases?;;At-rest encryption using KMS is defined at **launch time**. To encrypt an **already existing unencrypted database**, you must **take a database snapshot** and then **restore the snapshot as an encrypted database**.

@@ -79,7 +79,7 @@ created_date: 2025-08-25
 - Which **EBS volume types** can be used as **boot volumes**?;;Only **gp2, gp3, io1, io2.**
 <!--SR:!2025-10-06,26,276-->
 - What is the key difference in **IOPS management between gp2 and gp3 EBS volumes**?;;For **gp2**, IOPS are **linked to the disk size**; for **gp3**, IOPS and throughput can be **increased independently** from the disk size.
-<!--SR:!2025-09-28,20,256-->
+<!--SR:!2025-12-10,72,276-->
 - For what use case are **io1/io2 EBS volumes** primarily designed?;;**Mission-critical, low-latency, high-throughput workloads**, especially **sensitive database workloads** needing sustained IOPS performance.
 <!--SR:!2025-10-27,32,196-->
 - What is the main characteristic distinguishing **EC2 Instance Store** from **EBS volumes**?;;EC2 Instance Store is a **physical hardware disk attached directly to the EC2 instance's underlying server**, providing **extremely high performance**, but it is **ephemeral storage**, meaning **data is lost if the instance stops or terminates**.
@@ -101,7 +101,7 @@ created_date: 2025-08-25
 - What is the difference between a **Dedicated Host** and a **Dedicated Instance**?;;A **Dedicated Host** gives you access to the **entire physical server** and control over instance placements. A **Dedicated Instance** runs on hardware dedicated to you, but you **may share the hardware with other instances in the same account** and have **no control over instance placements.**
 <!--SR:!2025-11-03,47,296-->
 - What is the primary purpose of **Capacity Reservations** for EC2?;;To **reserve On-Demand instance capacity in a specific AZ** for any duration, guaranteeing availability, but they do not **provide billing discounts** and you are charged even if instances are not running.
-<!--SR:!2025-09-27,18,236-->
+<!--SR:!2025-11-10,42,236-->
 - What is an **Elastic Network Interface (ENI)** and what is a key benefit?;;An ENI is a **virtual network card** for an EC2 instance. A key benefit is that ENIs can be **attached or moved on the fly between EC2 instances** for **failover purposes.**
 <!--SR:!2025-10-15,32,276-->
 - What are **Security Groups** in AWS?;;Security Groups act as a **firewall around EC2 instances**, controlling how **traffic is allowed into an out of them.**

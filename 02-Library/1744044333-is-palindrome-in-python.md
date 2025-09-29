@@ -8,7 +8,7 @@ tags:
   - leetcode
   - two-pointer
 created_date: 2025-04-07
-link: "[[1744040981-leetcode-problems|Leetcode Problems]]"
+link: "[[1744040981-150-neetcode-problems|Leetcode Problems]]"
 ---
 # Is Palindrome In Python
 - Given an integer `x`, return `true` _if_ `x` _is a palindrome_ _, and_ `false` _otherwise_.

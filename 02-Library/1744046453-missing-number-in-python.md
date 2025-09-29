@@ -3,9 +3,9 @@ id: 1744046453-missing-number-in-python
 aliases:
   - Missing Number In Python
 tags:
-  - #resource
-created_date: "2025-04-07"
-link: "[[1744040981-leetcode-problems|Leetcode Problems]]"
+  - 
+created_date: 2025-04-07
+link: "[[1744040981-150-neetcode-problems|Leetcode Problems]]"
 ---
 
 # Missing Number In Python

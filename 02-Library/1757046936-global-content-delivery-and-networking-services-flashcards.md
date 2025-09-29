@@ -23,7 +23,7 @@ created_date:
 - Describe the mechanism by which AWS Global Accelerator improves traffic routing for global users.;;It sends user traffic to the **closest AWS edge location** using **Anycast IP**, and from there, it routes the traffic directly to the application over the **private AWS global network**, bypassing the public internet for most of the path.
 <!--SR:!2025-11-02,41,290-->
 - Name three types of AWS resources that can be used as endpoints with AWS Global Accelerator.;;AWS Global Accelerator can work with **Elastic IP addresses, EC2 instances, Application Load Balancers (ALB), and Network Load Balancers (NLB)**, whether they are public or private.
-<!--SR:!2025-09-27,10,250-->
+<!--SR:!2025-10-24,25,250-->
 - How does AWS Global Accelerator handle regional application failures?;;AWS Global Accelerator performs **health checks** on your application endpoints. If an endpoint becomes unhealthy, it provides **automated failover to a healthy endpoint in less than one minute**.
 <!--SR:!2025-10-09,17,230-->
 - What is a key differentiating factor between AWS Global Accelerator and CloudFront regarding content caching?;;**CloudFront** is designed to **cache content** (both static and dynamic) at edge locations and serve it directly from there. In contrast, **Global Accelerator has no caching available**; it proxies packets from edge locations directly to the application in AWS regions.
@@ -35,7 +35,7 @@ created_date:
 - How does CloudFront contribute to the security of applications against DDoS attacks?;;CloudFront provides **automatic DDoS protection**, integrating with services like **AWS Shield** and Web Application Firewall (WAF).
 <!--SR:!2025-10-12,25,270-->
 - How does CloudFront securely connect to an Amazon S3 bucket used as an origin?;;CloudFront uses an **Origin Access Control (OAC)** to secure the connection to an S3 bucket, along with modifying the S3 bucket policy.
-<!--SR:!2025-09-27,5,230-->
+<!--SR:!2025-10-10,11,230-->
 - Why would an administrator use CloudFront cache invalidation?;;An administrator would use CloudFront cache invalidation to **force an immediate refresh** of cached content at the edge locations, ensuring that users receive updated content from the origin **without waiting for the cache's Time To Live (TTL) to expire**.
 <!--SR:!2025-11-27,63,310-->
 - How does CloudFront determine a user's country for geo-restriction purposes?;;CloudFront uses a **third-party Geo-IP database** to match the user's IP address to their country.
@@ -47,4 +47,4 @@ created_date:
 - When would you choose CloudFront over S3 Cross Region Replication for content distribution?;;You would choose **CloudFront** for distributing and caching **static content** that needs to be available globally with low latency. **S3 Cross Region Replication** is suitable for **dynamic content** that requires near real-time updates in a few specific regions.
 <!--SR:!2025-09-30,13,230-->
 - What broad types of application layer protocols do Global Accelerator and CloudFront typically optimize?;;**CloudFront** primarily optimizes performance for applications using **HTTP/HTTPS** protocols. **Global Accelerator** optimizes performance for a **wide range of applications over TCP or UDP**.
-<!--SR:!2025-09-28,11,250-->
+<!--SR:!2025-11-07,39,270-->

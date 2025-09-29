@@ -12,7 +12,7 @@ created_date: 2025-08-05
 ---
 # Monitoring and Auditing Quiz
 - You have an RDS DB instance that's configured to push its database logs to CloudWatch. You want to create a CloudWatch alarm if there's an `Error` found in the logs. How would you do that?;;Create a CloudWatch Logs Metric Filter that filter the logs for the keyword `Error`, then create a CloudWatch Alarm based on that metric filter.
-<!--SR:!2025-09-29,40,290-->
+<!--SR:!2026-03-09,161,310-->
 - You have an application hosted on a fleet of EC2 instances managed by an Auto Scaling Group that you configured its minimum capacity to 2. Also, you have created a CloudWatch Alarm that is configured to scale in your ASG when CPU Utilization is below 60%. Currently, your application runs on 2 EC2 instances and has low traffic and the CloudWatch Alarm is in the ALARM state. What will happen?;;The CloudWatch Alarm will remain in ALARM state but never decrease the number of EC2 instances in the ASG.
 <!--SR:!2025-10-19,55,310-->
 - How would you monitor your EC2 instance memory usage in CloudWatch?;;Use the Unified CloudWatch Agent to push memory usage as a custom metric to CloudWatch.
@@ -28,7 +28,7 @@ created_date: 2025-08-05
 - You are running a website on a fleet of EC2 instances with OS that has a known vulnerability on port 84. You want to continuously monitor your EC2 instances if they have port 84 exposed. How should you do this?;;Setup Config Rules.
 <!--SR:!2025-12-25,98,290-->
 - You would like to evaluate the compliance of your resource's configurations over time. Which AWS service will you choose?;;AWS Config.
-<!--SR:!2025-09-28,27,290-->
+<!--SR:!2026-01-18,111,310-->
 - Someone changed the configuration of a resource and made it non-compliant. Which AWS service is responsible for logging who made modifications to resources?;;AWS CloudTrail.
 <!--SR:!2026-01-01,105,310-->
 - You have enabled AWS Config to monitor Security Groups if there's unrestricted SSH access to any of your EC2 instances. Which AWS Config feature can you use to automatically re-configure your Security Groups to their correct state?;;AWS Config Remediations.

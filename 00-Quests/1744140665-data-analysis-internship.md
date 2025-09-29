@@ -30,7 +30,7 @@ Get a data analysis internship by the Q4 of 2025.
 - [[1744384647-excel|Learning Excel]]
 - [[1744153475-learning-sql|Learning SQL]]
 - [[1744296520-sql-practice-with-dummy-database-created-by-deepseek|SQL Practice Deepseek]]
-- [[1744040981-leetcode-problems|Leetcode Problems]]
+- [[1744040981-150-neetcode-problems|Leetcode Problems]]
 - [[1745527410-california-house-price-prediction|California House Price Prediction]]
 
 ## Resources

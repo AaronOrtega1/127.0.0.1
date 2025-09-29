@@ -1,11 +1,10 @@
 ---
-link: "[[1744040981-leetcode-problems|Leetcode Problems]]"
-aliases: 
+link: "[[1744040981-150-neetcode-problems|Leetcode Problems]]"
+aliases:
   - Number of Islands
 tags:
   - Knowledge
-created_date:
-  2025-07-01
+created_date: 2025-07-01
 ---
 # Number of Islands
 - Given an `m x n` 2D binary grid `grid` which represents a map of '`1`'s (land) and '`0`'s (water), return the number of islands.

@@ -12,7 +12,7 @@ created_date: 2025-07-31
 ---
 # Data and Analytics Quiz
 - You would like to have a database that is efficient at performing analytical queries on large sets of columnar data. You would like to connect to this Data Warehouse using a reporting and dashboard tool such as Amazon QuickSight. Which AWS technology do you recommend?;;Amazon Redshift.
-<!--SR:!2025-09-29,11,250-->
+<!--SR:!2025-11-07,39,270-->
 - You have a lot of log files stored in an S3 bucket that you want to perform a quick analysis, if possible Serverless, to filter the logs and find users that attempted to make an unauthorized action. Which AWS service allows you to do so?;;Amazon Athena.
 <!--SR:!2025-12-12,94,290-->
 - As a Solutions Architect, you have been instructed to prepare a disaster recovery plan for a Redshift cluster. What should you do?;;Enable Automated Snapshots, then configure you Redshift cluster to automatically copy snapshots to another AWS region.
@@ -24,13 +24,13 @@ created_date: 2025-07-31
 - An AWS service allows you to create, run, and monitor ETL (extract, transform, and load) jobs in a few clicks.;;AWS Glue.
 <!--SR:!2025-10-19,60,310-->
 - A company is using AWS to host its public websites and internal applications. Those different websites and applications generate a lot of logs and traces. There is a requirement to centrally store those logs and efficiently search and analyze those logs in real-time for detection of any errors and if there is a threat. Which AWS service can help them efficiently store and analyze logs?;;Amazon OpenSearch service.
-<!--SR:!2025-09-27,39,270-->
+<!--SR:!2025-10-19,20,250-->
 - ... makes it easy and cost-effective for data engineers and analysts to run applications built using open source big data frameworks such as Apache Spark, Hive, or Presto without having to operate or manage clusters.;;Amazon EMR.
 <!--SR:!2025-11-29,81,270-->
 - An e-commerce company has all its historical data such as orders, customers, revenues, and sales for the previous years hosted on a Redshift cluster. There is a requirement to generate some dashboards and reports indicating the revenues from the previous years and the total sales, so it will be easy to define the requirements for the next year. The DevOps team is assigned to find an AWS service that can help define those dashboards and have native integration with Redshift. Which AWS service is best suited?;;Amazon QuickSight.
 <!--SR:!2026-02-22,153,310-->
 - Which AWS Glue feature allows you to save and track the data that has already been processed during a previous run of a Glue ETL job?;;Glue Job Bookmarks.
-<!--SR:!2025-09-27,40,290-->
+<!--SR:!2026-03-08,160,310-->
 - You are a DevOps engineer in a machine learning company which 3 TB of JSON files stored in an S3 bucket. There’s a requirement to do some analytics on those files using Amazon Athena and you have been tasked to find a way to convert those files’ format from JSON to Apache Parquet. Which AWS service is best suited?;;AWS Glue.
 <!--SR:!2026-01-07,107,310-->
 - You have an on-premises application that is used together with an on-premises Apache Kafka to receive a stream of clickstream events from multiple websites. You have been tasked to migrate this application as soon as possible without any code changes. You decided to host the application on an EC2 instance. What is the best option you recommend to migrate Apache Kafka?;;Amazon MSK.

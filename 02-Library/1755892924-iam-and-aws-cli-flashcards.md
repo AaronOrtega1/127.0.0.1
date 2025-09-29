@@ -34,7 +34,7 @@ created_date: 2025-08-22
 - Name at least three configuration options for an AWS IAM password policy:;;You can set a **minimum password length,** require **specific character types** (e.g., uppercase, lowercase, numbers, non-alphanumeric characters), allow or disallow IAM users to **change their own passwords,** require users to **change passwords after a certain time** (password expiration), and **prevent password reuse.**
 <!--SR:!2025-11-02,46,290-->
 - List two types of Multi-Factor Authentication (MFA) devices supported by AWS:;;Two types include **virtual MFA devices** (like Google Authenticator or Authy) and **Universal 2nd Factor (U2F) Security Keys** (physical devices like YubiKey). Other options include hardware key fob MFA devices and special key fobs for AWS GovCloud.
-<!--SR:!2025-09-29,25,288-->
+<!--SR:!2026-01-10,103,308-->
 - What are two essential security tools available in IAM to help enforce the principle of least privilege?;;The **IAM Credentials Report** (account-level) provides the status of all user credentials, and the **IAM Access Advisor** (user-level) shows service permissions granted to a user and when those services were last accessed.
 <!--SR:!2025-10-22,30,250-->
 - What is the difference between an IAM user and an IAM role?;;An **IAM user** represents a **physical person** within your organization, while an **IAM role** is intended to be used by **AWS services** to perform actions on your behalf.
@@ -48,7 +48,7 @@ created_date: 2025-08-22
 - Can an IAM user belong to multiple groups?;;Yes, a user **can belong to multiple groups** within IAM.
 <!--SR:!2025-11-15,59,310-->
 - What is an "inline policy" in AWS IAM?;;An **inline policy** is an IAM policy that is **attached directly to a specific user** (or group or role), rather than being a standalone managed policy.
-<!--SR:!2025-09-28,20,250-->
+<!--SR:!2025-12-07,69,270-->
 - Is IAM (Identity Access Management) a global or regional AWS service?;;IAM is a **global service.**
 <!--SR:!2025-11-22,66,310-->
 

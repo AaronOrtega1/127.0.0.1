@@ -13,7 +13,7 @@ created_date:
 ---
 # Storage and Data Transfer Services Flashcards
 - What is a key differentiator of AWS DataSync regarding file attributes?;;AWS DataSync has the ability to **preserve file permissions and metadata**, including security, NFS POSIX, and SMB permissions, which is often a unique option for this requirement in exams.
-<!--SR:!2025-09-27,9,250-->
+<!--SR:!2025-10-31,32,270-->
 - What protocols does AWS DataSync support when connecting to on-premises servers, and when is an agent required?;;DataSync connects to on-premises servers using **NFS, SMB, or HDFS protocols**. An agent is required to run **on-premises or on other clouds** for this connection, but no agent is needed for AWS-to-AWS data transfers.
 <!--SR:!2025-10-08,15,210-->
 - Describe the scheduling capability of AWS DataSync.;;DataSync replication tasks are **not continuous** but are **scheduled** to run hourly, daily, or weekly, meaning there is a lag in synchronization.
@@ -37,7 +37,7 @@ created_date:
 - What is the core purpose of AWS Transfer Family, and what three protocols does it support?;;AWS Transfer Family allows users to **send data in and out of Amazon S3 or EFS using FTP protocols** without using S3 APIs or EFS NFS. It supports **FTP (unencrypted), FTPS (encrypted), and SFTP (encrypted)**.
 <!--SR:!2025-10-04,16,250-->
 - What is the main characteristic of Amazon FSx as a service?;;Amazon FSx enables the launch of **third-party high-performance file systems** on AWS as a fully managed service, similar to how RDS manages databases for relational databases.
-<!--SR:!2025-09-28,10,250-->
+<!--SR:!2025-11-03,35,270-->
 - What protocols does Amazon FSx for Windows File Server support, and what is a notable compatibility feature?;;FSx for Windows File Server supports the **SMB protocol** and Windows NTFS. A notable feature is that it can be **mounted on Linux EC2 instances**, despite its Windows-centric design.
 <!--SR:!2025-10-04,16,250-->
 - What is the primary use case for Amazon FSx for Lustre, and how does it integrate with Amazon S3?;;FSx for Lustre is designed for **High-Performance Computing (HPC), machine learning, and large-scale computing** workloads. It offers seamless integration with S3, allowing it to **read S3 as a file system** and write computation outputs back to S3.

@@ -19,11 +19,11 @@ created_date: 2025/06/04
 - You can use an AMI in N.Virginia Region `us-east-1` to launch an EC2 instance in any AWS Region.;;False, AMIs are built for specific AWS Regions.
 <!--SR:!2026-02-15,181,310-->
 - Which of the following EBS volume types can be used as boot volumes when you create EC2 instances?;;gp2, gp3, io1, io2.
-<!--SR:!2025-09-28,65,270-->
+<!--SR:!2026-06-01,245,290-->
 - What is EBS Multi-Attach?;;Attach the same EBS volume to multiple EC2 instances in the same AZ.
 <!--SR:!2026-01-26,151,270-->
 - You would like to encrypt an unencrypted EBS volume attached to your EC2 instance. What should you do?;;Create an EBS snapshot of you EBS volume. Copy the snapshot and tick the option to encrypt the copied snapshot. Then, use the encrypted snapshot to create a new EBS volume.
-<!--SR:!2025-09-29,70,270-->
+<!--SR:!2026-06-21,265,290-->
 - You have a fleet of EC2 instances distributes across AZs that process a large data set. What do you recommend to make the same data to be accessible as an NFS drive to all of your EC2 instances?;;Use EFS, that allows you to mount the same file system on EC2 instances in different AZs.
 <!--SR:!2026-01-15,133,270-->
 - You would like to have a high-performance local cache for your application hosted on an EC2 instance. You don't mind losing the cache upon the termination of your EC2 instance. Which storage mechanism do you recommend as a Solutions Architect?;;Instance Store, because it provides the best disk I/O performance.

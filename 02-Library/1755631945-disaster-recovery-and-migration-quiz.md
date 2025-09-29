@@ -28,7 +28,7 @@ created_date: 2025-08-19
 - A company is using VMware on its on-premises data center to manage its infrastructure. There is a requirement to extend their data center and infrastructure to AWS but keep using the technology stack they are using which is VMware. Which AWS service can they use?;;VMware Cloud on AWS.
 <!--SR:!2025-11-05,57,310-->
 - A company is using RDS for MySQL as their main database but, lately they have been facing issues in managing the database, performance issues, and the scalability. And they have decided to use Aurora for MySQL instead for better performance, less complexity and less administrative tasks required. What is the best way and most cost-effective way to migrate from RDS for MySQL to Aurora for MySQL?;;Create a snapshot from RDS for MySQL and restore it to Aurora for MySQL.
-<!--SR:!2025-09-29,26,290-->
+<!--SR:!2026-01-12,105,310-->
 - Which AWS service can you use to automate the backup across different AWS services such as RDS, DynamoDB, Aurora, and EFS file systems, and EBS volumes?;;AWS Backup.
 <!--SR:!2025-11-06,58,310-->
 

@@ -1,11 +1,10 @@
 ---
-link: "[[1744040981-leetcode-problems|Leetcode Problems]]"
-aliases: 
+link: "[[1744040981-150-neetcode-problems|Leetcode Problems]]"
+aliases:
   - Letter Combinations of a Phone Number
 tags:
   - Knowledge
-created_date:
-  2025-07-02
+created_date: 2025-07-02
 ---
 # Letter Combinations of a Phone Number
 - Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent. Return the answer in any order.
