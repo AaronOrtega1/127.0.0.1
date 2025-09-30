@@ -31,7 +31,7 @@ created_date:
 - What is the primary function of AWS Storage Gateway in a hybrid cloud architecture?;;AWS Storage Gateway acts as a **bridge between on-premises data and cloud data**, facilitating hybrid cloud solutions for disaster recovery, backups, cloud migration, and extending on-premises storage.
 <!--SR:!2025-11-24,61,310-->
 - Which protocols does the Amazon S3 File Gateway use to expose S3 buckets on-premises, and what is a key caching feature?;;The S3 File Gateway allows on-premises application servers to access S3 buckets using the **NFS or SMB protocol**. It **caches the most recently used data locally** for rapid access.
-<!--SR:!2025-09-30,8,230-->
+<!--SR:!2025-10-26,26,250-->
 - How does the AWS Storage Gateway's Volume Gateway store and back up data?;;The Volume Gateway provides **block storage using the iSCSI protocol**, with volumes backed up by **Amazon EBS snapshots stored in Amazon S3**.
 <!--SR:!2025-10-05,17,250-->
 - What is the core purpose of AWS Transfer Family, and what three protocols does it support?;;AWS Transfer Family allows users to **send data in and out of Amazon S3 or EFS using FTP protocols** without using S3 APIs or EFS NFS. It supports **FTP (unencrypted), FTPS (encrypted), and SFTP (encrypted)**.

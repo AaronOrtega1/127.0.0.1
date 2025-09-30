@@ -12,7 +12,7 @@ created_date: 2025-08-22
 ---
 # IAM and AWS CLI Flashcards
 - What is AWS CloudShell;;Is a **free-to-use terminal in the cloud** of AWS that allows you to issue commands.
-<!--SR:!2025-09-30,26,288-->
+<!--SR:!2026-01-11,103,308-->
 - In AWS CloudShell, what is the default region for API calls?;;The **default region** in CloudShell is the **region you are currently logged into.**
 <!--SR:!2025-10-30,50,308-->
 - What happens to files you create within your CloudShell environment if you restart your CloudShell session?;;All files you create within your CloudShell environment will **persist and stay** even if you restart your session.
@@ -20,7 +20,7 @@ created_date: 2025-08-22
 - What are the three different options to access AWS services?;;The three options are the **AWS Management Console** (web interface), the **AWS Command Line Interface (CLI)**, and the **AWS Software Development Kit (SDK)**.
 <!--SR:!2025-11-30,67,270-->
 - How are the AWS Management Console, CLI, and SDK typically protected for access?;;The  Management Console is protected by **username/password** (and potentially MFA). The CLI and SDK are protected by **access key.**
-<!--SR:!2025-09-30,22,250-->
+<!--SR:!2025-12-16,77,270-->
 - What is the primary difference in how you use the AWS CLI versus the AWS SDK?;;The **AWS CLI** is a tool you use to interact with AWS services via **commands typed in your command-line shell**, while the **AWS SDK** is a set of language-specific libraries that you **embed within your application code** to programmatically access and manage AWS services.
 <!--SR:!2025-11-26,65,288-->
 - What is the "least privilege principle" in AWS IAM?;;The least privilege principle means you **don't give more permissions than a user needs.** If a user only requires access to three services, you should only grant permissions for those specific services.

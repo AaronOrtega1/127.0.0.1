@@ -21,7 +21,7 @@ created_date:
 - What is a potential **scalability limitation** when using SSE-KMS for encryption?;;SSE-KMS API calls count towards **KMS quotas** (between 5,000 and 30,000 requests per second per region), which can be a thread limit for very high-throughput S3 buckets, though quotas can be increased.
 <!--SR:!2025-10-20,25,275-->
 - How are encryption keys handled for **SSE-C**?;;For SSE-C, keys are **customer-provided and managed outside of AWS**. Amazon S3 uses the key for server-side encryption but **never stores it**, discarding it after use.
-<!--SR:!2025-09-30,12,270-->
+<!--SR:!2025-11-14,45,290-->
 - What **protocol requirement** is mandatory when using SSE-C?;;When using SSE-C, you **must use HTTPS** and pass the encryption key as part of HTTP headers for every request.
 <!--SR:!2025-11-19,57,310-->
 - What is a key differentiator in **key management** for client-side encryption compared to server-side options?;;In client-side encryption, the **clients fully manage the keys and the entire encryption cycle**, performing encryption before uploading data to S3 and decryption after retrieving it outside of S3.
@@ -43,7 +43,7 @@ created_date:
 - Describe the characteristics of **Compliance Mode** for S3 Object Lock.;;In Compliance Mode, object versions **cannot be overwritten or deleted by any user, including the root user**. Additionally, retention modes and periods **cannot be changed or shortened**.
 <!--SR:!2025-10-05,17,250-->
 - Describe the characteristics of **Governance Mode** for S3 Object Lock.;;In Governance Mode, most users cannot alter object versions or lock settings, but **admin users with special IAM permissions** have the ability to modify retention settings or delete objects directly.
-<!--SR:!2025-09-30,12,230-->
+<!--SR:!2025-11-08,39,250-->
 - What is the purpose of an **S3 Object Lock Legal Hold** and how is it managed?;;A Legal Hold **protects an object indefinitely**, independent of any retention period. It can be placed or removed by users who possess the **S3 PutObjectLegalHold** **IAM permission**.
 <!--SR:!2025-11-08,47,290-->
 - What is the core functionality and key differentiator of **S3 Object Lambda**?;;S3 Object Lambda provides **dynamic data transformation** (e.g., redaction, conversion, resizing) of objects **just before retrieval** by an application, using S3 Access Points connected to Lambda functions to avoid duplicating data in multiple buckets.

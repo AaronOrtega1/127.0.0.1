@@ -45,6 +45,6 @@ created_date:
 - What is the main security advantage of using CloudFront VPC origins?;;The main security advantage of CloudFront VPC origins is that they allow CloudFront to deliver content from applications hosted in **private subnets within your VPC**, meaning the applications **do not need to be publicly exposed to the internet**.
 <!--SR:!2025-10-24,32,270-->
 - When would you choose CloudFront over S3 Cross Region Replication for content distribution?;;You would choose **CloudFront** for distributing and caching **static content** that needs to be available globally with low latency. **S3 Cross Region Replication** is suitable for **dynamic content** that requires near real-time updates in a few specific regions.
-<!--SR:!2025-09-30,13,230-->
+<!--SR:!2025-11-12,43,250-->
 - What broad types of application layer protocols do Global Accelerator and CloudFront typically optimize?;;**CloudFront** primarily optimizes performance for applications using **HTTP/HTTPS** protocols. **Global Accelerator** optimizes performance for a **wide range of applications over TCP or UDP**.
 <!--SR:!2025-11-07,39,270-->

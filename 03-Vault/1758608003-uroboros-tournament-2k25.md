@@ -4,11 +4,11 @@ aliases:
   - Uroboros Tournament 2k25
 tags:
   - Quests
-  - active
   - BJJ
   - nogi
   - grappling
   - MMA
+  - archived
 accepted: 2025-09-23
 deadline: 2025-09-28
 XP: 10

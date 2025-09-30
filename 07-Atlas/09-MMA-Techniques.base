@@ -1,0 +1,11 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.hasTag("technique")
+        - '!file.inFolder("06-Scrolls")'
+    order:
+      - file.name
+      - technique-type
+      - tags
