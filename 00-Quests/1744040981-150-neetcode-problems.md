@@ -12,7 +12,7 @@ accepted: 2025-04-07
 deadline: 2025-12-31
 XP: 25
 ---
-# Quest: LeetCode Problems
+# Quest: 150 NeetCode Problems
 ## Objective
 Learn data structures and different algorithms, using them to solve question frequently used in interviews.
 ## Tasks
@@ -20,36 +20,35 @@ Learn data structures and different algorithms, using them to solve question fre
 ## Problems
 ### Arrays & Hashing
 ```dataview
-table XP
+table difficulty, XP
 from [[]] and !"5 - Templates"
 where contains(tags, "arrays-hashing")
 sort file.name ASC
 ```
 ### Two Pointers
 ```dataview
-table XP
+table difficulty, XP
 from [[]] and !"5 - Templates"
 where contains(tags, "two-pointer")
 sort file.name ASC
 ```
 ### Sliding Window
 ```dataview
-table XP
+table difficulty, XP
 from [[]] and !"5 - Templates"
 where contains(tags, "sliding-window")
 sort file.name ASC
 ```
 ### Stack
 ```dataview
-table XP
+table difficulty, XP
 from [[]] and !"5 - Templates"
 where contains(tags, "stack")
 sort file.name ASC
 ```
 ### Binary Search
-
 ```dataview
-list
+table difficulty, XP
 from [[]] and !"5 - Templates"
 where contains(tags, "binary-search")
 ```

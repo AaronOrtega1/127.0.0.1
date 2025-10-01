@@ -12,7 +12,7 @@ techniques_practices:
   - Take Downs
 rounds_sparred: 1
 notes_to_self: This class was to review my fight in the uroboros tournament
-XP: 30
+XP: 10
 tags:
   - MMA
   - pending

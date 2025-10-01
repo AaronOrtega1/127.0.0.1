@@ -159,6 +159,46 @@
           }
         ]
       }
+    },
+    {
+      "id": "7238ba1f-9675-417c-b87e-bff9bdc7706e",
+      "name": "Algorithmic Grimoire Entry",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Algorithmic Grimoire Entry",
+        "id": "c2cbd802-58fc-45cc-a958-cdaa3e01f000",
+        "commands": [
+          {
+            "name": "algorithmNote",
+            "type": "UserScript",
+            "id": "1e102ae0-542a-4555-82f5-83812eb600db",
+            "path": "03-Vault/Scripts/algorithmNote.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "3d3a8185-9d7e-43dc-a83f-07b1daa6d5c5",
+      "name": "AWS Question",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": false,
+      "macro": {
+        "name": "AWS Question",
+        "id": "c69088a4-6eab-4a80-9a3d-29c64f23e17c",
+        "commands": [
+          {
+            "name": "awsQuestionNote",
+            "type": "UserScript",
+            "id": "eea009b7-e4ea-4fc7-bc46-f76cd2b6973e",
+            "path": "03-Vault/Scripts/awsQuestionNote.js",
+            "settings": {}
+          }
+        ]
+      }
     }
   ],
   "inputPrompt": "single-line",

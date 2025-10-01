@@ -42,7 +42,7 @@ created_date: 2025-08-22
 - Can IAM groups contain other IAM groups?;;No, IAM groups can **only contain users**, not other groups.
 <!--SR:!2025-10-18,40,308-->
 - Which specific AWS SDK is the AWS CLI built upon?;;The AWS CLI is built on the **AWS SDK for Python, name boto.**
-<!--SR:!2025-10-01,26,270-->
+<!--SR:!2026-01-07,98,290-->
 - What are access keys, and how should the be treated?;;Access keys are **credentials (like a secret password)** that allow you to access AWS programatically or via the CLI. They are **private to you** and **should never be shared** with others.
 <!--SR:!2025-11-23,67,310-->
 - Can an IAM user belong to multiple groups?;;Yes, a user **can belong to multiple groups** within IAM.

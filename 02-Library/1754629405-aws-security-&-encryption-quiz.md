@@ -46,7 +46,7 @@ created_date: 2025-08-07
 - You would like to analyze OS vulnerabilities from within EC2 instances. You need these analyses to occur weekly and provide you with concrete recommendations in case vulnerabilities are found. Which AWS service should you use?;;Amazon Inspector.
 <!--SR:!2025-10-05,24,230-->
 - What is the most suitable AWS service for storing RDS DB passwords which also provides you automatic rotation?;;AWS Secrets Manager.
-<!--SR:!2025-10-01,37,290-->
+<!--SR:!2026-01-16,107,290-->
 - Which AWS service allows you to centrally manage EC2 Security Groups and AWS Shield Advanced across all AWS accounts in your AWS Organization?;;AWS Firewall Manager.
 <!--SR:!2025-10-27,60,310-->
 - Which AWS service helps you protect your sensitive data stored in S3 buckets?;;Amazon Macie.

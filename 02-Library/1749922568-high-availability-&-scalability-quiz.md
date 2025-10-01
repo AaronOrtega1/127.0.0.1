@@ -46,7 +46,7 @@ created_date: 2025/06/14
 - You have an Auto Scaling Group fronted by an Application Load Balancer. You have configured the ASG to use ALB Health Checks, then one EC2 instance has just been reported unhealthy. What will happen to the EC2 instance?;;The ASG will terminate the EC2 instance, and then launch a new EC2 instance.
 <!--SR:!2026-04-26,236,330-->
 - Your boss asked you to scale your Auto Scaling Group based on the **number of requests per minute** your application makes to your database. What should you do?;;Create a CloudWatch custom metric then create a Cloud Watch Alarm on this Metric to scale your ASG.
-<!--SR:!2025-10-01,70,270-->
+<!--SR:!2026-04-08,189,270-->
 - An application is deployed with an Application Load Balancer and an Auto Scaling Group. Currently, you manually scale the ASG and you would like to define a Scaling Policy that will ensure the average number of connections to your EC2 instances is around 1000. Which Scaling Policy should you use?;;Target Tracking Policy.
 <!--SR:!2025-10-07,70,270-->
 - You have an ASG and a Network Load Balancer. The application on your ASG supports the HTTP protocol and is integrated with the Load Balancer health checks. You are currently using the TCP health checks. You would like to migrate to using HTTP health checks, what do you do?;;Migrate the health check to HTTP, because the NLB supports it as well as TCP and HTTPS.

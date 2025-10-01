@@ -9,6 +9,7 @@ tags:
   - arrays-hashing
 created_date: 2025-04-07
 XP: 5
+difficulty: easy
 ---
 # Two Sum In Python
 - Given an array of integers `nums` and an integer `target`, return the indices `i` and `j` such that `nums[i] + nums[j] == target` and `i != j`.

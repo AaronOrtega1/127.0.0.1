@@ -8,6 +8,7 @@ tags:
   - arrays-hashing
 created_date: 2025-09-30
 XP: 10
+difficulty: mid
 ---
 # Group Anagrams in Python
 - Given an array of strings `strs`, group all _anagrams_ together into sublists. You may return the output in **any order**.

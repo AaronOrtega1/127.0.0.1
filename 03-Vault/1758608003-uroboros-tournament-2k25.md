@@ -11,14 +11,14 @@ tags:
   - archived
 accepted: 2025-09-23
 deadline: 2025-09-28
-XP: 10
+XP: 20
 ---
 # Quest: Uroboros Tournament 2k25
 ## Objective
 Compete in the Uroboros tournament to test my skills against opponents with my same level of experience and in the range of my weight and to enjoy the experience of participating in a tournament.
 
 ## Tasks
-- [x] Assist to the tournament and compete. (XP +10)
+- [x] Assist to the tournament and compete. (XP +20)
 - [ ] Pass the first round. (XP +20)
 - [ ] Enter the podium. (XP +50)
 

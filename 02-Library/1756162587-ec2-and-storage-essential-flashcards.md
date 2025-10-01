@@ -53,7 +53,7 @@ created_date: 2025-08-25
 - What is a crucial step for **data integrity** when creating an AMI from a running EC2 instance?;;You must **stop the instance** before building the AMI.
 <!--SR:!2025-11-21,65,310-->
 - What are the **three primary methods** for connecting to Linux EC2 instances?;;**SSH utility** (Mac, Linux, Windows 10+), **Putty** (Windows, all versions), **EC2 Instance Connect** (browser-based).
-<!--SR:!2025-10-01,23,250-->
+<!--SR:!2025-11-29,59,250-->
 - What is the main advantage of using **EC2 Instance Connect** for SSH?;;It provides a **browser-based SSH** session and **does not require managing SSH keys** as it uploads a temporary key for you.
 <!--SR:!2025-11-10,54,310-->
 - What **port must be open** in the security group for **EC2 Instance Connect** to work?;;**Port 22 (SSH).**
@@ -87,7 +87,7 @@ created_date: 2025-08-25
 - What is preserved when an EC2 instance is **hibernated**?;;Then **in-memory state (RAM)** is preserved by dumping it to the root EBS volume.
 <!--SR:!2025-10-16,33,276-->
 - What are two crucial requirements for an EC2 instance to support **hibernation**?;;The **root EBS volume must be encrypted** and it **must have enough space to contain the RAM dump.**
-<!--SR:!2025-10-01,7,236-->
+<!--SR:!2025-10-25,24,256-->
 - What EC2 purchasing option offers the **highest cost savings** but is the **least reliable**?;;**Spot Instances**, offering up to **90% discounts**, but they can be reclaimed by AWS at any time.
 <!--SR:!2025-11-22,66,316-->
 - What is the **grace period** given before a **Spot Instance is reclaimed** when the spot price exceeds your maximum price?;;A **two-minute grace period**.

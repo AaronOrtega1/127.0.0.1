@@ -1,5 +1,5 @@
 ---
-link: "[[1744040981-150-neetcode-problems|Leetcode Problems]]"
+link: "[[1744040981-150-neetcode-problems|150 NeetCode Problems]]"
 aliases:
   - contains-duplicates-in-python
   - Contains Duplicates In Python
@@ -9,6 +9,7 @@ tags:
   - arrays-hashing
 created_date: 2025-04-07
 XP: 5
+difficulty: easy
 ---
 # Contains Duplicates In Python
 - Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.

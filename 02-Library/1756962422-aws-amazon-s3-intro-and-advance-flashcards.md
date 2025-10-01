@@ -43,7 +43,7 @@ created_date:
 - Which Amazon S3 Glacier storage class provides milliseconds retrieval?;;**Amazon S3 Glacier Instant Retrieval**.
 <!--SR:!2025-10-25,37,290-->
 - What is a key financial characteristic of the Amazon S3 Intelligent-Tiering storage class?;;It incurs a **small monthly monitoring fee**, but has **no retrieval charges**.
-<!--SR:!2025-10-01,9,230-->
+<!--SR:!2025-10-29,28,250-->
 - What are the two primary types of actions that can be configured in S3 Lifecycle rules?;;**Transition actions** (to move objects to another storage class) and **Expiration actions** (to delete objects).
 <!--SR:!2025-11-05,44,290-->
 - In an S3 Requester Pays bucket, what specific costs does the requester pay for?;;The **data download (networking) costs** associated with accessing the objects. The requester must also be **authenticated**.

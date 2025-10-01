@@ -1,7 +1,7 @@
 ---
 link: "[[1747853373-aws-certified-solution-architect-associate-2025|Aws Certified Solution Architect Associate 2025]]"
 aliases:
-  - Ec2 Placement Groups
+  - EC2 Placement Groups
 tags:
   - Knowledge
   - aws
@@ -23,7 +23,7 @@ created_date: 2025/05/27
 	- Use case:
 		- **Big Data Jobs**.
 		- **Applications that needs extremely low latency and high network throughput**.
-- Spread - Spread instances across underlying hardware (max 7 instances per group per AZ) - **critical applications**.
+- Spread - Spread instances across underlying hardware (max 7 instances per group per AZ) - **critical applications**. ^Spread
 	- ![[1748376519-ec2-placement-groups-1.webp]]
 	- Can span across AZ, reduces risk of simultaneous failure, EC2 instances are on different physical hardware, but we are limited to 7 instances per AZ per placement group.
 	- Use case:

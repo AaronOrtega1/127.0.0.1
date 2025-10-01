@@ -13,7 +13,7 @@ techniques_practices:
   - Finishes
 rounds_sparred: 1
 notes_to_self: Keep my arms tuck in to not expose them.
-XP: 35
+XP: 10
 tags:
   - MMA
 ---

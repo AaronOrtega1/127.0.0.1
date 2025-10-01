@@ -11,7 +11,7 @@ techniques_practices:
   - TwoVSTwoFight
 rounds_sparred: 9
 notes_to_self: placeholder
-XP: 25
+XP: 10
 tags:
   - MMA
 ---

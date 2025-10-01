@@ -9,7 +9,7 @@ techniques_practices:
   - "[[]]"
 rounds_sparred: 0
 notes_to_self: placeholder
-XP: 0
+XP: 10
 tags:
   - MMA
 ---

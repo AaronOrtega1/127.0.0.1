@@ -21,7 +21,7 @@ created_date:
 - Describe the functionality and conditions for **RDS Storage Auto Scaling**.;;With RDS Storage Auto Scaling enabled, RDS will **automatically scale the storage** for your database if the **free storage is less than 10%** of what's allocated, the low-storage condition last for **more than five minutes**, and **six hours** have passed since the last modification. A maximum storage threshold can be set.
 <!--SR:!2025-11-09,48,270-->
 - What is the primary purpose of **RDS Read Replicas**, and what consistency model do they use?;;Read Replicas help you **scale your reads**. They use **asynchronous replication**, meaning reads are **eventually consistent**. You can have up to **15** Read Replicas.
-<!--SR:!2025-10-01,9,230-->
+<!--SR:!2025-10-29,28,250-->
 - What is the primary purpose of **RDS Multi-AZ**, and what type of replication does it use?;;Multi-AZ is mainly used for **Disaster Recovery**. It uses **synchronous replication** to a standby instance in different AZ. It is **not used for scaling reads**.
 <!--SR:!2025-11-04,43,250-->
 - How does the failover time for Aurora compare to Multi-AZ on MySQL RDS?;;Failover in Aurora is **instantaneous**, typically less than **30 seconds on average**, which is much faster than Multi-AZ on MySQL RDS.

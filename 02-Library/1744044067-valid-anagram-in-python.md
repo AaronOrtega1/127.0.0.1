@@ -9,6 +9,7 @@ tags:
   - arrays-hashing
 created_date: 2025-04-07
 XP: 5
+difficulty: easy
 ---
 # Valid Anagram In Python
 - Given two strings `s` and `t`, return `true` if `t` is an **anagram** of `s`, and `false` otherwise.
