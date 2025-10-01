@@ -25,7 +25,8 @@ const character = {
   classes: [
     { tag: "aws", label: "AWS Sorcerer", folders: ["00-Quests", "03-Vault"] },
     { tag: "dataanalysis", label: "Data Alchemist", folders: ["00-Quests", "03-Vault"] },
-    { tag: "MMA", label: "MMA Fighter", folders: ["00-Quests", "03-Vault", "08-Training-Sessions"] }
+    { tag: "MMA", label: "MMA Fighter", folders: ["00-Quests", "03-Vault", "08-Training-Sessions"] },
+    { tag: "leetcode", label: "Code Strategist", folders: ["00-Quests", "03-Vault"] }
   ]
 };
 

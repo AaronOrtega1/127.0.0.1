@@ -8,6 +8,7 @@ tags:
   - leetcode
   - two-pointer
 created_date: 2025-04-07
+XP: 5
 ---
 # Valid Palindrome In Python
 - A phrase is a **palindrome** if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.

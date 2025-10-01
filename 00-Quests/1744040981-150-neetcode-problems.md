@@ -7,9 +7,10 @@ tags:
   - Quests
   - active
   - 4thQ25
+  - leetcode
 accepted: 2025-04-07
 deadline: 2025-12-31
-XP:
+XP: 25
 ---
 # Quest: LeetCode Problems
 ## Objective
@@ -19,27 +20,31 @@ Learn data structures and different algorithms, using them to solve question fre
 ## Problems
 ### Arrays & Hashing
 ```dataview
-list
+table XP
 from [[]] and !"5 - Templates"
 where contains(tags, "arrays-hashing")
+sort file.name ASC
 ```
 ### Two Pointers
 ```dataview
-list
+table XP
 from [[]] and !"5 - Templates"
 where contains(tags, "two-pointer")
+sort file.name ASC
 ```
 ### Sliding Window
 ```dataview
-list
+table XP
 from [[]] and !"5 - Templates"
 where contains(tags, "sliding-window")
+sort file.name ASC
 ```
 ### Stack
 ```dataview
-list
+table XP
 from [[]] and !"5 - Templates"
 where contains(tags, "stack")
+sort file.name ASC
 ```
 ### Binary Search
 
