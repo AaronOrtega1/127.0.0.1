@@ -10,6 +10,7 @@ tags:
 created_date: 2025-04-07
 XP: 5
 difficulty: easy
+solution_language: python
 ---
 # Contains Duplicates In Python
 - Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.

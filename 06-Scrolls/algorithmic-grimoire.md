@@ -13,6 +13,9 @@ solution_language:
 # {{cap_title}}
 ## The Challenge
 - 
+## Desired Outcome
+- **Input:** 
+- **Output:**
 ## The Approach
 - 
 ## The Incantation (Code)

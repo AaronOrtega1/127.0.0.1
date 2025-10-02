@@ -20,7 +20,7 @@ Learn data structures and different algorithms, using them to solve question fre
 ## Problems
 ### Arrays & Hashing
 ```dataview
-table difficulty, XP
+table difficulty, solution_language, XP
 from [[]] and !"5 - Templates"
 where contains(tags, "arrays-hashing")
 sort file.name ASC
