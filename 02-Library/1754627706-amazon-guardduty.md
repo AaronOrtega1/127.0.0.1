@@ -19,7 +19,7 @@ created_date:
 - Intelligent Threat discovery to protect your AWS Account.
 - Uses [[1745455093-types-of-machine-learning|Machine Learning]] discovery to protect your AWS account.
 - One click to enable (30 days trial), no need to install software.
-- Input data includes:
+- Input data includes: ^DataSources
 	- **[[1754422181-aws-cloudtrail|CloudTrail]] Event Logs** - unusual API calls, unauthorized deployments.
 		- **CloudTrail Management Events** - create [[1753149747-vpc-cheat-sheet|VPC]] subnet, create trail...
 		- **ClouTrail [[1751042472-s3-overview|S3]] Data Events** - get object, list objects, delete object,...

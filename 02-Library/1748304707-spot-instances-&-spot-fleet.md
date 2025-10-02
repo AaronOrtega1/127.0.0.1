@@ -9,6 +9,7 @@ tags:
   - aws
   - cloud
   - certificate
+  - EC2
 created_date: 2025/05/26
 ---
 # Spot Instances & Spot Fleet

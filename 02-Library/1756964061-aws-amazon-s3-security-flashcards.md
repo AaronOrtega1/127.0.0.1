@@ -47,7 +47,7 @@ created_date:
 - What is the purpose of an **S3 Object Lock Legal Hold** and how is it managed?;;A Legal Hold **protects an object indefinitely**, independent of any retention period. It can be placed or removed by users who possess the **S3 PutObjectLegalHold** **IAM permission**.
 <!--SR:!2025-11-08,47,290-->
 - What is the core functionality and key differentiator of **S3 Object Lambda**?;;S3 Object Lambda provides **dynamic data transformation** (e.g., redaction, conversion, resizing) of objects **just before retrieval** by an application, using S3 Access Points connected to Lambda functions to avoid duplicating data in multiple buckets.
-<!--SR:!2025-10-02,8,270-->
+<!--SR:!2025-11-02,31,290-->
 - What is the main use case for **S3 Pre-Signed URLs**?;;S3 Pre-Signed URLs are used to provide **temporary access** (for download or upload) to a **single, specific S3 object** to a user outside of AWS, inheriting the permissions of the URL generator, without making the object publicly accessible.
 <!--SR:!2025-11-26,63,310-->
 - What is the **maximum expiration time** for an S3 Pre-Signed URL generated via the CLI?;;When generated via the CLI, an S3 Pre-Signed URL can have an expiration of **up to 168 hours**.

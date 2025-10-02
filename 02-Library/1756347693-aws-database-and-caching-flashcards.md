@@ -17,7 +17,7 @@ created_date:
 - What are the key limitations when using AWS RDS instances as a managed service?;;You **cannot SSH into the RDS instances** because AWS manages the underlying EC2 instance.
 <!--SR:!2025-10-13,33,270-->
 - What are the typical default network ports for PostgreSQL, MySQL, and Aurora (PostgreSQL compatible / MySQL compatible) databases on RDS?;;**PostgreSQL - 5432**, **MySQL - 3306**, **Aurora (PostgreSQL compatible) - 5432**, **Aurora (MySQL compatible) - 3306**.
-<!--SR:!2025-10-02,24,270-->
+<!--SR:!2025-12-31,90,290-->
 - Describe the functionality and conditions for **RDS Storage Auto Scaling**.;;With RDS Storage Auto Scaling enabled, RDS will **automatically scale the storage** for your database if the **free storage is less than 10%** of what's allocated, the low-storage condition last for **more than five minutes**, and **six hours** have passed since the last modification. A maximum storage threshold can be set.
 <!--SR:!2025-11-09,48,270-->
 - What is the primary purpose of **RDS Read Replicas**, and what consistency model do they use?;;Read Replicas help you **scale your reads**. They use **asynchronous replication**, meaning reads are **eventually consistent**. You can have up to **15** Read Replicas.

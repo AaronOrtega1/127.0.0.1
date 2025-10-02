@@ -1,9 +1,13 @@
 ---
-link: "[[]]"
+link: "[[1747853373-aws-certified-solution-architect-associate-2025|AWS Certified Solution Architect Associate 2025]]"
 aliases: 
-  - Ec2 Instances Purchasing Options
+  - EC2 Instances Purchasing Options
 tags:
   - Knowledge
+  - aws
+  - cloud
+  - certificate
+  - EC2
 created_date:
   "2025/05/26"
 ---
@@ -21,7 +25,7 @@ created_date:
 	- Commitment to an amount of usage, long workload.
 - Spot Instances:
 	- Short workloads, cheap, can lose instances (less reliable).
-- Dedicated Hosts:
+- Dedicated Hosts: ^DedicatedHosts
 	- Book an entire physical server, control instance placement.
 - Dedicated Instances:
 	- No other customers will share your hardware.

@@ -32,7 +32,7 @@ created_date: 2025-08-07
 - What should you use to control access to your KMS CMKs?;;KMS Key Policies.
 <!--SR:!2025-10-05,41,290-->
 - You have a Lambda function used to process some data in the database. You would like to give your Lambda function access to the database password. Which of the following options is the most secure?;;Have it as an encrypted environment variable and decrypt it at runtime.
-<!--SR:!2025-10-02,38,290-->
+<!--SR:!2026-03-06,155,310-->
 - You have a secret value that you use for encryption purposes, and you want to store and track the values of this secret over time. Which AWS service should you use?;;SSM Parameter Store.
 <!--SR:!2026-01-25,121,290-->
 - Your user-facing website is a high-risk target for DDoS attacks and you would like to get 24/7 support in case they happen and AWS bill reimbursement for the incurred costs during the attack. What AWS service should you use?;;AWS Shield Advanced.
@@ -50,7 +50,7 @@ created_date: 2025-08-07
 - Which AWS service allows you to centrally manage EC2 Security Groups and AWS Shield Advanced across all AWS accounts in your AWS Organization?;;AWS Firewall Manager.
 <!--SR:!2025-10-27,60,310-->
 - Which AWS service helps you protect your sensitive data stored in S3 buckets?;;Amazon Macie.
-<!--SR:!2025-10-02,14,270-->
+<!--SR:!2025-11-25,54,290-->
 - An online-payment company is using AWS to host its infrastructure. The frontend is created using VueJS and is hosted on an S3 bucket and the backend is developed using PHP and is hosted on EC2 instances in an Auto Scaling Group. As their customers are worldwide, they use both CloudFront and Aurora Global database to implement multi-region deployments to provide the lowest latency and provide availability, and resiliency. A new feature required which gives customers the ability to store data encrypted on the database and this data must not be disclosed even by the company admins. The data should be encrypted on the client side and stored in an encrypted format. What do you recommend to implement this?;;Using Aurora Client-side Encryption and KMS Multi-region Keys.
 <!--SR:!2025-10-31,39,250-->
 - You have an S3 bucket that is encrypted with SSE-KMS. You have been tasked to replicate the objects to a target bucket in the same AWS region but with a different KMS Key. You have configured the S3 replication, the target bucket, and the target KMS key and it is still not working. What is missing to make the S3 replication work?;;You have to configure permissions for both Source KMS Key `kms:Decrypt` and Target KMS Key `kms:Encrypt` to be used by the S3 Replication Service.

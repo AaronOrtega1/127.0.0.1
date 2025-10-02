@@ -17,10 +17,13 @@ domain: Design Resilient Architectures
 **My Answer:**
 **Correct Answer:**
 ## Root Cause Analysis
+**Why This Was the Right Choice:**
 **Primary Issue:**
 ## Core Concepts Tested
 - [[]]
+
 **Key Keywords I Missed:**
+**Key Keywords I Identified Correctly:**
 - 
 ## Why the Correct Answer Works
 - 

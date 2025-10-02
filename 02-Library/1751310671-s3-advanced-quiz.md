@@ -13,7 +13,7 @@ created_date:
 ---
 # S3 Advanced Quiz
 - How can you be notified when there's an object uploaded to your S3 bucket?;;S3 Event Notifications.
-<!--SR:!2025-10-02,42,270-->
+<!--SR:!2026-03-07,156,290-->
 - You have an S3 bucket that has S3 Versioning enabled. This S3 bucket has a lot of objects, and you would like to remove old object versions to reduce costs. What's the best approach to automate the deletion of these old object versions?;;S3 Lifecycle Rules - Expiration Actions.
 <!--SR:!2025-11-11,94,290-->
 - How can you automate the transition of S3 objects between their different tiers?;;S3 Lifecycle Rules.

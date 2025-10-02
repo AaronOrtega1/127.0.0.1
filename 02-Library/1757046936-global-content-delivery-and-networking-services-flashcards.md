@@ -31,7 +31,7 @@ created_date:
 - For what types of use cases is AWS Global Accelerator particularly well-suited, especially when compared to CloudFront?;;Global Accelerator is a good fit for **non-HTTP use cases** like gaming, IoT, or Voice over IP, HTTP use cases requiring **static IP addresses globally**, or when you need **deterministic and fast regional failover**.
 <!--SR:!2025-10-28,36,270-->
 - What is the primary purpose of CloudFront?;;CloudFront is a Content Delivery Network (CDN) primarily used to **improve read performance** by **caching website content at various edge locations** globally, thereby reducing latency and improving the user experience.
-<!--SR:!2025-10-02,8,270-->
+<!--SR:!2025-11-01,30,290-->
 - How does CloudFront contribute to the security of applications against DDoS attacks?;;CloudFront provides **automatic DDoS protection**, integrating with services like **AWS Shield** and Web Application Firewall (WAF).
 <!--SR:!2025-10-12,25,270-->
 - How does CloudFront securely connect to an Amazon S3 bucket used as an origin?;;CloudFront uses an **Origin Access Control (OAC)** to secure the connection to an S3 bucket, along with modifying the S3 bucket policy.

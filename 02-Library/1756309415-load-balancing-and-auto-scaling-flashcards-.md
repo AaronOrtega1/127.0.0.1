@@ -49,7 +49,7 @@ created_date:
 - What is the **primary goal of an Auto Scaling Group (ASG)**?;;The goal of an ASG is to **scale out (add EC2 instances) to math an increased load** or to **scale in (remove EC2 instances) to match a decreased load**. It also replaces unhealthy instances.
 <!--SR:!2025-11-12,56,310-->
 - What three **capacity parameters** can be defined for an Auto Scaling Group (ASG)?;;An ASG allows you to set a **minimum capacity**, a **desired capacity**, and a **maximum capacity** for the number of EC2 instances running at any time.
-<!--SR:!2025-10-02,24,270-->
+<!--SR:!2025-12-30,89,290-->
 - What is the **default cooldown period** for an Auto Scaling Group (ASG) after a scaling activity?;;The default cooldown period is **five minutes (300 seconds)**. During this period, the ASG will not launch or terminate additional instances, allowing metrics to stabilize.
 <!--SR:!2025-10-03,23,250-->
 - Describe the two types of **scalability**:;;**Vertical scalability**: Involves **increasing the size of a single instance**. **Horizontal scalability (Elasticity)** Involves **increasing the number of instances or systems**, commonly used with distributed systems and Auto Scaling Groups.

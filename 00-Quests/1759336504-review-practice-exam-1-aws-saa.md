@@ -23,4 +23,5 @@ Review all the 65 questions of the first practice exam that I did for my prepara
 ```dataview
 table domain, status
 from "02-Library" and [[]]
+sort file.name asc
 ```
