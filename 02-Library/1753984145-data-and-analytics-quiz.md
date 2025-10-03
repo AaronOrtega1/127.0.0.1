@@ -20,7 +20,7 @@ created_date: 2025-07-31
 - Which feature in Redshift forces all COPY and UNLOAD traffic moving between your cluster and data repositories through your VPCs?;;Enhance VPC Routing.
 <!--SR:!2025-10-05,33,250-->
 - You are running a gaming website that is using DynamoDB as its data store. Users have been asking for a search feature to find other gamers by name, with partial matches if possible. Which AWS technology do you recommend to implement this feature?;;Amazon OpenSearch Service.
-<!--SR:!2025-10-03,46,290-->
+<!--SR:!2026-04-06,185,310-->
 - An AWS service allows you to create, run, and monitor ETL (extract, transform, and load) jobs in a few clicks.;;AWS Glue.
 <!--SR:!2025-10-19,60,310-->
 - A company is using AWS to host its public websites and internal applications. Those different websites and applications generate a lot of logs and traces. There is a requirement to centrally store those logs and efficiently search and analyze those logs in real-time for detection of any errors and if there is a threat. Which AWS service can help them efficiently store and analyze logs?;;Amazon OpenSearch service.

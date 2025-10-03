@@ -20,7 +20,7 @@ created_date: 2025-07-08
 - You have 3 different applications that you'd like to send them the same message. All 3 applications are using SQS. What is the best approach would you choose?;;Use SNS + SQS Fan Out Pattern.
 <!--SR:!2026-02-28,172,310-->
 - You have a Kinesis data stream with 6 shards provisioned. This data stream usually receiving 5 MB/s of data and sending out 8 MB/s. Occasionally, your traffic spikes up to 2x and you get a `ProvisionedThroughputExceeded` exception. What should you do to resolve the issue?;;Add more shards.
-<!--SR:!2025-10-03,64,310-->
+<!--SR:!2026-07-05,275,330-->
 - You have a website where you want to analyze clickstream data such as the sequence of clicks a user makes, the amount of time a user spends, and where the navigation begins and how it ends. You decided to use Amazon Kinesis, so you have configured the website to send these clickstream data all the way to a Kinesis data stream. While you checking the data sent to your Kinesis data stream, you found that the users' data is not ordered and the data for one individual user is spread across many shards. How would you fix this problem?;;For each record sent to Kinesis add a partition key that represents the identity of the user.
 <!--SR:!2026-06-23,266,330-->
 - You are running an application that produces a large amount of real-time data that you want to load into S3 and Redshift. Also, these data need to be transformed before being delivered to their destination. What is the best architecture would you choose?;;Kinesis Data Streams + Kinesis Data Firehose.

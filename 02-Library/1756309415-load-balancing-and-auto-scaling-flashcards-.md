@@ -31,7 +31,7 @@ created_date:
 - How do EC2 instances behind an Application Load Balancer (ALB) get the true client IP address?;;The application servers **do not directly see the client's IP**. The ALB performs **connection termination** and the talks to the EC2 instance using its own IP. The true client IP is inserted into the **X-Forwarder-For** header of the HTTP request. The port and protocol are similarly found in **X-Forwarder-Port** and **X-Forwarded-Proto** headers, respectively.
 <!--SR:!2025-11-10,54,310-->
 - What is the purpose of **Connection Draining (or Deregistration Delay)** in load balancers?;;Connection Draining (CLB) or Deregistration Delay (for ALB/NLB) gives instance **time to complete in-flight or active request** while the instance is being deregistered or marked unhealthy. During this period, the ELB **stops sending new requests** to the draining instance but allows existing connections to finish.
-<!--SR:!2025-10-03,25,270-->
+<!--SR:!2026-01-05,94,290-->
 - What is the **default duration** for Connection Draining/Deregistration Delay?;;The default duration is **300 seconds (five minutes)**. It can be configured between 1 and 3,600 seconds or disabled by setting it to zero.
 <!--SR:!2025-10-17,30,250-->
 - What is the **default cross-zone load balancing setting** for ALB, NLB, and CLB?;;Application Load Balancer (ALB): Enabled by default, Network Load Balancer (NLB): Disabled by default, Classic Load Balancer (CLB): Disabled by default.
@@ -51,7 +51,7 @@ created_date:
 - What three **capacity parameters** can be defined for an Auto Scaling Group (ASG)?;;An ASG allows you to set a **minimum capacity**, a **desired capacity**, and a **maximum capacity** for the number of EC2 instances running at any time.
 <!--SR:!2025-12-30,89,290-->
 - What is the **default cooldown period** for an Auto Scaling Group (ASG) after a scaling activity?;;The default cooldown period is **five minutes (300 seconds)**. During this period, the ASG will not launch or terminate additional instances, allowing metrics to stabilize.
-<!--SR:!2025-10-03,23,250-->
+<!--SR:!2025-10-16,13,230-->
 - Describe the two types of **scalability**:;;**Vertical scalability**: Involves **increasing the size of a single instance**. **Horizontal scalability (Elasticity)** Involves **increasing the number of instances or systems**, commonly used with distributed systems and Auto Scaling Groups.
 <!--SR:!2025-11-20,64,310-->
 

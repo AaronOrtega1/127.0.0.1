@@ -36,7 +36,7 @@ created_date: 2025-08-02
 - Amazon Polly allows you to turn text into speech. It has two important features. First is … which allows you to customize the pronunciation of words (e.g., “Amazon EC2” will be “Amazon Elastic Compute Cloud”). The second is … which allows you to emphasize words, including breathing sounds, whispering, and more.;;Pronunciation Lexicons, Speech Synthesis Markup Language (SSML).
 <!--SR:!2025-11-29,66,230-->
 - A medical company is in the process of implementing a solution to detect, extract, and analyze information from unstructured medical text like doctors’ notes, clinical trial reports, and radiology reports. Those documents are uploaded and stored on S3 buckets. According to the company’s regulations, the solution must be designed and implemented to keep patients’ privacy by identifying Protected Health Information (PHI) so the solution will be eligible with HIPAA. Which AWS service should you use?;;Amazon Comprehend Medical.
-<!--SR:!2025-10-03,39,270-->
+<!--SR:!2026-02-27,147,290-->
 - 
 
 

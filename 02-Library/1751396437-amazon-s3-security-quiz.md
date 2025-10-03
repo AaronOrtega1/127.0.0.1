@@ -26,7 +26,7 @@ created_date: 2025-07-01
 - You are looking to provide temporary URLs to a growing list of federated users to allow them to perform a file upload on your S3 bucket to a specific location. What should you use?;;S3 Pre-Signed URL.
 <!--SR:!2026-02-27,177,310-->
 - For compliance reasons, your company has a policy mandate that database backups must be retained for 4 years. It shouldn't be possible to erase them. What do you recommend?;;Glacier Vaults with Vault Lock Policies.
-<!--SR:!2025-10-03,30,190-->
+<!--SR:!2025-12-24,82,210-->
 - You would like all your files in an S3 bucket to be encrypted by default. What is the optimal way of achieving this?;;Do nothing, Amazon S3 automatically encrypt new objects using Server-Side Encryption with S3-Managed Keys (SSE-S3).
 <!--SR:!2025-12-31,128,290-->
 - You have enabled versioning and want to be extra careful when it comes to deleting files on an S3 bucket. What should you enable to prevent accidental permanent deletions?;;Enable MFA Delete.
