@@ -27,15 +27,6 @@ tags:
 ## Mistakes & Learnings
 - 
 
-## XP Awarded
-- **Striking:** +20 XP
-- **Grappling:** +30 XP  
-- **Conditioning:** +15 XP
-- **Total XP Earned:** {{xp-earned}}
-
 ---
 
 *"The fighter has been spent in the fight. The warrior spends himself completely."*
-
-
-

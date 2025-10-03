@@ -1,0 +1,49 @@
+---
+link: "[[1758607062-mma|MMA]]"
+session_date: 2025-10-02
+session_focus:
+  - Striking
+  - Boxing
+  - Kickboxing
+session_rating: 8
+techniques_practices:
+  - Medium Kicks
+  - Low Kicks
+  - Punches
+  - Sparring
+rounds_sparred: 5
+notes_to_self: Practice my footwork and defense in boxing
+XP: 10
+tags:
+  - MMA
+---
+# Training Session: [[2025-10-02]]
+## Techniques & Drills
+### Technical Focus
+- Today was sparring day, each day that we have striking sparring I see how much I'm lacking in this area, I've seen improvement but not in my striking.
+
+### Live Training/Sparring
+- **Notes:** Sparred with my teammates. The primary lesson was the critical importance of a tight guard. Esteban capitalized on my high guard with two clean body shots, highlighting a major defensive gap.
+
+## Key Insights
+- My guard was static and high, leaving my body exposed. Tucking the elbows it's the foundation of a 360-degree defense.
+
+- I cannot build an attack because I am constantly shelling up from incoming strikes. By improving my defense (slipping, parrying, footwork), I will create the safe, off-angle positions from which to launch my own punches.
+
+- My feet were planted, making me an easy target. Good footwork is the first line of defense (creating distance, changing angles) and the key to a powerful offense (generating power, closing distance safely).
+
+## Mistakes & Learnings
+- Consistently flaring elbows, creating a "gate" for body shots.
+	- **Learning:** Practice guard drills with a focus on keeping elbows glued to my ribs, even when moving and punching.
+- A purely reactive, defensive mindset. Waiting to be hit instead of controlling the range and tempo.
+	- **Learning:** I need to develop a "go-to" tool. This could be a simple jab to control distance, or a level change (fake a takedown) to disrupt my partner's rhythm. I must give them something to think about.
+- Lack of a defined personal style, leading to discomfort and hesitation.
+
+### Action Plan for Next Sparring Session.
+- **Pre-Sparring Drill:** Shadowbox with something tucked under my elbow to ensure it stays inside the enforce a tight guard.
+- **Primary Sparring Goal:** For the next sparring session, my goal is to keep my elbows tucked and focus on making a strong defense.
+- **Homework:** Watch 1-2 technical boxing videos on fundamental defense and practice these movements for 10 minutes daily in front of a mirror. 
+
+---
+
+*"The fighter has been spent in the fight. The warrior spends himself completely."*
