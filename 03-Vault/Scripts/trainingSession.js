@@ -3,12 +3,19 @@ module.exports = async (params) => {
 
   const title = "Training Session"
 
+  // Obtener la fecha y hora actual
+  const now = new Date();
+  const year = now.getFullYear(); // Año (4 dígitos)
+  const month = String(now.getMonth() + 1).padStart(2, "0"); // Mes (2 dígitos)
+  const day = String(now.getDate()).padStart(2, "0"); // Día (2 dígitos)
+  const date = `${year}-${month}-${day}`; // Formato año-mes-día
+
   // Generar el ID de la nota
   let noteID;
   if (title) {
     // Reemplazar espacios con guiones y convertir a minúsculas
     const formattedTitle = title.replace(/ /g, "-").toLowerCase();
-    noteID = `${Math.floor(Date.now() / 1000)}-${formattedTitle}`;
+    noteID = `${Math.floor(Date.now() / 1000)}-${formattedTitle}-${date}`;// put date here "YYYY-MM-DD"
   } else {
     // Generar un sufijo aleatorio de 4 letras mayúsculas
     let suffix = "";
@@ -28,13 +35,6 @@ module.exports = async (params) => {
   try {
     // Leer el contenido del template
     const templateContent = await app.vault.adapter.read(templatePath);
-
-    // Obtener la fecha y hora actual
-    const now = new Date();
-    const year = now.getFullYear(); // Año (4 dígitos)
-    const month = String(now.getMonth() + 1).padStart(2, "0"); // Mes (2 dígitos)
-    const day = String(now.getDate()).padStart(2, "0"); // Día (2 dígitos)
-    const date = `${year}-${month}-${day}`; // Formato año-mes-día
 
     // Reemplazar placeholders en el template
     const finalContent = templateContent

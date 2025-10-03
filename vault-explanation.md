@@ -18,8 +18,10 @@ tags: []
 - 04-Forge
   - Workshop where fleeting thoughts are reforged into weapons (permanent notes).
 - 05-Codex
-  - Chronicle of daily life and training arc (journal, reflections).
+  - Chronicle of daily life (journal, reflections).
 - 06-Scrolls
   - Ritual templates and incantations (note blueprints).
 - 07-Atlas
   - Maps, trackers, and databases to chart progress (XP, streaks, dashboards).
+- 08-Training-Sessions
+	- Log of my training arc (MMA training sessions).

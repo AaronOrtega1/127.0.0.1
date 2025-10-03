@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("08-Training-Sessions")
+    order:
+      - file.name
+      - session_focus
+      - techniques_practices
+      - notes_to_self
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: techniques_practices
+        direction: DESC
+    columnSize:
+      file.name: 336
+      note.session_focus: 284
+      note.techniques_practices: 470

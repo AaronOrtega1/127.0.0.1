@@ -8,7 +8,7 @@ tags:
   - nogi
   - grappling
   - MMA
-  - archived
+  - completed
 accepted: 2025-09-23
 deadline: 2025-09-28
 XP: 20
