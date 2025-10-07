@@ -1,7 +1,7 @@
 ---
 link: "[[1744299820-personal|Personal]]"
 aliases:
-  - Graduacion Diciembre 2025
+  - Graduación Diciembre 2025
 tags:
   - Quests
   - active
@@ -16,24 +16,54 @@ XP:
 2. Padre
 3. Nancy
 4. Diego
+	1. Arena (+1 de Diego)
+5. Abuelita
+6. *Esme*
+	1. Ale (+1 de Esme)
+7. *Pato*
+8. *Gibbie*
+9. *Frida*
+10. *Gabo*
+11. *Rafa*
+12. *Alan*
+13. *Paquebrio*
+14. *Henry*
+15. *Ian*
+16. *Pedrito*
+17. *Lorenza*
+18. *Ale*
+19. *Joss*
+20. *Mafer*
+21. *Nats*
+22. Yo **(GRADUADO)**
+
+## mesas
+### mesa 1
+1. Madre
+2. Padre
+3. Nancy
+4. Diego
+	1. Arena (+1 de Diego)
 5. Abuelita
 6. Esme
+	1. Ale (+1 de Esme)
 7. Pato
 8. Gibbie
 9. Frida
-10. Lorenza
-11. Gabo
-12. Rafa
-13. Alan
-14. Paquebrio
-15. Henry
-16. Ian
-17. Ale
-18. Pedrito
-19. Joss
-20. Mafer
-21. Nats
-22. Pollo
+10. Yo **(GRADUADO)**
+### mesa 2
+1. Gabo
+2. Rafa
+3. Alan
+4. Paquebrio
+5. Henry
+6. Ian
+7. Pedrito
+8. Lorenza
+9. Ale
+10. Joss
+11. Mafer
+12. Nats
 
 ### Meses pagados
 - [x] 1
@@ -41,14 +71,30 @@ XP:
 - [x] 3
 - [x] 4
 - [x] 5
-- [ ] 6
+- [x] 6
 - [ ] 7
 - [ ] 8
 - [ ] 9
 - [ ] 10
 - [ ] 11
-## Cantidad = 29,700
-## Depositado = 13,500
-mío 1,350
-padre **resto**
-## Falta = 16,200
+
+```dataviewjs
+const ticket_cost = 1350
+const total = ticket_cost*24
+const paid = 16200
+let missing = total - paid
+let html = `
+<div class="character-sheet">
+	<div class="character-header">
+		<div class="character-info">
+			<p><strong>Total: $</strong>${total}</p>
+			<p><strong>Paid: $</strong>${paid}</p>
+			<p><strong>Paid Guest: #</strong>${paid/ticket_cost}</p>
+			<p><strong>Missing: $</strong>${missing}</p>
+			<p><strong>Missing Guest: #</strong>${missing/ticket_cost}</p>
+		</div>
+	</div>
+</div>
+`;
+dv.container.innerHTML = html;
+```

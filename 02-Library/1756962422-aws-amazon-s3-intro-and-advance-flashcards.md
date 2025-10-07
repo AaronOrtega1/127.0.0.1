@@ -49,7 +49,7 @@ created_date:
 - In an S3 Requester Pays bucket, what specific costs does the requester pay for?;;The **data download (networking) costs** associated with accessing the objects. The requester must also be **authenticated**.
 <!--SR:!2025-10-26,38,290-->
 - What are the key characteristics of the S3 Express One Zone storage class?;;It offers **high performance** for a **single Availability Zone** and stores objects in a special **directory bucket**. It provides about **10 times the performance** of S3 Standard with **50% lower cost**.
-<!--SR:!2025-10-04,12,230-->
+<!--SR:!2025-11-03,28,230-->
 - What is a primary use case for S3 Batch Operations?;;To perform **bulk operations** on existing S3 objects, such as **encrypting all unencrypted objects** in a bucket.
 <!--SR:!2025-11-27,64,310-->
 

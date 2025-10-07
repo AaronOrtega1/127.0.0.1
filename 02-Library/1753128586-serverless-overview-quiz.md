@@ -22,7 +22,7 @@ created_date: 2025-07-21
 - You have developed a mobile application that uses DynamoDB as its datastore. You want to automate sending welcome emails to new users after they sign up. What is the most efficient way to achieve this?;;Enable DynamoDB Streams and configure it to invoke a Lambda function to send emails.
 <!--SR:!2026-01-06,110,290-->
 - To create a serverless API, you should integrate Amazon API Gateway with...;;AWS Lambda.
-<!--SR:!2025-10-06,56,310-->
+<!--SR:!2026-06-03,240,330-->
 - When you are using an Edge-Optimized API Gateway, your API Gateway lives in CloudFront Edge Locations across all AWS Regions.;;False, API requests are routed to the nearest CloudFront Edge Location which improves latency. The API Gateway still lives in one AWS Region.
 <!--SR:!2025-10-16,64,312-->
 - You are running an application in production that is leveraging DynamoDB as its datastore and is experiencing smooth sustained usage. There is a need to make the application run in development mode as well, where it will experience the unpredictable volume of requests. What is the most cost-effective solution that you recommend?;;Use **Provisioned Capacity Mode with Auto Scaling enabled for production** and use **On-Demand Capacity Mode for development.**
@@ -40,7 +40,7 @@ created_date: 2025-07-21
 - A website is currently in the development process and it is going to be hosted on AWS. There is a requirement to store user sessions for users logged in to the website with an automatic expiry and deletion of expired user sessions. Which of the following AWS services are best suited for this use case?;;Store users sessions in a DynamoDB table and enable TTL.
 <!--SR:!2026-01-31,130,290-->
 - You have a mobile application and would like to give your users access to their own personal space in the S3 bucket. How do you achieve that?;;Use Amazon Cognito Identity Federation.
-<!--SR:!2025-10-04,45,250-->
+<!--SR:!2026-01-27,113,250-->
 - You are developing a new web and mobile application that will be hosted on AWS and currently, you are working on developing the login and signup page. The application backend is serverless and you are using Lambda, DynamoDB, and API Gateway. Which of the following is the best and easiest approach to configure the authentication for your backend?;;Use Cognito User Pools.
 <!--SR:!2025-12-19,98,252-->
 - You are running a mobile application where you want each registered user to upload/download images to/from his own folder in the S3 bucket. Also, you want to give your users to sign-up and sign in using their social media accounts (e.g., Facebook). Which AWS service should you choose?;;Amazon Cognito.

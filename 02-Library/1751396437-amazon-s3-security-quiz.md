@@ -22,7 +22,7 @@ created_date: 2025-07-01
 - An e-commerce company has its customers and orders data stored in an S3 bucket. The company’s CEO wants to generate a report to show the list of customers and the revenue for each customer. Customer data stored in files on the S3 bucket has sensitive information that we don’t want to expose in the report. How do you recommend the report can be created without exposing sensitive information?;;Use S3 Object Lambda to chnge the objects before they are retrieved by the report generator application.
 <!--SR:!2026-02-17,165,310-->
 - You suspect that some of your employees try to access files in an S3 bucket that they don't have access to. How can you verify this is indeed the case without them noticing?;;Enable S3 Access Logs and analyze them using Athena.
-<!--SR:!2025-10-06,33,270-->
+<!--SR:!2025-10-23,17,250-->
 - You are looking to provide temporary URLs to a growing list of federated users to allow them to perform a file upload on your S3 bucket to a specific location. What should you use?;;S3 Pre-Signed URL.
 <!--SR:!2026-02-27,177,310-->
 - For compliance reasons, your company has a policy mandate that database backups must be retained for 4 years. It shouldn't be possible to erase them. What do you recommend?;;Glacier Vaults with Vault Lock Policies.

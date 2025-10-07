@@ -18,7 +18,7 @@ created_date: 2025-07-31
 - As a Solutions Architect, you have been instructed to prepare a disaster recovery plan for a Redshift cluster. What should you do?;;Enable Automated Snapshots, then configure you Redshift cluster to automatically copy snapshots to another AWS region.
 <!--SR:!2025-10-25,33,250-->
 - Which feature in Redshift forces all COPY and UNLOAD traffic moving between your cluster and data repositories through your VPCs?;;Enhance VPC Routing.
-<!--SR:!2025-10-05,33,250-->
+<!--SR:!2025-10-24,18,230-->
 - You are running a gaming website that is using DynamoDB as its data store. Users have been asking for a search feature to find other gamers by name, with partial matches if possible. Which AWS technology do you recommend to implement this feature?;;Amazon OpenSearch Service.
 <!--SR:!2026-04-06,185,310-->
 - An AWS service allows you to create, run, and monitor ETL (extract, transform, and load) jobs in a few clicks.;;AWS Glue.

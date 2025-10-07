@@ -27,7 +27,7 @@ created_date:
 - How do **Alias records** differ from CNAME records regarding the Zone Apex?;;Unlike CNAMEs, **Alias records can be used for the Zone Apex** (e.g., mydomain.com can point to an alias resource).
 <!--SR:!2025-10-23,35,270-->
 - What is a key difference in **TTL management** between Alias records and other record types in Route 53?;;With Alias records, you **cannot set the TTL; it is set automatically by Route 53**. TTL is mandatory for all other record types.
-<!--SR:!2025-10-04,17,250-->
+<!--SR:!2025-12-04,59,270-->
 - What is a **cost difference** for queries between Alias records and other Route 53 records?;;**Alias records are free of charge for queries**.
 <!--SR:!2025-11-07,46,290-->
 - What specific type of target can an **Alias record** point to that a CNAME cannot directly represent?;;Alias records allow you to point a hostname to a **specific AWS Resource** (e.g., Elastic Load Balancers, CloudFront Distributions, S3 Websites). They cannot, however, target EC2 DNS names.

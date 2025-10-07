@@ -41,7 +41,7 @@ created_date:
 - What is the **evaluation order** between S3 bucket policies and default encryption settings?;;**Bucket policies are always evaluated before default encryption settings**, which allows them to preemptively force specific encryption methods like SSE-KMS or SSE-C, overriding the default.
 <!--SR:!2025-11-03,42,290-->
 - Describe the characteristics of **Compliance Mode** for S3 Object Lock.;;In Compliance Mode, object versions **cannot be overwritten or deleted by any user, including the root user**. Additionally, retention modes and periods **cannot be changed or shortened**.
-<!--SR:!2025-10-05,17,250-->
+<!--SR:!2025-10-15,9,230-->
 - Describe the characteristics of **Governance Mode** for S3 Object Lock.;;In Governance Mode, most users cannot alter object versions or lock settings, but **admin users with special IAM permissions** have the ability to modify retention settings or delete objects directly.
 <!--SR:!2025-11-08,39,250-->
 - What is the purpose of an **S3 Object Lock Legal Hold** and how is it managed?;;A Legal Hold **protects an object indefinitely**, independent of any retention period. It can be placed or removed by users who possess the **S3 PutObjectLegalHold** **IAM permission**.

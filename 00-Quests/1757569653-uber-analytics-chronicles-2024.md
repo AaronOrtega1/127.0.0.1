@@ -20,13 +20,25 @@ Preprocess the [Uber](https://www.kaggle.com/datasets/yashdevladdha/uber-ride-an
 	- [x] Preprocess the data. (XP +5)
 	- [x] Create staging table in PostgreSQL DB. (XP +5)
 	- [x] Populate PostgreSQL table with data analysis ready data. (XP +5)
-- [ ] Create star schema from staging table.
-	- [ ] Define fact and dimension tables. (XP +5)
-	- [ ] Create each table in SQL. (XP +5)
-	- [ ] Populate each new table from staging. (XP +5)
+- [x] Create star schema from staging table.
+	- [x] Define fact and dimension tables. (XP +5)
+	- [x] Create each table in SQL. (XP +5)
+	- [x] Populate each new table from staging. (XP +5)
 - [ ] Define what information is important to display to client (XP +20)
+	- [ ] Total Bookings
+	- [ ] Completion Rate
+	- [ ] Cancellation Rate
+	- [ ] Average Customer Rating
+	- [ ] Revenue & Average Booking Value
+	- [ ] Most Popular Vehicle Type
+	- [ ] Customer vs Driver cancellation over time.
+	- [ ] Top cancellation reasons
+	- [ ] Rides by hour/day of week
+	- [ ] Monthly booking trends
+	- [ ] Bookings by vehicle type
 	- [ ] 
 - [ ] Create Power BI dashboard. (XP +25)
+- [ ] Create DB star schema in Draw io to put it in the README. (XP +10)
 - [ ] Finish README. (XP +5)
 - [ ] Add it to my CV. (XP +5)
 

@@ -37,7 +37,7 @@ created_date:
 - Which ElastiCache technology supports Multi-AZ with auto-failover and read replicas, and what unique use case can it facilitate with Sorted Sets?;; **Redis** supports Multi-AZ with auto-failover and read replicas. It can facilitate **real-time gaming leaderboards** using its **Sorted Sets** feature.
 <!--SR:!2025-11-12,56,310-->
 - How is **at-rest encryption** managed for RDS and Aurora databases, especially for existing unencrypted databases?;;At-rest encryption using KMS is defined at **launch time**. To encrypt an **already existing unencrypted database**, you must **take a database snapshot** and then **restore the snapshot as an encrypted database**.
-<!--SR:!2025-10-06,19,270-->
+<!--SR:!2025-11-26,51,270-->
 - What is the typical replication lag for Aurora Global Database secondary regions, and what is the Recovery Time Objective (RTO) for promoting another region for disaster recovery?;;The replication lag for secondary read-only regions should be **less than one second**. The RTO for promoting another region for disaster recovery is **less than one minute**.
 <!--SR:!2025-10-31,39,250-->
 - What is the purpose of **Babelfish for Aurora PostgreSQL**?;;Babelfish allows **Amazon Aurora PostgreSQL to understand commands (T-SQL)** that are target for **Microsoft SQL Server**, enabling applications written for SQL Server to migrate Aurora PostgreSQL with little to no code changes.

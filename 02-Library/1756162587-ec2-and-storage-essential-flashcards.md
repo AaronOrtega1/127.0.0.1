@@ -67,7 +67,7 @@ created_date: 2025-08-25
 - How can you migrate an **EBS volume across different AZ**?;;You must **take a snapshot** of the EBS volume and then **restore that snapshot in the desired AZ.**
 <!--SR:!2025-11-16,60,310-->
 - What is the purpose of the **EBS Snapshot Archive tier**, and what is its main characteristic?;;It allows moving snapshots to a **cheaper storage tier (up to 75% savings),** but **restoring from it takes 24-72 hours.**
-<!--SR:!2025-10-04,26,270-->
+<!--SR:!2026-01-12,98,290-->
 - What is **Fast Snapshot Restore (FSR)** and its main drawback?;;FSR forces a **full initialization of a snapshot** to eliminate latency on first use, but it **cost a lot of money.**
 <!--SR:!2025-10-20,39,296-->
 - If an EBS volume is encrypted, what else is automatically encrypted?;;All **data at rest, data in flight** (between instance and volume), all **snapshots**, and all **volumes created from those snapshots** are encrypted.
@@ -77,7 +77,7 @@ created_date: 2025-08-25
 - What is the **default behavior for the root EBS volume** when its associated EC2 instance is terminated?;;By default, the **root EBS volume is deleted** along with the instance.
 <!--SR:!2025-11-15,59,316-->
 - Which **EBS volume types** can be used as **boot volumes**?;;Only **gp2, gp3, io1, io2.**
-<!--SR:!2025-10-06,26,276-->
+<!--SR:!2025-12-14,69,276-->
 - What is the key difference in **IOPS management between gp2 and gp3 EBS volumes**?;;For **gp2**, IOPS are **linked to the disk size**; for **gp3**, IOPS and throughput can be **increased independently** from the disk size.
 <!--SR:!2025-12-10,72,276-->
 - For what use case are **io1/io2 EBS volumes** primarily designed?;;**Mission-critical, low-latency, high-throughput workloads**, especially **sensitive database workloads** needing sustained IOPS performance.

@@ -30,7 +30,7 @@ created_date: 2025-08-07
 - You have created a Customer-managed CMK in KMS that you use to encrypt both S3 buckets and EBS snapshots. Your company policy mandates that your encryption keys be rotated every 6 months. What should you do?;;Re-configure your KMS CMK and enable Automatic Key Rotation, and configure the Retention Period with 180 days.
 <!--SR:!2025-10-14,46,290-->
 - What should you use to control access to your KMS CMKs?;;KMS Key Policies.
-<!--SR:!2025-10-05,41,290-->
+<!--SR:!2025-10-28,22,270-->
 - You have a Lambda function used to process some data in the database. You would like to give your Lambda function access to the database password. Which of the following options is the most secure?;;Have it as an encrypted environment variable and decrypt it at runtime.
 <!--SR:!2026-03-06,155,310-->
 - You have a secret value that you use for encryption purposes, and you want to store and track the values of this secret over time. Which AWS service should you use?;;SSM Parameter Store.
@@ -44,7 +44,7 @@ created_date: 2025-08-07
 - You have a website hosted on a fleet of EC2 instances fronted by an Application Load Balancer. What should you use to protect your website from common web application attacks (e.g., SQL Injection)?;;AWS WAF.
 <!--SR:!2025-11-02,65,310-->
 - You would like to analyze OS vulnerabilities from within EC2 instances. You need these analyses to occur weekly and provide you with concrete recommendations in case vulnerabilities are found. Which AWS service should you use?;;Amazon Inspector.
-<!--SR:!2025-10-05,24,230-->
+<!--SR:!2025-10-17,11,210-->
 - What is the most suitable AWS service for storing RDS DB passwords which also provides you automatic rotation?;;AWS Secrets Manager.
 <!--SR:!2026-01-16,107,290-->
 - Which AWS service allows you to centrally manage EC2 Security Groups and AWS Shield Advanced across all AWS accounts in your AWS Organization?;;AWS Firewall Manager.

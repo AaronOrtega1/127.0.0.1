@@ -33,13 +33,13 @@ created_date:
 - Which protocols does the Amazon S3 File Gateway use to expose S3 buckets on-premises, and what is a key caching feature?;;The S3 File Gateway allows on-premises application servers to access S3 buckets using the **NFS or SMB protocol**. It **caches the most recently used data locally** for rapid access.
 <!--SR:!2025-10-26,26,250-->
 - How does the AWS Storage Gateway's Volume Gateway store and back up data?;;The Volume Gateway provides **block storage using the iSCSI protocol**, with volumes backed up by **Amazon EBS snapshots stored in Amazon S3**.
-<!--SR:!2025-10-05,17,250-->
+<!--SR:!2025-12-06,61,270-->
 - What is the core purpose of AWS Transfer Family, and what three protocols does it support?;;AWS Transfer Family allows users to **send data in and out of Amazon S3 or EFS using FTP protocols** without using S3 APIs or EFS NFS. It supports **FTP (unencrypted), FTPS (encrypted), and SFTP (encrypted)**.
-<!--SR:!2025-10-04,16,250-->
+<!--SR:!2025-12-03,58,270-->
 - What is the main characteristic of Amazon FSx as a service?;;Amazon FSx enables the launch of **third-party high-performance file systems** on AWS as a fully managed service, similar to how RDS manages databases for relational databases.
 <!--SR:!2025-11-03,35,270-->
 - What protocols does Amazon FSx for Windows File Server support, and what is a notable compatibility feature?;;FSx for Windows File Server supports the **SMB protocol** and Windows NTFS. A notable feature is that it can be **mounted on Linux EC2 instances**, despite its Windows-centric design.
-<!--SR:!2025-10-04,16,250-->
+<!--SR:!2025-12-02,57,270-->
 - What is the primary use case for Amazon FSx for Lustre, and how does it integrate with Amazon S3?;;FSx for Lustre is designed for **High-Performance Computing (HPC), machine learning, and large-scale computing** workloads. It offers seamless integration with S3, allowing it to **read S3 as a file system** and write computation outputs back to S3.
 <!--SR:!2025-10-19,31,270-->
 - Differentiate between "scratch" and "persistent" file systems in Amazon FSx for Lustre regarding data durability.;;**Scratch file systems** provide temporary storage, and **data is not replicated**, meaning it can be lost on server failure. **Persistent file systems** are for long-term storage, with **data replicated within the same Availability Zone** to transparently replace files in minutes upon server failure.

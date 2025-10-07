@@ -15,7 +15,7 @@ created_date:
 - What is the default and maximum message retention period for an Amazon SQS Standard queue?;; Default: 4 days. Maximum: 14 days.
 <!--SR:!2025-10-16,17,230-->
 - What is the maximum message size for a single message sent to an Amazon SQS queue?;; Less than 256 KB.
-<!--SR:!2025-10-05,13,230-->
+<!--SR:!2025-11-15,40,250-->
 - What is the acceptable range for Amazon SQS Long Polling wait times, and what is its benefit?;; Between 1 second and 20 seconds. It reduces API calls and latency.
 <!--SR:!2025-11-04,33,250-->
 - What is the default message visibility timeout in Amazon SQS, and what is its maximum configurable value?;; Default: 30 seconds. Maximum: 12 hours.
