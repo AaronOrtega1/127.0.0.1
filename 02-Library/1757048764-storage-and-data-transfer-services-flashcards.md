@@ -15,7 +15,7 @@ created_date:
 - What is a key differentiator of AWS DataSync regarding file attributes?;;AWS DataSync has the ability to **preserve file permissions and metadata**, including security, NFS POSIX, and SMB permissions, which is often a unique option for this requirement in exams.
 <!--SR:!2025-10-31,32,270-->
 - What protocols does AWS DataSync support when connecting to on-premises servers, and when is an agent required?;;DataSync connects to on-premises servers using **NFS, SMB, or HDFS protocols**. An agent is required to run **on-premises or on other clouds** for this connection, but no agent is needed for AWS-to-AWS data transfers.
-<!--SR:!2025-10-08,15,210-->
+<!--SR:!2025-11-22,45,230-->
 - Describe the scheduling capability of AWS DataSync.;;DataSync replication tasks are **not continuous** but are **scheduled** to run hourly, daily, or weekly, meaning there is a lag in synchronization.
 <!--SR:!2025-11-06,45,290-->
 - What is the maximum data transfer speed for a single AWS DataSync agent, and can this be limited?;;One DataSync agent can transfer up to **10 gigabits of data per second**. Bandwidth limits can be set to avoid maxing out your network.
@@ -47,7 +47,7 @@ created_date:
 - Which protocols does Amazon FSx for NetApp ONTAP support, and what unique data optimization feature does it offer compared to OpenZFS?;;FSx for NetApp ONTAP supports **NFS, SMB, and iSCSI protocols**. It offers **data de-duplication** (finding duplicates of files) in addition to compression, which FSx for OpenZFS does not.
 <!--SR:!2025-10-15,27,290-->
 - What is the primary protocol supported by Amazon FSx for OpenZFS, and does it support data de-duplication?;;Amazon FSx for OpenZFS is compatible **only with the NFS protocol**. While it supports snapshots and compression, it **does not support data de-duplication**.
-<!--SR:!2025-10-07,19,250-->
+<!--SR:!2025-12-11,65,270-->
 
 
 

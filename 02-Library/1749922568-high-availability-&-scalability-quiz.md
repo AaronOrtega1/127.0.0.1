@@ -48,7 +48,7 @@ created_date: 2025/06/14
 - Your boss asked you to scale your Auto Scaling Group based on the **number of requests per minute** your application makes to your database. What should you do?;;Create a CloudWatch custom metric then create a Cloud Watch Alarm on this Metric to scale your ASG.
 <!--SR:!2026-04-08,189,270-->
 - An application is deployed with an Application Load Balancer and an Auto Scaling Group. Currently, you manually scale the ASG and you would like to define a Scaling Policy that will ensure the average number of connections to your EC2 instances is around 1000. Which Scaling Policy should you use?;;Target Tracking Policy.
-<!--SR:!2025-10-07,70,270-->
+<!--SR:!2026-06-26,262,290-->
 - You have an ASG and a Network Load Balancer. The application on your ASG supports the HTTP protocol and is integrated with the Load Balancer health checks. You are currently using the TCP health checks. You would like to migrate to using HTTP health checks, what do you do?;;Migrate the health check to HTTP, because the NLB supports it as well as TCP and HTTPS.
 <!--SR:!2026-05-01,240,330-->
 - You have a website hosted in EC2 instances in an Auto Scaling Group fronted by an Application Load Balancer. Currently, the website is served over HTTP, and you have been tasked to configure it to use HTTPS. You have created a certificate in ACM and attached it to the Application Load Balancer. What you can do to force users to access the website using HTTPS instead of HTTP?;;Configure the ALB to redirect HTTP to HTTPS.

@@ -17,7 +17,7 @@ created_date:
 - Explain the fundamental difference between Unicast IP and Anycast IP.;;With **Unicast IP**, one server holds one IP address, and clients are routed to that specific server. With **Anycast IP**, all servers hold the **same IP address**, and clients are routed to the **nearest** one.
 <!--SR:!2025-10-27,35,270-->
 - What core IP addressing concept does AWS Global Accelerator leverage to route traffic?;;AWS Global Accelerator leverages the **Anycast IP** concept to route traffic.
-<!--SR:!2025-10-08,16,230-->
+<!--SR:!2025-11-30,53,250-->
 - How many static IP addresses does AWS Global Accelerator provide for an application, and are they global or regional?;;AWS Global Accelerator provides **two static Anycast IP addresses** that are **global** for your application.
 <!--SR:!2025-10-11,19,250-->
 - Describe the mechanism by which AWS Global Accelerator improves traffic routing for global users.;;It sends user traffic to the **closest AWS edge location** using **Anycast IP**, and from there, it routes the traffic directly to the application over the **private AWS global network**, bypassing the public internet for most of the path.

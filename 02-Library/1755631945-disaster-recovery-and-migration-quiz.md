@@ -20,7 +20,7 @@ created_date: 2025-08-19
 - You want to make a Disaster Recovery plan where you have a scaled-down version of your system up and running, and when a disaster happens, it scales up quickly. Which DR strategy should you choose?;;Warm Standby.
 <!--SR:!2025-10-26,24,230-->
 - You have an on-premises Oracle database that you want to migrate to AWS, specifically to Amazon Aurora. How would you do the migration?;;Use AWS Schema Conversion Tool (AWS SCT) to convert the database schema then use AWS Database Migration Service (AWS DMS) to migrate the data.
-<!--SR:!2025-10-08,34,270-->
+<!--SR:!2026-01-08,92,270-->
 - You are running many resources in AWS such as EC2 instances, EBS volumes, DynamoDB tables... You want an easy way to manage backups across all these AWS services from a single place. Which AWS offering makes this process easy?;;AWS Backup.
 <!--SR:!2025-10-24,31,290-->
 - A company planning to migrate its existing websites, applications, servers, virtual machines, and data to AWS. They want to do a lift-and-shift migration with minimum downtime and reduced costs. Which AWS service can help in this scenario?;;AWS Application Migration Service.

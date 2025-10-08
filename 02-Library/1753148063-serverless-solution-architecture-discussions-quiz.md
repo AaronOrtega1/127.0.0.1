@@ -14,7 +14,7 @@ created_date: 2025-07-21
 - A startup company plans to run its application on AWS. As a solutions architect, the company hired you to design and implement a fully Serverless REST API. Which technology stack do you recommend?;;API Gateway + AWS Lambda.
 <!--SR:!2025-10-13,61,310-->
 - The following AWS service doesn't have an out of the box caching feature;;Lambda.
-<!--SR:!2025-10-08,20,268-->
+<!--SR:!2025-12-20,73,288-->
 - You have a lot of static files stored in an S3 bucket that you want to distribute globally to your users. Which AWS service should you use?;;Amazon CloudFront.
 <!--SR:!2026-03-03,166,328-->
 - You have created a DynamoDB table in `ap-northeast-1` and would like to make it available in `eu-west-1`, so you decided to create a DynamoDB Global Table. What needs to be enabled first before you create a DynamoDB Global Table?;;DynamoDB Streams, since it makes DynamoDB able to get a changelog and use that changelog to replicate data across replica tables in other AWS Regions.

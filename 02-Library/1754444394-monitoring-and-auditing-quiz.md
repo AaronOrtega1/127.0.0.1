@@ -16,7 +16,7 @@ created_date: 2025-08-05
 - You have an application hosted on a fleet of EC2 instances managed by an Auto Scaling Group that you configured its minimum capacity to 2. Also, you have created a CloudWatch Alarm that is configured to scale in your ASG when CPU Utilization is below 60%. Currently, your application runs on 2 EC2 instances and has low traffic and the CloudWatch Alarm is in the ALARM state. What will happen?;;The CloudWatch Alarm will remain in ALARM state but never decrease the number of EC2 instances in the ASG.
 <!--SR:!2025-10-19,55,310-->
 - How would you monitor your EC2 instance memory usage in CloudWatch?;;Use the Unified CloudWatch Agent to push memory usage as a custom metric to CloudWatch.
-<!--SR:!2025-10-07,46,290-->
+<!--SR:!2026-04-10,185,310-->
 - You have made a configuration change and would like to evaluate the impact of it on the performance of your application. Which AWS service should you use?;;Amazon CloudWatch.
 <!--SR:!2025-10-23,59,310-->
 - Someone has terminated an EC2 instance in your AWS account last week, which was hosting a critical database that contains sensitive data. Which AWS service helps you find who did that and when?;;AWS CloudTrail.
@@ -38,7 +38,7 @@ created_date: 2025-08-05
 - … is a CloudWatch feature that allows you to send CloudWatch metrics in near real-time to S3 bucket (through Kinesis Data Firehose) and 3rd party destinations (e.g., Splunk, Datadog, …);;CloudWatch Metric Stream.
 <!--SR:!2025-10-11,46,290-->
 - A DevOps engineer is working for a company and managing its infrastructure and resources on AWS. There was a sudden spike in traffic for the main application for the company which was not normal in this period of the year. The application is hosted on a couple of EC2 instances in private subnets and is fronted by an Application Load Balancer in a public subnet. To detect if this is normal traffic or an attack, the DevOps engineer enabled the VPC Flow Logs for the subnets and stored those logs in CloudWatch Log Group. The DevOps wants to analyze those logs and find out the top IP addresses making requests against the website to check if there is an attack. Which of the following can help the DevOps engineer to analyze those logs?;;CloudWatch Contributor Insights.
-<!--SR:!2025-10-08,16,250-->
+<!--SR:!2025-10-16,8,230-->
 - A company is developing a Serverless application on AWS using Lambda, DynamoDB, and Cognito. A junior developer joined a few weeks ago and accidentally deleted one of the DynamoDB tables in the dev AWS account which contained important data. The CTO asks you to prevent this from happening again and there must be a notification system to monitor if there is an attempt to make such deletion actions for the DynamoDB tables. What would you do?;;Assign developers to a certain IAM group which prevents deletion of DynamoDB tables. Configure EventBridge to capture any `DeleteTable` API calls through CloudTrail and send a notification using SNS.
 <!--SR:!2025-10-28,49,250-->
 - A company has a running Serverless application on AWS which uses EventBridge as an inter-communication channel between different services within the application. There is a requirement to use the events in the prod environment in the dev environment to make some tests. The tests will be done every 6 months, so the events need to be stored and used later on. What is the most efficient and cost-effective way to store EventBridge events and use them later?;;Use EventBridge Archive and Replay feature.

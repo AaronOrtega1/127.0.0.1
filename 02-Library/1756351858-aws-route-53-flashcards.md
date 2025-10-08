@@ -23,7 +23,7 @@ created_date:
 - What is the primary purpose of an **AAAA record** in Route 53?;;An AAAA record is used to **map a hostname into an IPv6 address**.
 <!--SR:!2025-10-11,24,270-->
 - What is a key **restriction for CNAME records** in Route 53 regarding the domain namespace?;;You **cannot create CNAME records for the top node of a DNS namespace, also known as the Zone Apex** (e.g., example.com).
-<!--SR:!2025-10-07,20,250-->
+<!--SR:!2025-12-13,67,270-->
 - How do **Alias records** differ from CNAME records regarding the Zone Apex?;;Unlike CNAMEs, **Alias records can be used for the Zone Apex** (e.g., mydomain.com can point to an alias resource).
 <!--SR:!2025-10-23,35,270-->
 - What is a key difference in **TTL management** between Alias records and other record types in Route 53?;;With Alias records, you **cannot set the TTL; it is set automatically by Route 53**. TTL is mandatory for all other record types.

@@ -35,7 +35,7 @@ created_date:
 - What is a **critical warning** regarding the configuration of S3 Access Logs?;;**Never set the logging bucket to be the same as the bucket you are monitoring**, as this will create an infinite logging loop, causing exponential bucket growth and significant costs.
 <!--SR:!2025-11-02,40,270-->
 - What is the primary benefit and key differentiator of **S3 Access Points**?;;S3 Access Points **simplify security management and scale access** to S3 buckets by allowing the creation of multiple access points, each with its own access point policy, thereby offloading complex security management from a single bucket policy.
-<!--SR:!2025-10-07,19,250-->
+<!--SR:!2025-11-24,48,250-->
 - How do you privately access an S3 Access Point configured with a **VPC origin**?;;To access an S3 Access Point with a VPC origin privately, you must create a **VPC endpoint**, and its policy must explicitly allow access to both the target S3 buckets and the access points.
 <!--SR:!2025-10-25,29,250-->
 - What is the **evaluation order** between S3 bucket policies and default encryption settings?;;**Bucket policies are always evaluated before default encryption settings**, which allows them to preemptively force specific encryption methods like SSE-KMS or SSE-C, overriding the default.
