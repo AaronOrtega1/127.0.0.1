@@ -26,13 +26,16 @@ const character = {
     { tag: "aws", label: "AWS Sorcerer", folders: ["00-Quests", "03-Vault"] },
     { tag: "dataanalysis", label: "Data Alchemist", folders: ["00-Quests", "03-Vault"] },
     { tag: "MMA", label: "MMA Fighter", folders: ["00-Quests", "03-Vault", "08-Training-Sessions"] },
-    { tag: "leetcode", label: "Code Strategist", folders: ["00-Quests", "03-Vault"] }
+    { tag: ["leetcode", "DSA"], label: "Code Strategist", folders: ["00-Quests", "03-Vault"] }
   ]
 };
 
 // === HELPERS ===
 function getXP(tag, folders) {
   let totalXP = 0;
+  
+  // Normalize tag to always be an array
+  const tagsToCheck = Array.isArray(tag) ? tag : [tag];
   
   // Iterate through all folders
   for (const folder of folders) {
@@ -42,7 +45,11 @@ function getXP(tag, folders) {
       const normalized = Array.isArray(tags)
         ? tags.map(t => t.toString().replace(/^#/, "").toLowerCase())
         : [String(tags).replace(/^#/, "").toLowerCase()];
-      return normalized.includes(tag.toLowerCase());
+      
+      // Check if any of the tags we're looking for exists in the page's tags
+      return tagsToCheck.some(tagToFind => 
+        normalized.includes(tagToFind.toLowerCase())
+      );
     });
 
     for (const p of filtered) {
