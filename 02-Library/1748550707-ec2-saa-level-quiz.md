@@ -20,4 +20,4 @@ created_date: 2025/05/29
 - Elastic Network Interface (ENI) can be attached to EC2 instances in another AZ.;;False.
 <!--SR:!2026-04-17,240,330-->
 - EC2 Instance Root Volume must be and Instance Store volume;;False.
-<!--SR:!2025-10-09,49,250-->
+<!--SR:!2026-03-29,171,270-->

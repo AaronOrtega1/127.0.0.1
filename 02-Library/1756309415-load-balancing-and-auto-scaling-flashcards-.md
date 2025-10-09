@@ -45,7 +45,7 @@ created_date:
 - What is **Server Name Indication (SNI)** and what problem does it solve?;;SNI is a protocol that requires the client to **indicate the hostname of the target server in the initial SSL handshake**. It solves the problem of **how to load multiple SSL certificates onto one web server** (or load balancer) to serve multiple websites from a single endpoint, allowing the server to know which certificate to load.
 <!--SR:!2025-12-05,60,250-->
 - Which load balancer **support SNI** for multiple SSL certificates, and which do not?;;**Support SNI**: ALB and NLB. **Do not support SNI**: CLB, it can only support one SSL certificate per load balancer.
-<!--SR:!2025-10-09,28,270-->
+<!--SR:!2025-12-24,76,270-->
 - What is the **primary goal of an Auto Scaling Group (ASG)**?;;The goal of an ASG is to **scale out (add EC2 instances) to math an increased load** or to **scale in (remove EC2 instances) to match a decreased load**. It also replaces unhealthy instances.
 <!--SR:!2025-11-12,56,310-->
 - What three **capacity parameters** can be defined for an Auto Scaling Group (ASG)?;;An ASG allows you to set a **minimum capacity**, a **desired capacity**, and a **maximum capacity** for the number of EC2 instances running at any time.

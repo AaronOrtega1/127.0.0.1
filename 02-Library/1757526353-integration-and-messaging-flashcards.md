@@ -23,7 +23,7 @@ created_date:
 - What are the ordering and delivery guarantees for Amazon SQS Standard queues?;; Best-effort ordering and at-least-once delivery.
 <!--SR:!2025-10-19,23,250-->
 - How does Amazon SQS FIFO guarantee message ordering and support exactly-once send?;; Ordering by Message Group ID and exactly-once send using deduplication IDs or content-based deduplication within a 5-minute window.
-<!--SR:!2025-10-09,10,190-->
+<!--SR:!2025-10-28,19,190-->
 - What are the throughput limits for Amazon SQS FIFO queues?;; 300 messages per second without batching, or 3,000 messages per second with batching.
 <!--SR:!2025-10-15,16,230-->
 - What is the maximum number of subscribers per topic and topics per account for Amazon SNS?;; Up to 12.5 million subscribers per topic and up to 100,000 topics per account.

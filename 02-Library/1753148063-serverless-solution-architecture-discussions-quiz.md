@@ -24,7 +24,7 @@ created_date: 2025-07-21
 - You would like to create an architecture for a micro-services application whose sole purpose is to encode videos stored in an S3 bucket and store the encoded videos back into an S3 bucket. You would like to make this micro-services application reliable and has the ability to retry upon failures. Each video may take over 25 minutes to be processed. The services used in the architecture should be asynchronous and should have the capability to be stopped for a day and resume the next day from the videos that haven't been encoded yet. Which of the following AWS services would you recommend in this scenario?;;Amazon SQS + Amazon EC2.
 <!--SR:!2026-01-24,136,308-->
 - You are running a photo-sharing website where your images are downloaded from all over the world. Every month you publish a master pack of beautiful mountain images that are over 15 GB in size. The content is currently hosted on an Elastic File System (EFS) file system and distributed by an Application Load Balancer and a set of EC2 instances. Each month, you are experiencing very high traffic which increases the load on your EC2 instances and increases network costs. What do you recommend to reduce EC2 load and network costs without refactoring your website?;;Create a CloudFront Distribution.
-<!--SR:!2025-10-09,21,270-->
+<!--SR:!2025-12-28,80,290-->
 - An AWS service allows you to capture gigabytes of data per second in real-time and deliver these data to multiple consuming applications, with a replay feature.;;Kinesis Data Streams.
 <!--SR:!2025-10-21,25,288-->
 

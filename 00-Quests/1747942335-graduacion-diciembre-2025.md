@@ -82,7 +82,9 @@ XP:
 const ticket_cost = 1350
 const total = ticket_cost*24
 const paid = 16200
-let missing = total - paid
+const contribution = 5000
+let missingWithContribution = total - paid - contribution
+let missingReal = total - paid
 let html = `
 <div class="character-sheet">
 	<div class="character-header">
@@ -90,8 +92,10 @@ let html = `
 			<p><strong>Total: $</strong>${total}</p>
 			<p><strong>Paid: $</strong>${paid}</p>
 			<p><strong>Paid Guest: #</strong>${paid/ticket_cost}</p>
-			<p><strong>Missing: $</strong>${missing}</p>
-			<p><strong>Missing Guest: #</strong>${missing/ticket_cost}</p>
+			<p><strong>Contribution: $</strong>${contribution}</p>
+			<p><strong>Missing With Contribution: $</strong>${missingWithContribution}</p>
+			<p><strong>Missing: $</strong>${missingReal}</p>
+			<p><strong>Missing Guest: #</strong>${missingReal/ticket_cost}</p>
 		</div>
 	</div>
 </div>

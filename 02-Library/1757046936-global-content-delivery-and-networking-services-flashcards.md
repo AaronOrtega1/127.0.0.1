@@ -25,7 +25,7 @@ created_date:
 - Name three types of AWS resources that can be used as endpoints with AWS Global Accelerator.;;AWS Global Accelerator can work with **Elastic IP addresses, EC2 instances, Application Load Balancers (ALB), and Network Load Balancers (NLB)**, whether they are public or private.
 <!--SR:!2025-10-24,25,250-->
 - How does AWS Global Accelerator handle regional application failures?;;AWS Global Accelerator performs **health checks** on your application endpoints. If an endpoint becomes unhealthy, it provides **automated failover to a healthy endpoint in less than one minute**.
-<!--SR:!2025-10-09,17,230-->
+<!--SR:!2025-12-03,55,250-->
 - What is a key differentiating factor between AWS Global Accelerator and CloudFront regarding content caching?;;**CloudFront** is designed to **cache content** (both static and dynamic) at edge locations and serve it directly from there. In contrast, **Global Accelerator has no caching available**; it proxies packets from edge locations directly to the application in AWS regions.
 <!--SR:!2025-11-05,44,290-->
 - For what types of use cases is AWS Global Accelerator particularly well-suited, especially when compared to CloudFront?;;Global Accelerator is a good fit for **non-HTTP use cases** like gaming, IoT, or Voice over IP, HTTP use cases requiring **static IP addresses globally**, or when you need **deterministic and fast regional failover**.

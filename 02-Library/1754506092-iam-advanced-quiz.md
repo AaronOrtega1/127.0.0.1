@@ -17,7 +17,7 @@ created_date:
 - ![[1754506092-iam-advanced-quiz.webp]];;You should change the resource to `arn:aws:s3:::static-files-bucket-xxx/*` because this is and object-level permission.
 <!--SR:!2025-10-25,60,310-->
 - You have 5 AWS Accounts that you manage using AWS Organizations. You want to restrict access to certain AWS services in each account. How should you do that?;;Using AWS Organizations SCP.
-<!--SR:!2025-10-09,16,250-->
+<!--SR:!2025-11-19,41,250-->
 - Which of the following IAM condition key you can use only to allow API calls to a specified AWS region?;;`aws:RequestedRegion`.
 <!--SR:!2025-10-14,21,230-->
 - When configuring permissions for EventBridge to configure a Lambda function as a target you should use ... but when you want to configure a Kinesis Data Streams as a target you should use ...;;Resource-Based Policy, Identity-based Policy
