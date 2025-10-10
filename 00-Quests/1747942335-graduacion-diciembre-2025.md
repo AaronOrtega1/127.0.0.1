@@ -81,8 +81,8 @@ XP:
 ```dataviewjs
 const ticket_cost = 1350
 const total = ticket_cost*24
-const paid = 16200
-const contribution = 5000
+const paid = 19700
+const contribution = 7000
 let missingWithContribution = total - paid - contribution
 let missingReal = total - paid
 let html = `

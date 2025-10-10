@@ -25,17 +25,21 @@ Preprocess the [Uber](https://www.kaggle.com/datasets/yashdevladdha/uber-ride-an
 	- [x] Create each table in SQL. (XP +5)
 	- [x] Populate each new table from staging. (XP +5)
 - [ ] Define what information is important to display to client (XP +20)
-	- [ ] Total Bookings
-	- [ ] Completion Rate
-	- [ ] Cancellation Rate
-	- [ ] Average Customer Rating
-	- [ ] Revenue & Average Booking Value
-	- [ ] Most Popular Vehicle Type
-	- [ ] Customer vs Driver cancellation over time.
-	- [ ] Top cancellation reasons
-	- [ ] Rides by hour/day of week
-	- [ ] Monthly booking trends
-	- [ ] Bookings by vehicle type
+	- [ ] TOTAL bookings and TOTAL completed bookings
+	- [ ] TOTAL and PERCENTAGE uncompleted bookings
+	- [ ] TOTAL and PERCENTAGE cancelled rides
+	- [ ] TOTAL revenue
+	- [ ] AVG revenue
+	- [ ] Revenue per Customer
+	- [ ] Customer Segmentation
+	- [ ] Avg Customer Rating
+	- [ ] Avg Ride Distance
+	- [ ] Avg VTAT
+	- [ ] Avg CTAT
+	- [ ] Bookings by Month
+	- [ ] Bookings by Quarter
+	- [ ] Bookings by DOW
+	- [ ] Bookings by Time of Day
 	- [ ] 
 - [ ] Create Power BI dashboard. (XP +25)
 - [ ] Create DB star schema in Draw io to put it in the README. (XP +10)
