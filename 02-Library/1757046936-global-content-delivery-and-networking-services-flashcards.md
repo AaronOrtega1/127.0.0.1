@@ -35,7 +35,7 @@ created_date:
 - How does CloudFront contribute to the security of applications against DDoS attacks?;;CloudFront provides **automatic DDoS protection**, integrating with services like **AWS Shield** and Web Application Firewall (WAF).
 <!--SR:!2025-10-12,25,270-->
 - How does CloudFront securely connect to an Amazon S3 bucket used as an origin?;;CloudFront uses an **Origin Access Control (OAC)** to secure the connection to an S3 bucket, along with modifying the S3 bucket policy.
-<!--SR:!2025-10-10,11,230-->
+<!--SR:!2025-11-15,36,250-->
 - Why would an administrator use CloudFront cache invalidation?;;An administrator would use CloudFront cache invalidation to **force an immediate refresh** of cached content at the edge locations, ensuring that users receive updated content from the origin **without waiting for the cache's Time To Live (TTL) to expire**.
 <!--SR:!2025-11-27,63,310-->
 - How does CloudFront determine a user's country for geo-restriction purposes?;;CloudFront uses a **third-party Geo-IP database** to match the user's IP address to their country.

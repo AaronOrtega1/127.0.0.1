@@ -27,6 +27,19 @@ from
 
 - `OVER` clase will lead to a **window specification**.
 
+```SQL
+select
+	...,
+	ROW_NUMBER() over w as ...
+from
+	...
+window w as (PARTITION BY ... ORDER BY ... desc);
+```
+
+- Using a window clause, with the keyword `WINDOW` you can specify an alias to the window specification.
+- This is best practices when:
+	- We have a query employing several window functions.
+	- We need to refer to the same window specification multiple times throughout a query.
 ### How to use multiple Window Functions in a same query:
 1. Add an **ORDER BY** clause to the **outer** query.
 ```SQL

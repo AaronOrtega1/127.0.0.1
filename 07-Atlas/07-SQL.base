@@ -4,3 +4,4 @@ views:
     filters:
       and:
         - file.hasTag("sql")
+        - file.inFolder("02-Library")

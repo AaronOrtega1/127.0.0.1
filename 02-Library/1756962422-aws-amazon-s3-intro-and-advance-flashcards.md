@@ -23,7 +23,7 @@ created_date:
 - What is the Amazon S3 baseline performance for PUT/COPY/POST/DELETE requests per second per prefix?;;**3,500 requests per second per prefix**.
 <!--SR:!2025-10-23,31,270-->
 - What is the Amazon S3 baseline performance for GET/HEAD requests per second per prefix?;;**5,500 requests per second per prefix**.
-<!--SR:!2025-10-10,22,250-->
+<!--SR:!2025-12-26,77,270-->
 - What version ID is assigned to files that are not versioned prior to enabling versioning on an S3 bucket?;;They will have the **version null**.
 <!--SR:!2025-11-16,55,310-->
 - Does suspending Amazon S3 bucket versioning delete previous object versions?;;No, suspending versioning **does not delete the previous version**; it is a safe operation.

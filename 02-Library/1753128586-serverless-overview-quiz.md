@@ -30,7 +30,7 @@ created_date: 2025-07-21
 - You have an application that is served globally using CloudFront Distribution. You want to authenticate users at the CloudFront Edge Locations instead of authentication requests go all the way to your origins. What should you use to satisfy this requirement?;;Lambda@Edge.
 <!--SR:!2025-10-13,21,270-->
 - The maximum size of an item in a DynamoDB table is...;;400 KB.
-<!--SR:!2025-10-10,58,310-->
+<!--SR:!2026-06-17,250,330-->
 - Which AWS service allows you to build Serverless workflows using AWS services (e.g., Lambda) and supports human approval?;;AWS Step Functions.
 <!--SR:!2025-10-18,66,312-->
 - A company has a serverless application on AWS which consists of Lambda, DynamoDB, and Step Functions. In the last month, there are an increase in the number of requests against the application which results in an increase in DynamoDB costs, and requests started to be throttled. After further investigation, it shows that the majority of requests are read requests against some queries in the DynamoDB table. What do you recommend to prevent throttles and reduce costs efficiently?;;Use DynamoDB Accelerator (DAX) to cache the most requested read data.

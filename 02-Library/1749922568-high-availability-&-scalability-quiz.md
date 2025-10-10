@@ -36,7 +36,7 @@ created_date: 2025/06/14
 - You want to create a custom application-based cookie in your Application Load Balancer. Which of the following you can use as a cookie name?;;APPUSERC
 <!--SR:!2025-11-24,102,270-->
 - You have a Network Load Balancer that distributes traffic across a set of EC2 instances in `us-east-1`. You have 2 EC2 instances in `us-east-1b` AZ and 5 EC2 instances in `us-east-1e` AZ. You have noticed that the CPU utilization is higher in the EC2 instances in `us-east-1b` AZ. After more investigation, you noticed that the traffic is equally distributed across the two AZs. How would you solve this problem?;;Enable Cross-Zone Load Balancing, to distribute the traffic evenly.
-<!--SR:!2025-10-10,36,230-->
+<!--SR:!2025-10-27,17,210-->
 - Which feature in both Application Load Balancers and Network Load Balancers allows you to load multiple SSL certificates on one listener?;;Sever Name Indication.
 <!--SR:!2026-06-19,274,330-->
 - Which feature in both Application Load Balancers and Network Load Balancers allows you to load multiple SSL certificates on one listener?;;Server Name Indication. -Continue.

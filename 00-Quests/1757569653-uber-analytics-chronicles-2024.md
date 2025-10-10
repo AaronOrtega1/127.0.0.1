@@ -24,27 +24,26 @@ Preprocess the [Uber](https://www.kaggle.com/datasets/yashdevladdha/uber-ride-an
 	- [x] Define fact and dimension tables. (XP +5)
 	- [x] Create each table in SQL. (XP +5)
 	- [x] Populate each new table from staging. (XP +5)
-- [ ] Define what information is important to display to client (XP +20)
-	- [ ] TOTAL bookings and TOTAL completed bookings
-	- [ ] TOTAL and PERCENTAGE uncompleted bookings
-	- [ ] TOTAL and PERCENTAGE cancelled rides
-	- [ ] TOTAL revenue
-	- [ ] AVG revenue
-	- [ ] Revenue per Customer
-	- [ ] Customer Segmentation
-	- [ ] Avg Customer Rating
-	- [ ] Avg Ride Distance
-	- [ ] Avg VTAT
-	- [ ] Avg CTAT
-	- [ ] Bookings by Month
-	- [ ] Bookings by Quarter
-	- [ ] Bookings by DOW
-	- [ ] Bookings by Time of Day
-	- [ ] 
+- [x] Define what information is important to display to client (XP +20)
+	- [x] TOTAL bookings and TOTAL completed bookings
+	- [x] TOTAL and PERCENTAGE uncompleted bookings
+	- [x] TOTAL and PERCENTAGE cancelled rides
+	- [x] TOTAL revenue
+	- [x] AVG revenue
+	- [x] Revenue per Customer
+	- [x] Customer Segmentation
+	- [x] Avg Customer Rating
+	- [x] Avg Ride Distance
+	- [x] Avg VTAT
+	- [x] Avg CTAT
+	- [x] Bookings by Month
+	- [x] Bookings by Quarter
+	- [x] Bookings by DOW
+	- [x] Bookings by Time of Day
 - [ ] Create Power BI dashboard. (XP +25)
-- [ ] Create DB star schema in Draw io to put it in the README. (XP +10)
+- [x] Create DB star schema in Draw io to put it in the README. (XP +10)
 - [ ] Finish README. (XP +5)
-- [ ] Add it to my CV. (XP +5)
+- [x] Add it to my CV. (XP +5)
 
 ## Forged Relics
 ```dataview

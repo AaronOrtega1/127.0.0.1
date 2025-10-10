@@ -57,7 +57,7 @@ XP:
 3. Alan
 4. Paquebrio
 5. Henry
-6. Ian
+6. Ian *(Capitán de mesa)*
 7. Pedrito
 8. Lorenza
 9. Ale
@@ -65,24 +65,15 @@ XP:
 11. Mafer
 12. Nats
 
-### Meses pagados
-- [x] 1
-- [x] 2
-- [x] 3
-- [x] 4
-- [x] 5
-- [x] 6
-- [ ] 7
-- [ ] 8
-- [ ] 9
-- [ ] 10
-- [ ] 11
+### Vino
+- 5-6 Botellas de tequila
+- 3 hypnotic
 
 ```dataviewjs
 const ticket_cost = 1350
 const total = ticket_cost*24
-const paid = 19700
-const contribution = 7000
+const paid = 19700 
+const contribution = 6400
 let missingWithContribution = total - paid - contribution
 let missingReal = total - paid
 let html = `

@@ -24,11 +24,11 @@ created_date: 2025-09-02
 - What is the **size limit** for web cookies when storing session content directly on the client side?;;Web cookies can only be **less than four kilobytes total**.
 <!--SR:!2025-10-30,38,290-->
 - What is the key benefit of using **ElastiCache for storing session data** (e.g., shopping cart contents) over user cookies, especially regarding performance and security?;;ElastiCache offers **sub-millisecond performance** for retrieving session data and is **more secure** because it acts as the source of truth, preventing attackers from altering the data directly. An alternative is DynamoDB.
-<!--SR:!2025-10-10,22,250-->
+<!--SR:!2025-10-20,10,230-->
 - How many **Read Replicas** can you have in RDS to scale database reads?;;You can have **up to 15 Read Replicas** in RDS.
 <!--SR:!2025-11-07,46,290-->
 - Name **four AWS services** that support **Multi-AZ features** for disaster recovery and high availability.;;**ELB**, **Auto Scaling Group**, **RDS**, and **ElastiCache (if using Redis)**.
-<!--SR:!2025-10-10,22,250-->
+<!--SR:!2025-12-05,56,250-->
 - How is **Elastic Beanstalk priced**?;;The Elastic Beanstalk service itself is **free**, but you pay for the **underlying instances and resources** (e.g., EC2, ASG, ELB) that Beanstalk provisions.
 <!--SR:!2025-10-30,38,290-->
 - What is the key component used in an **Elastic Beanstalk worker environment tier**, and how does it scale?;;It uses an **SQS queue** to receive messages. The EC2 instances (workers) pull messages from SQS and **scale based on the number of SQS messages**.
