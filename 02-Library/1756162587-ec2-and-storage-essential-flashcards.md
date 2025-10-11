@@ -43,7 +43,7 @@ created_date: 2025-08-25
 - Name the two **performance modes** available for EFS, and when you would use each:;;**General Purpose (default)**, for **latency-sensitive** use cases like servers or CMS. **Max I/O**, for **higher throughput** and highly parallel applications like big data or media processing, through it has higher latency.
 <!--SR:!2025-10-15,23,210-->
 - Which EFS **throughput mode** allows you to set throughput independently of storage size?;;**Provisioned** throughput mode.
-<!--SR:!2025-10-11,24,270-->
+<!--SR:!2026-01-09,90,290-->
 - What EFS storage class is designed for **infrequently accessed files** and offers cost savings?;;**EFS-IA (Infrequent Access)**.
 <!--SR:!2025-11-20,64,310-->
 - What is and **Amazon Machine Image (AMI)** and what does it contain?;;An AMI represents a **customization fo an EC2 instance** and contains the **software configuration, operating system, and monitoring tools.**
@@ -113,7 +113,7 @@ created_date: 2025-08-25
 - What are the **default port numbers for SSH (Linux)** and **RDP (Windows)** access?;;SSH (Linux) port 22, RDP (Windows) port 3389.
 <!--SR:!2025-11-13,48,276-->
 - What are the default port numbers for **HTTP** and **HTTPS** web traffic?;;HTTP port 80, HTTPS port 443.
-<!--SR:!2025-10-11,29,276-->
+<!--SR:!2026-01-31,112,296-->
 - What is **EC2 User Data** and when does it run?;;EC2 User Data is a **bootstrap script** that runs **once when an EC2 instance first starts** (bootstrapping) to automate initial configuration tasks like installing software or updates. It runs with the **root user.**
 <!--SR:!2025-11-18,62,316-->
 - What is the difference between a **Public IP** and a **Private IP**?;;A **Public IP** is identifiable and unique across the **internet**, while a **Private IP** is only identifiable and unique within its **private network.**

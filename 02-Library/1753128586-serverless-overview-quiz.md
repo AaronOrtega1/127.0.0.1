@@ -14,7 +14,7 @@ created_date: 2025-07-21
 - You have created a Lambda function that typically will take around 1 hour to process some data. The code works fine when you run it locally on your machine, but when you invoke the Lambda function it fails with a "timeout" error after 3 seconds. What should you do?;;Run your code somewhere else (e.g., EC2 instance).
 <!--SR:!2026-03-12,170,312-->
 - Before you create a DynamoDB table, you need to provision the EC2 instance the DynamoDB table will be running on.;;False
-<!--SR:!2025-10-11,59,310-->
+<!--SR:!2026-06-22,254,330-->
 - You have provisioned a DynamoDB table with 10 RCUs and 10 WCUs. A month later you want to increase the RCU to handle more read traffic. What should you do?;;Increase RCU and keep WCU the same, since they are decoupled you can increase/decrease each separately.
 <!--SR:!2025-10-12,60,310-->
 - You have an e-commerce website where you are using DynamoDB as your database. You are about to enter the Christmas sale and you have a few items which are very popular and you expect that they will be read often. Unfortunately, last year due to the huge traffic you had the `ProvisionedThroughputExceededException` exception. What would you do to prevent this error from happening again?;;Create a DAX Cluster, is a fully managed, highly available, in-memory cache for DynamoDB that delivers up to 10x performance improvement. Caches the most frequently used data, thus offloading the heavy reads on hot keys off your DynamoDB table.

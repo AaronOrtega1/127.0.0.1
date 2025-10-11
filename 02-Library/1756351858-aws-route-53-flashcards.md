@@ -21,7 +21,7 @@ created_date:
 - What is the primary purpose of an **A record** in Route 53?;;An A record is used to **map a hostname into an IPv4 IP address**.
 <!--SR:!2025-11-08,47,290-->
 - What is the primary purpose of an **AAAA record** in Route 53?;;An AAAA record is used to **map a hostname into an IPv6 address**.
-<!--SR:!2025-10-11,24,270-->
+<!--SR:!2026-01-10,91,290-->
 - What is a key **restriction for CNAME records** in Route 53 regarding the domain namespace?;;You **cannot create CNAME records for the top node of a DNS namespace, also known as the Zone Apex** (e.g., example.com).
 <!--SR:!2025-12-13,67,270-->
 - How do **Alias records** differ from CNAME records regarding the Zone Apex?;;Unlike CNAMEs, **Alias records can be used for the Zone Apex** (e.g., mydomain.com can point to an alias resource).
@@ -41,7 +41,7 @@ created_date:
 - In **Geoproximity Routing Policy**, how does a "bias" value affect traffic distribution?;;A **positive bias (increasing the value) expands the size of a geographic region**, shifting more traffic to that resource. A **negative bias (decreasing the value) shrinks the region**, sending less traffic to that resource.
 <!--SR:!2025-10-31,39,270-->
 - How does the **IP-based Routing Policy** determine where to send traffic?;;IP-based Routing Policy defines routing based on **client IP addresses** by allowing you to define a list of **CIDR blocks (IP ranges)** and specifying the target location for traffic originating from those ranges.
-<!--SR:!2025-10-11,8,170-->
+<!--SR:!2025-10-30,19,190-->
 - What is a **mandatory requirement** for the primary record when using a **Failover Routing Policy**?;;The **primary record must be associated with a health check**. If this health check becomes unhealthy, Route 53 automatically fails over to the secondary resource.
 <!--SR:!2025-11-01,39,270-->
 - How can you perform **health checks on private resources** using Route 53, given that Route 53 health checkers are public?;;To monitor private resources, you should: Monitor the private resource using a **CloudWatch Metric**. Create a **CloudWatch Alarm** on that metric. Assign the **CloudWatch Alarm to the Route 53 health check**, which will then become unhealthy when the alarm state is triggered.
