@@ -10,7 +10,7 @@ tags:
   - leetcode
 accepted: 2025-04-07
 deadline: 2025-12-31
-XP: 45
+XP: 65
 ---
 # Quest: 150 NeetCode Problems
 ## Objective

@@ -1,7 +1,7 @@
 ---
 link: "[[1744040981-150-neetcode-problems|150 NeetCode Problems]]"
 aliases:
-  - Top K Frequent Elements
+  - Top K Frequent Elements In Python
 tags:
   - Knowledge
   - leetcode

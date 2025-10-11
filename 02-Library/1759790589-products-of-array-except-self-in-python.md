@@ -1,7 +1,7 @@
 ---
 link: "[[1744040981-150-neetcode-problems|150 NeetCode Problems]]"
 aliases:
-  - Products of Array Except Self
+  - Products of Array Except Self In Python
 tags:
   - Knowledge
   - leetcode
