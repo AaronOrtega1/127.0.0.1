@@ -17,7 +17,7 @@ created_date:
 - What is the **availability Service Level Agreement (SLA)** offered by Amazon Route 53?;;Amazon Route 53 is the **only service in AWS that provides a 100% availability SLA**.
 <!--SR:!2025-10-24,36,270-->
 - What does it mean for Route 53 to be an "**authoritative DNS**"?;;It means that the **customer (you) can update the DNS records**, giving you full control over the DNS.
-<!--SR:!2025-10-13,26,270-->
+<!--SR:!2026-01-19,98,290-->
 - What is the primary purpose of an **A record** in Route 53?;;An A record is used to **map a hostname into an IPv4 IP address**.
 <!--SR:!2025-11-08,47,290-->
 - What is the primary purpose of an **AAAA record** in Route 53?;;An AAAA record is used to **map a hostname into an IPv6 address**.
@@ -31,7 +31,7 @@ created_date:
 - What is a **cost difference** for queries between Alias records and other Route 53 records?;;**Alias records are free of charge for queries**.
 <!--SR:!2025-11-07,46,290-->
 - What specific type of target can an **Alias record** point to that a CNAME cannot directly represent?;;Alias records allow you to point a hostname to a **specific AWS Resource** (e.g., Elastic Load Balancers, CloudFront Distributions, S3 Websites). They cannot, however, target EC2 DNS names.
-<!--SR:!2025-10-13,19,210-->
+<!--SR:!2025-12-09,57,230-->
 - What is the **monthly cost** for creating a hosted zone in Route 53?;;You pay **50 cents per month for any hosted zone** you create in AWS.
 <!--SR:!2025-10-21,29,250-->
 - What is the fundamental difference in scope between **public and private hosted zones**?;;A **public hosted zone** answers queries from **public clients** (anyone on the internet), while a **private hosted zone** is only queried from **within your private resources**, such as your VPC.
@@ -45,7 +45,7 @@ created_date:
 - What is a **mandatory requirement** for the primary record when using a **Failover Routing Policy**?;;The **primary record must be associated with a health check**. If this health check becomes unhealthy, Route 53 automatically fails over to the secondary resource.
 <!--SR:!2025-11-01,39,270-->
 - How can you perform **health checks on private resources** using Route 53, given that Route 53 health checkers are public?;;To monitor private resources, you should: Monitor the private resource using a **CloudWatch Metric**. Create a **CloudWatch Alarm** on that metric. Assign the **CloudWatch Alarm to the Route 53 health check**, which will then become unhealthy when the alarm state is triggered.
-<!--SR:!2025-10-12,25,270-->
+<!--SR:!2025-10-27,14,250-->
 - What is a key difference between **Multi-Value Routing Policy** and **Simple Routing Policy** when multiple values are returned?;;**Multi-Value Routing Policy can be associated with health checks**, ensuring that only **healthy resources (up to eight)** are returned. **Simple Routing Policy cannot be associated with health checks**, meaning it might return unhealthy resources.
 <!--SR:!2025-11-16,46,250-->
 - What is the impact of setting a **high TTL** (e.g., 24 hours) versus a **low TTL** (e.g., 60 seconds) on Route 53 traffic and record changes?;;**High TTL:** Results in **less traffic on Route 53** (lower cost) but means clients may have **outdated records for longer**, making record changes slower to propagate. **Low TTL:** Results in **more traffic on your DNS** (higher cost) but records are **outdated for less time**, making it quicker and easier to change records.

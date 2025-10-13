@@ -18,7 +18,7 @@ created_date: 2025-09-02
 - How can you ensure **schemas and data** are readily available when starting an RDS database quickly, instead of running slow insert statements?;;By **restoring from snapshots**.
 <!--SR:!2025-10-29,37,290-->
 - What is the **advantage** of restoring an EBS volume from a snapshot?;;The EBS volume will already be **properly formatted** and contain the necessary data, unlike an empty, unformatted disk.
-<!--SR:!2025-10-13,25,270-->
+<!--SR:!2026-01-14,93,290-->
 - What is **ELB stickiness (session affinity)**, and what is its main limitation for maintaining session state?;;It's an ELB feature that directs a user's subsequent requests to the **same EC2 instance**. The main limitation is that if the EC2 instance gets terminated, the **session (e.g., shopping cart) is still lost**.
 <!--SR:!2025-10-21,33,270-->
 - What is the **size limit** for web cookies when storing session content directly on the client side?;;Web cookies can only be **less than four kilobytes total**.

@@ -12,7 +12,7 @@ created_date: 2025-07-21
 ---
 # Serverless Solution Architecture Discussions Quiz
 - A startup company plans to run its application on AWS. As a solutions architect, the company hired you to design and implement a fully Serverless REST API. Which technology stack do you recommend?;;API Gateway + AWS Lambda.
-<!--SR:!2025-10-13,61,310-->
+<!--SR:!2026-07-01,261,330-->
 - The following AWS service doesn't have an out of the box caching feature;;Lambda.
 <!--SR:!2025-12-20,73,288-->
 - You have a lot of static files stored in an S3 bucket that you want to distribute globally to your users. Which AWS service should you use?;;Amazon CloudFront.

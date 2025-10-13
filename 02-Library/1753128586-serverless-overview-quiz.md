@@ -16,7 +16,7 @@ created_date: 2025-07-21
 - Before you create a DynamoDB table, you need to provision the EC2 instance the DynamoDB table will be running on.;;False
 <!--SR:!2026-06-22,254,330-->
 - You have provisioned a DynamoDB table with 10 RCUs and 10 WCUs. A month later you want to increase the RCU to handle more read traffic. What should you do?;;Increase RCU and keep WCU the same, since they are decoupled you can increase/decrease each separately.
-<!--SR:!2025-10-12,60,310-->
+<!--SR:!2026-06-30,260,330-->
 - You have an e-commerce website where you are using DynamoDB as your database. You are about to enter the Christmas sale and you have a few items which are very popular and you expect that they will be read often. Unfortunately, last year due to the huge traffic you had the `ProvisionedThroughputExceededException` exception. What would you do to prevent this error from happening again?;;Create a DAX Cluster, is a fully managed, highly available, in-memory cache for DynamoDB that delivers up to 10x performance improvement. Caches the most frequently used data, thus offloading the heavy reads on hot keys off your DynamoDB table.
 <!--SR:!2025-12-20,109,310-->
 - You have developed a mobile application that uses DynamoDB as its datastore. You want to automate sending welcome emails to new users after they sign up. What is the most efficient way to achieve this?;;Enable DynamoDB Streams and configure it to invoke a Lambda function to send emails.
@@ -28,7 +28,7 @@ created_date: 2025-07-21
 - You are running an application in production that is leveraging DynamoDB as its datastore and is experiencing smooth sustained usage. There is a need to make the application run in development mode as well, where it will experience the unpredictable volume of requests. What is the most cost-effective solution that you recommend?;;Use **Provisioned Capacity Mode with Auto Scaling enabled for production** and use **On-Demand Capacity Mode for development.**
 <!--SR:!2025-12-03,85,270-->
 - You have an application that is served globally using CloudFront Distribution. You want to authenticate users at the CloudFront Edge Locations instead of authentication requests go all the way to your origins. What should you use to satisfy this requirement?;;Lambda@Edge.
-<!--SR:!2025-10-13,21,270-->
+<!--SR:!2026-01-02,81,290-->
 - The maximum size of an item in a DynamoDB table is...;;400 KB.
 <!--SR:!2026-06-17,250,330-->
 - Which AWS service allows you to build Serverless workflows using AWS services (e.g., Lambda) and supports human approval?;;AWS Step Functions.

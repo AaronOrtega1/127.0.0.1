@@ -123,7 +123,7 @@ created_date: 2025-08-25
 - In the EC2 instance naming convention `m5.2xlarge`, what do `m, 5, and 2xlarge` represent?;;`m` the **instance class**, `5` the **generation** and `2xlarge` the **size**.
 <!--SR:!2025-11-19,63,316-->
 - Which EC2 instance class is optimized for workloads that **process large datasets in memory (RAM)**, often used for high-performance database or caches?;;**Memory Optimized** instances (e.g., **R-series**, where `R` stands for RAM).
-<!--SR:!2025-10-12,30,276-->
+<!--SR:!2026-02-05,115,296-->
 - Which EC2 instance class is optimized for applications that **access a lot of data sets on local storage**, such as high-frequency OLTP systems or data warehousing?;;**Storage Optimized** instances (e.g., I, D, or H1 series).
 <!--SR:!2025-10-20,33,256-->
 

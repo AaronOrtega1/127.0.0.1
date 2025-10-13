@@ -14,7 +14,7 @@ created_date: 2025-07-25
 - Which database helps you store relational datasets, with SQL language compatibility and the capability of processing transactions such as insert, update, and delete?;;Amazon RDS.
 <!--SR:!2026-03-02,161,310-->
 - Which AWS service provides you with caching capability that is compatible with Redis API?;;Amazon ElastiCache, fully managed in-memory data store, compatible with Redis or Memcached.
-<!--SR:!2025-10-13,60,310-->
+<!--SR:!2026-06-25,255,330-->
 - You want to migrate an on-premises MongoDB NoSQL database to AWS. You don't want to manage any database servers, so you want to use a managed NoSQL Serverless database, that provides you with high availability, durability, and reliability, and the capability to take your database global. Which database should you choose?;;Amazon DynamoDB, is a key-value, document, NoSQL database.
 <!--SR:!2025-12-22,87,230-->
 - You are looking to perform Online Transaction Processing (OLTP). You would like to use a database that has built-in auto-scaling capabilities and provides you with the maximum number of replicas for its underlying storage. What AWS service do you recommend?;;Amazon Aurora.

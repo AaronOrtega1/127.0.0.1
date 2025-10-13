@@ -21,7 +21,7 @@ created_date:
 - At what OSI layer does the **Application Load Balancer (ALB)** operate, and what are its primary protocols?;;The ALB is **Layer 7 only load balancer**, meaning it primarily operates at the **HTTP layer**. It supports **HTTP, HTTPS, and WebSocket protocols**, including **HTTP/2**.
 <!--SR:!2025-11-19,63,310-->
 - At what OSI layer does the **Network Load Balancer (NLB)** operate, and what protocols does it support?;;The NLB is a **Layer 4 load balancer**. It supports **TCP, TLS, secure TCP, and UDP protocols**
-<!--SR:!2025-10-13,31,270-->
+<!--SR:!2026-02-10,120,290-->
 - At what OSI layer does the **Gateway Load Balancer (GWLB)** operate, and what specific protocol does it use?;;The GWLB operates at the **network layer (Layer 3) for IP packets**. It uses the **GENEVE protocol on port 6081**.
 <!--SR:!2025-11-01,45,290-->
 - What is AWS's recommendation regarding the **Classic Load Balancer (CLB)**?;;AWS **does not want users to use the Classic Load Balancer anymore**; it is shown as **deprecated** within the console, though still available. It is an **older generation** load balancer.
@@ -35,7 +35,7 @@ created_date:
 - What is the **default duration** for Connection Draining/Deregistration Delay?;;The default duration is **300 seconds (five minutes)**. It can be configured between 1 and 3,600 seconds or disabled by setting it to zero.
 <!--SR:!2025-10-17,30,250-->
 - What is the **default cross-zone load balancing setting** for ALB, NLB, and CLB?;;Application Load Balancer (ALB): Enabled by default, Network Load Balancer (NLB): Disabled by default, Classic Load Balancer (CLB): Disabled by default.
-<!--SR:!2025-10-13,26,250-->
+<!--SR:!2026-01-11,90,270-->
 - Which load balancer incur **charges for inter-AZ data transfer** if cross-zone load balancing is enabled?;;The **Network Load Balancer (NLB) and Gateway Load Balancer (GWLB) incur charges** for inter-AZ data trnsfer if cross-zone load balancing is enabled. For the ALB, there are **no charges** for inter-AZ data transfer because it is enabled by default. For the CLB, if enabled, you are **not charged** for inter-AZ data transfers.
 <!--SR:!2025-12-06,68,270-->
 - Why would you use **sticky sessions (session affinity)**?;;Sticky sessions ensure that a client making multiple request to the load balancer will **always be directed to the same backend EC2 instance.** This is used to **prevent loss of session data** (e.g., user login information) that might be stored on a specific instance.
