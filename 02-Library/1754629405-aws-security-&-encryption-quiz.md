@@ -28,7 +28,7 @@ created_date: 2025-08-07
 - You have an AMI that has an encrypted EBS snapshot using KMS CMK. You want to share this AMI with another AWS account. You have shared the AMI with the desired AWS account, but the other AWS account still can't use it. How would you solve this problem?;;You need to share the KMS CMK used to encrypt the AMI with the other AWS account.
 <!--SR:!2025-10-21,55,310-->
 - You have created a Customer-managed CMK in KMS that you use to encrypt both S3 buckets and EBS snapshots. Your company policy mandates that your encryption keys be rotated every 6 months. What should you do?;;Re-configure your KMS CMK and enable Automatic Key Rotation, and configure the Retention Period with 180 days.
-<!--SR:!2025-10-14,46,290-->
+<!--SR:!2026-02-21,130,290-->
 - What should you use to control access to your KMS CMKs?;;KMS Key Policies.
 <!--SR:!2025-10-28,22,270-->
 - You have a Lambda function used to process some data in the database. You would like to give your Lambda function access to the database password. Which of the following options is the most secure?;;Have it as an encrypted environment variable and decrypt it at runtime.

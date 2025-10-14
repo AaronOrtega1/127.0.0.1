@@ -1,7 +1,7 @@
 ---
 link: "[[1743802452-programming|Programming]]"
 aliases:
-  - Data Analysis Internship
+  - Data Analysis Entry Level
 tags:
   - Quests
   - active
@@ -19,7 +19,7 @@ XP:
 Get a data analysis internship by the Q4 of 2025.
 ## Tasks
 - [x] Update CV.
-- [ ] Do the neet code 150 problems.
+- [ ] Do the [[1744040981-150-neetcode-problems|150 NeetCode Problems]].
 - [x] practice SQL with real life use cases.
 - [x] practice Python with real life use cases.
 - [x] learn Excel with real life use cases.
@@ -36,6 +36,7 @@ Get a data analysis internship by the Q4 of 2025.
 - [[1753999093-data-analysis-udemy-course|Data Analysis Udemy Course]]
 - [[1756144012-business-intelligence-analyst-udemy-course-2025|Business Intelligence Analyst Udemy Course 2025]]
 - [[1759955068-master-the-java-blades-data-structures-&-algorithms|Master the Java Blades: Data Structures & Algorithms]]
+- [[1760458933-preparation-for-star-interview-questions|Preparation for STAR Interview Questions]]
 
 ## Resources
 - [[ ]]

@@ -41,7 +41,7 @@ created_date:
 - What is the typical replication lag for Aurora Global Database secondary regions, and what is the Recovery Time Objective (RTO) for promoting another region for disaster recovery?;;The replication lag for secondary read-only regions should be **less than one second**. The RTO for promoting another region for disaster recovery is **less than one minute**.
 <!--SR:!2025-10-31,39,250-->
 - What is the purpose of **Babelfish for Aurora PostgreSQL**?;;Babelfish allows **Amazon Aurora PostgreSQL to understand commands (T-SQL)** that are target for **Microsoft SQL Server**, enabling applications written for SQL Server to migrate Aurora PostgreSQL with little to no code changes.
-<!--SR:!2025-10-14,31,270-->
+<!--SR:!2026-02-11,120,290-->
 - Describe the mechanism of **Aurora Database Cloning** and its benefit.;;Aurora Database Cloning creates a new Aurora cluster from an existing one **very quickly**, faster than snapshot/restore. It uses a **copy-on-write protocol**, meaning it initially uses the same data volume as the original, and new storage is allocated only as updates are made to either clone.
 <!--SR:!2025-10-19,25,290-->
 

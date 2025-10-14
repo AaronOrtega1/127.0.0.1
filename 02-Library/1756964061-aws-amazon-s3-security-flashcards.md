@@ -17,7 +17,7 @@ created_date:
 - How are encryption keys managed for **SSE-S3**?;;The encryption key for SSE-S3 is **handled, managed, and owned by AWS**. Users **never have access** to this key.
 <!--SR:!2025-11-29,65,310-->
 - How do users manage encryption keys when using **SSE-KMS**?;;With SSE-KMS, users manage their own encryption keys using the **KMS service (Key Management Service)**, allowing for user control over key creation and logging key usage in **CloudTrail**.
-<!--SR:!2025-10-14,26,270-->
+<!--SR:!2025-12-23,70,270-->
 - What is a potential **scalability limitation** when using SSE-KMS for encryption?;;SSE-KMS API calls count towards **KMS quotas** (between 5,000 and 30,000 requests per second per region), which can be a thread limit for very high-throughput S3 buckets, though quotas can be increased.
 <!--SR:!2025-10-20,25,275-->
 - How are encryption keys handled for **SSE-C**?;;For SSE-C, keys are **customer-provided and managed outside of AWS**. Amazon S3 uses the key for server-side encryption but **never stores it**, discarding it after use.
@@ -31,7 +31,7 @@ created_date:
 - What are two **specific destructive operations** that require MFA Delete in S3?;;MFA Delete is required to **permanently delete an object version** and to **suspend Versioning** on an S3 bucket.
 <!--SR:!2025-10-20,32,270-->
 - What are the **prerequisites and permissions** for enabling MFA Delete?;;To use MFA Delete, **Versioning must first be enabled** on the bucket, and only the **bucket owner (root account)** can enable or disable MFA Delete.
-<!--SR:!2025-10-14,26,270-->
+<!--SR:!2026-01-20,98,290-->
 - What is a **critical warning** regarding the configuration of S3 Access Logs?;;**Never set the logging bucket to be the same as the bucket you are monitoring**, as this will create an infinite logging loop, causing exponential bucket growth and significant costs.
 <!--SR:!2025-11-02,40,270-->
 - What is the primary benefit and key differentiator of **S3 Access Points**?;;S3 Access Points **simplify security management and scale access** to S3 buckets by allowing the creation of multiple access points, each with its own access point policy, thereby offloading complex security management from a single bucket policy.
