@@ -51,7 +51,7 @@ created_date:
 - What three **capacity parameters** can be defined for an Auto Scaling Group (ASG)?;;An ASG allows you to set a **minimum capacity**, a **desired capacity**, and a **maximum capacity** for the number of EC2 instances running at any time.
 <!--SR:!2025-12-30,89,290-->
 - What is the **default cooldown period** for an Auto Scaling Group (ASG) after a scaling activity?;;The default cooldown period is **five minutes (300 seconds)**. During this period, the ASG will not launch or terminate additional instances, allowing metrics to stabilize.
-<!--SR:!2025-10-16,13,230-->
+<!--SR:!2025-10-23,7,210-->
 - Describe the two types of **scalability**:;;**Vertical scalability**: Involves **increasing the size of a single instance**. **Horizontal scalability (Elasticity)** Involves **increasing the number of instances or systems**, commonly used with distributed systems and Auto Scaling Groups.
 <!--SR:!2025-11-20,64,310-->
 

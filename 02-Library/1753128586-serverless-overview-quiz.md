@@ -24,7 +24,7 @@ created_date: 2025-07-21
 - To create a serverless API, you should integrate Amazon API Gateway with...;;AWS Lambda.
 <!--SR:!2026-06-03,240,330-->
 - When you are using an Edge-Optimized API Gateway, your API Gateway lives in CloudFront Edge Locations across all AWS Regions.;;False, API requests are routed to the nearest CloudFront Edge Location which improves latency. The API Gateway still lives in one AWS Region.
-<!--SR:!2025-10-16,64,312-->
+<!--SR:!2026-07-19,276,332-->
 - You are running an application in production that is leveraging DynamoDB as its datastore and is experiencing smooth sustained usage. There is a need to make the application run in development mode as well, where it will experience the unpredictable volume of requests. What is the most cost-effective solution that you recommend?;;Use **Provisioned Capacity Mode with Auto Scaling enabled for production** and use **On-Demand Capacity Mode for development.**
 <!--SR:!2025-12-03,85,270-->
 - You have an application that is served globally using CloudFront Distribution. You want to authenticate users at the CloudFront Edge Locations instead of authentication requests go all the way to your origins. What should you use to satisfy this requirement?;;Lambda@Edge.

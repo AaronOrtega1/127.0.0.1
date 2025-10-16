@@ -27,7 +27,7 @@ created_date: 2025-08-25
 - For what kind of applications would you use a **Spread Placement Group**?;;**Critical applications** where instance failures must be **isolated from one another** and to **maximize high availability.**
 <!--SR:!2025-10-31,38,250-->
 - How many **partitions per AZ** can a **Partition Placement Group** have?;;Up to **seven partitions per AZ.**
-<!--SR:!2025-10-16,38,290-->
+<!--SR:!2026-03-18,153,310-->
 - What is the scalability benefit of a **Partition Placement Group** compared to a **Spread Placement Group**?;;It can scale to **hundreds of EC2 instances per group**, whereas Spread is limited to seven per AZ.
 <!--SR:!2025-10-21,39,290-->
 - What types of **big data applications** are commonly used with **Partition Placement Groups**?;;Applications like **Hadoop, Cassandra, Kafka, HDFS, and HBase** that are partition-aware.
@@ -85,7 +85,7 @@ created_date: 2025-08-25
 - What is the main characteristic distinguishing **EC2 Instance Store** from **EBS volumes**?;;EC2 Instance Store is a **physical hardware disk attached directly to the EC2 instance's underlying server**, providing **extremely high performance**, but it is **ephemeral storage**, meaning **data is lost if the instance stops or terminates**.
 <!--SR:!2025-11-18,62,316-->
 - What is preserved when an EC2 instance is **hibernated**?;;Then **in-memory state (RAM)** is preserved by dumping it to the root EBS volume.
-<!--SR:!2025-10-16,33,276-->
+<!--SR:!2026-01-13,89,276-->
 - What are two crucial requirements for an EC2 instance to support **hibernation**?;;The **root EBS volume must be encrypted** and it **must have enough space to contain the RAM dump.**
 <!--SR:!2025-10-25,24,256-->
 - What EC2 purchasing option offers the **highest cost savings** but is the **least reliable**?;;**Spot Instances**, offering up to **90% discounts**, but they can be reclaimed by AWS at any time.

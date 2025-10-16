@@ -40,11 +40,11 @@ created_date: 2025-07-03
 - Amazon FSx for NetApp ONTAP isn't compatible with the following protocol;;FTP.
 <!--SR:!2025-10-25,68,290-->
 - Which AWS service is best suited when migrating from an on-premises ZFS file system to AWS?;;Amazon FSx for OpenZFS.
-<!--SR:!2025-10-16,23,250-->
+<!--SR:!2026-01-04,80,270-->
 - A company is running Amazon S3 File Gateway to host their data on S3 buckets and is able to mount them on-premises using SMB. The data currently is hosted on S3 Standard storage class and there is a requirement to reduce the costs for S3. So, they have decided to migrate some of those data to S3 Glacier. What is the most efficient way they can use to move the data to S3 Glacier automatically?;;Use S3 Lifecycle Policy.
 <!--SR:!2026-01-28,128,290-->
 - You have on-premises sensitive files and documents that you want to regularly synchronize to AWS to keep another copy. Which AWS service can help you with that?;;AWS DataSync.
 <!--SR:!2026-03-11,181,310-->
 - AWS DataSync doesn't supports the following locations...;;EBC.
-<!--SR:!2025-10-16,2,170-->
+<!--SR:!2025-10-21,5,190-->
 
