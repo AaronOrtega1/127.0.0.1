@@ -41,7 +41,7 @@ created_date: 2025-08-25
 - What is the primary **compatibility restriction** for Amazon EFS?;;It is **only compatible with Linux-based AMIs,** not Windows.
 <!--SR:!2025-10-21,33,250-->
 - Name the two **performance modes** available for EFS, and when you would use each:;;**General Purpose (default)**, for **latency-sensitive** use cases like servers or CMS. **Max I/O**, for **higher throughput** and highly parallel applications like big data or media processing, through it has higher latency.
-<!--SR:!2025-10-15,23,210-->
+<!--SR:!2025-12-22,68,230-->
 - Which EFS **throughput mode** allows you to set throughput independently of storage size?;;**Provisioned** throughput mode.
 <!--SR:!2026-01-09,90,290-->
 - What EFS storage class is designed for **infrequently accessed files** and offers cost savings?;;**EFS-IA (Infrequent Access)**.
@@ -63,7 +63,7 @@ created_date: 2025-08-25
 - Which **EBS volume types** support the **Multi-Attach** feature?;;Only **io1 and io2** volumes.
 <!--SR:!2025-11-01,45,290-->
 - What is the **maximum number of EC2 instances** that can attach to a single EBS volume using Multi-Attach?;;Up to **16 EC2 instances.**
-<!--SR:!2025-10-15,34,270-->
+<!--SR:!2026-02-20,128,290-->
 - How can you migrate an **EBS volume across different AZ**?;;You must **take a snapshot** of the EBS volume and then **restore that snapshot in the desired AZ.**
 <!--SR:!2025-11-16,60,310-->
 - What is the purpose of the **EBS Snapshot Archive tier**, and what is its main characteristic?;;It allows moving snapshots to a **cheaper storage tier (up to 75% savings),** but **restoring from it takes 24-72 hours.**
@@ -103,7 +103,7 @@ created_date: 2025-08-25
 - What is the primary purpose of **Capacity Reservations** for EC2?;;To **reserve On-Demand instance capacity in a specific AZ** for any duration, guaranteeing availability, but they do not **provide billing discounts** and you are charged even if instances are not running.
 <!--SR:!2025-11-10,42,236-->
 - What is an **Elastic Network Interface (ENI)** and what is a key benefit?;;An ENI is a **virtual network card** for an EC2 instance. A key benefit is that ENIs can be **attached or moved on the fly between EC2 instances** for **failover purposes.**
-<!--SR:!2025-10-15,32,276-->
+<!--SR:!2025-10-31,16,256-->
 - What are **Security Groups** in AWS?;;Security Groups act as a **firewall around EC2 instances**, controlling how **traffic is allowed into an out of them.**
 <!--SR:!2025-11-13,57,316-->
 - What are the **default inbound and outbound rules** for a Security Group?;;By default, **all inbound traffic is blocked**, and **all outbound traffic is authorized.**

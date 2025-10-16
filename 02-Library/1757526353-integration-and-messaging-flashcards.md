@@ -25,7 +25,7 @@ created_date:
 - How does Amazon SQS FIFO guarantee message ordering and support exactly-once send?;; Ordering by Message Group ID and exactly-once send using deduplication IDs or content-based deduplication within a 5-minute window.
 <!--SR:!2025-10-28,19,190-->
 - What are the throughput limits for Amazon SQS FIFO queues?;; 300 messages per second without batching, or 3,000 messages per second with batching.
-<!--SR:!2025-10-15,16,230-->
+<!--SR:!2025-12-07,53,250-->
 - What is the maximum number of subscribers per topic and topics per account for Amazon SNS?;; Up to 12.5 million subscribers per topic and up to 100,000 topics per account.
 <!--SR:!2025-10-18,24,270-->
 - Is data persistent in Amazon SNS Standard topics?;; No, if a message is not delivered to a subscriber, there's a chance of losing it as the data is not persistent.

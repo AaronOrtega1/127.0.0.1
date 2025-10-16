@@ -44,7 +44,7 @@ created_date: 2025-07-21
 - You are developing a new web and mobile application that will be hosted on AWS and currently, you are working on developing the login and signup page. The application backend is serverless and you are using Lambda, DynamoDB, and API Gateway. Which of the following is the best and easiest approach to configure the authentication for your backend?;;Use Cognito User Pools.
 <!--SR:!2025-12-19,98,252-->
 - You are running a mobile application where you want each registered user to upload/download images to/from his own folder in the S3 bucket. Also, you want to give your users to sign-up and sign in using their social media accounts (e.g., Facebook). Which AWS service should you choose?;;Amazon Cognito.
-<!--SR:!2025-10-15,63,310-->
+<!--SR:!2026-07-13,271,330-->
 
 
 

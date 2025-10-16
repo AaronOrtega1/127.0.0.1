@@ -45,7 +45,7 @@ created_date:
 - Differentiate between "scratch" and "persistent" file systems in Amazon FSx for Lustre regarding data durability.;;**Scratch file systems** provide temporary storage, and **data is not replicated**, meaning it can be lost on server failure. **Persistent file systems** are for long-term storage, with **data replicated within the same Availability Zone** to transparently replace files in minutes upon server failure.
 <!--SR:!2025-11-18,56,310-->
 - Which protocols does Amazon FSx for NetApp ONTAP support, and what unique data optimization feature does it offer compared to OpenZFS?;;FSx for NetApp ONTAP supports **NFS, SMB, and iSCSI protocols**. It offers **data de-duplication** (finding duplicates of files) in addition to compression, which FSx for OpenZFS does not.
-<!--SR:!2025-10-15,27,290-->
+<!--SR:!2026-02-01,109,310-->
 - What is the primary protocol supported by Amazon FSx for OpenZFS, and does it support data de-duplication?;;Amazon FSx for OpenZFS is compatible **only with the NFS protocol**. While it supports snapshots and compression, it **does not support data de-duplication**.
 <!--SR:!2025-12-11,65,270-->
 
