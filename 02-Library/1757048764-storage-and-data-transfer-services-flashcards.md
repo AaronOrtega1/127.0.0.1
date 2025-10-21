@@ -23,7 +23,7 @@ created_date:
 - How does AWS Snowcone integrate with AWS DataSync for data transfer challenges?;;The **AWS Snowcone device comes with the DataSync agent pre-installed**. This is useful when network capacity is insufficient to directly use DataSync, allowing data to be pulled by Snowcone, shipped to AWS, and then synchronized to AWS storage resources.
 <!--SR:!2025-11-10,47,290-->
 - What are the two main types of AWS Snowball Edge devices and their primary distinction?;;The two types are **Edge Storage Optimized (210 TB storage)** and **Edge Compute Optimized (28 TB storage)**. The difference lies in their storage capacity, indicating their primary purpose for either storage-heavy migration or edge computing.
-<!--SR:!2025-10-17,22,250-->
+<!--SR:!2026-01-06,77,270-->
 - When is using an AWS Snowball device recommended for data migration?;;Snowball is recommended when transferring data takes **over a week** due to slow connections, limited connectivity/bandwidth, high network costs, or an unstable connection.
 <!--SR:!2025-11-17,55,310-->
 - Can data be imported directly into Amazon Glacier using AWS Snowball?;;No, **Snowball cannot import data directly into Glacier**. The data must first be imported into **Amazon S3**, and then an S3 lifecycle policy can be used to transition the objects into Amazon Glacier.
@@ -41,7 +41,7 @@ created_date:
 - What protocols does Amazon FSx for Windows File Server support, and what is a notable compatibility feature?;;FSx for Windows File Server supports the **SMB protocol** and Windows NTFS. A notable feature is that it can be **mounted on Linux EC2 instances**, despite its Windows-centric design.
 <!--SR:!2025-12-02,57,270-->
 - What is the primary use case for Amazon FSx for Lustre, and how does it integrate with Amazon S3?;;FSx for Lustre is designed for **High-Performance Computing (HPC), machine learning, and large-scale computing** workloads. It offers seamless integration with S3, allowing it to **read S3 as a file system** and write computation outputs back to S3.
-<!--SR:!2025-10-19,31,270-->
+<!--SR:!2026-02-16,118,290-->
 - Differentiate between "scratch" and "persistent" file systems in Amazon FSx for Lustre regarding data durability.;;**Scratch file systems** provide temporary storage, and **data is not replicated**, meaning it can be lost on server failure. **Persistent file systems** are for long-term storage, with **data replicated within the same Availability Zone** to transparently replace files in minutes upon server failure.
 <!--SR:!2025-11-18,56,310-->
 - Which protocols does Amazon FSx for NetApp ONTAP support, and what unique data optimization feature does it offer compared to OpenZFS?;;FSx for NetApp ONTAP supports **NFS, SMB, and iSCSI protocols**. It offers **data de-duplication** (finding duplicates of files) in addition to compression, which FSx for OpenZFS does not.

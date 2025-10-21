@@ -72,9 +72,8 @@ XP:
 ```dataviewjs
 const ticket_cost = 1350
 const total = ticket_cost*24
-const paid = 19700 
+const paid = 30400
 const contribution = 6400
-let missingWithContribution = total - paid - contribution
 let missingReal = total - paid
 let html = `
 <div class="character-sheet">
@@ -82,10 +81,8 @@ let html = `
 		<div class="character-info">
 			<p><strong>Total: $</strong>${total}</p>
 			<p><strong>Paid: $</strong>${paid}</p>
-			<p><strong>Paid Guest: #</strong>${paid/ticket_cost}</p>
-			<p><strong>Contribution: $</strong>${contribution}</p>
-			<p><strong>Missing With Contribution: $</strong>${missingWithContribution}</p>
 			<p><strong>Missing: $</strong>${missingReal}</p>
+			<p><strong>Paid Guest: #</strong>${paid/ticket_cost}</p>
 			<p><strong>Missing Guest: #</strong>${missingReal/ticket_cost}</p>
 		</div>
 	</div>

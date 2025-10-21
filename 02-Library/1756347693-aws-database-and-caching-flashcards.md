@@ -31,7 +31,7 @@ created_date:
 - What is **RDS Custom**, and for which database types is it available?;;RDS Custom allows you to have **full admin access** to the **underlying operating system and database** for certain database types. It is available for **Oracle** and **Microsoft SQL Server**. You can SSH into the underlying EC2 instance.
 <!--SR:!2025-10-22,40,290-->
 - What are the main benefits of using **Amazon RDS Proxy**?;;RDS Proxy allows applications to **pool and share database connections**, reducing stress on database resources. It also **reduces failover time by up to 66%** for RDS and Aurora. Additionally, it can **enforce IAM authentication** for your database.
-<!--SR:!2025-10-19,38,290-->
+<!--SR:!2026-03-23,153,310-->
 - What is **Amazon ElastiCache** primarily used for, and what are the two main caching technologies it manages?;;ElastiCache provides **managed Redis or Memcached**. It is used for **in-memory databases** with high performance and low latency to **reduce the load off of databases for read-intensive workloads** and to make applications **stateless** by storing session data.
 <!--SR:!2025-12-08,70,270-->
 - Which ElastiCache technology supports Multi-AZ with auto-failover and read replicas, and what unique use case can it facilitate with Sorted Sets?;; **Redis** supports Multi-AZ with auto-failover and read replicas. It can facilitate **real-time gaming leaderboards** using its **Sorted Sets** feature.
@@ -43,6 +43,6 @@ created_date:
 - What is the purpose of **Babelfish for Aurora PostgreSQL**?;;Babelfish allows **Amazon Aurora PostgreSQL to understand commands (T-SQL)** that are target for **Microsoft SQL Server**, enabling applications written for SQL Server to migrate Aurora PostgreSQL with little to no code changes.
 <!--SR:!2026-02-11,120,290-->
 - Describe the mechanism of **Aurora Database Cloning** and its benefit.;;Aurora Database Cloning creates a new Aurora cluster from an existing one **very quickly**, faster than snapshot/restore. It uses a **copy-on-write protocol**, meaning it initially uses the same data volume as the original, and new storage is allocated only as updates are made to either clone.
-<!--SR:!2025-10-19,25,290-->
+<!--SR:!2026-01-30,101,310-->
 
 

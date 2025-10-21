@@ -33,9 +33,9 @@ created_date:
 - What specific type of target can an **Alias record** point to that a CNAME cannot directly represent?;;Alias records allow you to point a hostname to a **specific AWS Resource** (e.g., Elastic Load Balancers, CloudFront Distributions, S3 Websites). They cannot, however, target EC2 DNS names.
 <!--SR:!2025-12-09,57,230-->
 - What is the **monthly cost** for creating a hosted zone in Route 53?;;You pay **50 cents per month for any hosted zone** you create in AWS.
-<!--SR:!2025-10-21,29,250-->
+<!--SR:!2026-01-29,100,270-->
 - What is the fundamental difference in scope between **public and private hosted zones**?;;A **public hosted zone** answers queries from **public clients** (anyone on the internet), while a **private hosted zone** is only queried from **within your private resources**, such as your VPC.
-<!--SR:!2025-10-21,29,270-->
+<!--SR:!2025-11-06,16,250-->
 - What is the main factor that **Geolocation Routing Policy** uses to route traffic?;;Geolocation Routing Policy routes traffic based on the **user's actual geographic location** (continent, country, or even U.S. states), selecting the most precise location first.
 <!--SR:!2025-11-02,41,290-->
 - In **Geoproximity Routing Policy**, how does a "bias" value affect traffic distribution?;;A **positive bias (increasing the value) expands the size of a geographic region**, shifting more traffic to that resource. A **negative bias (decreasing the value) shrinks the region**, sending less traffic to that resource.

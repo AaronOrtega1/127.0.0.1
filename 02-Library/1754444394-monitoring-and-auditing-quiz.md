@@ -32,7 +32,7 @@ created_date: 2025-08-05
 - Someone changed the configuration of a resource and made it non-compliant. Which AWS service is responsible for logging who made modifications to resources?;;AWS CloudTrail.
 <!--SR:!2026-01-01,105,310-->
 - You have enabled AWS Config to monitor Security Groups if there's unrestricted SSH access to any of your EC2 instances. Which AWS Config feature can you use to automatically re-configure your Security Groups to their correct state?;;AWS Config Remediations.
-<!--SR:!2025-10-17,46,290-->
+<!--SR:!2026-04-24,185,310-->
 - You are running a critical website on a set of EC2 instances with a tightened Security Group that has restricted SSH access. You have enabled AWS Config in your AWS Region and you want to be notified via email when someone modified your EC2 instances' Security Group. Which AWS Config feature helps you do this?;;AWS Config Notifications.
 <!--SR:!2026-02-24,131,290-->
 - … is a CloudWatch feature that allows you to send CloudWatch metrics in near real-time to S3 bucket (through Kinesis Data Firehose) and 3rd party destinations (e.g., Splunk, Datadog, …);;CloudWatch Metric Stream.

@@ -40,7 +40,7 @@ created_date: 2025-08-22
 - What is the difference between an IAM user and an IAM role?;;An **IAM user** represents a **physical person** within your organization, while an **IAM role** is intended to be used by **AWS services** to perform actions on your behalf.
 <!--SR:!2025-10-23,44,308-->
 - Can IAM groups contain other IAM groups?;;No, IAM groups can **only contain users**, not other groups.
-<!--SR:!2025-10-18,40,308-->
+<!--SR:!2026-04-09,170,328-->
 - Which specific AWS SDK is the AWS CLI built upon?;;The AWS CLI is built on the **AWS SDK for Python, name boto.**
 <!--SR:!2026-01-07,98,290-->
 - What are access keys, and how should the be treated?;;Access keys are **credentials (like a secret password)** that allow you to access AWS programatically or via the CLI. They are **private to you** and **should never be shared** with others.

@@ -13,11 +13,11 @@ created_date: 2025-08-25
 ---
 # EC2 and Storage Essential Flashcards
 - What is the primary purpose of EC2 **Placement Groups**?;;To control how **EC2 instances are placed** within the AWS infrastructure, defining their strategy relative to one another.
-<!--SR:!2025-10-19,38,290-->
+<!--SR:!2026-03-22,152,310-->
 - Name the **three strategies** available for EC2 Placement Groups.;;Cluster, Spread, Partition.
 <!--SR:!2025-10-24,42,290-->
 - What is the key characteristic of **Cluster Placement Groups**?;;Instances are grouped together in a **low-latency hardware setup withing a single AZ**, offering **high performance** but **high risk.**
-<!--SR:!2025-10-20,41,290-->
+<!--SR:!2026-04-04,165,310-->
 - What is a major drawback of using a **Cluster Placement Group**?;;If the **AZ fails, all instances withing that group will fail** at the same time.
 <!--SR:!2025-11-13,57,310-->
 - What is the primary goal of a **Spread Placement Group**?;;To **minimize failure risk** by spreading instances across **different hardware**.
@@ -29,9 +29,9 @@ created_date: 2025-08-25
 - How many **partitions per AZ** can a **Partition Placement Group** have?;;Up to **seven partitions per AZ.**
 <!--SR:!2026-03-18,153,310-->
 - What is the scalability benefit of a **Partition Placement Group** compared to a **Spread Placement Group**?;;It can scale to **hundreds of EC2 instances per group**, whereas Spread is limited to seven per AZ.
-<!--SR:!2025-10-21,39,290-->
+<!--SR:!2026-03-26,156,310-->
 - What types of **big data applications** are commonly used with **Partition Placement Groups**?;;Applications like **Hadoop, Cassandra, Kafka, HDFS, and HBase** that are partition-aware.
-<!--SR:!2025-10-19,38,290-->
+<!--SR:!2026-03-24,154,310-->
 - What must be enabled in the root account for setting for **IAM users to access billing data**?;;**"IAM user and role access to billing information"** must be activated.
 <!--SR:!2025-10-30,34,210-->
 - What is the purpose of an AWS **zero-spend budget?**;;It alerts you as soon as you incur **even a minimal cost (e.g., 1 cent)**, which is very helpful for cost monitoring.
@@ -39,7 +39,7 @@ created_date: 2025-08-25
 - What is **Amazon EFS** and its key capability regarding EC2 instances?;;EFS is a **managed Network File System (NFS)** that can be **mounted on many EC2 instances across different Availability Zones simultaneously.**
 <!--SR:!2025-11-17,61,310-->
 - What is the primary **compatibility restriction** for Amazon EFS?;;It is **only compatible with Linux-based AMIs,** not Windows.
-<!--SR:!2025-10-21,33,250-->
+<!--SR:!2026-02-14,116,270-->
 - Name the two **performance modes** available for EFS, and when you would use each:;;**General Purpose (default)**, for **latency-sensitive** use cases like servers or CMS. **Max I/O**, for **higher throughput** and highly parallel applications like big data or media processing, through it has higher latency.
 <!--SR:!2025-12-22,68,230-->
 - Which EFS **throughput mode** allows you to set throughput independently of storage size?;;**Provisioned** throughput mode.
@@ -69,7 +69,7 @@ created_date: 2025-08-25
 - What is the purpose of the **EBS Snapshot Archive tier**, and what is its main characteristic?;;It allows moving snapshots to a **cheaper storage tier (up to 75% savings),** but **restoring from it takes 24-72 hours.**
 <!--SR:!2026-01-12,98,290-->
 - What is **Fast Snapshot Restore (FSR)** and its main drawback?;;FSR forces a **full initialization of a snapshot** to eliminate latency on first use, but it **cost a lot of money.**
-<!--SR:!2025-10-20,39,296-->
+<!--SR:!2026-03-28,158,316-->
 - If an EBS volume is encrypted, what else is automatically encrypted?;;All **data at rest, data in flight** (between instance and volume), all **snapshots**, and all **volumes created from those snapshots** are encrypted.
 <!--SR:!2025-11-14,58,316-->
 - Which AWS service provides the keys used for EBS encryption?;;**KMS (Key Management Service)**, using **AWS-256**.
@@ -91,7 +91,7 @@ created_date: 2025-08-25
 - What EC2 purchasing option offers the **highest cost savings** but is the **least reliable**?;;**Spot Instances**, offering up to **90% discounts**, but they can be reclaimed by AWS at any time.
 <!--SR:!2025-11-22,66,316-->
 - What is the **grace period** given before a **Spot Instance is reclaimed** when the spot price exceeds your maximum price?;;A **two-minute grace period**.
-<!--SR:!2025-10-18,37,296-->
+<!--SR:!2026-03-21,151,316-->
 - For what type of workloads are **Spot Instances NOT suited?**;;Critical jobs or databases.
 <!--SR:!2025-10-29,46,296-->
 - What is the correct procedure to **terminate persistent Spot Instances** and prevent them from relaunching?;;First, you must **cancel the spot request**, and then you must **terminate the associated spot instances.**
@@ -125,5 +125,5 @@ created_date: 2025-08-25
 - Which EC2 instance class is optimized for workloads that **process large datasets in memory (RAM)**, often used for high-performance database or caches?;;**Memory Optimized** instances (e.g., **R-series**, where `R` stands for RAM).
 <!--SR:!2026-02-05,115,296-->
 - Which EC2 instance class is optimized for applications that **access a lot of data sets on local storage**, such as high-frequency OLTP systems or data warehousing?;;**Storage Optimized** instances (e.g., I, D, or H1 series).
-<!--SR:!2025-10-20,33,256-->
+<!--SR:!2026-02-19,121,276-->
 

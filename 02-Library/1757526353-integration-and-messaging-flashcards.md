@@ -21,13 +21,13 @@ created_date:
 - What is the default message visibility timeout in Amazon SQS, and what is its maximum configurable value?;; Default: 30 seconds. Maximum: 12 hours.
 <!--SR:!2025-10-22,23,250-->
 - What are the ordering and delivery guarantees for Amazon SQS Standard queues?;; Best-effort ordering and at-least-once delivery.
-<!--SR:!2025-10-19,23,250-->
+<!--SR:!2026-01-10,81,270-->
 - How does Amazon SQS FIFO guarantee message ordering and support exactly-once send?;; Ordering by Message Group ID and exactly-once send using deduplication IDs or content-based deduplication within a 5-minute window.
 <!--SR:!2025-10-28,19,190-->
 - What are the throughput limits for Amazon SQS FIFO queues?;; 300 messages per second without batching, or 3,000 messages per second with batching.
 <!--SR:!2025-12-07,53,250-->
 - What is the maximum number of subscribers per topic and topics per account for Amazon SNS?;; Up to 12.5 million subscribers per topic and up to 100,000 topics per account.
-<!--SR:!2025-10-18,24,270-->
+<!--SR:!2025-12-25,65,270-->
 - Is data persistent in Amazon SNS Standard topics?;; No, if a message is not delivered to a subscriber, there's a chance of losing it as the data is not persistent.
 <!--SR:!2025-11-09,41,290-->
 - What is the primary difference in data delivery models between Amazon SQS and Amazon SNS?;; SQS uses a **pull** model (consumers pull messages from the queue), while SNS uses a **push** (Pub/Sub) model (messages are pushed to subscribers).
@@ -35,7 +35,7 @@ created_date:
 - What is the key differentiator for Kinesis Data Streams in terms of data processing time?;; It provides **real-time** data processing capabilities.
 <!--SR:!2025-11-14,46,290-->
 - What is the data retention period for Kinesis Data Streams, and can data be replayed or deleted?;; Data is retained for 1 to 365 days. Data can be replayed by consumers, but it cannot be manually deleted (it only expires after its retention period).
-<!--SR:!2025-10-18,19,250-->
+<!--SR:!2025-12-27,67,270-->
 - What is the throughput capacity for a single shard in Kinesis Data Streams Provisioned Mode (inbound and outbound)?;; 1 MB/s or 1,000 records/s inbound, and 2 MB/s outbound.
 <!--SR:!2025-10-22,23,250-->
 - What is the key differentiator for Amazon Data Firehose in terms of data processing time?;; It provides **near real-time** data processing, primarily due to its internal buffer.
@@ -45,7 +45,7 @@ created_date:
 - What open-source message brokers are managed by Amazon MQ, and what is a key use case for the service?;; RabbitMQ and ActiveMQ. A key use case is migrating existing on-premises applications that rely on open messaging protocols without re-engineering.
 <!--SR:!2025-11-05,37,290-->
 - How does Amazon MQ achieve high availability in a multi-AZ setup?;; It uses an active/standby broker across two Availability Zones (AZs) with Amazon EFS as backend storage to ensure data safety and consistency during failover.
-<!--SR:!2025-10-18,24,270-->
+<!--SR:!2026-01-18,89,290-->
 
 
 

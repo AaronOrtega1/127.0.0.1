@@ -15,7 +15,7 @@ created_date:
 - What is unique about Amazon S3 bucket names?;;They must have a **globally-unique name** across all regions and AWS accounts.
 <!--SR:!2025-11-17,56,310-->
 - What is the durability level for all Amazon S3 storage classes?;;**11 nines** (99.999999999%) durability.
-<!--SR:!2025-10-20,28,250-->
+<!--SR:!2026-01-28,99,270-->
 - What is the maximum object size that can be uploaded to Amazon S3?;;**5 terabytes** (5,000 gigabytes).
 <!--SR:!2025-10-26,34,250-->
 - When is multi-part upload mandatory for uploading files to Amazon S3?;;For files **greater than five gigabytes**.

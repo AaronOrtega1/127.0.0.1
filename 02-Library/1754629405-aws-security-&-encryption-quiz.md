@@ -44,7 +44,7 @@ created_date: 2025-08-07
 - You have a website hosted on a fleet of EC2 instances fronted by an Application Load Balancer. What should you use to protect your website from common web application attacks (e.g., SQL Injection)?;;AWS WAF.
 <!--SR:!2025-11-02,65,310-->
 - You would like to analyze OS vulnerabilities from within EC2 instances. You need these analyses to occur weekly and provide you with concrete recommendations in case vulnerabilities are found. Which AWS service should you use?;;Amazon Inspector.
-<!--SR:!2025-10-17,11,210-->
+<!--SR:!2025-11-23,33,230-->
 - What is the most suitable AWS service for storing RDS DB passwords which also provides you automatic rotation?;;AWS Secrets Manager.
 <!--SR:!2026-01-16,107,290-->
 - Which AWS service allows you to centrally manage EC2 Security Groups and AWS Shield Advanced across all AWS accounts in your AWS Organization?;;AWS Firewall Manager.

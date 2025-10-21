@@ -19,7 +19,7 @@ created_date:
 - How do users manage encryption keys when using **SSE-KMS**?;;With SSE-KMS, users manage their own encryption keys using the **KMS service (Key Management Service)**, allowing for user control over key creation and logging key usage in **CloudTrail**.
 <!--SR:!2025-12-23,70,270-->
 - What is a potential **scalability limitation** when using SSE-KMS for encryption?;;SSE-KMS API calls count towards **KMS quotas** (between 5,000 and 30,000 requests per second per region), which can be a thread limit for very high-throughput S3 buckets, though quotas can be increased.
-<!--SR:!2025-10-20,25,275-->
+<!--SR:!2026-01-25,96,295-->
 - How are encryption keys handled for **SSE-C**?;;For SSE-C, keys are **customer-provided and managed outside of AWS**. Amazon S3 uses the key for server-side encryption but **never stores it**, discarding it after use.
 <!--SR:!2025-11-14,45,290-->
 - What **protocol requirement** is mandatory when using SSE-C?;;When using SSE-C, you **must use HTTPS** and pass the encryption key as part of HTTP headers for every request.
@@ -29,7 +29,7 @@ created_date:
 - How can you **force encryption in transit** for an S3 bucket?;;You can use an S3 **bucket policy** to deny any `GetObject` operation if the condition `"aws:SecureTransport": "false"` is met, thereby blocking unencrypted HTTP connections and forcing HTTPS.
 <!--SR:!2025-10-27,35,270-->
 - What are two **specific destructive operations** that require MFA Delete in S3?;;MFA Delete is required to **permanently delete an object version** and to **suspend Versioning** on an S3 bucket.
-<!--SR:!2025-10-20,32,270-->
+<!--SR:!2026-02-19,121,290-->
 - What are the **prerequisites and permissions** for enabling MFA Delete?;;To use MFA Delete, **Versioning must first be enabled** on the bucket, and only the **bucket owner (root account)** can enable or disable MFA Delete.
 <!--SR:!2026-01-20,98,290-->
 - What is a **critical warning** regarding the configuration of S3 Access Logs?;;**Never set the logging bucket to be the same as the bucket you are monitoring**, as this will create an infinite logging loop, causing exponential bucket growth and significant costs.
