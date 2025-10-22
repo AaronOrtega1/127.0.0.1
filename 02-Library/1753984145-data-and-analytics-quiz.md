@@ -22,9 +22,9 @@ created_date: 2025-07-31
 - You are running a gaming website that is using DynamoDB as its data store. Users have been asking for a search feature to find other gamers by name, with partial matches if possible. Which AWS technology do you recommend to implement this feature?;;Amazon OpenSearch Service.
 <!--SR:!2026-04-06,185,310-->
 - An AWS service allows you to create, run, and monitor ETL (extract, transform, and load) jobs in a few clicks.;;AWS Glue.
-<!--SR:!2025-10-19,60,310-->
+<!--SR:!2026-07-06,257,330-->
 - A company is using AWS to host its public websites and internal applications. Those different websites and applications generate a lot of logs and traces. There is a requirement to centrally store those logs and efficiently search and analyze those logs in real-time for detection of any errors and if there is a threat. Which AWS service can help them efficiently store and analyze logs?;;Amazon OpenSearch service.
-<!--SR:!2025-10-19,20,250-->
+<!--SR:!2025-12-11,50,250-->
 - ... makes it easy and cost-effective for data engineers and analysts to run applications built using open source big data frameworks such as Apache Spark, Hive, or Presto without having to operate or manage clusters.;;Amazon EMR.
 <!--SR:!2025-11-29,81,270-->
 - An e-commerce company has all its historical data such as orders, customers, revenues, and sales for the previous years hosted on a Redshift cluster. There is a requirement to generate some dashboards and reports indicating the revenues from the previous years and the total sales, so it will be easy to define the requirements for the next year. The DevOps team is assigned to find an AWS service that can help define those dashboards and have native integration with Redshift. Which AWS service is best suited?;;Amazon QuickSight.

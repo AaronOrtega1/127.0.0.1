@@ -26,7 +26,7 @@ created_date: 2025/06/14
 - You are working as a Solutions Architect for a company and you are required to design an architecture for a high-performance, low-latency application that will receive millions of requests per second. Which type of Elastic Load Balancer should you choose?;;Network Load Balancer.
 <!--SR:!2026-05-19,252,330-->
 - Application Load Balancers which protocols?;;HTTP, HTTPS, WebSocket.
-<!--SR:!2025-10-22,34,210-->
+<!--SR:!2026-01-01,71,210-->
 - Application Load Balancer can route traffic to different Target Groups Based on what?;;URL Path, Hostname, HTTP Headers, and Query Strings.
 <!--SR:!2025-10-26,60,210-->
 - What can be registered as a targets in a Target Groups for an Application Load Balancer can be?;;EC2 Instances, Private IP Addresses, Lambda Functions.

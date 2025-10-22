@@ -22,13 +22,13 @@ created_date: 2025-08-02
 - A research team would like to group articles by topics using Natural Language Processing (NLP). Which service should they use?;; Amazon Comprehend.
 <!--SR:!2025-11-19,71,270-->
 - A company would like to convert its documents into different languages, with natural and accurate wording. What should they use?;;Amazon Translate.
-<!--SR:!2025-10-20,56,310-->
+<!--SR:!2026-06-18,239,330-->
 - A developer would like to build, train, and deploy a machine learning model quickly. Which service can he use?;;SageMaker, fully managed, can build, train, and deploy ML models quickly.
 <!--SR:!2025-12-15,94,290-->
 - Which AWS service makes it easy to convert speech-to-text?;;Amazon Transcribe.
 <!--SR:!2025-10-26,62,310-->
 - Which of the following services is a document search service powered by machine learning?;;Amazon Kendra.
-<!--SR:!2025-10-21,20,270-->
+<!--SR:!2026-01-05,75,290-->
 - A company is managing an image and video sharing platform which is used by customers around the globe. The platform is running on AWS using an S3 bucket to host both images and videos and using CloudFront as the CDN to deliver content to customers all over the world with low latency. In the last couple of months, a lot of customers have complained that they have started to see inappropriate content on the platform which started to increase in the last week. It will be very expensive and time-consuming to manually approve those images and videos by employees before its published on the platform. There is a requirement to find a solution that can automatically detect inappropriate and offensive images and videos and give you the ability to set a minimum confidence threshold for items that will be flagged and allows for manual review. Which AWS service can fit the requirement?;;Amazon Rekognition.
 <!--SR:!2026-03-14,165,310-->
 - An online medical company that allows you to book an appointment with doctors using through a phone call is using AWS to host their infrastructure. They are using Amazon Connect and Amazon Lex to receive calls and create a workflow, book an appointment, and pay. According to the company’s policy, all calls must be recorded for review. But, there is a requirement to remove any Personally Identifiable Information (PII) from the call before it's saved. What do you recommend to use which helps in removing PII from calls?;;Amazon Transcribe.

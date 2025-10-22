@@ -29,7 +29,7 @@ created_date:
 - Explain the difference between Aurora's **Writer Endpoint** and **Reader Endpoint**.;;The **Writer Endpoint** is a DNS name that **always points to the master instance** for writes. The **Reader Endpoint** is for **load balancing connections** across all read replicas for read workloads.
 <!--SR:!2025-11-27,62,270-->
 - What is **RDS Custom**, and for which database types is it available?;;RDS Custom allows you to have **full admin access** to the **underlying operating system and database** for certain database types. It is available for **Oracle** and **Microsoft SQL Server**. You can SSH into the underlying EC2 instance.
-<!--SR:!2025-10-22,40,290-->
+<!--SR:!2026-04-01,161,310-->
 - What are the main benefits of using **Amazon RDS Proxy**?;;RDS Proxy allows applications to **pool and share database connections**, reducing stress on database resources. It also **reduces failover time by up to 66%** for RDS and Aurora. Additionally, it can **enforce IAM authentication** for your database.
 <!--SR:!2026-03-23,153,310-->
 - What is **Amazon ElastiCache** primarily used for, and what are the two main caching technologies it manages?;;ElastiCache provides **managed Redis or Memcached**. It is used for **in-memory databases** with high performance and low latency to **reduce the load off of databases for read-intensive workloads** and to make applications **stateless** by storing session data.

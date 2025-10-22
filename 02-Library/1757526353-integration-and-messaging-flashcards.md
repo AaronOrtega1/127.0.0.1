@@ -19,7 +19,7 @@ created_date:
 - What is the acceptable range for Amazon SQS Long Polling wait times, and what is its benefit?;; Between 1 second and 20 seconds. It reduces API calls and latency.
 <!--SR:!2025-11-04,33,250-->
 - What is the default message visibility timeout in Amazon SQS, and what is its maximum configurable value?;; Default: 30 seconds. Maximum: 12 hours.
-<!--SR:!2025-10-22,23,250-->
+<!--SR:!2026-01-11,81,270-->
 - What are the ordering and delivery guarantees for Amazon SQS Standard queues?;; Best-effort ordering and at-least-once delivery.
 <!--SR:!2026-01-10,81,270-->
 - How does Amazon SQS FIFO guarantee message ordering and support exactly-once send?;; Ordering by Message Group ID and exactly-once send using deduplication IDs or content-based deduplication within a 5-minute window.
@@ -37,7 +37,7 @@ created_date:
 - What is the data retention period for Kinesis Data Streams, and can data be replayed or deleted?;; Data is retained for 1 to 365 days. Data can be replayed by consumers, but it cannot be manually deleted (it only expires after its retention period).
 <!--SR:!2025-12-27,67,270-->
 - What is the throughput capacity for a single shard in Kinesis Data Streams Provisioned Mode (inbound and outbound)?;; 1 MB/s or 1,000 records/s inbound, and 2 MB/s outbound.
-<!--SR:!2025-10-22,23,250-->
+<!--SR:!2025-12-18,57,250-->
 - What is the key differentiator for Amazon Data Firehose in terms of data processing time?;; It provides **near real-time** data processing, primarily due to its internal buffer.
 <!--SR:!2025-11-11,43,290-->
 - Does Amazon Data Firehose store data itself or support data replay?;; No, it has no data storage and no replay capability.

@@ -30,13 +30,13 @@ created_date: 2025-08-22
 - What is the purpose of IAM Roles?;;**IAM Roles** are used to assign permissions to **AWS services** (not physical people) that need to perform actions on your behalf, such as an EC2 Instance or a Lambda Function.
 <!--SR:!2025-10-28,48,308-->
 - What are the two main defense mechanisms to protect IAM users and groups from being compromised?;;The two main defense mechanisms are defining a **password policy** and enforcing **Multi-Factor Authentication (MFA).**
-<!--SR:!2025-10-22,35,250-->
+<!--SR:!2026-01-17,87,250-->
 - Name at least three configuration options for an AWS IAM password policy:;;You can set a **minimum password length,** require **specific character types** (e.g., uppercase, lowercase, numbers, non-alphanumeric characters), allow or disallow IAM users to **change their own passwords,** require users to **change passwords after a certain time** (password expiration), and **prevent password reuse.**
 <!--SR:!2025-11-02,46,290-->
 - List two types of Multi-Factor Authentication (MFA) devices supported by AWS:;;Two types include **virtual MFA devices** (like Google Authenticator or Authy) and **Universal 2nd Factor (U2F) Security Keys** (physical devices like YubiKey). Other options include hardware key fob MFA devices and special key fobs for AWS GovCloud.
 <!--SR:!2026-01-10,103,308-->
 - What are two essential security tools available in IAM to help enforce the principle of least privilege?;;The **IAM Credentials Report** (account-level) provides the status of all user credentials, and the **IAM Access Advisor** (user-level) shows service permissions granted to a user and when those services were last accessed.
-<!--SR:!2025-10-22,30,250-->
+<!--SR:!2026-01-03,73,250-->
 - What is the difference between an IAM user and an IAM role?;;An **IAM user** represents a **physical person** within your organization, while an **IAM role** is intended to be used by **AWS services** to perform actions on your behalf.
 <!--SR:!2025-10-23,44,308-->
 - Can IAM groups contain other IAM groups?;;No, IAM groups can **only contain users**, not other groups.

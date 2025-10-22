@@ -32,7 +32,7 @@ created_date: 2025-09-02
 - How is **Elastic Beanstalk priced**?;;The Elastic Beanstalk service itself is **free**, but you pay for the **underlying instances and resources** (e.g., EC2, ASG, ELB) that Beanstalk provisions.
 <!--SR:!2025-10-30,38,290-->
 - What is the key component used in an **Elastic Beanstalk worker environment tier**, and how does it scale?;;It uses an **SQS queue** to receive messages. The EC2 instances (workers) pull messages from SQS and **scale based on the number of SQS messages**.
-<!--SR:!2025-10-22,30,250-->
+<!--SR:!2026-02-04,105,270-->
 - What are the **two main deployment modes** in Elastic Beanstalk, and for what purpose is each generally used?;;**Single instance**: Great for **development purposes**. **High available with a load balancer**: Great for **production environments**, distributing load across multiple EC2 instances via an Auto Scaling Group in multiple AZs.
 <!--SR:!2026-02-18,120,290-->
 - What is the key **difference between EBS volumes and EFS** for storing shared application files (like WordPress images) across multiple EC2 instances in different Availability Zones, and which is generally more costly?;;**EBS volumes** work well for a **single EC2 instance**, but data stored on one EBS volume is not directly accessible by other instances, making it problematic for scaling. **EFS** provides **shared storage (NFS)** accessible by multiple EC2 instances across different AZs. **EFS is generally more expensive than EBS** but offers significant advantages for distributed applications.

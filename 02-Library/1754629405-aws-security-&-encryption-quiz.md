@@ -16,7 +16,7 @@ created_date: 2025-08-07
 - Server-Side Encryption means that the data is sent encrypted to the server.;;False, it means that the server will encrypt the data for use.
 <!--SR:!2025-10-28,61,310-->
 - In Server-Side Encryption, where do the encryption and decryption happen?;;Both encryption and decryption happen on the server.
-<!--SR:!2025-10-22,56,310-->
+<!--SR:!2026-06-19,240,330-->
 - In Client-Side Encryption, the server must know our encryption scheme before we can upload the data.;;False.
 <!--SR:!2025-10-23,57,310-->
 - You need to create KMS Keys in AWS KMS before you are able to use the encryption features for EBS, S3, RDS ...;;False.
@@ -24,7 +24,7 @@ created_date: 2025-08-07
 - AWS KMS supports both symmetric and asymmetric KMS keys.;;True.
 <!--SR:!2025-11-01,64,310-->
 - When you enable Automatic Rotation on your KMS Key, the backing key is rotated every;;1 year.
-<!--SR:!2025-10-22,56,310-->
+<!--SR:!2026-06-18,239,330-->
 - You have an AMI that has an encrypted EBS snapshot using KMS CMK. You want to share this AMI with another AWS account. You have shared the AMI with the desired AWS account, but the other AWS account still can't use it. How would you solve this problem?;;You need to share the KMS CMK used to encrypt the AMI with the other AWS account.
 <!--SR:!2025-10-21,55,310-->
 - You have created a Customer-managed CMK in KMS that you use to encrypt both S3 buckets and EBS snapshots. Your company policy mandates that your encryption keys be rotated every 6 months. What should you do?;;Re-configure your KMS CMK and enable Automatic Key Rotation, and configure the Retention Period with 180 days.
@@ -56,7 +56,7 @@ created_date: 2025-08-07
 - You have an S3 bucket that is encrypted with SSE-KMS. You have been tasked to replicate the objects to a target bucket in the same AWS region but with a different KMS Key. You have configured the S3 replication, the target bucket, and the target KMS key and it is still not working. What is missing to make the S3 replication work?;;You have to configure permissions for both Source KMS Key `kms:Decrypt` and Target KMS Key `kms:Encrypt` to be used by the S3 Replication Service.
 <!--SR:!2025-12-21,94,290-->
 - You have generated a public certificate using LetsEncrypt and uploaded it to the ACM so you can use and attach to an Application Load Balancer that forwards traffic to EC2 instances. As this certificate is generated outside of AWS, it does not support the automatic renewal feature. How would you be notified 30 days before this certificate expires so you can manually generate a new one?;;Configure EventBridge for daily expiration events from ACM to invoke SNS notifications to your email.
-<!--SR:!2025-10-21,42,250-->
+<!--SR:!2026-03-17,146,270-->
 - You have created the main Edge-Optimized API Gateway in `us-west-2` AWS region. This main Edge-Optimized API Gateway forwards traffic to the second level API Gateway in `ap-southeast-1`. You want to secure the main API Gateway by attaching an ACM certificate to it. Which AWS region are you going to create the ACM certificate in?;;`us-east-1`, as the edge-optimized API Gateway is using AWS managed CloudFront distribution behind the scene to rout requests across the glob through CloudFront Edge location, the ACM certificate must be created in us-east-1.
 <!--SR:!2025-10-29,62,310-->
 - You are managing an AWS Organization with multiple AWS accounts. Each account has a separate application with different resources. You want an easy way to manage Security Groups and WAF Rules across those accounts as there was a security incident the last week and you want to tighten up your resources. Which AWS service can help you to do so?;;AWS Firewall Manager.

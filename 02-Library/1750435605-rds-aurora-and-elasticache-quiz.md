@@ -37,7 +37,7 @@ created_date: 2025/06/20
 - How do you encrypt an unencrypted RDS DB instance?;;Create a snapshot of the unencrypted RDS DB instance, copy the snapshot and tick "Enable encryption", then restore the RDS DB instance from the encrypted snapshot.
 <!--SR:!2026-06-24,275,330-->
 - For your RDS database, you can have up to ............ Read Replicas.;;15.
-<!--SR:!2025-10-20,70,270-->
+<!--SR:!2026-07-14,265,290-->
 - Which RDS database technology does **NOT** support IAM Database Authentication?;;Oracle.
 <!--SR:!2025-11-23,109,310-->
 - You have an un-encrypted RDS DB instance and you want to create Read Replicas. Can you configure the RDS Read Replicas to be encrypted?;;No, you can not create encrypted Read Replicas from an unencrypted RDS DB instance.
@@ -47,7 +47,7 @@ created_date: 2025/06/20
 - How many Aurora Read Replicas can you have in a single Aurora DB Cluster?;;15.
 <!--SR:!2025-11-17,104,310-->
 - Amazon Aurora supports both .......................... databases.;;MySQL and PostgreSQL.
-<!--SR:!2025-10-18,30,290-->
+<!--SR:!2026-01-17,87,290-->
 - You work as a Solutions Architect for a gaming company. One of the games mandates that players are ranked in real-time based on their score. Your boss asked you to design then implement an effective and highly available solution to create a gaming leaderboard. What should you use?;;Use ElastiCache for Redis - Sorted Sets.
 <!--SR:!2025-12-23,92,270-->
 - You need full customization of an Oracle Database on AWS. You would like to benefit from using the AWS services. What do you recommend?;;RDS Custom for Oracle.
