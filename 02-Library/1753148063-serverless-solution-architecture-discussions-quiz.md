@@ -26,5 +26,5 @@ created_date: 2025-07-21
 - You are running a photo-sharing website where your images are downloaded from all over the world. Every month you publish a master pack of beautiful mountain images that are over 15 GB in size. The content is currently hosted on an Elastic File System (EFS) file system and distributed by an Application Load Balancer and a set of EC2 instances. Each month, you are experiencing very high traffic which increases the load on your EC2 instances and increases network costs. What do you recommend to reduce EC2 load and network costs without refactoring your website?;;Create a CloudFront Distribution.
 <!--SR:!2025-12-28,80,290-->
 - An AWS service allows you to capture gigabytes of data per second in real-time and deliver these data to multiple consuming applications, with a replay feature.;;Kinesis Data Streams.
-<!--SR:!2025-10-21,25,288-->
+<!--SR:!2026-02-02,102,308-->
 

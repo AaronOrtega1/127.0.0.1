@@ -38,7 +38,7 @@ module.exports = async (params) => {
 
     // Reemplazar placeholders en el template
     const finalContent = templateContent
-      .replace(/{{cap_title}}/g, title)
+      .replace(/{{title}}/g, title)
       .replace(/{{date}}/g, date) // Reemplazar {{date}} con la fecha actual
 
     // Crear la nota en la carpeta especificada con el contenido del template

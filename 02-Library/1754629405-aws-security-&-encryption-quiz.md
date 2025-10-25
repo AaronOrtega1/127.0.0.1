@@ -18,7 +18,7 @@ created_date: 2025-08-07
 - In Server-Side Encryption, where do the encryption and decryption happen?;;Both encryption and decryption happen on the server.
 <!--SR:!2026-06-19,240,330-->
 - In Client-Side Encryption, the server must know our encryption scheme before we can upload the data.;;False.
-<!--SR:!2025-10-23,57,310-->
+<!--SR:!2026-06-25,245,330-->
 - You need to create KMS Keys in AWS KMS before you are able to use the encryption features for EBS, S3, RDS ...;;False.
 <!--SR:!2025-11-01,64,310-->
 - AWS KMS supports both symmetric and asymmetric KMS keys.;;True.
@@ -26,7 +26,7 @@ created_date: 2025-08-07
 - When you enable Automatic Rotation on your KMS Key, the backing key is rotated every;;1 year.
 <!--SR:!2026-06-18,239,330-->
 - You have an AMI that has an encrypted EBS snapshot using KMS CMK. You want to share this AMI with another AWS account. You have shared the AMI with the desired AWS account, but the other AWS account still can't use it. How would you solve this problem?;;You need to share the KMS CMK used to encrypt the AMI with the other AWS account.
-<!--SR:!2025-10-21,55,310-->
+<!--SR:!2026-06-11,231,330-->
 - You have created a Customer-managed CMK in KMS that you use to encrypt both S3 buckets and EBS snapshots. Your company policy mandates that your encryption keys be rotated every 6 months. What should you do?;;Re-configure your KMS CMK and enable Automatic Key Rotation, and configure the Retention Period with 180 days.
 <!--SR:!2026-02-21,130,290-->
 - What should you use to control access to your KMS CMKs?;;KMS Key Policies.

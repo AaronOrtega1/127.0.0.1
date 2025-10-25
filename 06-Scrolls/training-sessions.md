@@ -13,7 +13,7 @@ XP: 10
 tags:
   - MMA
 ---
-# {{cap_title}}: [[<% tp.date.now("YYYY-MM-DD") %>]]
+# {{title}}: [[<% tp.date.now("YYYY-MM-DD") %>]]
 ## Techniques & Drills
 ### Technical Focus
 - 

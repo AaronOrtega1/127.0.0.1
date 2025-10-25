@@ -1,12 +1,12 @@
 ---
 aliases: 
-  - {{cap_title}}
+  - {{title}}
 tags:
   - Domain
 founded:
   "{{date}}"
 ---
-# Domain of {{cap_title}}
+# Domain of {{title}}
 ## Purpose
 
 ## Active Quests

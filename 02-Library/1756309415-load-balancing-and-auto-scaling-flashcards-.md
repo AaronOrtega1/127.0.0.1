@@ -27,7 +27,7 @@ created_date:
 - What is AWS's recommendation regarding the **Classic Load Balancer (CLB)**?;;AWS **does not want users to use the Classic Load Balancer anymore**; it is shown as **deprecated** within the console, though still available. It is an **older generation** load balancer.
 <!--SR:!2025-11-11,55,310-->
 - What are some key routing capabilities of the Application Load Balancer (ALB)?;;**Target path of the URL** (e.g., /users, /posts), **host name of the url** (e.g., one.example.com, other.example.com), **query strings and headers** (e.g., ?Platform=Mobile, ?Platform=Desktop).
-<!--SR:!2025-10-23,41,290-->
+<!--SR:!2025-11-13,21,270-->
 - How do EC2 instances behind an Application Load Balancer (ALB) get the true client IP address?;;The application servers **do not directly see the client's IP**. The ALB performs **connection termination** and the talks to the EC2 instance using its own IP. The true client IP is inserted into the **X-Forwarder-For** header of the HTTP request. The port and protocol are similarly found in **X-Forwarder-Port** and **X-Forwarded-Proto** headers, respectively.
 <!--SR:!2025-11-10,54,310-->
 - What is the purpose of **Connection Draining (or Deregistration Delay)** in load balancers?;;Connection Draining (CLB) or Deregistration Delay (for ALB/NLB) gives instance **time to complete in-flight or active request** while the instance is being deregistered or marked unhealthy. During this period, the ELB **stops sending new requests** to the draining instance but allows existing connections to finish.
@@ -51,7 +51,7 @@ created_date:
 - What three **capacity parameters** can be defined for an Auto Scaling Group (ASG)?;;An ASG allows you to set a **minimum capacity**, a **desired capacity**, and a **maximum capacity** for the number of EC2 instances running at any time.
 <!--SR:!2025-12-30,89,290-->
 - What is the **default cooldown period** for an Auto Scaling Group (ASG) after a scaling activity?;;The default cooldown period is **five minutes (300 seconds)**. During this period, the ASG will not launch or terminate additional instances, allowing metrics to stabilize.
-<!--SR:!2025-10-23,7,210-->
+<!--SR:!2025-11-14,22,230-->
 - Describe the two types of **scalability**:;;**Vertical scalability**: Involves **increasing the size of a single instance**. **Horizontal scalability (Elasticity)** Involves **increasing the number of instances or systems**, commonly used with distributed systems and Auto Scaling Groups.
 <!--SR:!2025-11-20,64,310-->
 

@@ -1,13 +1,13 @@
 ---
 link: "[[]]"
 aliases: 
-  - {{cap_title}}
+  - {{title}}
 tags:
   - Forged
 created_date:
   "{{date}}"
 ---
-# {{cap_title}}
+# {{title}}
 ## Summary
 
 ## Content

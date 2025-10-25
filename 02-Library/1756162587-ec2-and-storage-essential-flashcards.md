@@ -15,7 +15,7 @@ created_date: 2025-08-25
 - What is the primary purpose of EC2 **Placement Groups**?;;To control how **EC2 instances are placed** within the AWS infrastructure, defining their strategy relative to one another.
 <!--SR:!2026-03-22,152,310-->
 - Name the **three strategies** available for EC2 Placement Groups.;;Cluster, Spread, Partition.
-<!--SR:!2025-10-24,42,290-->
+<!--SR:!2026-04-12,170,310-->
 - What is the key characteristic of **Cluster Placement Groups**?;;Instances are grouped together in a **low-latency hardware setup withing a single AZ**, offering **high performance** but **high risk.**
 <!--SR:!2026-04-04,165,310-->
 - What is a major drawback of using a **Cluster Placement Group**?;;If the **AZ fails, all instances withing that group will fail** at the same time.
@@ -87,7 +87,7 @@ created_date: 2025-08-25
 - What is preserved when an EC2 instance is **hibernated**?;;Then **in-memory state (RAM)** is preserved by dumping it to the root EBS volume.
 <!--SR:!2026-01-13,89,276-->
 - What are two crucial requirements for an EC2 instance to support **hibernation**?;;The **root EBS volume must be encrypted** and it **must have enough space to contain the RAM dump.**
-<!--SR:!2025-10-25,24,256-->
+<!--SR:!2025-12-28,64,256-->
 - What EC2 purchasing option offers the **highest cost savings** but is the **least reliable**?;;**Spot Instances**, offering up to **90% discounts**, but they can be reclaimed by AWS at any time.
 <!--SR:!2025-11-22,66,316-->
 - What is the **grace period** given before a **Spot Instance is reclaimed** when the spot price exceeds your maximum price?;;A **two-minute grace period**.
@@ -97,7 +97,7 @@ created_date: 2025-08-25
 - What is the correct procedure to **terminate persistent Spot Instances** and prevent them from relaunching?;;First, you must **cancel the spot request**, and then you must **terminate the associated spot instances.**
 <!--SR:!2025-10-30,47,296-->
 - What is a **Dedicated Host** and when would you use it?;;A Dedicated Host is an **entire physical server with EC2 instance capacity fully dedicated to your use case.** It's used for **compliance requirements** or to leverage **existing server-bound software licenses.**
-<!--SR:!2025-10-25,43,296-->
+<!--SR:!2026-04-20,177,316-->
 - What is the difference between a **Dedicated Host** and a **Dedicated Instance**?;;A **Dedicated Host** gives you access to the **entire physical server** and control over instance placements. A **Dedicated Instance** runs on hardware dedicated to you, but you **may share the hardware with other instances in the same account** and have **no control over instance placements.**
 <!--SR:!2025-11-03,47,296-->
 - What is the primary purpose of **Capacity Reservations** for EC2?;;To **reserve On-Demand instance capacity in a specific AZ** for any duration, guaranteeing availability, but they do not **provide billing discounts** and you are charged even if instances are not running.

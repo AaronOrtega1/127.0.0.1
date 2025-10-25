@@ -1,7 +1,7 @@
 ---
 link: "[[ ]]"
 aliases:
-  - "{{cap_title}}"
+  - "{{title}}"
 tags:
   - Quests
   - active
@@ -9,7 +9,7 @@ accepted: "{{date}}"
 deadline: "{{date}}"
 XP: 0
 ---
-# Quest: {{cap_title}}
+# Quest: {{title}}
 ## Objective
 
 ## Tasks

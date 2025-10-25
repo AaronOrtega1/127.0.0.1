@@ -20,6 +20,6 @@ created_date: 2025-08-20
 - Which AWS service allows you to run and schedule hundreds of thousands of computing jobs on AWS such as big data and complex analytics jobs?;;AWS Batch.
 <!--SR:!2025-11-04,20,270-->
 - The company you are working on is using Salesforce and Slack internally. For archival and some analytics requirements, you have been tasked to transfer the data in both Salesforce and Slack to AWS in an S3 bucket. Which AWS service is best suited for this scenario?;;Amazon AppFlow.
-<!--SR:!2025-10-17,42,290-->
+<!--SR:!2026-04-11,170,310-->
 - Which AWS Service analyzes your AWS account and gives recommendations for cost optimization, performance, security, fault tolerance, and service limits?;;AWS Trusted Advisor.
 <!--SR:!2025-12-25,80,270-->

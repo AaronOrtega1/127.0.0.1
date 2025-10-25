@@ -53,7 +53,7 @@ created_date: 2025/06/20
 - You need full customization of an Oracle Database on AWS. You would like to benefit from using the AWS services. What do you recommend?;;RDS Custom for Oracle.
 <!--SR:!2026-01-14,126,250-->
 - You need to store long-term backups for your Aurora database for disaster recovery and audit purposes. What do you recommend?;;Perform On Demand Backups.
-<!--SR:!2025-10-23,31,230-->
+<!--SR:!2025-11-09,17,210-->
 - Your development team would like to perform a suite of read and write tests against your production Aurora database because they need access to production data as soon as possible. What do you advise?;;Use the Aurora Cloning Feature.
 <!--SR:!2026-03-19,156,250-->
 - You have 100 EC2 instances connected to your RDS database and you see that upon a maintenance of the database, all your applications take a lot of time to reconnect to RDS, due to poor application logic. How do you improve this?;;Use an RDS Proxy, this reduces the failover time by up to 66% and keeps connection active for your app.

@@ -13,7 +13,7 @@ created_date:
 ---
 # AWS Database and Caching Flashcards
 - What does AWS RDS stand for, and what is its primary function?;;RDS stands for **Relational Database Service**, and it is a **managed database service** for databases that use **SQL** as a query language.
-<!--SR:!2025-10-23,41,290-->
+<!--SR:!2026-04-05,164,310-->
 - What are the key limitations when using AWS RDS instances as a managed service?;;You **cannot SSH into the RDS instances** because AWS manages the underlying EC2 instance.
 <!--SR:!2026-02-16,126,290-->
 - What are the typical default network ports for PostgreSQL, MySQL, and Aurora (PostgreSQL compatible / MySQL compatible) databases on RDS?;;**PostgreSQL - 5432**, **MySQL - 3306**, **Aurora (PostgreSQL compatible) - 5432**, **Aurora (MySQL compatible) - 3306**.

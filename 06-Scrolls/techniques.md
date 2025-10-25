@@ -8,9 +8,9 @@ tags:
   - technique
   - MMA
 aliases:
-  - "{{cap_title}}"
+  - "{{title}}"
 ---
-# {{cap_title}}
+# {{title}}
 
 ## Description
 *Brief description of the technique and its purpose*

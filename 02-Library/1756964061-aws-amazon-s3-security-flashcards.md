@@ -37,7 +37,7 @@ created_date:
 - What is the primary benefit and key differentiator of **S3 Access Points**?;;S3 Access Points **simplify security management and scale access** to S3 buckets by allowing the creation of multiple access points, each with its own access point policy, thereby offloading complex security management from a single bucket policy.
 <!--SR:!2025-11-24,48,250-->
 - How do you privately access an S3 Access Point configured with a **VPC origin**?;;To access an S3 Access Point with a VPC origin privately, you must create a **VPC endpoint**, and its policy must explicitly allow access to both the target S3 buckets and the access points.
-<!--SR:!2025-10-25,29,250-->
+<!--SR:!2026-02-06,104,270-->
 - What is the **evaluation order** between S3 bucket policies and default encryption settings?;;**Bucket policies are always evaluated before default encryption settings**, which allows them to preemptively force specific encryption methods like SSE-KMS or SSE-C, overriding the default.
 <!--SR:!2025-11-03,42,290-->
 - Describe the characteristics of **Compliance Mode** for S3 Object Lock.;;In Compliance Mode, object versions **cannot be overwritten or deleted by any user, including the root user**. Additionally, retention modes and periods **cannot be changed or shortened**.

@@ -1,7 +1,7 @@
 ---
 link: "[[1759336504-review-practice-exam-1-aws-saa|Review Practice Exam 1 AWS SAA]]"
 aliases:
-  - "{{cap_title}}"
+  - "{{title}}"
 tags:
   - Knowledge
   - aws
@@ -10,7 +10,7 @@ created_date: "{{date}}"
 status:
 domain: Design Resilient Architectures
 ---
-# {{cap_title}}
+# {{title}}
 ## Question Details
 **Original Question:**
 

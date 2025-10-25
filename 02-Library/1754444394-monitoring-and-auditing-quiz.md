@@ -14,15 +14,15 @@ created_date: 2025-08-05
 - You have an RDS DB instance that's configured to push its database logs to CloudWatch. You want to create a CloudWatch alarm if there's an `Error` found in the logs. How would you do that?;;Create a CloudWatch Logs Metric Filter that filter the logs for the keyword `Error`, then create a CloudWatch Alarm based on that metric filter.
 <!--SR:!2026-03-09,161,310-->
 - You have an application hosted on a fleet of EC2 instances managed by an Auto Scaling Group that you configured its minimum capacity to 2. Also, you have created a CloudWatch Alarm that is configured to scale in your ASG when CPU Utilization is below 60%. Currently, your application runs on 2 EC2 instances and has low traffic and the CloudWatch Alarm is in the ALARM state. What will happen?;;The CloudWatch Alarm will remain in ALARM state but never decrease the number of EC2 instances in the ASG.
-<!--SR:!2025-10-19,55,310-->
+<!--SR:!2026-06-16,236,330-->
 - How would you monitor your EC2 instance memory usage in CloudWatch?;;Use the Unified CloudWatch Agent to push memory usage as a custom metric to CloudWatch.
 <!--SR:!2026-04-10,185,310-->
 - You have made a configuration change and would like to evaluate the impact of it on the performance of your application. Which AWS service should you use?;;Amazon CloudWatch.
-<!--SR:!2025-10-23,59,310-->
+<!--SR:!2026-07-03,253,330-->
 - Someone has terminated an EC2 instance in your AWS account last week, which was hosting a critical database that contains sensitive data. Which AWS service helps you find who did that and when?;;AWS CloudTrail.
-<!--SR:!2025-10-24,60,310-->
+<!--SR:!2026-07-07,256,330-->
 - You have CloudTrail enabled for your AWS Account in all AWS Regions. What should you use to detect unusual activity in your AWS Account?;;CloudTrail Insights.
-<!--SR:!2025-10-18,47,290-->
+<!--SR:!2026-04-30,189,310-->
 - One of your teammates terminated an EC2 instance 4 months ago which has critical data. You don't know who made this so you are going to review all API calls within this period using CloudTrail. You already have CloudTrail set up and configured to send logs to the S3 bucket. What should you do to find out who made this?;;Analyze CloudTrail logs in S3 bucket using Amazon Athena.
 <!--SR:!2025-10-31,66,310-->
 - You are running a website on a fleet of EC2 instances with OS that has a known vulnerability on port 84. You want to continuously monitor your EC2 instances if they have port 84 exposed. How should you do this?;;Setup Config Rules.

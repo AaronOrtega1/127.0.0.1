@@ -1,7 +1,7 @@
 ---
 link: "[[]]"
 aliases:
-  - "{{cap_title}}"
+  - "{{title}}"
 tags:
   - Knowledge
   - Tome
@@ -9,7 +9,7 @@ created_date: "{{date}}"
 rating:
 status:
 ---
-# {{cap_title}}
+# {{title}}
 ## Top Concepts:
 1. 
 ## Highlights:

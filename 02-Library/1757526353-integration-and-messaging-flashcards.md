@@ -13,7 +13,7 @@ created_date:
 ---
 # Integration and Messaging Flashcards
 - What is the default and maximum message retention period for an Amazon SQS Standard queue?;; Default: 4 days. Maximum: 14 days.
-<!--SR:!2025-10-25,9,210-->
+<!--SR:!2025-11-12,18,210-->
 - What is the maximum message size for a single message sent to an Amazon SQS queue?;; Less than 256 KB.
 <!--SR:!2025-11-15,40,250-->
 - What is the acceptable range for Amazon SQS Long Polling wait times, and what is its benefit?;; Between 1 second and 20 seconds. It reduces API calls and latency.
@@ -31,7 +31,7 @@ created_date:
 - Is data persistent in Amazon SNS Standard topics?;; No, if a message is not delivered to a subscriber, there's a chance of losing it as the data is not persistent.
 <!--SR:!2025-11-09,41,290-->
 - What is the primary difference in data delivery models between Amazon SQS and Amazon SNS?;; SQS uses a **pull** model (consumers pull messages from the queue), while SNS uses a **push** (Pub/Sub) model (messages are pushed to subscribers).
-<!--SR:!2025-10-23,24,250-->
+<!--SR:!2026-01-15,84,270-->
 - What is the key differentiator for Kinesis Data Streams in terms of data processing time?;; It provides **real-time** data processing capabilities.
 <!--SR:!2025-11-14,46,290-->
 - What is the data retention period for Kinesis Data Streams, and can data be replayed or deleted?;; Data is retained for 1 to 365 days. Data can be replayed by consumers, but it cannot be manually deleted (it only expires after its retention period).

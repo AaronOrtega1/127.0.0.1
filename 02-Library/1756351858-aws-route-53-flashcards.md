@@ -13,9 +13,9 @@ created_date:
 ---
 # AWS Route 53 Flashcards
 - What is the **traditional DNS port** that "Route 53" refers to?;;The traditional DNS port is **53**.
-<!--SR:!2025-10-25,33,250-->
+<!--SR:!2026-02-20,118,270-->
 - What is the **availability Service Level Agreement (SLA)** offered by Amazon Route 53?;;Amazon Route 53 is the **only service in AWS that provides a 100% availability SLA**.
-<!--SR:!2025-10-24,36,270-->
+<!--SR:!2026-03-09,136,290-->
 - What does it mean for Route 53 to be an "**authoritative DNS**"?;;It means that the **customer (you) can update the DNS records**, giving you full control over the DNS.
 <!--SR:!2026-01-19,98,290-->
 - What is the primary purpose of an **A record** in Route 53?;;An A record is used to **map a hostname into an IPv4 IP address**.
@@ -25,7 +25,7 @@ created_date:
 - What is a key **restriction for CNAME records** in Route 53 regarding the domain namespace?;;You **cannot create CNAME records for the top node of a DNS namespace, also known as the Zone Apex** (e.g., example.com).
 <!--SR:!2025-12-13,67,270-->
 - How do **Alias records** differ from CNAME records regarding the Zone Apex?;;Unlike CNAMEs, **Alias records can be used for the Zone Apex** (e.g., mydomain.com can point to an alias resource).
-<!--SR:!2025-10-23,35,270-->
+<!--SR:!2026-03-04,132,290-->
 - What is a key difference in **TTL management** between Alias records and other record types in Route 53?;;With Alias records, you **cannot set the TTL; it is set automatically by Route 53**. TTL is mandatory for all other record types.
 <!--SR:!2025-12-04,59,270-->
 - What is a **cost difference** for queries between Alias records and other Route 53 records?;;**Alias records are free of charge for queries**.

@@ -16,7 +16,7 @@ created_date: 2025-08-22
 - In AWS CloudShell, what is the default region for API calls?;;The **default region** in CloudShell is the **region you are currently logged into.**
 <!--SR:!2025-10-30,50,308-->
 - What happens to files you create within your CloudShell environment if you restart your CloudShell session?;;All files you create within your CloudShell environment will **persist and stay** even if you restart your session.
-<!--SR:!2025-10-24,45,308-->
+<!--SR:!2026-05-04,192,328-->
 - What are the three different options to access AWS services?;;The three options are the **AWS Management Console** (web interface), the **AWS Command Line Interface (CLI)**, and the **AWS Software Development Kit (SDK)**.
 <!--SR:!2025-11-30,67,270-->
 - How are the AWS Management Console, CLI, and SDK typically protected for access?;;The  Management Console is protected by **username/password** (and potentially MFA). The CLI and SDK are protected by **access key.**
@@ -38,7 +38,7 @@ created_date: 2025-08-22
 - What are two essential security tools available in IAM to help enforce the principle of least privilege?;;The **IAM Credentials Report** (account-level) provides the status of all user credentials, and the **IAM Access Advisor** (user-level) shows service permissions granted to a user and when those services were last accessed.
 <!--SR:!2026-01-03,73,250-->
 - What is the difference between an IAM user and an IAM role?;;An **IAM user** represents a **physical person** within your organization, while an **IAM role** is intended to be used by **AWS services** to perform actions on your behalf.
-<!--SR:!2025-10-23,44,308-->
+<!--SR:!2026-04-29,188,328-->
 - Can IAM groups contain other IAM groups?;;No, IAM groups can **only contain users**, not other groups.
 <!--SR:!2026-04-09,170,328-->
 - Which specific AWS SDK is the AWS CLI built upon?;;The AWS CLI is built on the **AWS SDK for Python, name boto.**

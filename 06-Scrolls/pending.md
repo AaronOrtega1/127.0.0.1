@@ -1,12 +1,12 @@
 ---
 link: "[[]]"
-aliases: {{cap_title}}
+aliases: {{title}}
 tags:
   - Knowledge
   - pending
 created_date: "{{date}}"
 ---
-# {{cap_title}}
+# {{title}}
 ## Summary
 - 
 ## Key Ideas

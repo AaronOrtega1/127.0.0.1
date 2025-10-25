@@ -1,7 +1,7 @@
 ---
 link: "[[1744040981-150-neetcode-problems|150 NeetCode Problems]]"
 aliases:
-  - "{{cap_title}}"
+  - "{{title}}"
 tags:
   - Knowledge
   - leetcode
@@ -10,7 +10,7 @@ XP:
 difficulty:
 solution_language:
 ---
-# {{cap_title}}
+# {{title}}
 ## The Challenge
 - 
 ## Desired Outcome

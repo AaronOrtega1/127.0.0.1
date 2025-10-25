@@ -42,7 +42,7 @@ module.exports = async (params) => {
 
     // Reemplazar placeholders en el template
     const finalContent = templateContent
-      .replace(/{{cap_title}}/g, title) // Reemplazar {{title}} con el título de la nota
+      .replace(/{{title}}/g, title) // Reemplazar {{title}} con el título de la nota
       .replace(/{{date}}/g, date) // Reemplazar {{date}} con la fecha actual
       .replace(/{{time}}/g, time); // Reemplazar {{time}} con la hora actual
 

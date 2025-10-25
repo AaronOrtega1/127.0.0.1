@@ -38,7 +38,7 @@ created_date: 2025-07-03
 - A Machine Learning company is working on a set of datasets that are hosted on S3 buckets. The company decided to release those datasets to the public to be useful for others in their research, but they don’t want to configure the S3 bucket to be public. And those datasets should be exposed over the FTP protocol. What can they do to do the requirement efficiently and with the least effort?;;Use AWS Transfer Family, since it allows you to securely transfer files stored in S3 over the FTP protocol without exposing the S3 bucket to the public.
 <!--SR:!2026-01-01,114,250-->
 - Amazon FSx for NetApp ONTAP isn't compatible with the following protocol;;FTP.
-<!--SR:!2025-10-25,68,290-->
+<!--SR:!2025-11-28,34,270-->
 - Which AWS service is best suited when migrating from an on-premises ZFS file system to AWS?;;Amazon FSx for OpenZFS.
 <!--SR:!2026-01-04,80,270-->
 - A company is running Amazon S3 File Gateway to host their data on S3 buckets and is able to mount them on-premises using SMB. The data currently is hosted on S3 Standard storage class and there is a requirement to reduce the costs for S3. So, they have decided to migrate some of those data to S3 Glacier. What is the most efficient way they can use to move the data to S3 Glacier automatically?;;Use S3 Lifecycle Policy.

@@ -16,13 +16,13 @@ created_date: 2025-08-19
 - You would like to get the Disaster Recovery strategy with the lowest Recovery Time Objective (RTO) and Recovery Point Objective (RPO), regardless of the cost. Which DR should you choose?;;Multi-Site.
 <!--SR:!2025-11-09,61,310-->
 - Which of the following Disaster Recovery strategies has a potentially high Recovery Point Objective (RPO) and Recovery Time Objective (RTO)?;;Backup and Restore.
-<!--SR:!2025-10-25,46,290-->
+<!--SR:!2026-05-02,189,310-->
 - You want to make a Disaster Recovery plan where you have a scaled-down version of your system up and running, and when a disaster happens, it scales up quickly. Which DR strategy should you choose?;;Warm Standby.
 <!--SR:!2025-10-26,24,230-->
 - You have an on-premises Oracle database that you want to migrate to AWS, specifically to Amazon Aurora. How would you do the migration?;;Use AWS Schema Conversion Tool (AWS SCT) to convert the database schema then use AWS Database Migration Service (AWS DMS) to migrate the data.
 <!--SR:!2026-01-08,92,270-->
 - You are running many resources in AWS such as EC2 instances, EBS volumes, DynamoDB tables... You want an easy way to manage backups across all these AWS services from a single place. Which AWS offering makes this process easy?;;AWS Backup.
-<!--SR:!2025-10-24,31,290-->
+<!--SR:!2026-02-25,124,310-->
 - A company planning to migrate its existing websites, applications, servers, virtual machines, and data to AWS. They want to do a lift-and-shift migration with minimum downtime and reduced costs. Which AWS service can help in this scenario?;;AWS Application Migration Service.
 <!--SR:!2025-12-29,68,230-->
 - A company is using VMware on its on-premises data center to manage its infrastructure. There is a requirement to extend their data center and infrastructure to AWS but keep using the technology stack they are using which is VMware. Which AWS service can they use?;;VMware Cloud on AWS.
