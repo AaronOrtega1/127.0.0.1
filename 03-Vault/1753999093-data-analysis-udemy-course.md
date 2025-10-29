@@ -4,7 +4,7 @@ aliases:
   - Data Analysis Udemy Course
 tags:
   - Quests
-  - active
+  - archived
 start_date: 2025-07-31
 end_date: 2025-12-01
 XP:

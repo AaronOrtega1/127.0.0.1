@@ -4,7 +4,7 @@ aliases:
   - Business Intelligence Analyst Udemy Course 2025
 tags:
   - Quests
-  - active
+  - archived
   - BusinessIntelligence
   - udemy
   - 3rdQ

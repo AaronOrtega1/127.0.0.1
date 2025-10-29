@@ -4,7 +4,7 @@ aliases:
   - Review Practice Exam 1 AWS SAA
 tags:
   - Quests
-  - active
+  - archived
   - aws
   - PracticeExam
 accepted: 2025-10-01

@@ -4,7 +4,7 @@ aliases:
   - Preparation for STAR Interview Questions
 tags:
   - Quests
-  - active
+  - archived
 accepted: 2025-10-14
 deadline: 2025-10-16
 XP: 0

@@ -4,7 +4,7 @@ aliases:
   - Data Analysis Entry Level
 tags:
   - Quests
-  - active
+  - archived
   - python
   - sql
   - internship

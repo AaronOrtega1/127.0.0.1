@@ -5,7 +5,7 @@ aliases:
   - AWS SAA 2025
 tags:
   - Quests
-  - active
+  - archived
   - aws
 start_date: 2025-05-21
 end_date: 2025-12-01
