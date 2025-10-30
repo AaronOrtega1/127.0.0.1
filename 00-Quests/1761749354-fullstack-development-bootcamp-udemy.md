@@ -24,8 +24,13 @@ Get Knowledge as a Fullstack developer to get a job in the mean time that I get 
 list
 from "04-Forge" and [[]]
 ```
+
 ## Knowledge and Tomes
 ```dataview
 list
 from "02-Library" and [[]]
 ```
+
+## Links
+- [Color Hunt - Color Palettes for Designers and Artists](https://colorhunt.co/)
+
