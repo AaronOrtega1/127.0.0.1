@@ -10,10 +10,15 @@ created_date:
 # {{title}}
 ## Summary
 - 
+
 ## Key Ideas
 ### 
 - 
+
 ## Related Links
 - [[]]
+
 ## Source
 [text]()
+
+
