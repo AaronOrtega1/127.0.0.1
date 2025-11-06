@@ -5,7 +5,7 @@ aliases:
 tags:
   - Forged
 created_date:
-  "{{date}}"
+  "[[{{date}}]]"
 ---
 # {{title}}
 ## Summary

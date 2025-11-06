@@ -6,7 +6,7 @@ tags:
   - Knowledge
   - aws
   - DesignResilientArchitectures
-created_date: "{{date}}"
+created_date: "[[{{date}}]]"
 status:
 domain: Design Resilient Architectures
 ---

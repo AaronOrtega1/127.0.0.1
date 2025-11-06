@@ -5,8 +5,8 @@ aliases:
 tags:
   - Quests
   - active
-accepted: "{{date}}"
-deadline: "{{date}}"
+accepted: "[[{{date}}]]"
+deadline: "[[{{date}}]]"
 XP: 0
 ---
 # Quest: {{title}}

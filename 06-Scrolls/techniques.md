@@ -9,6 +9,8 @@ tags:
   - MMA
 aliases:
   - "{{title}}"
+created_date:
+  "[[{{date}}]]"
 ---
 # {{title}}
 

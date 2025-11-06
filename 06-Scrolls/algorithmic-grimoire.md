@@ -5,7 +5,7 @@ aliases:
 tags:
   - Knowledge
   - leetcode
-created_date: "{{date}}"
+created_date: "[[{{date}}]]"
 XP:
 difficulty:
 solution_language:

@@ -1,6 +1,6 @@
 ---
 link: "[[1758607062-mma|MMA]]"
-session_date: "{{date}}"
+session_date: "[[{{date}}]]"
 session_focus:
   - Striking
   - Grappling
@@ -13,7 +13,7 @@ XP: 10
 tags:
   - MMA
 ---
-# {{title}}: [[<% tp.date.now("YYYY-MM-DD") %>]]
+# {{title}}
 ## Techniques & Drills
 ### Technical Focus
 - 

@@ -5,7 +5,7 @@ aliases:
 tags:
   - Knowledge
   - Tome
-created_date: "{{date}}"
+created_date: "[[{{date}}]]"
 rating:
 status:
 ---

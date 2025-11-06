@@ -5,7 +5,7 @@ aliases:
 tags:
   - Knowledge
 created_date:
-  "{{date}}"
+  "[[{{date}}]]"
 ---
 # {{title}}
 ## Summary

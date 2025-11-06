@@ -4,7 +4,7 @@ aliases:
 tags:
   - Domain
 founded:
-  "{{date}}"
+  "[[{{date}}]]"
 ---
 # Domain of {{title}}
 ## Purpose

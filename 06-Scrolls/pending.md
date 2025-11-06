@@ -4,7 +4,7 @@ aliases: {{title}}
 tags:
   - Knowledge
   - pending
-created_date: "{{date}}"
+created_date: "[[{{date}}]]"
 ---
 # {{title}}
 ## Summary
