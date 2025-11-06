@@ -34,9 +34,8 @@ link: "[[Journal|Codex]]"
 
 ```dataview
 table
-from ""
-where file.cday = this.file.cday AND file.name != this.file.name
-sort file.name ASC
+from [[]] and !"06-Scrolls"
+sort file.name
 ```
 
 
