@@ -20,11 +20,22 @@ This is an express project in which I want to learn to use python for Backend so
 - [ ] Do a more advance project and maybe integrate it with a frontend. (XP +30)
 
 ## Notes
-- To start the local server use: `uvicorn main:app --reload` 
+- To start the local server use: `uvicorn <file_name>:<server_name> --reload` 
 - To stop the local server use: `Ctrl + c`
 
 - Swagger documentation: http://127.0.0.1:8000/docs
 - Redocly documentation: http://127.0.0.1:8000/redoc
+
+```python {base file}
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+async def root():
+    return "¡Hola Mundo!"
+
+```
 
 
 ## Forged Relics

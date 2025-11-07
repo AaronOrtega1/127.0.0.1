@@ -14,6 +14,7 @@ link: "[[Journal|Codex]]"
 - [ ] Architect the solution to one critical [[1743802715-school|school]] assignment.
 - [ ] Conduct the daily ritual (review flashcards) to bind AWS incantations to my neural pathways.
 - [ ] Unlock new secrets of [[1761749354-fullstack-development-bootcamp-udemy|Quest: Fullstack Development Bootcamp Udemy]]
+- [ ] Unlock new secrets of [[1762394716-python-from-zero-for-backend|Quest: Python from Zero for Backend]]
 - [ ] Unlock new secrets of [[1759955068-master-the-java-blades-data-structures-&-algorithms|Quest: Master the Java Blades: Data Structures & Algorithms]]
 - [ ] Oracle's Trials (LeetCode).
 	- [ ] Solve the Labyrinth (Python).

@@ -2,9 +2,14 @@
 link: "[[1762394716-python-from-zero-for-backend|Quest: Python from Zero for Backend]]
 aliases: 
   - "HTTP Request Methods"
+  - "HTTP GET"
+  - "HTTP POST"
+  - "HTTP PUT"
+  - "HTTP DELETE"
 tags:
   - Knowledge
   - HTTP
+  - HTTP_Requests
 created_date:
   "[[2025-11-05]]"
 ---
