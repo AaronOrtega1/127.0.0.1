@@ -30,3 +30,5 @@ tags:
 ---
 
 *"The fighter has been spent in the fight. The warrior spends himself completely."*
+
+

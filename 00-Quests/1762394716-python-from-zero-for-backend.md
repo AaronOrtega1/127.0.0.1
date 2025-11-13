@@ -5,18 +5,20 @@ aliases:
 tags:
   - Quests
   - active
+  - coding
+  - backend
 accepted: "[[2025-11-05]]"
-deadline: "[[2025-11-06]]"
-XP: 0
+deadline: "[[2025-11-12]]"
+XP: 40
 ---
 # Quest: Python from Zero for Backend
 ## Objective
 This is an express project in which I want to learn to use python for Backend so I can land a position in IBM, I have Knowledge in python so it won't be so difficult, in the course I will be learning [[1762395152-fastapi|FastAPI]] and more things.
 
 ## Tasks
-- [ ] Complete the [course](https://www.youtube.com/watch?v=_y9qQZXE24A). (XP +30)
+- [x] Complete the [course](https://www.youtube.com/watch?v=_y9qQZXE24A). (XP +30)
 - [ ] Use what I learned to create a simple [[1752081958-api|API]] project. (XP +10)
-- [ ] Do the coding assesment for the backend developer position in IBM. (XP +10)
+- [x] Do the coding assesment for the backend developer position in IBM. (XP +10)
 - [ ] Do a more advance project and maybe integrate it with a frontend. (XP +30)
 
 ## Notes
