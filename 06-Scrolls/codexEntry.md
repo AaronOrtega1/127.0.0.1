@@ -23,6 +23,7 @@ link: "[[Journal|Codex]]"
 - [ ] Train strength with my companion at the iron temple. (Go to the gym with my GF)
 - [ ] Train my hand-to-hand combat skills.
 - [ ] Make a note about what I learned in my hand-to-hand combat class.
+- [ ] Review what I learned today
 
 ## Council of Thoughts
 
