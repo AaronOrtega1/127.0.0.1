@@ -22,12 +22,12 @@ XP:
 	1. Ale (+1 de Esme)
 7. *Pato*
 8. *Gibbie*
-9. *Frida*
+9. *Ferdi*
 10. *Gabo*
 11. *Rafa*
 12. *Alan*
 13. *Paquebrio*
-14. *Henry*
+14. *Pollo*
 15. *Ian*
 16. *Pedrito*
 17. *Lorenza*
@@ -49,14 +49,15 @@ XP:
 	1. Ale (+1 de Esme)
 7. Pato
 8. Gibbie
-9. Frida
+9. Ferdi
 10. Yo **(GRADUADO)**
+
 ### mesa 2
 1. Gabo
 2. Rafa
 3. Alan
 4. Paquebrio
-5. Henry
+5. Pollo
 6. Ian *(Capitán de mesa)*
 7. Pedrito
 8. Lorenza
@@ -65,15 +66,20 @@ XP:
 11. Mafer
 12. Nats
 
+### After dinner
+1. *William*
+2. Novia Alan
+3. Novio Joss
+4. Novia Paco (se lo dan a gabo ese día)
+
 ### Vino
-- 5-6 Botellas de tequila
+- 10 Botellas de tequila
 - 3 hypnotic
 
 ```dataviewjs
 const ticket_cost = 1350
 const total = ticket_cost*24
-const paid = 30400
-const contribution = 6400
+const paid = 32400
 let missingReal = total - paid
 let html = `
 <div class="character-sheet">
