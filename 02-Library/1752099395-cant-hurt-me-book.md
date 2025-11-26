@@ -6,7 +6,7 @@ tags:
   - Knowledge
   - Tome
   - reading
-created_date: 2025-07-09
+created_date: "[[2025-07-09]]"
 rating: 
 status: reading
 ---
@@ -27,3 +27,12 @@ status: reading
 📖 
 > "Never forget that all emotional and physical anguish is finite! It all ends eventually." 
 ^Page-127
+📖 
+> "I've learned that it's only when I push beyond pain and suffering, past my perceived limitations that I'm capable of accomplishing more, physically and mentally" 
+^Page-335
+📖 
+> "Fatigue makes cowards of us all" 
+^Page-340
+
+
+
