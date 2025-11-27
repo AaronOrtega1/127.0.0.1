@@ -8,10 +8,12 @@ tags:
 created_date: "[[{{date}}]]"
 rating:
 status:
+author: "[[]]"
 ---
 # {{title}}
 ## Top Concepts:
 1. 
+
 ## Highlights:
 📖 
 > ""  

@@ -9,6 +9,7 @@ tags:
 created_date: "[[2025-07-09]]"
 rating: 
 status: reading
+author: "[[1764216309-david-goggins|David Goggins]]"
 ---
 # Can't Hurt Me Book
 ## Top Concepts:
@@ -33,6 +34,14 @@ status: reading
 📖 
 > "Fatigue makes cowards of us all" 
 ^Page-340
+📖 
+> "We know life can be hard, and yet we feel sorry for ourselves when it isn't fair." 
+^Page-340
+
+
+
+
+
 
 
 
