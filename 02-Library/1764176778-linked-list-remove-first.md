@@ -10,13 +10,14 @@ created_date:
 ---
 # Linked List Remove First
 ## Problem
-Delete the first [[1760038325-node|node]] of a Linked List.
+Remove and return the first [[1760038325-node|node]]
 
 ## Core Idea
-- Store current head
-- Move head to head.next
+- Save reference to current head
+- Move head to next node
 - Disconnect old head
 - Decrement length
+- If list becomes empty, set tail to null
 
 ### Edge cases:
 - Empty list -> return null

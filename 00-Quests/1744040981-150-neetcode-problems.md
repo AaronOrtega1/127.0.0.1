@@ -15,8 +15,10 @@ XP: 65
 # Quest: 150 NeetCode Problems
 ## Objective
 Learn data structures and different algorithms, using them to solve question frequently used in interviews.
+
 ## Tasks
 - [ ] Finish the list [150 neetcode problems](https://neetcode.io/practice)
+
 ## Problems
 ### Arrays & Hashing
 ```dataview
@@ -25,6 +27,7 @@ from [[]] and !"5 - Templates"
 where contains(tags, "arrays-hashing")
 sort file.name ASC
 ```
+
 ### Two Pointers
 ```dataview
 table difficulty, XP
@@ -32,6 +35,7 @@ from [[]] and !"5 - Templates"
 where contains(tags, "two-pointer")
 sort file.name ASC
 ```
+
 ### Sliding Window
 ```dataview
 table difficulty, XP
@@ -39,6 +43,7 @@ from [[]] and !"5 - Templates"
 where contains(tags, "sliding-window")
 sort file.name ASC
 ```
+
 ### Stack
 ```dataview
 table difficulty, XP
@@ -46,12 +51,14 @@ from [[]] and !"5 - Templates"
 where contains(tags, "stack")
 sort file.name ASC
 ```
+
 ### Binary Search
 ```dataview
 table difficulty, XP
 from [[]] and !"5 - Templates"
 where contains(tags, "binary-search")
 ```
+
 ### Unknown
 - [[1744046453-missing-number-in-python|Missing Number In Python]]
 - [[1744047020-find-all-numbers-disappeared-in-an-array-in-python|Find All Numbers Disappeared In An Array In Python]]

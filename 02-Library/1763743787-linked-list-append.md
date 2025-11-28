@@ -10,16 +10,21 @@ created_date:
 ---
 # Linked List Append
 ## Problem
-Insert a new node into the last position of a Linked List.
+Add a new node to the end of the list
 
 ## Core Idea
-- Create a new node
-- If empty: set both head and tail to new node.
-- Else: link tail to new node, update tail
+- Create new [[1760038325-node|node]] with the given value
+- If list is empty, both head and tail point to new node
+- Otherwise, link current tail to new node and update tail pointer
 - Increment length
 
+```java
+tail.next = newNode;
+tail = newNode;
+```
+
 ### Edge cases:
-- Empty list
+- Empty list (length == 0)
 
 ## [[1744043004-big-o-timer-and-space-complexity|Time And Space Complexity]]
 - **Time Complexity:** O(1)

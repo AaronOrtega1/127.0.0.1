@@ -10,16 +10,21 @@ created_date:
 ---
 # Linked List Prepend
 ## Problem
-Insert a new [[1760038325-node|node]] into the first position of a Linked List.
+Add a new [[1760038325-node|node]] to the beginning of the list
 
 ## Core Idea
-- Create a new node
-- Point new node to current head
-- Update head to new node
+- Create new node
+- If empty, set both head and tail to new node
+- Otherwise, point new node to current head, then update head
 - Increment length
 
+```java
+newNode.next = head;
+head = newNode;
+```
+
 ### Edge cases:
-- Empty list
+- Empty list (length == 0)
 
 ## [[1744043004-big-o-timer-and-space-complexity|Time And Space Complexity]]
 - **Time Complexity:** O(1)
