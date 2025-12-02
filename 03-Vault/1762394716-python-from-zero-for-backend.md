@@ -4,7 +4,7 @@ aliases:
   - "Python from Zero for Backend"
 tags:
   - Quests
-  - active
+  - archived
   - coding
   - backend
 accepted: "[[2025-11-05]]"

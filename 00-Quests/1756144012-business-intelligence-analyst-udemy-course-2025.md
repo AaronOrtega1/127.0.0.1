@@ -4,7 +4,7 @@ aliases:
   - Business Intelligence Analyst Udemy Course 2025
 tags:
   - Quests
-  - archived
+  - active
   - BusinessIntelligence
   - udemy
   - 3rdQ
@@ -58,7 +58,7 @@ FLUSH PRIVILEGES;
 	- [x] Section 27 (XP +5)
 	- [x] Section 28 (XP +5)
 	- [x] Section 29 (XP +5)
-	- [x] Section 30 (XP +5)
+	- [ ] Section 30 (XP +5)
 	- [ ] Section 31 (XP +5)
 	- [ ] Section 32 (XP +5)
 	- [ ] Section 33 (XP +5)
