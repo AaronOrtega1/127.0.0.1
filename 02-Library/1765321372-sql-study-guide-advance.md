@@ -29,7 +29,7 @@ RIGHT JOIN: Toda B + intersección ((A ∩ B) ∪ B)
 ```
 
 ## [[1759342844-stored-procedure-sql|Stored Procedure SQL]]
-  - Son conjuntos de instrucciones SQL guardados en la base de datos que se pueden ejecutar múltiples veces.
+- Son conjuntos de instrucciones SQL guardados en la base de datos que se pueden ejecutar múltiples veces.
 
 ### Ventajas principales:
 - **Seguridad:** Limitan acceso directo a tablas.
